@@ -1,3 +1,40 @@
 {
-  "language": "node"
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
+    "language": "node",
+    "compiler": "node",
+    "tester": "jest",
+    "actions": [
+        "run",
+        "test",
+        "reset"
+    ],
+    "session": 3058495911781078500,
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "01-hello-world",
+            "title": "01-hello-world",
+            "path": "exercises/01-hello-world",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "21-is-Same-Length",
+            "title": "21-is-Same-Length",
+            "path": "exercises/21-is-Same-Length",
+            "translations": [
+                "us"
+            ]
+        }
+    ]
 }

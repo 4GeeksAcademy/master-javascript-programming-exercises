@@ -1,4 +1,4 @@
-# `24` Is Odd Length
+# `25` Is Odd Length
 
 Write a function called "isOddLength".
 

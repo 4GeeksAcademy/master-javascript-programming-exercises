@@ -53,9 +53,25 @@
             ]
         },
         {
-            "slug": "24-is-Odd-Length",
-            "title": "24-is-Odd-Length",
-            "path": "exercises/24-is-Odd-Length",
+            "slug": "24-is-Even-Length",
+            "title": "24-is-Even-Length",
+            "path": "exercises/24-is-Even-Length",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "25-is-Odd-Length",
+            "title": "25-is-Odd-Length",
+            "path": "exercises/25-is-Odd-Length",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "26-is-Even-And-Greater-Than-Ten",
+            "title": "26-is-Even-And-Greater-Than-Ten",
+            "path": "exercises/26-is-Even-And-Greater-Than-Ten",
             "translations": [
                 "us"
             ]

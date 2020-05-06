@@ -43,6 +43,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "23-is-Either-Even",
+            "title": "23-is-Either-Even",
+            "path": "exercises/23-is-Either-Even",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

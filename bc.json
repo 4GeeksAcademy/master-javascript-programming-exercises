@@ -35,6 +35,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "22-are-Both-Odd",
+            "title": "22-are-Both-Odd",
+            "path": "exercises/22-are-Both-Odd",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

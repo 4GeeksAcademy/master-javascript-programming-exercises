@@ -1,3 +1,3 @@
-function isSameLength(word1, word2) {
+function areBothOdd(num1, num2) {
   // your code here
 }

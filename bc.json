@@ -51,6 +51,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "24-is-Odd-Length",
+            "title": "24-is-Odd-Length",
+            "path": "exercises/24-is-Odd-Length",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

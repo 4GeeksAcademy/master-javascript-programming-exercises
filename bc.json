@@ -75,6 +75,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "27-average",
+            "title": "27-average",
+            "path": "exercises/27-average",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

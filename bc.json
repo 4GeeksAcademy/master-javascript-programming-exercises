@@ -91,6 +91,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "29-compute-Area-Of-A-Triangle",
+            "title": "29-compute-Area-Of-A-Triangle",
+            "path": "exercises/29-compute-Area-Of-A-Triangle",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

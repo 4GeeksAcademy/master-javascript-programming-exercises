@@ -83,6 +83,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "28-cube",
+            "title": "28-cube",
+            "path": "exercises/28-cube",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

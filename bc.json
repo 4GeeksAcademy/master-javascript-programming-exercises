@@ -99,6 +99,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "30-square",
+            "title": "30-square",
+            "path": "exercises/30-square",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

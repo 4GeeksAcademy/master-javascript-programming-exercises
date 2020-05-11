@@ -107,6 +107,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "31-compute-Average-Length-Of-Words",
+            "title": "31-compute-Average-Length-Of-Words",
+            "path": "exercises/31-compute-Average-Length-Of-Words",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

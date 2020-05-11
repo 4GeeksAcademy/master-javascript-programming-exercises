@@ -1,4 +1,5 @@
-function average(num1, num2) {
-  // your code here
-}
+function average(a, b) {
+//   your code here
 
+}
+console.log(4, 6)

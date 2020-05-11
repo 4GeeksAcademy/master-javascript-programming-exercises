@@ -19,34 +19,10 @@ describe('All the javascript should match', function () {
     afterEach(() => { jest.resetModules(); });
 
 
-it('Did you return the average of two parameters?', () => {
+it('console.log() should return value of 5', () => {
     const app = rewire('./app.js');
     const file = require("./app.js");
-    expect(console.log).toHaveBeenCalledWith(expect.any(Number));
+    expect(console.log).toHaveBeenCalledWith(5);
     expect(console.log.mock.calls.length).toBe(1);
 });
-
-it("It is not a correct average number", () => {
-    // const app = rewire('./app.js');
-    // const file = require("./app.js");
-    expect.extend({
-        averageNum(num1, num2){
-            const pass = ((num1 + num2)/2);
-            if(pass){
-                return{
-                    message: ()=> `Average number is as expected`,
-                    pass: true,
-                };
-            }
-                else {
-                    return{
-                        message: ()=> `Average is not as expected`,
-                        pass: false,
-                    }
-                }
-        }
-    })
-    expect(5).averageNum(4,6)
-})
 });
- 

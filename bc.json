@@ -115,6 +115,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "32-add-Full-Name-Property",
+            "title": "32-add-Full-Name-Property",
+            "path": "exercises/32-add-Full-Name-Property",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

@@ -131,6 +131,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "34-is-Person-Old-Enough-To-Drink-And-Drive",
+            "title": "34-is-Person-Old-Enough-To-Drink-And-Drive",
+            "path": "exercises/34-is-Person-Old-Enough-To-Drink-And-Drive",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

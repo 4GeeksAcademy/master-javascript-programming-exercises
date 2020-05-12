@@ -123,6 +123,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "33-add-Object-Property",
+            "title": "33-add-Object-Property",
+            "path": "exercises/33-add-Object-Property",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

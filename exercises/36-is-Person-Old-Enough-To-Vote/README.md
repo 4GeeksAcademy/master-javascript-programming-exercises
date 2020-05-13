@@ -1,4 +1,4 @@
-# `36` is Person Old Enough To Vote".
+# `36` is Person Old Enough To Vote.
 
  Write a function called "isPersonOldEnoughToVote".
 

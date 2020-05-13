@@ -1,4 +1,4 @@
-# `34` Is Person Old Enough To Drink And Drive".
+# `34` Is Person Old Enough To Drink And Drive.
 
  Write a function called "isPersonOldEnoughToDrinkAndDrive".
 

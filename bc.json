@@ -155,6 +155,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "37-is-Person-Old-Enough-To-Drink",
+            "title": "37-is-Person-Old-Enough-To-Drink",
+            "path": "exercises/37-is-Person-Old-Enough-To-Drink",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

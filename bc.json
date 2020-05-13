@@ -147,6 +147,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "36-is-Person-Old-Enough-To-Vote",
+            "title": "36-is-Person-Old-Enough-To-Vote",
+            "path": "exercises/36-is-Person-Old-Enough-To-Vote",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

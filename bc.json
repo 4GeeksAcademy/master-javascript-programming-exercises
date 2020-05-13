@@ -139,6 +139,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "35-is-Person-Old-Enough-To-Drive",
+            "title": "35-is-Person-Old-Enough-To-Drive",
+            "path": "exercises/35-is-Person-Old-Enough-To-Drive",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

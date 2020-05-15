@@ -163,6 +163,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "38-add-Array-Property",
+            "title": "38-add-Array-Property",
+            "path": "exercises/38-add-Array-Property",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

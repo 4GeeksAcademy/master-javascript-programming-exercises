@@ -43,6 +43,30 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "03-isOldEnoughToVote",
+            "title": "03-isOldEnoughToVote",
+            "path": "exercises/03-isOldEnoughToVote",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "04-isOldEnoughToDrinkAndDrive",
+            "title": "04-isOldEnoughToDrinkAndDrive",
+            "path": "exercises/04-isOldEnoughToDrinkAndDrive",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "05-getProperty",
+            "title": "05-getProperty",
+            "path": "exercises/05-getProperty",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

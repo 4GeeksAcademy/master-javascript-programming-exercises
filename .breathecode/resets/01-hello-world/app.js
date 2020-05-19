@@ -1,5 +1,5 @@
 let hola = (text) => {
-    return pupu;
+    return 2;
 } 
 
 const nombre = prompt("Dame tu nomrbe");

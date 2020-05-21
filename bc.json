@@ -179,6 +179,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "40-get-First-Element",
+            "title": "40-get-First-Element",
+            "path": "exercises/40-get-First-Element",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

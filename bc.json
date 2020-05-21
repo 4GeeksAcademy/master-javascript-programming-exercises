@@ -171,6 +171,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "39-get-Nth-Element",
+            "title": "39-get-Nth-Element",
+            "path": "exercises/39-get-Nth-Element",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

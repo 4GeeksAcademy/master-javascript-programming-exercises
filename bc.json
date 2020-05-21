@@ -21,14 +21,6 @@
     "exercisesPath": "./exercises",
     "exercises": [
         {
-            "slug": "01-hello-world",
-            "title": "01-hello-world",
-            "path": "exercises/01-hello-world",
-            "translations": [
-                "us"
-            ]
-        },
-        {
             "slug": "21-is-Same-Length",
             "title": "21-is-Same-Length",
             "path": "exercises/21-is-Same-Length",
@@ -184,6 +176,14 @@
             "slug": "40-get-First-Element",
             "title": "40-get-First-Element",
             "path": "exercises/40-get-First-Element",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "40.1-is-Old-Enough-To-Drink",
+            "title": "40.1-is-Old-Enough-To-Drink",
+            "path": "exercises/40.1-is-Old-Enough-To-Drink",
             "translations": [
                 "us"
             ]

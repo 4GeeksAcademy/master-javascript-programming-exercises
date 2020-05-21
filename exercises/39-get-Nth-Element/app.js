@@ -1,5 +1,3 @@
-function getNthElement(arr, n) {
-  return arr[n];
+function getNthElement(array, n) {
+  // your code here
 }
-
-console.log(getNthElement([1, 3, 5], 1));

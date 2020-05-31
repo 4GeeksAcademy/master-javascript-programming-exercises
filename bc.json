@@ -211,6 +211,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "40.5-getProperty",
+            "title": "40.5-getProperty",
+            "path": "exercises/40.5-getProperty",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

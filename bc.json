@@ -203,6 +203,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "40.4-is-Old-Enough-To-Drink-And-Drive",
+            "title": "40.4-is-Old-Enough-To-Drink-And-Drive",
+            "path": "exercises/40.4-is-Old-Enough-To-Drink-And-Drive",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

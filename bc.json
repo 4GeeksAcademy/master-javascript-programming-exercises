@@ -195,6 +195,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "40.3-is-Old-Enough-To-Vote",
+            "title": "40.3-is-Old-Enough-To-Vote",
+            "path": "exercises/40.3-is-Old-Enough-To-Vote",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

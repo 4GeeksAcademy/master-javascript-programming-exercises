@@ -227,6 +227,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "40.7-remove-Property",
+            "title": "40.7-remove-Property",
+            "path": "exercises/40.7-remove-Property",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

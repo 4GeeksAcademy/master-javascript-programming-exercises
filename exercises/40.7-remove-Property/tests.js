@@ -4,10 +4,10 @@ const fs = require('fs');
 let _buffer = "";
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
-test("Function getProperty should exist", function(){
+test("Function removeProperty should exist", function(){
   const file = rewire("./app.js");
-  const getProperty  = file.__get__('getProperty');
-  expect(getProperty).toBeTruthy();
+  const removeProperty  = file.__get__('removeProperty');
+  expect(removeProperty).toBeTruthy();
 });
 
 
@@ -19,10 +19,11 @@ describe('All the javascript should match', function () {
     afterEach(() => { jest.resetModules(); });
 
 
-    it('console.log() function getProperty should return the key value', function () {
+    it('console.log() function removeProperty should remove the property from object and return undefined', 
+    function () {
         const file = require("./app.js");
 
-expect(console.log).toHaveBeenCalledWith(expect.any(String));
+expect(console.log).toHaveBeenCalledWith(undefined);
 expect(console.log.mock.calls.length).toBe(1);
     // expect(_buffer).toEqual(mytest);
     });

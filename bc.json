@@ -235,6 +235,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "40.8-check-Age",
+            "title": "40.8-check-Age",
+            "path": "exercises/40.8-check-Age",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

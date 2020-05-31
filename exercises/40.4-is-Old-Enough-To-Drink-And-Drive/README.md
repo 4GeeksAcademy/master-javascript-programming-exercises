@@ -1,4 +1,4 @@
-# `5` isOldEnoughToDrinkAndDrive 
+# `4` is Old Enough To Drink And Drive 
 
  Write a function called "isOldEnoughToDrinkAndDrive".
 

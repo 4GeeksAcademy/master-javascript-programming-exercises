@@ -1,4 +1,4 @@
-# `5` getProperty
+# `5` Get Property
 
 Write a function called "getProperty".
 

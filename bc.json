@@ -213,9 +213,17 @@
             ]
         },
         {
-            "slug": "40.5-getProperty",
-            "title": "40.5-getProperty",
-            "path": "exercises/40.5-getProperty",
+            "slug": "40.5-get-Property",
+            "title": "40.5-get-Property",
+            "path": "exercises/40.5-get-Property",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "40.6-add-Property",
+            "title": "40.6-add-Property",
+            "path": "exercises/40.6-add-Property",
             "translations": [
                 "us"
             ]

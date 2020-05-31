@@ -20,7 +20,7 @@ describe('All the javascript should match', function () {
 
 
     it('console.log() function getProperty should return the key value', function () {
-        const file = require("./app.js");
+        const file = require("./app.js.js");
 
 expect(console.log).toHaveBeenCalledWith(expect.any(String));
 expect(console.log.mock.calls.length).toBe(1);

@@ -1,4 +1,4 @@
-# `17` isEven
+# `18` isEven
 
 ## 📝 Instructions
 

@@ -1,4 +1,4 @@
-# `14` isLessThan
+# `15` isLessThan
 
 ## 📝 Instructions
 

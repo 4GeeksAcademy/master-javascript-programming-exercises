@@ -1,4 +1,4 @@
-# `16` isEqualTo
+# `17` isEqualTo
 
 ## 📝 Instructions 
 

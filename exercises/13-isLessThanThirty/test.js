@@ -1,23 +1,15 @@
 const rewire = require ("rewire");
 
-test ('function should return number is less', () => {
+test ('function should return whether the given number is less than 30.', () => {
     const isLessThan30 = rewire ('./app.js').__get__("isLessThan30");
 
-    const output = isLessThan30(11)
+    const output = isLessThan30(9)
     expect(output).toBe(true);
 })
 
-test ('function should return number is grater', () => {
+test ('function should return whether the given number is less than 30.', () => {
     const isLessThan30 = rewire ('./app.js').__get__("isLessThan30");
 
     const output = isLessThan30(31)
     expect(output).toBe(false);
-})
-
-console.log = jest.fn(() => null);
-test ('function should return true', function(){
-    
-    require("./app.js");
-    
-    expect(console.log).toHaveBeenCalledWith(true);
 })

@@ -1,4 +1,4 @@
-# `18` isOdd
+# `19` isOdd
 
 ## 📝 Instruction
 

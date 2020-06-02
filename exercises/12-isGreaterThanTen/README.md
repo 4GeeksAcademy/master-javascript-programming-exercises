@@ -1,4 +1,4 @@
-# `11` isGreaterThanTen
+# `12` isGreaterThanTen
 
 ## 📝 Instructions 
 

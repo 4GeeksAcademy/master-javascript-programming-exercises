@@ -1,6 +1,6 @@
 const rewire = require ("rewire");
 
-test ('fuction removed object name', function () {
+test ('function removes the given key from the given object.', function () {
     const removeProperty = rewire ('./app.js').__get__("removeProperty");
 
     const obj = {
@@ -30,13 +30,5 @@ test ('fuction should not read age', () => {
         age: 20
     }
     removeProperty(obj, 'age');
-    expect(obj.age).not.toBe(Number);
-})
-
-console.log = jest.fn(() => null);
-test ( 'console log should return Undefined', function(){
-    
-    require("./app.js");
-    
-    expect(console.log).toHaveBeenCalledWith(undefined);
+    expect(obj.age).not.toBe(20);
 })

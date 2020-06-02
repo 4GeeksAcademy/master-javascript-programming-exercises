@@ -1,6 +1,6 @@
 const rewire = require ("rewire");
 
-test ('fuction returns key', () => {
+test ('returns the value of the property at the given key.', () => {
     const getProperty = rewire ('./app.js').__get__("getProperty");
 
     const obj = {
@@ -9,7 +9,7 @@ test ('fuction returns key', () => {
     expect(getProperty(obj,'key')).toEqual('value'); 
 })
 
-test ('object is undefined', () => {
+test ('If there is no property at the given key, it should return undefined.', () => {
     const getProperty = rewire ('./app.js').__get__("getProperty");
 
     const obj = {

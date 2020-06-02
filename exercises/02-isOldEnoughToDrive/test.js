@@ -13,11 +13,3 @@ test ('should return that 15 isnt old enough to drive', () => {
     const result = isOldEnoughToDrive(15);
     expect(result).toBe(false);
 })
-
-console.log = jest.fn(() => null);
-test ( 'console log should return true', function(){
-    
-    require("./app.js");
-    
-    expect(console.log).toHaveBeenCalledWith(true);
-})

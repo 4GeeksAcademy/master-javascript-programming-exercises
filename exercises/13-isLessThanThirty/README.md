@@ -1,4 +1,4 @@
-# `12` isLessThan30
+# `13` isLessThan30
 
 ## 📝 Instructions
 

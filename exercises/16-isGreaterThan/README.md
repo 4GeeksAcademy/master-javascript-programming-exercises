@@ -1,4 +1,4 @@
-# `15` isGreaterThan
+# `16` isGreaterThan
 
 ## 📝 Instructions
 

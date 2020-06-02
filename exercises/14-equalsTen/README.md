@@ -1,4 +1,4 @@
-# `13` equalsTen
+# `14` equalsTen
 
 ## 📝 Instructions
 

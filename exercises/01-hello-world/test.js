@@ -1,4 +1,3 @@
-
 const rewire = require("rewire");
 
 const stdin = [].concat(__stdin);

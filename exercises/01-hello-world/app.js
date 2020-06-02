@@ -1,8 +1,8 @@
 let hola = (text) => {
-    return 2;
+    return pupu;
 } 
 
-const nombre = prompt("Dame tu nomrbe");
+//const nombre = prompt("Dame tu nomrbe");
 
 
 console.log(hola())

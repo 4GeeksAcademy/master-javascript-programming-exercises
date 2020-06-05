@@ -275,6 +275,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "41.3-is-Less-Than-Thirty",
+            "title": "41.3-is-Less-Than-Thirty",
+            "path": "exercises/41.3-is-Less-Than-Thirty",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

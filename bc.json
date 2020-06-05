@@ -259,6 +259,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "41.1-get-Length-Of-Two-Words",
+            "title": "41.1-get-Length-Of-Two-Words",
+            "path": "exercises/41.1-get-Length-Of-Two-Words",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

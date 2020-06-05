@@ -283,6 +283,14 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "41.4-equals-Ten",
+            "title": "41.4-equals-Ten",
+            "path": "exercises/41.4-equals-Ten",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

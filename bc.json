@@ -243,6 +243,22 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "40.9-get-Full-Name",
+            "title": "40.9-get-Full-Name",
+            "path": "exercises/40.9-get-Full-Name",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "41-get-Length-Of-Word",
+            "title": "41-get-Length-Of-Word",
+            "path": "exercises/41-get-Length-Of-Word",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

@@ -1,15 +1,15 @@
 const rewire = require ("rewire");
 
-test ('sets a new property on the given object with a value of true.', () => {
+test ('function should set a new property on the given object and key with a value of true.', () => {
     const addProperty = rewire ('./app.js').__get__("addProperty");
 
-    const myObj = {};
-    expect(addProperty(myObj, 'myProperty')).toBe(true);
+    addProperty(myObj, 'isOld')
+    expect(myObj.isOld).toBe(true);
 })
 
-test ('fuction should pass a value of true not a string', () => {
+test ('fuction should return the object', () => {
     const addProperty = rewire ('./app.js').__get__("addProperty");
 
-    const myObj = {};
-    expect(addProperty(myObj, 'myProperty')).not.toBe("true");
+    const returned = addProperty(myObj, 'isOld');
+    expect(returned.isOld).toBe(true);
 })

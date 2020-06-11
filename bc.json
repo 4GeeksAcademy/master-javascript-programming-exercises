@@ -187,6 +187,84 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "21-areBothOdd",
+            "title": "21-areBothOdd",
+            "path": "exercises/21-areBothOdd",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "22-isEitherEven",
+            "title": "22-isEitherEven",
+            "path": "exercises/22-isEitherEven",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "23-isOddLength",
+            "title": "23-isOddLength",
+            "path": "exercises/23-isOddLength",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "24-isEvenLength",
+            "title": "24-isEvenLength",
+            "path": "exercises/24-isEvenLength",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "25-isEvenAndGreaterThanTen",
+            "title": "25-isEvenAndGreaterThanTen",
+            "path": "exercises/25-isEvenAndGreaterThanTen",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "26-average",
+            "title": "26-average",
+            "path": "exercises/26-average",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "27-computeAreaOfATriangle",
+            "title": "27-computeAreaOfATriangle",
+            "path": "exercises/27-computeAreaOfATriangle",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "28-cube",
+            "title": "28-cube",
+            "path": "exercises/28-cube",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "29-square",
+            "title": "29-square",
+            "path": "exercises/29-square",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "30-computeAverageLengthOfWords",
+            "title": "30-computeAverageLengthOfWords",
+            "path": "exercises/30-computeAverageLengthOfWords",
+            "translations": []
         }
     ]
 }

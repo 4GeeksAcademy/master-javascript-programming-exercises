@@ -187,6 +187,70 @@
             "translations": [
                 "us"
             ]
+        },
+        {
+            "slug": "81-addToFrontOfNew",
+            "title": "81-addToFrontOfNew",
+            "path": "exercises/81-addToFrontOfNew",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "82-addToBackOfNew",
+            "title": "82-addToBackOfNew",
+            "path": "exercises/82-addToBackOfNew",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "83-getAllElementsButNth",
+            "title": "83-getAllElementsButNth",
+            "path": "exercises/83-getAllElementsButNth",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "84-areValidCredentials",
+            "title": "84-areValidCredentials",
+            "path": "exercises/84-areValidCredentials",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "85-getIndexOf",
+            "title": "85-getIndexOf",
+            "path": "exercises/85-getIndexOf",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "86-findMinLengthOfThreeWords",
+            "title": "86-findMinLengthOfThreeWords",
+            "path": "exercises/86-findMinLengthOfThreeWords",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "87-findMaxLengthOfThreeWords",
+            "title": "87-findMaxLengthOfThreeWords",
+            "path": "exercises/87-findMaxLengthOfThreeWords",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "88-Select",
+            "title": "88-Select",
+            "path": "exercises/88-Select",
+            "translations": [
+                "us"
+            ]
         }
     ]
 }

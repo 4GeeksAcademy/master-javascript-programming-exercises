@@ -3,6 +3,7 @@
 ## 📝 Instructions
 
 Write a function called "isEven".
+
 Given a number, "isEven" returns whether it is even.
 
 ```Javascript

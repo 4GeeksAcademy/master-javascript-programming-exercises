@@ -3,13 +3,14 @@
 ## 📝 Instructions 
 
 Write a function called "getProperty".
+
 Given an object and a key, "getProperty" returns the value of the property at the given key. 
 
 ```Javascript
-var obj = {
-  key: 'value'
+var car = {
+  model: 'Toyota'
 };
-var output = getProperty(obj, 'key');
+var output = getProperty(car, 'model');
 console.log(output); // --> 'value'
 ```
 

@@ -3,6 +3,7 @@
 ## 📝 Instructions
 
 Write a function called "isLessThan30".
+
 Given a number, "isLessThan30" returns whether the given number is less than 30.
 
 ```Javascript

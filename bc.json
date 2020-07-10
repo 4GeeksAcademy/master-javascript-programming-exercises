@@ -1,7 +1,13 @@
 {
     "port": 3000,
-    "address": "localhost",
+    "address": "https://ea6d1fd0-cfe5-4b98-8ad6-36dbca5365a9.ws-us02.gitpod.io",
     "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".breathecode",
+        "exercises": "./exercises",
+        "output": ".breathecode/dist"
+    },
     "outputPath": "./.breathecode/dist",
     "publicPath": "/preview",
     "grading": "isolated",
@@ -26,7 +32,8 @@
             "path": "exercises/01-hello-world",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "01-isOldEnoughToDrink",
@@ -34,7 +41,8 @@
             "path": "exercises/01-isOldEnoughToDrink",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "02-isOldEnoughToDrive",
@@ -42,7 +50,8 @@
             "path": "exercises/02-isOldEnoughToDrive",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "03-isOldEnoughToVote",
@@ -50,7 +59,8 @@
             "path": "exercises/03-isOldEnoughToVote",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "04-isOldEnoughToDrinkAndDrive",
@@ -58,7 +68,8 @@
             "path": "exercises/04-isOldEnoughToDrinkAndDrive",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "05-getProperty",
@@ -66,7 +77,8 @@
             "path": "exercises/05-getProperty",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "06-addProperty",
@@ -74,7 +86,8 @@
             "path": "exercises/06-addProperty",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "07-removeProperty",
@@ -82,7 +95,8 @@
             "path": "exercises/07-removeProperty",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "08-checkAge",
@@ -90,7 +104,8 @@
             "path": "exercises/08-checkAge",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "09-getFullName",
@@ -98,7 +113,8 @@
             "path": "exercises/09-getFullName",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "10-getLengthOfWord",
@@ -106,7 +122,8 @@
             "path": "exercises/10-getLengthOfWord",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "11-getLengthOfTwoWords",
@@ -114,7 +131,8 @@
             "path": "exercises/11-getLengthOfTwoWords",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "12-isGreaterThanTen",
@@ -122,7 +140,8 @@
             "path": "exercises/12-isGreaterThanTen",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "13-isLessThanThirty",
@@ -130,7 +149,8 @@
             "path": "exercises/13-isLessThanThirty",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "14-equalsTen",
@@ -138,7 +158,8 @@
             "path": "exercises/14-equalsTen",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "15-isLessThan",
@@ -146,7 +167,8 @@
             "path": "exercises/15-isLessThan",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "16-isGreaterThan",
@@ -154,7 +176,8 @@
             "path": "exercises/16-isGreaterThan",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "17-isEqualTo",
@@ -162,7 +185,8 @@
             "path": "exercises/17-isEqualTo",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "18-isEven",
@@ -170,7 +194,8 @@
             "path": "exercises/18-isEven",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "19-isOdd",
@@ -178,7 +203,8 @@
             "path": "exercises/19-isOdd",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "20-isSameLength",
@@ -186,7 +212,8 @@
             "path": "exercises/20-isSameLength",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "21-areBothOdd",
@@ -194,7 +221,8 @@
             "path": "exercises/21-areBothOdd",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "22-isEitherEven",
@@ -202,7 +230,8 @@
             "path": "exercises/22-isEitherEven",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "23-isOddLength",
@@ -210,7 +239,8 @@
             "path": "exercises/23-isOddLength",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "24-isEvenLength",
@@ -218,7 +248,8 @@
             "path": "exercises/24-isEvenLength",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "25-isEvenAndGreaterThanTen",
@@ -226,7 +257,8 @@
             "path": "exercises/25-isEvenAndGreaterThanTen",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "26-average",
@@ -234,7 +266,8 @@
             "path": "exercises/26-average",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "27-computeAreaOfATriangle",
@@ -242,7 +275,8 @@
             "path": "exercises/27-computeAreaOfATriangle",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "28-cube",
@@ -250,7 +284,8 @@
             "path": "exercises/28-cube",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "29-square",
@@ -258,13 +293,17 @@
             "path": "exercises/29-square",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "30-computeAverageLengthOfWords",
             "title": "30-computeAverageLengthOfWords",
             "path": "exercises/30-computeAverageLengthOfWords",
-            "translations": []
+            "translations": [
+                "us"
+            ],
+            "graded": true
         }
     ]
 }

@@ -18,5 +18,6 @@ test ('Tried the function with key age, it should remove it', () => {
         name: 'Sam',
         age: 20
     }
+    removeProperty(obj,'age')
     expect(obj.age).toBe(undefined);
 })

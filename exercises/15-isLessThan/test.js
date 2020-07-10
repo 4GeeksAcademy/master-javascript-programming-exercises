@@ -5,4 +5,5 @@ test ('function return whether num2 is less than num1.', () => {
 
     expect(isLessThan(9, 3)).toBe(true);
     expect(isLessThan(6, 12)).toBe(false);
+    expect(isLessThan(6, 6)).toBe(false);
 })

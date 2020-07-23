@@ -189,6 +189,14 @@
             ]
         },
         {
+            "slug": "80-getAverageOfElementsAtProperty",
+            "title": "80-getAverageOfElementsAtProperty",
+            "path": "exercises/80-getAverageOfElementsAtProperty",
+            "translations": [
+                "us"
+            ]
+        },
+        {
             "slug": "81-addToFrontOfNew",
             "title": "81-addToFrontOfNew",
             "path": "exercises/81-addToFrontOfNew",
@@ -229,14 +237,6 @@
             ]
         },
         {
-            "slug": "86-findMinLengthOfThreeWords",
-            "title": "86-findMinLengthOfThreeWords",
-            "path": "exercises/86-findMinLengthOfThreeWords",
-            "translations": [
-                "us"
-            ]
-        },
-        {
             "slug": "87-findMaxLengthOfThreeWords",
             "title": "87-findMaxLengthOfThreeWords",
             "path": "exercises/87-findMaxLengthOfThreeWords",
@@ -248,6 +248,94 @@
             "slug": "88-Select",
             "title": "88-Select",
             "path": "exercises/88-Select",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "89-getElements",
+            "title": "89-getElements",
+            "path": "exercises/89-getElements",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "90-getElementsLessThanOneHundredAtProperty",
+            "title": "90-getElementsLessThanOneHundredAtProperty",
+            "path": "exercises/90-getElementsLessThanOneHundredAtProperty",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "91-countAllCharacters",
+            "title": "91-countAllCharacters",
+            "path": "exercises/91-countAllCharacters",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "92-getElementsGreaterThanTenAtProperty",
+            "title": "92-getElementsGreaterThanTenAtProperty",
+            "path": "exercises/92-getElementsGreaterThanTenAtProperty",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "93-removeElement",
+            "title": "93-removeElement",
+            "path": "exercises/93-removeElement",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "94-getFirstElementOfProperty",
+            "title": "94-getFirstElementOfProperty",
+            "path": "exercises/94-getFirstElementOfProperty",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "95-getNthElementOfProperty",
+            "title": "95-getNthElementOfProperty",
+            "path": "exercises/95-getNthElementOfProperty",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "96-getLastElementOfProperty",
+            "title": "96-getLastElementOfProperty",
+            "path": "exercises/96-getLastElementOfProperty",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "97-keep",
+            "title": "97-keep",
+            "path": "exercises/97-keep",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "98-getOddLengthWordsAtProperty",
+            "title": "98-getOddLengthWordsAtProperty",
+            "path": "exercises/98-getOddLengthWordsAtProperty",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "99-computeAverageOfNumbers",
+            "title": "99-computeAverageOfNumbers",
+            "path": "exercises/99-computeAverageOfNumbers",
             "translations": [
                 "us"
             ]

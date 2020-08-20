@@ -7,28 +7,17 @@ test ('function removes the given key from the given object.', function () {
         name: 'Sam',
         age: 20
     }
-    const expected = removeProperty(obj,'name')
-    expect(expected).toBe(undefined);
+    removeProperty(obj,'name')
+    expect(obj.name).toBe(undefined);
 })
 
-test ('fuction should not read name', () => {
+test ('Tried the function with key age, it should remove it', () => {
     const removeProperty = rewire ('./app.js').__get__("removeProperty");
 
     var obj = {
         name: 'Sam',
         age: 20
     }
-    removeProperty(obj, 'name');
-    expect(obj.name).not.toBe('Sam');
-})
-
-test ('fuction should not read age', () => {
-    const removeProperty = rewire ('./app.js').__get__("removeProperty");
-
-    var obj = {
-        name: 'Sam',
-        age: 20
-    }
-    removeProperty(obj, 'age');
-    expect(obj.age).not.toBe(20);
+    removeProperty(obj,'age')
+    expect(obj.age).toBe(undefined);
 })

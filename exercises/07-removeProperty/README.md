@@ -3,6 +3,7 @@
 ## 📝 Instructions
 
 Write a function called "removeProperty".
+
 Given an object and a key, "removeProperty" removes the given key from the given object.
 
 ```Javascript

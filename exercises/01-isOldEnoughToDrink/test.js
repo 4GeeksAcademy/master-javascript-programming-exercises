@@ -1,14 +1,14 @@
 const rewire = require("rewire");
 
-test('That 22 years is old enough', () => {
+test('That 21 years is old enough', () => {
 
     const isOldEnoughToDrink = rewire("./app.js").__get__("isOldEnoughToDrink");
 
-    const result = isOldEnoughToDrink(22);
+    const result = isOldEnoughToDrink(21);
     expect(result).toBe(true);
 });
 
-test('That 19 years is old enough', () => {
+test('That 19 years is not old enough', () => {
 
     const isOldEnoughToDrink = rewire("./app.js").__get__("isOldEnoughToDrink");
 

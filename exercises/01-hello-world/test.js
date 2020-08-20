@@ -3,14 +3,12 @@ const rewire = require("rewire");
 const stdin = [].concat(__stdin);
 
 const oldConsoleLog = console.log;
-console.log = jest.fn(() => null);
+let _buffer = "";
+console.log = jest.fn((txt) => _buffer = _buffer + txt);
 
-test("La function hello debe llamarse una vez", function(){
+test("Print hello world on the console", function(){
     
     require("./app.js");
-
-    oldConsoleLog(stdin[0]);
-    
-    expect(console.log).toHaveBeenCalledWith("pupu");
+    expect(console.log).toHaveBeenCalledWith("Hello World");
 
 });

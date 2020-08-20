@@ -1,8 +1,2 @@
-let hola = (text) => {
-    return pupu;
-} 
-
-//const nombre = prompt("Dame tu nomrbe");
-
-
-console.log(hola())
+// Print on the console "Hello World"
+console.log("Hello World")

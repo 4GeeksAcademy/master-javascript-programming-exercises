@@ -9,3 +9,7 @@
 3. Added exercises from 41 to  60 to Kevin Castillo
 4. Added exercises from 61 to  80 to Eduard Chiticari
 5. Added exercises from 81 to 100 to Jorge Montes
+
+# Sep 24
+
+I tested the first exercises until 09, we need to test them all.

@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function select must exist', () => {
+    const select = rewire("./app.js").__get__("select");
+    expect(select).not.toBe(undefined);
+});
+
 test ('The return object must contain the properties specified on the array.', () => {
     const select = rewire ('./app.js').__get__("select");
     var arr = ['a', 'c', 'e'];

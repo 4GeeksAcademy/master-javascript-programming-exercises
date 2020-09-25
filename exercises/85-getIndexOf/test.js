@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function getIndexOf must exist', () => {
+    const getIndexOf = rewire("./app.js").__get__("getIndexOf");
+    expect(getIndexOf).not.toBe(undefined);
+});
+
 test ('The funtion must return the first position (index) of the given character in the given string.', () => {
     const getIndexOf = rewire ('./app.js').__get__("getIndexOf");
     

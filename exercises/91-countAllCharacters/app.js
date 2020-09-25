@@ -16,5 +16,5 @@ function countAllCharacters(str) {
   return obj;
 }
 
-var output = countAllCharacters('banana');
+var output = countAllCharacters('papapa');
 console.log(output);

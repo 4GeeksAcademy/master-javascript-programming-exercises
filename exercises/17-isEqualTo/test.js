@@ -7,7 +7,7 @@ test('Function isEqualTo must exist', () => {
 
 test('Function isEqualTo must return true or false', () => {
     const isEqualTo = rewire("./app.js").__get__("isEqualTo");
-    expect(isEqualTo(21)).not.toBe(undefined);
+    expect(isEqualTo(21, 21)).not.toBe(undefined);
 });
 
 test ('function should return that num2 should not be equal to num1', () => {

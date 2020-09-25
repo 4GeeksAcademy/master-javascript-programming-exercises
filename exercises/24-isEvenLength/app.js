@@ -1,3 +1,1 @@
-function isEvenLength(word) {
-  // your code here
-}
+// Write your function here

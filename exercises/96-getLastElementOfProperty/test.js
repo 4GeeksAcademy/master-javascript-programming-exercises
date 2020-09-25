@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function getLastElementOfProperty must exist', () => {
+    const getLastElementOfProperty = rewire("./app.js").__get__("getLastElementOfProperty");
+    expect(getLastElementOfProperty).not.toBe(undefined);
+});
+
 test ('The function must return the last element of the array located at a given key.', () => {
     const getLastElementOfProperty = rewire ('./app.js').__get__("getLastElementOfProperty");
     

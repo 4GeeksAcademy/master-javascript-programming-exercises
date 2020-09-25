@@ -1,5 +1,11 @@
 const rewire = require ("rewire");
 
+test('Function getElementsThatEqual10AtProperty must exist', () => {
+    const getElementsThatEqual10AtProperty = rewire("./app.js").__get__("getElementsThatEqual10AtProperty");
+    expect(getElementsThatEqual10AtProperty).not.toBe(undefined);
+});
+
+
 test ('The function must return every element equal to 10 on a given key.', () => {
     const getElementsThatEqual10AtProperty = rewire ('./app.js').__get__("getElementsThatEqual10AtProperty");
 

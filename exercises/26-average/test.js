@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function average must exist', () => {
+    const average = rewire("./app.js").__get__("average");
+    expect(average).not.toBe(undefined);
+});
+
 test ('function should returns their average.', () => {
     const average = rewire ('./app.js').__get__("average");
 

@@ -1,3 +1,1 @@
-function isEven(num) {
-  // your code here
-}
+// Write your function here

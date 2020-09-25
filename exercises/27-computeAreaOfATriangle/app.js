@@ -1,4 +1,2 @@
-function computeAreaOfATriangle(base, height) {
-  // your code here
-}
+// Write your function here
 

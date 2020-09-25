@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function getElementsLessThan100AtProperty must exist', () => {
+    const getElementsLessThan100AtProperty = rewire("./app.js").__get__("getElementsLessThan100AtProperty");
+    expect(getElementsLessThan100AtProperty).not.toBe(undefined);
+});
+
 test ('The function must return every element less than 100 on a given key.', () => {
     const getElementsLessThan100AtProperty = rewire ('./app.js').__get__("getElementsLessThan100AtProperty");
 

@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function square must exist', () => {
+    const square = rewire("./app.js").__get__("square");
+    expect(square).not.toBe(undefined);
+});
+
 test ('function should return the square of the given number.', () => {
     const square = rewire ('./app.js').__get__("square");
 

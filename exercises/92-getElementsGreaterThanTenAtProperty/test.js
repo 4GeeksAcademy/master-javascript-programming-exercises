@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function getElementsGreaterThan10AtProperty must exist', () => {
+    const getElementsGreaterThan10AtProperty = rewire("./app.js").__get__("getElementsGreaterThan10AtProperty");
+    expect(getElementsGreaterThan10AtProperty).not.toBe(undefined);
+});
+
 test ('The function must return only the elements of the array that are greater than 10.', () => {
     const getElementsGreaterThan10AtProperty = rewire ('./app.js').__get__("getElementsGreaterThan10AtProperty");
     

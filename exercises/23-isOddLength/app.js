@@ -1,3 +1,1 @@
-function isOddLength(word) {
-  // your code here
-}
+// Write your function here

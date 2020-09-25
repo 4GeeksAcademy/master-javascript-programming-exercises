@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function addToBackOfNew must exist', () => {
+    const addToBackOfNew = rewire("./app.js").__get__("addToBackOfNew");
+    expect(addToBackOfNew).not.toBe(undefined);
+});
+
 test ('The given object should be the same as the returned array by the function.', () => {
     const addToBackOfNew = rewire ('./app.js').__get__("addToBackOfNew");
      

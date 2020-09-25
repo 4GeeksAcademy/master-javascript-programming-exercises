@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function getNthElementOfProperty must exist', () => {
+    const getNthElementOfProperty = rewire("./app.js").__get__("getNthElementOfProperty");
+    expect(getNthElementOfProperty).not.toBe(undefined);
+});
+
 test ('The function must return ONLY the nth element located at a given key in the given array.', () => {
     const getNthElementOfProperty = rewire ('./app.js').__get__("getNthElementOfProperty");
     

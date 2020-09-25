@@ -1,4 +1,8 @@
 const rewire = require ("rewire");
+test('Function computeAverageOfNumbers must exist', () => {
+    const computeAverageOfNumbers = rewire("./app.js").__get__("computeAverageOfNumbers");
+    expect(computeAverageOfNumbers).not.toBe(undefined);
+});
 
 test ('The function must return only the odd elements on a given key.', () => {
     const computeAverageOfNumbers = rewire ('./app.js').__get__("computeAverageOfNumbers");

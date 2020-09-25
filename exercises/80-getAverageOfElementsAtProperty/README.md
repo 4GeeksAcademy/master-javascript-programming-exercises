@@ -1,4 +1,4 @@
-# `100` getAverageOfElementsAtProperty
+# `80` getAverageOfElementsAtProperty
 
 ## 📝 Instructions
 

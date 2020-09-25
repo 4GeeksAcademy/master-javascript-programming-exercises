@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function getAverageOfElementsAtProperty must exist', () => {
+    const getAverageOfElementsAtProperty = rewire("./app.js").__get__("getAverageOfElementsAtProperty");
+    expect(getAverageOfElementsAtProperty).not.toBe(undefined);
+});
+
 test ('The function must return the average of all the elements at the given key.', () => {
     const getAverageOfElementsAtProperty = rewire ('./app.js').__get__("getAverageOfElementsAtProperty");
 

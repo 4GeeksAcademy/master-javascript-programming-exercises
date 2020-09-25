@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function keep must exist', () => {
+    const keep = rewire("./app.js").__get__("keep");
+    expect(keep).not.toBe(undefined);
+});
+
 test ('The function must return only the elements that match the given keeper element.', () => {
     const keep = rewire ('./app.js').__get__("keep");
     

@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test('Function getOddLengthWordsAtProperty must exist', () => {
+    const getOddLengthWordsAtProperty = rewire("./app.js").__get__("getOddLengthWordsAtProperty");
+    expect(getOddLengthWordsAtProperty).not.toBe(undefined);
+});
+
 test ('The function must return only the odd elements on a given key.', () => {
     const getOddLengthWordsAtProperty = rewire ('./app.js').__get__("getOddLengthWordsAtProperty");
     

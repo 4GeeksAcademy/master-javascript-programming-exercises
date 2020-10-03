@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://b01caefb-2b7f-4c03-b7dd-2439aca29e09.ws-us02.gitpod.io",
+    "address": "https://b8eee437-7cf4-4042-9c82-ae05002a3c62.ws-us02.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -31,6 +31,7 @@
             "done": true,
             "path": "exercises/01-hello-world",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -41,6 +42,7 @@
             "done": false,
             "path": "exercises/01-isOldEnoughToDrink",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -51,7 +53,8 @@
             "done": false,
             "path": "exercises/02-isOldEnoughToDrive",
             "translations": [
-                "us"
+                "us",
+                "md"
             ],
             "graded": true
         },
@@ -61,6 +64,7 @@
             "done": false,
             "path": "exercises/03-isOldEnoughToVote",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -71,6 +75,7 @@
             "done": false,
             "path": "exercises/04-isOldEnoughToDrinkAndDrive",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -81,6 +86,7 @@
             "done": false,
             "path": "exercises/05-getProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -91,6 +97,7 @@
             "done": false,
             "path": "exercises/06-addProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -101,6 +108,7 @@
             "done": false,
             "path": "exercises/07-removeProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -111,6 +119,7 @@
             "done": false,
             "path": "exercises/08-checkAge",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -121,6 +130,7 @@
             "done": false,
             "path": "exercises/09-getFullName",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -131,6 +141,7 @@
             "done": false,
             "path": "exercises/10-getLengthOfWord",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -141,6 +152,7 @@
             "done": false,
             "path": "exercises/11-getLengthOfTwoWords",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -151,6 +163,7 @@
             "done": false,
             "path": "exercises/12-isGreaterThanTen",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -161,6 +174,7 @@
             "done": false,
             "path": "exercises/13-isLessThanThirty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true

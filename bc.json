@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://e7da6a4b-8d6d-4c20-99d4-f5b2a7eaf2bd.ws-us02.gitpod.io",
+    "address": "https://b01caefb-2b7f-4c03-b7dd-2439aca29e09.ws-us02.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -400,8 +400,10 @@
             "title": "86-findMinLengthOfThreeWords",
             "done": false,
             "path": "exercises/86-findMinLengthOfThreeWords",
-            "translations": [],
-            "graded": false
+            "translations": [
+                "us"
+            ],
+            "graded": true
         },
         {
             "slug": "87-findMaxLengthOfThreeWords",

@@ -1,7 +1,7 @@
 # `92` getElementsGreaterThan10AtProperty
-## 📝 Instruction
 
-Instructions from your teacher:
+## 📝 Instructions
+
 Write a function called "getElementsGreaterThan10AtProperty".
 
 Given an object and a key, "getElementsGreaterThan10AtProperty" returns an array containing the elements within the array, located at the given key, that are greater than 10.

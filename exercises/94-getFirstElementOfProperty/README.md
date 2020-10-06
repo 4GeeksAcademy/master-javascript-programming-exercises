@@ -1,4 +1,5 @@
 # `94` getFirstElementOfProperty
+
 ## 📝 Instructions
 
 Write a function called "getFirstElementOfProperty".

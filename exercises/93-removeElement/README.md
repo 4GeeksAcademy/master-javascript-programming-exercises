@@ -1,4 +1,5 @@
 # `93` removeElement
+
 ## 📝 Instructions
 
 Write a function called "removeElement".

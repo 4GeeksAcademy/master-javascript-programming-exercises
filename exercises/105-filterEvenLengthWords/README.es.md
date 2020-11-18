@@ -1,0 +1,12 @@
+# `105` filterEvenLengthWords
+
+## 📝 Instrucciones
+
+Escribe una función llamada "filterEvenLengthWords".
+
+Dado un arreglo de strings, "filterEvenLengthWords" retorna un arrreglo que contenga solo los elementos del arreglo cuya longitud es un número par.
+
+```Js
+var output = filterEvenLengthWords(['word', 'words', 'word', 'words']);
+console.log(output); // --> ['word', 'word']
+```

@@ -4,7 +4,7 @@
 
 Escribe una función llamada "countNumberOfKeys".
 
-Dado un objeto, "countNumberOfKeys" regresa tantas propiedades como el objeto dado tiene.
+Dado un objeto, "countNumberOfKeys" regresa tantas propiedades como el objeto dado tenga.
 
 ```Javascript
 var obj = {

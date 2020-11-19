@@ -17,4 +17,5 @@ var obj = {
 removeEvenValues(obj);
 console.log(obj); // --> { b: 3 }
 ```
-Note: Remember, we are talking about any object, not just the one shown in the sample.
+Nota: Recuerda, nos referimos a cualquier objeto, no solo al que se muestra en el ejemplo.
+

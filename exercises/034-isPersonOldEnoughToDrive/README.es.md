@@ -1,8 +1,8 @@
 # `34` isPersonOldEnoughToDrive
 
-## 📝 Instrucciones
+## 📝 Instructions
 
-Escriba una función llamada "isPersonOldEnoughToDrive".
+Escribe una función llamada "isPersonOldEnoughToDrive".
 
 Dado un objeto "persona", que contiene una propiedad "edad", "isPersonOldEnoughToDrive" devuelve si la persona dada tiene la edad suficiente para conducir.
 

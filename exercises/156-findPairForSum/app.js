@@ -1,4 +1,0 @@
-function findPairForSum(array, number)
-{
-  
-}

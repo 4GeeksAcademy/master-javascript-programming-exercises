@@ -1,4 +1,0 @@
-function flipEveryNChars(input, number)
-{
-  
-}

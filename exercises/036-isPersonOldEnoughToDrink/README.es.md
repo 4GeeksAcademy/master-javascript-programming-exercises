@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones
 
-Escriba una función llamada "isPersonOldEnoughToDrink".
+Escribe una función llamada "isPersonOldEnoughToDrink".
 
 Dado un objeto "persona", que contiene una propiedad "edad", "isPersonOldEnoughToDrink" devuelve si la persona dada tiene edad suficiente para beber.
 

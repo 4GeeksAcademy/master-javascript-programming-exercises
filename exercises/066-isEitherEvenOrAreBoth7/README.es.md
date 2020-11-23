@@ -1,6 +1,6 @@
 # `66` isEitherEvenOrAreBoth7
 
-## 📝 Instrucciones
+## 📝 Instructiones
 
 Escribe una función llamada "isEitherEvenOrAreBoth7".
 

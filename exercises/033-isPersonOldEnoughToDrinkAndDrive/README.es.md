@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones
 
-Escriba una función llamada "isPersonOldEnoughToDrinkAndDrive".
+Escribe una función llamada "isPersonOldEnoughToDrinkAndDrive".
 
 Dado un objeto "persona", que contiene una propiedad "edad", "isPersonOldEnoughToDrinkAndDrive" devuelve si la persona dada tiene la edad suficiente para beber y conducir legalmente en los Estados Unidos.
 

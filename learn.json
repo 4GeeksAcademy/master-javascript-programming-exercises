@@ -1,0 +1,8 @@
+{
+    "slug": "master-javascript-programming-exercises",
+    "title": "Master Javascript with 150 exercises",
+    "repository": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises",
+    "language": "node",
+    "skills": ["algorithms"],
+    "description": "100 exercises to master the javascript concepts for junior developers"
+}

@@ -14,10 +14,12 @@
 
 Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
 
+You can master the most popular programming language.  Be patient with your-self and take your time to finish :v:
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript for Beginners</a> </li>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Looping with Javascript</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Javascript Functions</a> ← You are here</li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Javascript Functions</a> </li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Master Javascript</a> ← You are here</li>
 </ol>
 
 We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.

@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://b8eee437-7cf4-4042-9c82-ae05002a3c62.ws-us02.gitpod.io",
+    "address": "https://fb62a74a-002c-451f-95aa-ee7c692a9bda.ws-us03.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -185,6 +185,7 @@
             "done": false,
             "path": "exercises/14-equalsTen",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -195,6 +196,7 @@
             "done": false,
             "path": "exercises/15-isLessThan",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -205,6 +207,7 @@
             "done": false,
             "path": "exercises/16-isGreaterThan",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -215,6 +218,7 @@
             "done": false,
             "path": "exercises/17-isEqualTo",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -225,6 +229,7 @@
             "done": false,
             "path": "exercises/18-isEven",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -235,6 +240,7 @@
             "done": false,
             "path": "exercises/19-isOdd",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -245,6 +251,7 @@
             "done": false,
             "path": "exercises/20-isSameLength",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -255,6 +262,7 @@
             "done": false,
             "path": "exercises/21-areBothOdd",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -265,6 +273,7 @@
             "done": false,
             "path": "exercises/22-isEitherEven",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -275,6 +284,7 @@
             "done": false,
             "path": "exercises/23-isOddLength",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -285,6 +295,7 @@
             "done": false,
             "path": "exercises/24-isEvenLength",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -295,6 +306,7 @@
             "done": false,
             "path": "exercises/25-isEvenAndGreaterThanTen",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -305,6 +317,7 @@
             "done": false,
             "path": "exercises/26-average",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -315,6 +328,7 @@
             "done": false,
             "path": "exercises/27-computeAreaOfATriangle",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -325,6 +339,7 @@
             "done": false,
             "path": "exercises/28-cube",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -335,6 +350,7 @@
             "done": false,
             "path": "exercises/29-square",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -345,6 +361,7 @@
             "done": false,
             "path": "exercises/30-computeAverageLengthOfWords",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -355,6 +372,7 @@
             "done": false,
             "path": "exercises/80-getAverageOfElementsAtProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -365,6 +383,7 @@
             "done": false,
             "path": "exercises/81-addToFrontOfNew",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -375,6 +394,7 @@
             "done": false,
             "path": "exercises/82-addToBackOfNew",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -385,6 +405,7 @@
             "done": false,
             "path": "exercises/83-getAllElementsButNth",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -395,6 +416,7 @@
             "done": false,
             "path": "exercises/84-areValidCredentials",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -405,6 +427,7 @@
             "done": false,
             "path": "exercises/85-getIndexOf",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -415,6 +438,7 @@
             "done": false,
             "path": "exercises/86-findMinLengthOfThreeWords",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -425,6 +449,7 @@
             "done": false,
             "path": "exercises/87-findMaxLengthOfThreeWords",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -435,6 +460,7 @@
             "done": false,
             "path": "exercises/88-Select",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -445,6 +471,7 @@
             "done": false,
             "path": "exercises/89-getElements",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -455,6 +482,7 @@
             "done": false,
             "path": "exercises/90-getElementsLessThanOneHundredAtProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -465,6 +493,7 @@
             "done": false,
             "path": "exercises/91-countAllCharacters",
             "translations": [
+                "us",
                 "us"
             ],
             "graded": true
@@ -475,6 +504,7 @@
             "done": false,
             "path": "exercises/92-getElementsGreaterThanTenAtProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -485,6 +515,7 @@
             "done": false,
             "path": "exercises/93-removeElement",
             "translations": [
+                "us",
                 "us"
             ],
             "graded": true
@@ -495,6 +526,7 @@
             "done": false,
             "path": "exercises/94-getFirstElementOfProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -505,6 +537,7 @@
             "done": false,
             "path": "exercises/95-getNthElementOfProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -515,6 +548,7 @@
             "done": false,
             "path": "exercises/96-getLastElementOfProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -525,6 +559,7 @@
             "done": false,
             "path": "exercises/97-keep",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -535,6 +570,7 @@
             "done": false,
             "path": "exercises/98-getOddLengthWordsAtProperty",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -545,6 +581,7 @@
             "done": false,
             "path": "exercises/99-computeAverageOfNumbers",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true

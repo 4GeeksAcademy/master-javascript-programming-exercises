@@ -1,4 +1,7 @@
 # Mastering Javascript 
+
+<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/master/badge-master.png"></a>
+
 <table>
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>

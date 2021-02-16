@@ -2,18 +2,17 @@
 
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/master/badge-master.png"></a>
 
-<table>
-  <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
-    <td>
+  
+<img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
+  
       <h1 align="center"> Javascript exercises tutorial at 4Geeks Academy</h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/javascript-beginner-exercises-tutorial" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
       <a href="https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
-    </td>
-  </tr>
-</table>
+
+
+
 
 Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
 

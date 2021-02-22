@@ -1,0 +1,27 @@
+const rewire = require ("rewire");
+
+test('Function computePerimeterOfACircle must exist', () => {
+    const computePerimeterOfACircle = rewire("./app.js").__get__("computePerimeterOfACircle");
+    expect(computePerimeterOfACircle).not.toBe(undefined);
+});
+
+test('Must return the perimeter of a circle', () => {
+    const computePerimeterOfACircle = rewire('./app.js').__get__("computePerimeterOfACircle");
+    
+    var output = computePerimeterOfACircle(4)
+    expect(output).toBe(25.132741228718345)
+})
+
+test('Must return the perimeter of a circle', () => {
+    const computePerimeterOfACircle = rewire('./app.js').__get__("computePerimeterOfACircle");
+    
+    var output = computePerimeterOfACircle(33)
+    expect(output).toBe(207.34511513692635)
+})
+
+test('The function will not pass if it returns static result', () => {
+    const computePerimeterOfACircle = rewire('./app.js').__get__("computePerimeterOfACircle");     
+   
+    var output = computePerimeterOfACircle(33)
+    expect(output).not.toBe(207)
+})

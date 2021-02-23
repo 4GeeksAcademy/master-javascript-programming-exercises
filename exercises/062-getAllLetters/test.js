@@ -6,7 +6,7 @@ test('Function getAllLetters must exist', () => {
 });
 
 
-test ('The function eturns an array containing every character in the word.', () => {
+test ('The function returns an array containing every character in the word.', () => {
     const getAllLetters = rewire ('./app.js').__get__("getAllLetters");
     
     var input = "Radagast"
@@ -14,7 +14,7 @@ test ('The function eturns an array containing every character in the word.', ()
 
     expect(output).toEqual(["R", "a", "d", "a", "g", "a", "s", "t"]);
 })
-test ('The function eturns an array containing every character in the word.', () => {
+test ('The function returns an array containing every character in the word.', () => {
     const getAllLetters = rewire ('./app.js').__get__("getAllLetters");
     
     var input = "Pedro"

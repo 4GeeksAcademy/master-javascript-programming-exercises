@@ -1,4 +1,4 @@
-# `109` getAllButLastElementOfProperty
+# `110` getAllButLastElementOfProperty
 
 ## 📝 Instrucciones
 

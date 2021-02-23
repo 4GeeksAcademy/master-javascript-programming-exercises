@@ -1,4 +1,4 @@
-# `121` calculateBillTotal
+# `122` calculateBillTotal
 
 ## 📝 Instrucciones
 

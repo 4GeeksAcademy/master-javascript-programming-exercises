@@ -1,4 +1,4 @@
-# `117` findSmallestElement
+# `118` findSmallestElement
 
 ## 📝 Instrucciones
 

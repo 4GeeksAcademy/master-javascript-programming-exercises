@@ -1,4 +1,4 @@
-# `113` computeProductOfAllElements
+# `114` computeProductOfAllElements
 
 ## 📝 Instrucciones
 

@@ -1,4 +1,4 @@
-# `123` joinArrayOfArrays
+# `124` joinArrayOfArrays
 
 ## 📝 Instrucciones
 

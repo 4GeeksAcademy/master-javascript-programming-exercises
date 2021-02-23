@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://fb62a74a-002c-451f-95aa-ee7c692a9bda.ws-us03.gitpod.io",
+    "address": "https://aquamarine-llama-mx3uin8k.ws-us03.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -468,7 +468,7 @@
         {
             "slug": "89-getElements",
             "title": "89-getElements",
-            "done": false,
+            "done": true,
             "path": "exercises/89-getElements",
             "translations": [
                 "es",
@@ -479,7 +479,7 @@
         {
             "slug": "90-getElementsLessThanOneHundredAtProperty",
             "title": "90-getElementsLessThanOneHundredAtProperty",
-            "done": false,
+            "done": true,
             "path": "exercises/90-getElementsLessThanOneHundredAtProperty",
             "translations": [
                 "es",
@@ -490,7 +490,7 @@
         {
             "slug": "91-countAllCharacters",
             "title": "91-countAllCharacters",
-            "done": false,
+            "done": true,
             "path": "exercises/91-countAllCharacters",
             "translations": [
                 "us",
@@ -501,7 +501,7 @@
         {
             "slug": "92-getElementsGreaterThanTenAtProperty",
             "title": "92-getElementsGreaterThanTenAtProperty",
-            "done": false,
+            "done": true,
             "path": "exercises/92-getElementsGreaterThanTenAtProperty",
             "translations": [
                 "es",
@@ -512,7 +512,7 @@
         {
             "slug": "93-removeElement",
             "title": "93-removeElement",
-            "done": false,
+            "done": true,
             "path": "exercises/93-removeElement",
             "translations": [
                 "us",
@@ -523,7 +523,7 @@
         {
             "slug": "94-getFirstElementOfProperty",
             "title": "94-getFirstElementOfProperty",
-            "done": false,
+            "done": true,
             "path": "exercises/94-getFirstElementOfProperty",
             "translations": [
                 "es",
@@ -534,7 +534,7 @@
         {
             "slug": "95-getNthElementOfProperty",
             "title": "95-getNthElementOfProperty",
-            "done": false,
+            "done": true,
             "path": "exercises/95-getNthElementOfProperty",
             "translations": [
                 "es",
@@ -545,7 +545,7 @@
         {
             "slug": "96-getLastElementOfProperty",
             "title": "96-getLastElementOfProperty",
-            "done": false,
+            "done": true,
             "path": "exercises/96-getLastElementOfProperty",
             "translations": [
                 "es",
@@ -556,7 +556,7 @@
         {
             "slug": "97-keep",
             "title": "97-keep",
-            "done": false,
+            "done": true,
             "path": "exercises/97-keep",
             "translations": [
                 "es",
@@ -567,7 +567,7 @@
         {
             "slug": "98-getOddLengthWordsAtProperty",
             "title": "98-getOddLengthWordsAtProperty",
-            "done": false,
+            "done": true,
             "path": "exercises/98-getOddLengthWordsAtProperty",
             "translations": [
                 "es",
@@ -578,7 +578,7 @@
         {
             "slug": "99-computeAverageOfNumbers",
             "title": "99-computeAverageOfNumbers",
-            "done": false,
+            "done": true,
             "path": "exercises/99-computeAverageOfNumbers",
             "translations": [
                 "es",

@@ -1,0 +1,28 @@
+const rewire = require("rewire");
+
+test('Function removeEvenValues must exist', () => {
+    const removeEvenValues = rewire("./app.js").__get__("removeEvenValues");
+    expect(removeEvenValues).not.toBe(undefined);
+});
+
+test('The function must removes any properties whose values are even numbers', () => {
+    const removeEvenValues = rewire("./app.js").__get__("removeEvenValues");
+    var obj = {
+        a: 2,
+        b: 3,
+        c: 4
+    };
+    removeEvenValues(obj)
+    expect(obj).toEqual({ b: 3 })
+})
+
+test('The function must removes any properties whose values are even numbers', () => {
+    const removeEvenValues = rewire("./app.js").__get__("removeEvenValues");
+    var obj = {
+        a: 3,
+        b: 7,
+        c: 9
+    };
+    removeEvenValues(obj)
+    expect(obj).toEqual({ a: 3, b: 7, c: 9 })
+})

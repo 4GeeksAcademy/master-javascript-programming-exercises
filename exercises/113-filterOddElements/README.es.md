@@ -1,10 +1,10 @@
-# `113` squareElements
+# `113` filterOddElements
 
 ## 📝 Instrucciones
 
-Write a function called "filterOddElements".
+Escribe una función llamada "filterOddElements".
 
-Given an array of numbers, "filterOddElements" returns an array containing only the odd numbers of the given array.
+Dada una matriz de números, "filterOddElements" devuelve una matriz que contiene solo los números impares de la matriz dada.
 
 ```Js
 var output = filterOddElements([1, 2, 3, 4, 5]);

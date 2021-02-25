@@ -2,12 +2,12 @@
 
 ## 📝 Instrucciones
 
-Write a function called "computeProductOfAllElements".
+Escriba una función llamada "computeProductOfAllElements".
 
-Given an array of numbers, "computeProductOfAllElements" returns the products of all the elements in the given array.
+Dada una matriz de números, "computeProductOfAllElements" devuelve los productos de todos los elementos de la matriz dada.
 
-Notes:
-* If given array is empty, it should return 0.
+Notas:
+* Si la matriz dada está vacía, debería devolver 0.
 
 ```Js
 var output = computeProductOfAllElements([2, 5, 6]);

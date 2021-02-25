@@ -17,5 +17,8 @@ Notas:
 * Si el puntaje está entre 8 y 9 (incluido) de un rango dado, devuelva la letra con un '+'
 * No hay F + y no hay F-.
 
+```js
 var output = convertScoreToGradeWithPlusAndMinus(91);
 console.log(output); // --> 'A-'
+
+```

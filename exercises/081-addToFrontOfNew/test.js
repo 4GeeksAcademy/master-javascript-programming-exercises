@@ -24,9 +24,7 @@ test ('The returned array should have one more item than the original one .', ()
 test ('The returned array should have the given number as the first element of the array .', () => {
     const addToFrontOfNew = rewire ('./app.js').__get__("addToFrontOfNew");
      
-    var input = [1, 2];
-    var output = addToFrontOfNew(input, 3);
-     expect(output[0]).toBe(3);
+     expect(addToFrontOfNew([1, 2], 3)).toEqual([3, 1, 2]);
+     expect(addToFrontOfNew([12, 16], 10)).toEqual([10, 12, 16]);
 })
-
 

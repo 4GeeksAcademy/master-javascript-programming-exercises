@@ -8,15 +8,10 @@ test('Function computeTripledAreaOfARectangle must exist', () => {
 test('The fuction should return the area of the rectangle multiplied by 3', () => {
     const computeTripledAreaOfARectangle = rewire('./app.js').__get__("computeTripledAreaOfARectangle");
     
-    var output = computeTripledAreaOfARectangle(2, 4)
-    expect(output).toBe(24)
+    expect(computeTripledAreaOfARectangle(2, 4)).toBe(24)
+    expect(computeTripledAreaOfARectangle(5, 3)).toBe(45)
 })
-test('The fuction should return the area of the rectangle multiplied by 3', () => {
-    const computeTripledAreaOfARectangle = rewire('./app.js').__get__("computeTripledAreaOfARectangle");
-    
-    var output = computeTripledAreaOfARectangle(5, 3)
-    expect(output).toBe(45)
-})
+
 test('The function will not pass if it returns static result', () => {
     const computeTripledAreaOfARectangle = rewire('./app.js').__get__("computeTripledAreaOfARectangle");     
    

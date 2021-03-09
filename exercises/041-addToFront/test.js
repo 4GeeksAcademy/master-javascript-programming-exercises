@@ -5,16 +5,9 @@ test('Function addToFront must exist', () => {
     expect(addToFront).not.toBe(undefined);
 });
 
-test('The function must return to the front of the array, and return the given array.', () => {
+test('The function must return the given number to the front of the array', () => {
     const addToFront = rewire("./app.js").__get__("addToFront");
 
-    const output = addToFront([1, 2], 3)
-    expect(output).toStrictEqual([3, 1, 2]);
-});
-
-test('The function must return to the front of the array', () => {
-    const addToFront = rewire("./app.js").__get__("addToFront");
-
-    const output = addToFront([6, 7], 8)
-    expect(output).toStrictEqual([8, 6, 7]);
+    expect(addToFront([1, 2], 3)).toStrictEqual([3, 1, 2]);
+    expect(addToFront([6, 7], 8)).toStrictEqual([8, 6, 7]);
 });

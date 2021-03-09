@@ -5,18 +5,11 @@ test('Function computePerimeterOfARectangle must exist', () => {
     expect(computePerimeterOfARectangle).not.toBe(undefined);
 });
 
-
 test('Fuction must return the perimeter of Rectangle', () => {
     const computePerimeterOfARectangle = rewire('./app.js').__get__("computePerimeterOfARectangle");
-    
-    var output = computePerimeterOfARectangle(5, 2)
-    expect(output).toBe(14)
-})
-test('Fuction must return the perimeter Rectangle', () => {
-    const computePerimeterOfARectangle = rewire('./app.js').__get__("computePerimeterOfARectangle");
-    
-    var output = computePerimeterOfARectangle(7, 4)
-    expect(output).toBe(22)
+
+    expect(computePerimeterOfARectangle(5, 2)).toBe(14)
+    expect(computePerimeterOfARectangle(7, 4)).toBe(22)
 })
 
 test('The function will not pass if it returns static result', () => {

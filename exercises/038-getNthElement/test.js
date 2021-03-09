@@ -11,20 +11,20 @@ test('Function must return the value of the 2nd value position in getNthElement 
     expect(output).toStrictEqual(1)
 })
 
-test('Function must return the value of the 2nd value position in getNthElement array', () => {
+test('Function must returns one integer element, within the given array.', () => {
     const getNthElement = rewire("./app.js").__get__("getNthElement");
     const output = getNthElement([1, 3, 5], 1)
     expect(output).toStrictEqual(3)
 })
 
-test('Function must return the value of the 2nd value position in getNthElement array', () => {
+test('Function must returns one integer element, within the given array.', () => {
     const getNthElement = rewire("./app.js").__get__("getNthElement");
     const output = getNthElement([1, 3, 5], 2)
     expect(output).toStrictEqual(5)
 })
 
-test('Function must return the value of the 2nd value position in getNthElement array', () => {
+test('Function must returns undefined, if the given array is empty.', () => {
     const getNthElement = rewire("./app.js").__get__("getNthElement");
-    const output = getNthElement([1, 3, 5], 3)
+    const output = getNthElement([], 3)
     expect(output).toStrictEqual(undefined)
 })

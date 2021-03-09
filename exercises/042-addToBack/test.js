@@ -5,16 +5,9 @@ test('Function addToBack must exist', () => {
     expect(addToBack).not.toBe(undefined);
 });
 
-test('The function must return a new element in the last position of the array and return the given array.', () => {
+test('The function must return the given number in the last position of the array', () => {
     const addToBack = rewire("./app.js").__get__("addToBack");
 
-    const output = addToBack([1, 2], 3)
-    expect(output).toStrictEqual([1, 2, 3]);
-});
-
-test('The function must return a new element in the last position of the array', () => {
-    const addToBack = rewire("./app.js").__get__("addToBack");
-
-    const output = addToBack([22, 44], 11)
-    expect(output).toStrictEqual([22, 44, 11]);
+    expect(addToBack([1, 2], 3)).toStrictEqual([1, 2, 3]);
+    expect(addToBack([22, 44], 11)).toStrictEqual([22, 44, 11]);
 });

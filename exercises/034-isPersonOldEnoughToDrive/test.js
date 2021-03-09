@@ -7,13 +7,10 @@ test('Function isPersonOldEnoughToDrive must exist', () => {
 
 test ('Function should return a false if age less than 21', () => {
     const isPersonOldEnoughToDrive = rewire ('./app.js').__get__("isPersonOldEnoughToDrive");
-    expect(isPersonOldEnoughToDrive({
-        age:15
-    })).toBe(false);
+    expect(isPersonOldEnoughToDrive(15)).toBe(false);
 })
 test ('Function should return a true if age equal than 21', () => {
     const isPersonOldEnoughToDrive = rewire ('./app.js').__get__("isPersonOldEnoughToDrive");
-    expect(isPersonOldEnoughToDrive({
-        age:16
-    })).toBe(true);
+    expect(isPersonOldEnoughToDrive(16)).toBe(true);
+    expect(isPersonOldEnoughToDrive(18)).toBe(true);
 })

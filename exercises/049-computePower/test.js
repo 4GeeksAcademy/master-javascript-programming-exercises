@@ -8,20 +8,6 @@ test('Function computePower must exist', () => {
 test('Must return the number raised to the exponent', () => {
     const computePower = rewire('./app.js').__get__("computePower");
     
-    var output = computePower(2, 3)
-    expect(output).toBe(8)
-})
-
-test('Must return the number raised to the exponent', () => {
-    const computePower = rewire('./app.js').__get__("computePower");
-    
-    var output = computePower(5, 7)
-    expect(output).toBe(78125)
-})
-
-test('The function will not pass if it returns static result', () => {
-    const computePower = rewire('./app.js').__get__("computePower");     
-   
-    var output = computePower(2, 8)
-    expect(output).not.toBe(20)
+    expect(computePower(2, 3)).toBe(8)
+    expect(computePower(5, 7)).toBe(78125)
 })

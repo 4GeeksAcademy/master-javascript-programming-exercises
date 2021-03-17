@@ -5,21 +5,15 @@ test('Function getLengthOfThreeWords must exist', () => {
     expect(getLengthOfThreeWords).not.toBe(undefined);
 });
 
-test('The function must return the length of three words.', () => {
+test("The function must return the sum of its three parameter's length .", () => {
     const getLengthOfThreeWords = rewire('./app.js').__get__("getLengthOfThreeWords");
 
     var output = getLengthOfThreeWords('some', 'other', 'words')
     expect(output).toBe(14)
-})
-test('The function must return the length of three words.', () => {
-    const getLengthOfThreeWords = rewire('./app.js').__get__("getLengthOfThreeWords");
 
-    var output = getLengthOfThreeWords('he', 'he', 'Michael J')
+    output = getLengthOfThreeWords('he', 'he', 'Michael J')
     expect(output).toBe(13)
-})
-test('The function must return the length of three words.', () => {
-    const getLengthOfThreeWords = rewire('./app.js').__get__("getLengthOfThreeWords");
 
-    var output = getLengthOfThreeWords('s p a c e s', 'can', 'count')
+    output = getLengthOfThreeWords('s p a c e s', 'can', 'count')
     expect(output).toBe(19)
 })

@@ -18,10 +18,3 @@ test('Must return the perimeter of a circle', () => {
     var output = computePerimeterOfACircle(33)
     expect(output).toBe(207.34511513692635)
 })
-
-test('The function will not pass if it returns static result', () => {
-    const computePerimeterOfACircle = rewire('./app.js').__get__("computePerimeterOfACircle");     
-   
-    var output = computePerimeterOfACircle(33)
-    expect(output).not.toBe(207)
-})

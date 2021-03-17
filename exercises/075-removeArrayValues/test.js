@@ -15,11 +15,8 @@ test('The function must removes any properties whose values are arrays.', () => 
     }
     removeArrayValues(obj)
     expect(obj).toEqual({ b: 2 })
-})
 
-test('The function must ignore any properties whose values are arrays.', () => {
-    const removeArrayValues = rewire("./app.js").__get__("removeArrayValues");
-    var obj = {
+    obj = {
         a: [3, 2, 6],
         b: 55,
         c: ['let\'s', 'rock'],

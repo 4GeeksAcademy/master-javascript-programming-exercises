@@ -15,17 +15,14 @@ test('The function must returns how many properties the given object has.', () =
     };
     let output = countNumberOfKeys(obj)
     expect(output).toBe(3)
-})
 
-test('The function must returns how many properties the given object has.', () => {
-    const countNumberOfKeys = rewire("./app.js").__get__("countNumberOfKeys");
-    var obj = {
+    obj = {
         a: 5,
         b: 4,
         b: 3,
         c: 2,
         d: 1
     };
-    let output = countNumberOfKeys(obj)
+    output = countNumberOfKeys(obj)
     expect(output).toBe(4)
 })

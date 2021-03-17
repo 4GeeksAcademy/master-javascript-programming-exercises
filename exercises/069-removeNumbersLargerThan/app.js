@@ -6,6 +6,3 @@ var obj = {
 function removeNumbersLargerThan(num, obj) {
     // your code here
 }
-
-removeNumbersLargerThan(5, obj);
-console.log(obj); // --> { b: 2, c: 'montana' }

@@ -7,7 +7,7 @@ Write a function called "removeFromFrontOfNew".
 Given an array, "removeFromFrontOfNew" returns a new array containing all but the first element of the given array.
 
 Notes:
-* You should be familiar with the 'slice' method.
+* You should be familiar with the 'shift' method.
 
 
 ```Javascript

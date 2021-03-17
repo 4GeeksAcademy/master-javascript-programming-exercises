@@ -5,7 +5,6 @@ test('Function removeOddValues must exist', () => {
     expect(removeOddValues).not.toBe(undefined);
 });
 
-
 test('The function must removes any properties whose values are odd numbers.', () => {
     const removeOddValues = rewire("./app.js").__get__("removeOddValues");
     var obj = {
@@ -14,13 +13,9 @@ test('The function must removes any properties whose values are odd numbers.', (
         c: 4
     };
     removeOddValues(obj)
-    
     expect(obj).toEqual({ a: 2, c: 4})
-})
 
-test('The function must ignore any properties whose values are odd numbers.', () => {
-    const removeOddValues = rewire("./app.js").__get__("removeOddValues");
-    var obj = {
+    obj = {
         a: 5,
         b: 4,
         b: 3,
@@ -28,6 +23,5 @@ test('The function must ignore any properties whose values are odd numbers.', ()
         d: 1
     };
     removeOddValues(obj)
-    
     expect(obj).toEqual({ c: 2})
 })

@@ -14,11 +14,8 @@ test('The function must removes any properties whose values are even numbers', (
     };
     removeEvenValues(obj)
     expect(obj).toEqual({ b: 3 })
-})
 
-test('The function must removes any properties whose values are even numbers', () => {
-    const removeEvenValues = rewire("./app.js").__get__("removeEvenValues");
-    var obj = {
+    obj = {
         a: 3,
         b: 7,
         c: 9

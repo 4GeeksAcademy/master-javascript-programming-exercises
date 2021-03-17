@@ -5,15 +5,9 @@ test('Function doubleSquareRootOf must exist', () => {
     expect(doubleSquareRootOf).not.toBe(undefined);
 });
 
-test('The function must return twice its square root.', () => {
+test('The function must return double its square root.', () => {
     const doubleSquareRootOf = rewire('./app.js').__get__("doubleSquareRootOf");
 
-    var output = doubleSquareRootOf(121)
-    expect(output).toBe(22)
-})
-test('The function must return twice its square root.', () => {
-    const doubleSquareRootOf = rewire('./app.js').__get__("doubleSquareRootOf");
-
-    var output = doubleSquareRootOf(21)
-    expect(output).toBe(9.16515138991168)
+    expect(doubleSquareRootOf(121)).toBe(22)
+    expect(doubleSquareRootOf(21)).toBe(9.16515138991168)
 })

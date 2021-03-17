@@ -14,6 +14,15 @@ test('The function must eliminate the property whose values are strings longer t
     };
     removeStringValuesLongerThan(6, obj)
     expect(obj).toEqual({ age: 20, location: 'Texas' })
+    
+    obj = {
+        name: 'Tea',
+        price: 5,
+        location: 'Colombia',
+        type: 'Mint'
+    }
+    removeStringValuesLongerThan(4, obj)
+    expect(obj).toEqual({ name: 'Tea', price: 5, type:'Mint' })
 })
 
 test('The function must eliminate the property whose values are strings longer than the given number.', () => {

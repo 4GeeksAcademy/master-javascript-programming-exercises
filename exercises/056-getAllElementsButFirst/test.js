@@ -10,11 +10,7 @@ test('Function must return an array with all elements but not the first', () => 
 
     var output = getAllElementsButFirst([1, 2, 3, 4])
     expect(output).toEqual([2, 3, 4])
-})
 
-test('Function must return an array with all elements but not the first', () => {
-    const getAllElementsButFirst = rewire('./app.js').__get__("getAllElementsButFirst");
-
-    var output = getAllElementsButFirst([3, 6, 9, 12])
+    output = getAllElementsButFirst([3, 6, 9, 12])
     expect(output).toEqual([6, 9, 12])
 })

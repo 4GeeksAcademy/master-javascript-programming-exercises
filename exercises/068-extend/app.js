@@ -10,7 +10,3 @@ var obj2 = {
 function extend(obj1, obj2) {
     // your code here
 }
-
-extend(obj1, obj2);
-
-console.log(obj1); // --> {a: 1, b: 2, c: 3}

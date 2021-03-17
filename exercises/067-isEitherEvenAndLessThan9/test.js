@@ -10,7 +10,7 @@ test('The function must return true if it is even or both are less than 9.', () 
 
     var output = isEitherEvenAndLessThan9(2, 4);
     expect(output).toBe(true)
-    var output = isEitherEvenAndLessThan9(5, 8);
+    output = isEitherEvenAndLessThan9(5, 8);
     expect(output).toBe(true)
 })
 
@@ -19,6 +19,6 @@ test('The function should return false if it is not even or both are greater tha
 
     var output = isEitherEvenAndLessThan9(72, 2);
     expect(output).toBe(false)
-    var output = isEitherEvenAndLessThan9(21, 33);
+    output = isEitherEvenAndLessThan9(21, 33);
     expect(output).toBe(false)
 })

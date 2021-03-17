@@ -11,11 +11,3 @@ test('Fuction must return the area of Rectangle', () => {
     expect(computeAreaOfARectangle(4, 8)).toBe(32)
     expect(computeAreaOfARectangle(5, 9)).toBe(45)
 })
-
-test('The function will not pass if it returns static result', () => {
-    const computeAreaOfARectangle = rewire('./app.js').__get__("computeAreaOfARectangle");
-    
-     
-    var output = computeAreaOfARectangle(5, 9)
-    expect(output).not.toBe(15)
-})

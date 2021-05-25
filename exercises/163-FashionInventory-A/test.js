@@ -33,14 +33,8 @@ test('The function must find all the shoes of all the designers and list them in
         ['Gucci', 'red leather laced sneakers', 800],
         ['Gucci', 'black leather laced sneakers', 900],
     ])
-});
 
-
-
-test('The function must find all the shoes of all the designers and list them in an arrangement of arrangements.', () => {
-    const renderInventory = rewire("./app.js").__get__("renderInventory");
-
-    const output = renderInventory(
+    output = renderInventory(
         {
             name: 'Adidas',
             shoes: [

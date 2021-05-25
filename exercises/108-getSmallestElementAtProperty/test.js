@@ -12,14 +12,11 @@ test('If the array is void, it should return an void array.', () => {
     };
     var output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toBe(1)
-})
 
-test('If the array is void, it should return an void array.', () => {
-    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
-    var obj = {
+    obj = {
         key: []
     };
-    var output = getSmallestElementAtProperty(obj, 'key')
+    output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toEqual([])
 })
 

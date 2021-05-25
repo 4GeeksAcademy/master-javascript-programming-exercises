@@ -12,12 +12,7 @@ test('Function average must exist', () => {
     expect(average(5, 15)).toBe(10)
 });
 
-test('Function sum must exist', () => {
-    const sum = rewire("./app.js").__get__("sum");
-    expect(sum).not.toBe(undefined);
-});
-
-test('Function must sum given numbers', () => {
+test('The function must sum the given numbers', () => {
     const sum = rewire("./app.js").__get__("sum");
     
     expect(sum(4, 5)).toBe(9)

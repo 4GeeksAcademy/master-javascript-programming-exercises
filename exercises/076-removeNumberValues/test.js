@@ -15,11 +15,8 @@ test('The function must removes any properties whose values are numbers.', () =>
     };
     removeNumberValues(obj)
     expect(obj).toEqual({ b: 'remaining' })
-})
 
-test('The function must ignore any properties whose values are numbers.', () => {
-    const removeNumberValues = rewire("./app.js").__get__("removeNumberValues");
-    var obj = {
+    obj = {
         a: [3, 2, 6, 'hello'],
         b: 'u can',
         c: 4,
@@ -27,5 +24,5 @@ test('The function must ignore any properties whose values are numbers.', () => 
         e: 8
     }
     removeNumberValues(obj)
-    expect(obj).toEqual({ a: [ 3, 2, 6, 'hello' ], b: 'u can', d: 'do it' })
+    expect(obj).toEqual({ a: [3, 2, 6, 'hello'], b: 'u can', d: 'do it' })
 })

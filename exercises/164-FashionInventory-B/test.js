@@ -26,16 +26,12 @@ test('The function should return an array with the "name" and "averagePrice" obj
             ]
         })
     expect(output).toEqual([
-            { 'name': 'Brunello Cucinelli', 'averagePrice': 1025 }, 
-            { 'name': 'Gucci', 'averagePrice': 850 }
-        ])
-});
+        { 'name': 'Brunello Cucinelli', 'averagePrice': 1025 },
+        { 'name': 'Gucci', 'averagePrice': 850 }
+    ])
 
 
-test('The function should return an array with the "name" and "averagePrice" objects of the corresponding products', () => {
-    const renderInventory = rewire("./app.js").__get__("renderInventory");
-
-    const output = renderInventory(
+    output = renderInventory(
         {
             name: 'Adidas',
             shoes: [
@@ -51,7 +47,7 @@ test('The function should return an array with the "name" and "averagePrice" obj
             ]
         })
     expect(output).toEqual([
-        {'name': 'Adidas', 'averagePrice': 115},
-        {'name': 'Nike', 'averagePrice': 165}
+        { 'name': 'Adidas', 'averagePrice': 115 },
+        { 'name': 'Nike', 'averagePrice': 165 }
     ])
 });

@@ -6,7 +6,7 @@ test('Function getEvenLengthWordsAtProperty must exist', () => {
 });
 
 
-test('If the array is void, it should return an void array.', () => {
+test('If the array is empty, it should return an void array.', () => {
     const getEvenLengthWordsAtProperty = rewire("./app.js").__get__("getEvenLengthWordsAtProperty");
     var obj = {
         key: []

@@ -10,12 +10,8 @@ test('Function must returns the smallest number within the array.', () => {
 
     var output = findSmallestNumberAmongMixedElements([4, 'lincoln', 9, 'octopus'])
     expect(output).toBe(4);
-})
 
-test('Function must returns the smallest number within the array.', () => {
-    const findSmallestNumberAmongMixedElements = rewire('./app.js').__get__("findSmallestNumberAmongMixedElements");
-
-    var output = findSmallestNumberAmongMixedElements(['a', 'b', 2, 3, 'clear'])
+    output = findSmallestNumberAmongMixedElements(['a', 'b', 2, 3, 'clear'])
     expect(output).toBe(2);
 })
 

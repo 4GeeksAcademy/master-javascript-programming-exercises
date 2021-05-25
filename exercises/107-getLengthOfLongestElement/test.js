@@ -17,11 +17,7 @@ test('Must returns the length of the longest string in the array.', () => {
 
     var output = getLengthOfLongestElement(['one', 'two', 'three'])
     expect(output).toBe(5)
-})
 
-test('Must returns the length of the longest string in the array.', () => {
-    const getLengthOfLongestElement = rewire("./app.js").__get__("getLengthOfLongestElement");
-
-    var output = getLengthOfLongestElement(['es', 'hora', 'de', 'comer'])
+    output = getLengthOfLongestElement(['es', 'hora', 'de', 'comer'])
     expect(output).toBe(5)
 })

@@ -14,12 +14,8 @@ test('The function must returns an array of all keys on the entry object.', () =
         hasPets: true
     })
     expect(output).toEqual(['name', 'age', 'hasPets'])
-})
 
-test('The function must returns an array of all keys on the entry object.', () => {
-    const getAllKeys = rewire("./app.js").__get__("getAllKeys");
-
-    let output = getAllKeys({
+    output = getAllKeys({
         name: 'Johnny',
         age: 57,
         role: 'actor'

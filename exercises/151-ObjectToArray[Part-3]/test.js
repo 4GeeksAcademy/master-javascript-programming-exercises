@@ -14,12 +14,8 @@ test('The function should convert a literal object to an array and return all in
         role: 'producer'
     })
     expect(output).toEqual([['name', 'Holly'], ['age', 35], ['role', 'producer']])
-})
 
-test('The function should convert a literal object to an array and return all in to an array', () => {
-    const convertObjectToList = rewire("./app.js").__get__("convertObjectToList");
-
-    let output = convertObjectToList({
+    output = convertObjectToList({
         name: 'Johnny',
         age: 57,
         role: 'actor'

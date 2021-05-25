@@ -12,15 +12,12 @@ test('The Function must returns an array containing all the squared elements of 
     };
     var output = getSquaredElementsAtProperty(obj, 'key')
     expect(output).toEqual([4, 1, 25])
-})
 
-test('The Function must returns an array containing all the squared elements of the array, located at the given key.', () => {
-    const getSquaredElementsAtProperty = rewire("./app.js").__get__("getSquaredElementsAtProperty");
-    var obj = {
+    obj = {
         key: [10, 32, 7]
     };
-    var output = getSquaredElementsAtProperty(obj, 'key')
-    expect(output).toEqual([ 100, 1024, 49 ])
+    output = getSquaredElementsAtProperty(obj, 'key')
+    expect(output).toEqual([100, 1024, 49])
 })
 
 test('If the array is void, it should return an void array.', () => {

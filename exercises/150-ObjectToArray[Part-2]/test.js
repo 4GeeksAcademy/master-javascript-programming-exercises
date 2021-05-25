@@ -14,12 +14,8 @@ test('The function must returns an array of all the values of the object.', () =
         hasPets: false
     })
     expect(output).toEqual(['Krysten', 33, false])
-})
 
-test('The function must returns an array of all the values of the object.', () => {
-    const listAllValues = rewire("./app.js").__get__("listAllValues");
-
-    let output = listAllValues({
+    output = listAllValues({
         name: 'Johnny',
         age: 57,
         role: 'actor'

@@ -29,13 +29,9 @@ test('The function should filter all the shoes that contain the word "black" in 
         ['Brunello Cucinelli', 'tasselled black low-top lace-up', 1000],
         ['Gucci', 'black leather laced sneakers', 900]
     ])
-});
 
 
-test('The function should filter all the shoes that contain the word "black" in the array.', () => {
-    const renderInventory = rewire("./app.js").__get__("renderInventory");
-
-    const output = renderInventory(
+    output = renderInventory(
         {
             name: 'Adidas',
             shoes: [

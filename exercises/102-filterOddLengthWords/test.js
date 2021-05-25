@@ -11,11 +11,7 @@ test('The function should return odd strings.', () => {
 
     var output = filterOddLengthWords(['you', 'can', 'do', 'it'])
     expect(output).toEqual(['you', 'can'])
-})
 
-test('The function should return odd strings.', () => {
-    const filterOddLengthWords = rewire("./app.js").__get__("filterOddLengthWords");
-
-    var output = filterOddLengthWords(['there', 'it', 'is', 'now'])
+    output = filterOddLengthWords(['there', 'it', 'is', 'now'])
     expect(output).toEqual(['there', 'now'])
 })

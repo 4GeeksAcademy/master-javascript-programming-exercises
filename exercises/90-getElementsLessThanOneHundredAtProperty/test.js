@@ -23,7 +23,7 @@ test ('The function must return every element less than 100 on a given key.', ()
     var obj2 = {
     key2: [1000, 10, 50, 10, 20, 6, 10, 98, 10]
 };
-var output = getElementsLessThan100AtProperty(obj2, 'key');
+var output = getElementsLessThan100AtProperty(obj2, 'key2');
     expect(obj2.key2[1]).toBe(10);
     expect(obj2.key2[2]).toBe(50);
     expect(obj2.key2[3]).toBe(10);

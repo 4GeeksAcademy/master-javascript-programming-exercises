@@ -10,7 +10,7 @@ test('Function isEqualTo must return true or false', () => {
     expect(isEqualTo(21, 21)).not.toBe(undefined);
 });
 
-test ('function should return that num2 should not be equal to num1', () => {
+test ('Tested with num1=3 & num2=6 and the function should return that num2 should not be equal to num1', () => {
     const isEqualTo = rewire ('./app.js').__get__("isEqualTo");
 
     expect(isEqualTo(3, 6)).toBe(false);

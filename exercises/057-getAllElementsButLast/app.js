@@ -1,3 +1,4 @@
 function getAllElementsButLast(array) {
-  // your code here
+    // your code here
+
 }

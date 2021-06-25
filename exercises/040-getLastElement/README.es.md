@@ -13,3 +13,7 @@ Notas:
 var output = getLastElement([1, 2, 3, 4]);
 console.log(output); // --> 4
 ```
+
+💡 Hint:
+
+La última posición en un arreglo es: `length - 1`

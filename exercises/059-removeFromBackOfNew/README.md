@@ -7,7 +7,7 @@ Write a function called "removeFromBackOfNew".
 Given an array, "removeFromBackOfNew" returns a new array containing all but the last element of the given array.
 
 Notes:
-* You should be familiar with the 'slice' method.
+* You should be familiar with the 'pop' method.
 
 ```Javascript
 var arr = [1, 2, 3];

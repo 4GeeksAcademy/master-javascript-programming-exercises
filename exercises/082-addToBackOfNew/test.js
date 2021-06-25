@@ -5,14 +5,6 @@ test('Function addToBackOfNew must exist', () => {
     expect(addToBackOfNew).not.toBe(undefined);
 });
 
-test ('The given object should be the same as the returned array by the function.', () => {
-    const addToBackOfNew = rewire ('./app.js').__get__("addToBackOfNew");
-     
-    var input = [1, 2];
-    var output = addToBackOfNew(input, 3);
-     expect(output !== input).toBe(true);
-})
-
 test ('The returned array should have one more item than the original one .', () => {
     const addToBackOfNew = rewire ('./app.js').__get__("addToBackOfNew");
      
@@ -21,10 +13,9 @@ test ('The returned array should have one more item than the original one .', ()
      expect(output.length>input.length).toBe(true);
 })
 
-test ('The returned array should have the number 3 as the first element of the array .', () => {
+test ('The returned array should have the new number as the last element of the array.', () => {
     const addToBackOfNew = rewire ('./app.js').__get__("addToBackOfNew");
-     
-    var input = [1, 2];
-    var output = addToBackOfNew(input, 3);
-     expect(output[2]).toBe(3);
+    
+     expect(addToBackOfNew([1, 2], 3)).toEqual([1, 2, 3]);
+     expect(addToBackOfNew([10, 12], 15)).toEqual([10, 12, 15]);
 })

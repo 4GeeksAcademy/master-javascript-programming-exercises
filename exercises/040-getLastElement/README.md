@@ -13,3 +13,7 @@ Notes:
 var output = getLastElement([1, 2, 3, 4]);
 console.log(output); // --> 4
 ```
+
+💡 Hint:
+
+The last position in any array is: `length - 1`

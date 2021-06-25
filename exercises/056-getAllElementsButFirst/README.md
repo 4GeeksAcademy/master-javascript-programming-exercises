@@ -4,7 +4,7 @@
 
 Write a function called "getAllElementsButFirst".
 
-Given an array, "getAllElementsButFirst" returns an array with all the elements but the first.
+Given an array, "getAllElementsButFirst" returns an array with all the elements but not the first.
 
 
 ```Javascript

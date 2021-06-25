@@ -1,3 +1,3 @@
 function getAllLetters(str) {
-  // your code here
+    // your code here
 }

@@ -1,0 +1,1 @@
+// Perimeter of rectangle = 2 * (length + width)

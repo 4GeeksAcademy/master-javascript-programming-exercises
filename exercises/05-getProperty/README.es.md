@@ -1,10 +1,10 @@
 # `05` getProperty
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getProperty".
+1. Escribe una función llamada `getProperty`.
 
-Dado un objeto y una key, "getProperty" retorna el valor de la propiedad con esa key.
+Dado un objeto y una key, `getProperty` retorna el valor de la propiedad con esa key.
 
 ```Javascript
 var car = {
@@ -14,6 +14,6 @@ var output = getProperty(car, 'model');
 console.log(output); // --> 'valor'
 ```
 
-## 💡 Pista
+## 💡 Pista:
 
-Si no hay una propiedad en esa key, debería retornar undefined.
++ Si no hay una propiedad en esa key, debería retornar undefined.

@@ -2,15 +2,17 @@
 
 ## 📝 Instrucciones
 
-Escribe una función llamada "equalsTen".
+1. Escribe una función llamada `equalsTen`.
 
-Dado un número, "equalsTen" retorna si el ese número es o no igual a 10.
+Dado un número, `equalsTen` retorna si el ese número es o no igual a 10.
 
 ```Javascript
 var output = equalsTen(9);
 console.log(output); // --> falso
 ```
 
-## 💡 Pista
+## 💡 Pista:
 
-Recuerda usar tres signos iguales (===) para comparar valores exactos [Haz clic aquí para mayor info](https://bytearcher.com/articles/equality-comparison-operator-javascript)
++  Recuerda usar tres signos iguales (===) para comparar valores exactamente iguales.
+
++ [Haz clic aquí para mayor info](https://bytearcher.com/articles/equality-comparison-operator-javascript)

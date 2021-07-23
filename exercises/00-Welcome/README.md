@@ -8,4 +8,4 @@ If you have not completed them and you are new to javascript, I strongly recomen
 2. [Arrays](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).
 3. [Functions](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial).
 
-If you feel read, click `next →` on the top right of the screen to start practicing.
+If you feel ready, click `next →` on the top right of the screen to start practicing.

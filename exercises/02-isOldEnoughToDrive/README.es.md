@@ -1,16 +1,18 @@
 # `02` isOldEnoughToDrive
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "isOldEnoughToDrive".
+1. Escribe una función llamada `isOldEnoughToDrive`.
 
-Dado un número, en este caso una edad, "isOldEnoughToDrive" retorna si la persona de esa edad tiene la edad necesaria para conducir legalmente en los Estados Unidos.
+Dado un número, en este caso una edad, `isOldEnoughToDrive` retorna si la persona de esa edad tiene la edad necesaria para conducir legalmente en los Estados Unidos.
 
 ```javascript
 var output = isOldEnoughToDrive(22);
-console.log(output); // --> true
+console.log(output); // --> verdadero
 ```
 
-## 💡 Pista
+## 💡 Pista:
 
-La edad legal para poder conducir en los Estados Unidos es de 16 años.
++ La edad legal para poder conducir en los Estados Unidos es 16 años.
+
+

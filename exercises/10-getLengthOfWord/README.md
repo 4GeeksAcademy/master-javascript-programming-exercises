@@ -1,10 +1,10 @@
 # `10` getLengthOfWord
 
-## 📝 Instructions 
+## 📝 Instructions: 
 
-Write a function called "getLengthOfWord".
+1. Write a function called `getLengthOfWord`.
 
-Given a word, "getLengthOfWord" returns the length of the given word.
+Given a word, `getLengthOfWord` returns the length of the given word.
 
 ```Javascript
 var output = getLengthOfWord('some');

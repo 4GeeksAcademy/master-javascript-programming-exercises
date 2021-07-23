@@ -14,3 +14,5 @@ console.log(output); // --> verdadero
 ## 💡 Pista:
 
 + La edad legal para poder conducir en los Estados Unidos es 16 años.
+
+

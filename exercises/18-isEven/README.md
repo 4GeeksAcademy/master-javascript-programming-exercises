@@ -2,9 +2,9 @@
 
 ## 📝 Instructions
 
-Write a function called "isEven".
+Write a function called `isEven`.
 
-Given a number, "isEven" returns whether it is even.
+Given a number, `isEven` returns whether it is even.
 
 ```Javascript
 var output = isEven(11);

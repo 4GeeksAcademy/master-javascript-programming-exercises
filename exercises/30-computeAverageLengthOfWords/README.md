@@ -1,8 +1,8 @@
 # `30` computeAverageLengthOfWords
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "computeAverageLengthOfWords".
+1. Write a function called `computeAverageLengthOfWords`.
 
 Given two words, "computeAverageLengthOfWords" returns the average of their lengths.
 

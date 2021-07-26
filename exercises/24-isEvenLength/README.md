@@ -1,10 +1,10 @@
 # `24` isEvenLength
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "isEvenLength".
+1. Write a function called `isEvenLength`.
 
-Given a word, "isEvenLength" returns whether the length of the word is even.
+Given a word, "`isEvenLength` returns whether the length of the word is even.
 
 ```Javascript
 var output = isEvenLength('wow');

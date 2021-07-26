@@ -1,10 +1,10 @@
 # `24` isEvenLength
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "isEvenLength".
+Escribe una función llamada `isEvenLength`.
 
-Dado una palabra, "isEvenLength" retorna si la cantidad de letras que tiene la palabra es par.
+Dado una palabra, `isEvenLength` retorna si la cantidad de letras que tiene la palabra es par.
 
 ```Javascript
 var output = isEvenLength('wow');

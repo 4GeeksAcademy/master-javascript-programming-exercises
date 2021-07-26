@@ -1,10 +1,10 @@
 # `19` isOdd
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "isOdd".
+Escribe una función llamada `isOdd`.
 
-Dado un número, "isOdd" retorna si el número es impar..
+Dado un número, `isOdd` retorna si el número es impar (odd).
 
 ```Javascript
 var output = isOdd(9);

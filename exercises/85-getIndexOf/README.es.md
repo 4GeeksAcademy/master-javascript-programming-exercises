@@ -1,10 +1,10 @@
 # `85` getIndexOf
 
-## 📝 Instrucciones 
+## 📝 Instrucciones: 
 
-Escribe una función llamada "getIndexOf".
+1. Escribe una función llamada `getIndexOf`.
 
-Dado un caracter y un string, "getIndexOf" retorna la primera posición de dicho caracter en dicho string.
+Dado un caracter y un string,`"getIndexOf` retorna la primera posición de dicho caracter en dicho string.
 
 Notas:
 * El índice de los strings parte desde el 0, esto significa que el primer caracter en un string está en la posición 0.

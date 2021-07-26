@@ -1,10 +1,10 @@
-# `28` cube
+# `28` Cube 
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "cube".
+1. Write a function called `cube`.
 
-Given a number, "cube" returns the cube of that number.
+Given a number, `cube` returns the cube of that number.
 
 ```Javascript
 var output = cube(3);

@@ -2,9 +2,9 @@
 
 ## 📝 Instructions 
 
-Write a function called "isEqualTo".
+1. Write a function called `isEqualTo`.
 
-Given 2 numbers, "isEqualTo" returns whether num2 is equal to num1.
+Given 2 numbers, "isEqualTo" returns whether `num2` is equal to `num1`.
 
 ```Javascript
 var output = isEqualTo(11, 10);

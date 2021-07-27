@@ -1,8 +1,4 @@
-var obj = {
-  age: 45
-};
 function isPersonOldEnoughToDrinkAndDrive(person) {
-  // tu codigo aqui
+  // the person object contains an "age" property inside
+  // your code here
 }
-var output = isPersonOldEnoughToDrinkAndDrive(obj.age);
-console.log(output); // --> false

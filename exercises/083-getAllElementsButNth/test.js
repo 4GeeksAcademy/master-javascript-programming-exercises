@@ -1,14 +1,13 @@
-const rewire = require ("rewire");
+const rewire = require("rewire");
 
 test('Function getAllElementsButNth must exist', () => {
     const getAllElementsButNth = rewire("./app.js").__get__("getAllElementsButNth");
     expect(getAllElementsButNth).not.toBe(undefined);
 });
 
-test ('The array returned should .', () => {
-    const getAllElementsButNth = rewire ('./app.js').__get__("getAllElementsButNth");
-     
-     var output = getAllElementsButNth(['a', 'b', 'c'], 1);
-     expect(output).toContain(output[0],[2]);
-})
+test('The function must returns an array with all elements except the nth .', () => {
+    const getAllElementsButNth = rewire('./app.js').__get__("getAllElementsButNth");
 
+    expect(getAllElementsButNth(['a', 'b', 'c'], 1)).toEqual(['a', 'c'])
+    expect(getAllElementsButNth(['f', 'c', 'q'], 1)).toEqual(['f', 'q'])
+})

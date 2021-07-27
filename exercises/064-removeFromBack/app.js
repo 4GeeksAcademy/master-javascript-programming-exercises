@@ -1,3 +1,3 @@
 function removeFromBack(arr) {
-  // your code here
+    // your code here
 }

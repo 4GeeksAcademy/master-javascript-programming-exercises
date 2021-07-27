@@ -1,3 +1,4 @@
 function removeOddValues(obj) {
-  // your code here
+    // your code here
+
 }

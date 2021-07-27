@@ -1,3 +1,3 @@
 function removeArrayValues(obj) {
-  // your code here
+    // your code here
 }

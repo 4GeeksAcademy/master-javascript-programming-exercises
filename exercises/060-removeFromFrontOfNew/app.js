@@ -1,3 +1,3 @@
 function removeFromFrontOfNew(arr) {
-  // your code here
+    // your code here
 }

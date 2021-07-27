@@ -1,3 +1,3 @@
 function removeFromFront(arr) {
-  // your code here
+    // your code here
 }

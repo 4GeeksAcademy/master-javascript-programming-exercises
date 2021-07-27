@@ -1,3 +1,3 @@
 function countCharacter(str, char) {
-  // your code here
+    // your code here
 }

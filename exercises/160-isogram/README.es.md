@@ -1,4 +1,4 @@
-# `134` isogram
+# `160` isogram
 
 ## 📝 Instrucciones
 

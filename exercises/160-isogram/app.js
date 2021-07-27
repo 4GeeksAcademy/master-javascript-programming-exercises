@@ -5,3 +5,6 @@ function isIsogram(text) {
   // thus, to see if all the chars were unique,
   // check length of text and the size of the set 
 }
+
+console.log(isIsogram("Camile")) // => true
+console.log(isIsogram("Camille")) // => false

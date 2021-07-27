@@ -1,14 +1,16 @@
 # `88` Select
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "select".
+1. Write a function called `select`.
 
-Given an array and an object, "select" returns a new object whose properties are those in the given object AND whose keys are present in the given array. 
+Given an array and an object, `select` returns a new object whose properties are those in the given object **AND** whose keys are present in the given array. 
 
-Notes:
-* If keys are present in the given array, but are not in the given object, it should ignore them. 
-* It does not modify the passed in object.
+## :bulb: Hint:
+
++ If keys are present in the given array, but are not in the given object, it should ignore them. 
+
++ It does not modify the passed in object.
 
 ```js
 var arr = ['a', 'c', 'e'];

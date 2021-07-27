@@ -1,10 +1,10 @@
 # `87` findMaxLengthOfThreeWords
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "findMaxLengthOfThreeWords".
+1. Write a function called `findMaxLengthOfThreeWords`.
 
-Given 3 words, "findMaxLengthOfThreeWords" returns the length of the longest word.
+Given 3 words, `findMaxLengthOfThreeWords` returns the length of the longest word.
 
 ```js
 var output = findMaxLengthOfThreeWords('a', 'be', 'see');

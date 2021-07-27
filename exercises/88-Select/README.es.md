@@ -1,14 +1,16 @@
 # `88` Select
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "select".
+1. Escribe una función llamada `select`.
 
-Dado un array y un objeto, "select" retorna un nuevo objeto en el objeto dado Y cuyas keys están presentes en el array dado.
+Dados un array y un objeto, `select` retorna un nuevo objeto cuyas propiedades correspoden al del objeto dado **Y** cuyas keys están presentes en el array dado.
 
-Notas:
-* Si las keys están presentes en el array dado, pero no en el objeto dado, debería ignorarlas.
-* No modifica el objeto pasado.
+## :bulb: Pista:
+
++ Si las keys están presentes en el array dado, pero no en el objeto dado, debería ignorarlas.
+
++ No modifica el objeto en el pasado.
 
 ```js
 var arr = ['a', 'c', 'e'];

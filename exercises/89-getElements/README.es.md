@@ -2,17 +2,9 @@
 
 ## 📝 Instrucciones
 
-Escribe una función llamada "getElementsThatEqual10AtProperty".
+1. Escribe una función llamada `getElementsThatEqual10AtProperty`.
 
-Dado un objeto y una key, "getElementsThatEqual10AtProperty" retorna un array que contiene todos los elementos de un array ubicado en la key dad que sean iguales a 10.
-
-
-Notas:
-
-* Si el array está vacío, debería retornar un array vacío.
-* Si el array no contiene ningún elemento igual a 10, debería retornar una array vacío.
-* Si la propiedad en esa key dada no es un array, debería retornar una array vacío.
-* Si no hay ninguna propiedad en dicha key, debería retornar una array vacío.
+Dado un objeto y una key, `getElementsThatEqual10AtProperty` retorna un array que contiene todos los elementos de un array ubicado en la key dada iguales a 10.
 
 ```js
 var obj = {
@@ -21,3 +13,14 @@ var obj = {
 var output = getElementsThatEqual10AtProperty(obj, 'key');
 console.log(output); // --> [10, 10]
 ```
+
+## :bulb: Pista:
+
++ Si el array está vacío, debería retornar un array vacío. 
+
++ Si el array no contiene ningún elemento igual a 10, debería retornar una array vacío.
+
++ Si la propiedad en esa key dada no es un array, debería retornar una array vacío.
+
++ Si no hay ninguna propiedad en dicha key, debería retornar una array vacío.
+

@@ -1,14 +1,16 @@
 # `117` getLongestElement
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escriba una función "getLongestElement".
+1. Escribe una función `getLongestElement`.
 
-Dado un arreglo, "getLongestElement" retorna el string más largo dentro del arreglo.
+Dado un arreglo, `getLongestElement` retorna el string más largo dentro del arreglo.
 
-Notes:
+## :bulb: Pista:
+
 * Si tienen el mismo largo, entonces regresa el primer elemento encontrado.
-* si el arreglo esta vacío, este deberá regresar un string vacío.
+
+* Si el arreglo esta vacío, este deberá regresar un string vacío.
 
 ```Js
 var output = getLongestElement(['one', 'two', 'three']);

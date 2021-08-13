@@ -1,10 +1,10 @@
 # `113` filterOddElements
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "filterOddElements".
+1. Escribe una función llamada `filterOddElements`.
 
-Dada una matriz de números, "filterOddElements" devuelve una matriz que contiene solo los números impares de la matriz dada.
+Dada una matriz de números, `filterOddElements` devuelve una matriz que contiene solo los números impares de la matriz dada.
 
 ```Js
 var output = filterOddElements([1, 2, 3, 4, 5]);

@@ -1,13 +1,14 @@
 # `120` getLargestElement
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escriba una función "getLargestElement".
+1. Escribe una función `getLargestElement`.
 
-Dado un arreglo, "getLargestElement" retorna el número más grande del arreglo.
+Dado un arreglo, `getLargestElement` retorna el número más grande del arreglo.
 
-Notas:
-* Debe retornar 0 si el arreglo esta vacío.
+## :bulb: Pista:
+
+* Debe retornar `0` si el arreglo esta vacío.
 
 ```Js
 var output = getLargestElement([5, 2, 8, 3]);

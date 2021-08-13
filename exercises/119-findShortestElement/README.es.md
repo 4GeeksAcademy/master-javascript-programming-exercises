@@ -1,14 +1,16 @@
 # `119` findShortestElement
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "findShortestElement".
+1. Escribe una función llamada `findShortestElement`.
 
-Dado un arreglo, "findShortestElement" retorna el string más corto dentro del arreglo.
+Dado un arreglo, `findShortestElement` retorna el string más corto dentro del arreglo.
 
-Notas:
+## :bulb: Pista:
+
 * Si son del mismo largo, entonces debe retornar el primer elemento que aparezca.
-*Si el arreglo dada está vacío, debería retornar un string vacío.
+
+* Si el arreglo dada está vacío, debería retornar un string vacío.
 
 ```Js
 var output = findShortestElement(['a', 'two', 'three']);

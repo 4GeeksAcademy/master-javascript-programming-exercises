@@ -1,16 +1,20 @@
 # `111` getElementOfArrayProperty
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada"getElementOfArrayProperty".
+1. Escribe una función llamada `getElementOfArrayProperty`.
 
-Dado un Objeto, un Key y un Index númerico, "getElementOfArrayProperty" retorna el valor de un elemento en el index proporcionado del arreglo localizado dentro del Objeto en la Key dada.
+Dado un Objeto, un Key y un index númerico, `getElementOfArrayProperty` retorna el valor de un elemento en el index proporcionado del arreglo localizado dentro del Objeto en la key dada.
 
-Notas:
-* Si el arreglo está vacío, debería retornar indefinida.
-* Si el index otorgado está fuera del rango del arreglo localizado en el Key, debería retornar indefinido.
-* Si la propiedad en el Key dado no es un arreglo, debería retornar indefinido.
-* Si no hay ninguna propiedad en el Key, debería retornar indefinido.
+## :bulb: Pista:
+
+* Si el arreglo está vacío, debería retornar `undefined`.
+
+* Si el index otorgado está fuera del rango del arreglo localizado en el Key, debería retornar `undefined`.
+
+* Si la propiedad en el Key dado no es un arreglo, debería retornar `undefined`.
+
+* Si no hay ninguna propiedad en el Key, debería retornar `undefined`.
 
 ```Js
 var obj = {

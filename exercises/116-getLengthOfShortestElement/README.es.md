@@ -1,13 +1,14 @@
 # `116` getLengthOfShortestElement
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función "getLengthOfShortestElement".
+1. Escribe una función `getLengthOfShortestElement`.
 
-Dado un arreglo, "getLengthOfShortestElement" retorna la longitud del string más corto en el arreglo.
+Dado un arreglo, `getLengthOfShortestElement` retorna la longitud del string más corto en el arreglo.
 
-Notas:
-* Debería retornar 0 si el arreglo está vacío.
+## :bulb: Pista:
+
+* Debería retornar `0` si el arreglo está vacío.
 
 ```Js
 var output = getLengthOfShortestElement(['one', 'two', 'three']);

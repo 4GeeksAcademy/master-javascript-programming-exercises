@@ -1,0 +1,12 @@
+{
+    "slug": "master-javascript-programming-exercises",
+    "duration": 10,
+    "difficulty": "easy",
+    "video-solutions": true,
+    "graded": true,
+    "config": {
+        "editor": {
+            "version": "1.0.70"
+        }
+    }
+}

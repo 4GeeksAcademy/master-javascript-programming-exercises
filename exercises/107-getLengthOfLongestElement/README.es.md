@@ -1,12 +1,13 @@
 # `107` getLengthOfLongestElement
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getLengthOfLongestElement".
+1. Escribe una función llamada `getLengthOfLongestElement`.
 
-Dado un arreglo, "getLengthOfLongestElement" retorna la longitud del string más largo en el arreglo.
+Dado un arreglo, `getLengthOfLongestElement` retorna la longitud del string más largo en el arreglo.
 
-Notas:
+## :bulb: Pista:
+
 * Deberá retornar 0 si el arreglo esta vacío.
 
 ```Js

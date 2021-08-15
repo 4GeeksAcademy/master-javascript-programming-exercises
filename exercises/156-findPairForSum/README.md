@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Dada una lista de números enteros positivos y un total objetivo, encuentra un par de números que sumen el total objetivo.
+1. Given a list of positive integers and a total objective , find a pair of numbers that add up to the total objective.
 
-Ejemplo :
+E.g. :
  
 ```Js
 var pair = findPairForSum([3, 34, 4, 12, 5, 2], 9);

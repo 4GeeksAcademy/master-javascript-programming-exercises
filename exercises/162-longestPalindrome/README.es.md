@@ -1,13 +1,18 @@
 # `162` longestPalindrome
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Encuentra el palíndromo de la palabra más larga dentro de una frase.
+1. Encuentra el palíndromo de la palabra más larga dentro de una frase.
 
-La implementación requerida para esta clasificación implementa esta estrategia / esquema particular que se ha proporcionado en este caso, por conveniencia. Estúdialo detenidamente para asegurarte de que puedes crear tus propias funciones de clasificación personalizadas más adelante. 
+ Por ejemplo, en el string `My dad is a racecar athlete`, el palíndromo mas largo es `a racecar a`. Cuenta los espacios como caracteres válidos. Otros palíndromos en dicho string pueden ser "dad", "ete", " dad " (incluyendo los espacios a cada lado de la palabra 'dad').
 
-Notas:
+
+## :bulb: Pista:
+
 * Utiliza todas las funciones en el esqueleto.
-* Si hay múltiples palíndromos largos de igual longitud, devuelva el último.
+
+* Si hay múltiples palíndromos de igual longitud, devuelve el último.
+
 * La frase solo contendrá letras (sin símbolos, signos de puntuación o números).
-* La detección de palíndromo debe ser insensible a mayúsculas y minúsculas. 
+
+* Ignora las mayúsculas y minúsculas

@@ -1,13 +1,17 @@
 # `160` isogram
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Un isograma es una palabra que no tiene letras repetidas, consecutivas o no consecutivas.
+1. Un isograma es una palabra que no tiene letras repetidas, consecutivas o no consecutivas.
 
-Escriba y pruebe una función que determine si una string es un isograma.
+Escribe y prueba una función que determine si una string es un isograma.
 
-Notas:
+## :bulb: Pista:
+
 * Supón que tu entrada es solo letras.
+
 * Supón que un string vacío es un isograma.
-* Ignorar mayúsculas y minúsculas.
-* Siga el pseudocódigo exactamente! 
+
+* Ignora mayúsculas y minúsculas.
+
+* Sigue el pseudocódigo exactamente! 

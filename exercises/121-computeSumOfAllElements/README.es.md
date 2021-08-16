@@ -1,10 +1,10 @@
 # `121` computeSumOfAllElements
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "computeSumOfAllElements".
+1. Escribe una función llamada `computeSumOfAllElements`.
 
-Dado una arreglo de numeros, "computeSumOfAllElements"retorna la suma de todos los elementos del arreglo.
+Dado una arreglo de numeros, `computeSumOfAllElements` retorna la suma de todos los elementos del arreglo.
 
 ```Js
 var output = computeSumOfAllElements([1, 2, 3])

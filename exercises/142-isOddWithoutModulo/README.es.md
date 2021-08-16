@@ -1,13 +1,15 @@
 # `142` isOddWithoutModulo
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "isOddWithoutModulo".
+1. Escribe una función llamada `isOddWithoutModulo`.
 
-Dado un número, "isOddWithoutModulo" returna si el número pasado es impar.
+Dado un número, `isOddWithoutModulo` retorna si el número pasado es impar.
 
-Notas:
-* Lo hace sin usar el operador de módulo (%). 
+## :bulb: Pista:
+
+* Lo hace sin usar el operador de módulo (`%`). 
+
 * Debería funcionar para números negativos y cero.
 
 ```Js

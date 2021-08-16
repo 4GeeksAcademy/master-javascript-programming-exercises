@@ -1,14 +1,16 @@
 # `123` getStringLength
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getStringLength".
+1. Escribe una función llamada `getStringLength`.
 
-Dado un string, "getStringLength" retorna la longitud del string.
+Dado un string, `getStringLength` retorna la longitud del string.
 
-Notas:
-* NO uses ningún método nativo de 'length'.
-* Puedes considerar usar 'substring' o 'slice' como alternativas.
+## :bulb: Pista:
+
+* NO uses ningún método nativo de `length`.
+
+* Puedes considerar usar `substring` o `slice` como alternativas.
 
 ```Js
 var output = getStringLength('hello');

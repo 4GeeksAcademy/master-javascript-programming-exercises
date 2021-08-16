@@ -1,10 +1,10 @@
 # `136` repeatString
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "repeatString".
+1. Escribe una función llamada `repeatString`.
 
-Dada un string y un número, "repeatString" retorna el string dado tantas veces como el número dado.
+Dada un string y un número, `repeatString` retorna el string dado tantas veces como el número dado.
 
 ```Js
 var output = repeatString('code', 3);

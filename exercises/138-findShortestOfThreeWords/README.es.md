@@ -1,13 +1,14 @@
 # `138` findShortestOfThreeWords
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "findShortestOfThreeWords".
+1. Escribe una función llamada `findShortestOfThreeWords`.
 
-Dadas 3 string, "findShortestOfThreeWords" regresa el string más corto de los string dados.
+Dadas 3 strings, `findShortestOfThreeWords` regresa el string más corto de los string dados.
 
-Notas:
-* Si tienen el mismo largo, debe retornar la primera palabra en la lista de parámetros..
+## :bulb: Pista:
+
+* Si tienen el mismo largo, debe retornar la primera palabra en la lista de parámetros.
 
 ```Js
 var output = findShortestOfThreeWords('a', 'two', 'three');

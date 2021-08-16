@@ -1,13 +1,15 @@
 # `143` isEvenWithoutModulo
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "isEvenWithoutModulo".
+Escribe una función llamada `isEvenWithoutModulo`.
 
-Dado un número, "isEvenWithoutModulo" retorna si es par. 
+Dado un número, `isEvenWithoutModulo` retorna si es par. 
 
-Notas:
-* Lo hace sin usar el operador de módulo (%). 
+## :bulb: Pista:
+
+* Lo hace sin usar el operador de módulo (`%`). 
+
 * Debería funcionar para números negativos y cero.
 
 ```Js

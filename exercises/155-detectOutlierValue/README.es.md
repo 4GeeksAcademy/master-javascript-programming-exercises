@@ -1,13 +1,16 @@
 # `155` detectOutlierValue
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Dado un string de números pares e impares, encuentra cuál es el único número par o el único número impar.
+1. Declare una función llamada `detectOutlierValue`.
 
-El valor de retorno debe estar indexado en 1, no indexado en 0. (1-indexed, not 0-indexed.)
+2. La función acepta el parámetro llamado `string`, cuyo valor de argumento será `string`.
+
+3. Cuando se llama a la función, el valor devuelto debe estar indexado en 1, no en 0. (1-indexed, not indexed 0)
 
 Ejemplo:
 ```js
 detectOutlierValue("2 4 7 8 10"); // => 3 - tercer numero es impar, mientras que el resto de los números son pares
+
 detectOutlierValue("1 10 1 1");  //=> 2 - Segundo numero es par, mientras que el resto de los números son impares
 ```

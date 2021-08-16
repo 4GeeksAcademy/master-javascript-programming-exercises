@@ -1,13 +1,14 @@
 # `141` multiply
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "multiply".
+1. Escribe una función llamada `multiply`.
 
-Dado 2 numeros enteros, "multiply" retorna su producto.
+Dado 2 numeros enteros, `multiply` retorna su producto.
 
-Notas:
-* No debe usar el operador de multiplicación  (*).\
+## :bulb: Pista:
+
+* No debes usar el operador de multiplicación  (`*`)
 
 ```Js
 var output = multiply(4, 7);

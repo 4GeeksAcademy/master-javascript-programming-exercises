@@ -1,13 +1,15 @@
 # `130` getLongestWordOfMixedElements
 
-## 📝 Instrucciones
+## 📝 Instrucciones: 
 
-Escribe una función llamada "getLongestWordOfMixedElements".
+1. Escribe una función llamada `getLongestWordOfMixedElements`.
 
-Dado un arreglo de elementos mixtos, "getLongestWordOfMixedElements" retorna el string más largo en el arreglo.
+Dado un arreglo de elementos mixtos, `getLongestWordOfMixedElements` retorna el string más largo en el arreglo.
 
-Notas:
-* Si el arreglo está vacía, debería retornar un string vacío ("").
+## :bulb: Pista:
+
+* Si el arreglo está vacía, debería retornar un string vacío(“”). 
+
 * Si el arreglo no contiene string; debería retornar un string vacío.
 
 ```Js

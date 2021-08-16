@@ -1,10 +1,11 @@
-# `163` Fashion Inventory A
+# `163` FashionInventoryA
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Tienes un catálogo de moda, un inventario de artículos de varios diseñadores de alta costura. Cada diseñador tiene una línea de zapatos. Cada zapato tiene un nombre y un precio.
+1. Tienes un catálogo de moda, un inventario de artículos de varios diseñadores de alta costura. Cada diseñador tiene una línea de zapatos. Cada zapato tiene un nombre y un precio.
 
 Se parece a esto: 
+
 ```Js
 var currentInventory = [
   {
@@ -25,7 +26,8 @@ var currentInventory = [
   }
 ];
 ```
- Busca todos los zapatos en todos los diseñadores y listalos en un arreglo de arreglos con este formato: 
+ Busca todos los zapatos de todos los diseñadores y listalos en un arreglo de arreglos con este formato: 
+
 ```Js
 [[nombre diseñador, nombre zapato, precio], [nombre diseñador, nombre zapato, precio], ....]
 ```

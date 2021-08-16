@@ -1,12 +1,13 @@
 # `137` getLongestOfThreeWords
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getLongestOfThreeWords".
+1. Escribe una función llamada `getLongestOfThreeWords`.
 
-Dadas 3 palabras, "getLongestOfThreeWords" retorna la más larga de las tres palabras.
+Dadas 3 palabras, `getLongestOfThreeWords` retorna la más larga de las tres palabras.
 
-Notas:
+## :bulb: Pista:
+
 * Si tienen el mismo largo, debería retornar la primera palabra del empate.
 
 ```Js

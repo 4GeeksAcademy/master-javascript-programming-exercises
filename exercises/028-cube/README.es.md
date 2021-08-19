@@ -1,9 +1,8 @@
 # `28` Cube
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "cube".
-
+1. Escribe una función llamada `cube`.
 
 Dado un número, "cube" retorna el cubo de ese número.
 

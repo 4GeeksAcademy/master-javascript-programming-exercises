@@ -1,4 +1,6 @@
 # Hola Mundo
+
+## :pencil: Instrucciones:
  
-Empezemos por lo más sencillo, usa el `console.log` para imprimir "Hola Mundo" en la consola.
+1. Empezemos por lo más sencillo, usa el `console.log` para imprimir "Hola Mundo" en la consola.
 

@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones
 
-Escribe una función llamada "getLengthOfTwoWords".
+1. Escribe una función llamada `getLengthOfTwoWords`.
 
-Dado dos palabras, "getLengthOfTwoWords" retorna la suma de sus letras.
+Dado dos palabras, `getLengthOfTwoWords` retorna la *suma* de sus letras.
 
 ```Javascript
 var output = getLengthOfTwoWords('some', 'words');

@@ -7,6 +7,8 @@ test('Function "isEitherEvenOrAreBoth7" must exist', () => {
 
 test('Function must return parameter true or false if is even or is both are 7', () => {
     const isEitherEvenOrAreBoth7 = rewire('./app.js').__get__("isEitherEvenOrAreBoth7");
+    
+    let output =false;
 
     output = isEitherEvenOrAreBoth7(3, 7);
     expect(output).toBe(false)

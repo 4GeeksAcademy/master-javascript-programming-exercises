@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones
 
-Escribe una función llamada "isOddLength".
+1. Escribe una función llamada `isOddLength`.
 
-Dado una palabra, "isOddLength" retorna si la cantidad de letras que tiene la palabra es impar.
+Dado una palabra, `isOddLength` retorna si la cantidad de letras que tiene la palabra es impar.
 
 ```Javascript
 var output = isOddLength('special');

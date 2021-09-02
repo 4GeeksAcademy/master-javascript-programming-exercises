@@ -2,9 +2,9 @@
 
 ## 📝 Instructions
 
-Write a function called "isEvenAndGreaterThanTen".
+1. Write a function called `isEvenAndGreaterThanTen`.
 
-Given a number, "isEvenAndGreaterThanTen" returns whether it is both even and greater than 10.
+Given a number, `isEvenAndGreaterThanTen` returns whether it is both even and greater than `10`.
 
 ```Javascript
 var output = isEvenAndGreaterThanTen(13);

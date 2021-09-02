@@ -1,10 +1,10 @@
 # `18` isEven
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "isEven".
+1. Write a function called `isEven`.
 
-Given a number, "isEven" returns whether it is even.
+Given a number, `isEven` returns whether it is even.
 
 ```Javascript
 var output = isEven(11);

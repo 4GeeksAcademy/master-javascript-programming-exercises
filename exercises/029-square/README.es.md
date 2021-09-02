@@ -1,10 +1,10 @@
 # `29` square
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "square".
+1. Escribe una función llamada `square`.
 
-Dado un número, "square" retorna el cuadrado de dicho número.
+Dado un número, `square` retorna el cuadrado de dicho número.
 
 ```Javascript
 var output = square(5);

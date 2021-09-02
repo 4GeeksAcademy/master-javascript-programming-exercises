@@ -2,9 +2,9 @@
 
 ## 📝 Instructions 
 
-Write a function called "getProperty".
+1. Write a function called `getProperty`.
 
-Given an object and a key, "getProperty" returns the value of the property at the given key. 
+Given an object and a key, `getProperty` returns the value of the property at the given key. 
 
 ```Javascript
 var car = {
@@ -16,4 +16,4 @@ console.log(output); // --> 'value'
 
 ## 💡 Hint
 
-If there is no property at the given key, it should return undefined.
+1. If there is no property at the given key, it should return `undefined`.

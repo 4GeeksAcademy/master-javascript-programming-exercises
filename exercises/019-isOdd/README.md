@@ -2,9 +2,9 @@
 
 ## 📝 Instruction
 
-Write a function called "isOdd".
+1. Write a function called `isOdd`.
 
-Given a number, "isOdd" returns whether the given number is odd.
+Given a number, `isOdd` returns whether the given number is odd.
 
 ```Javascript
 var output = isOdd(9);

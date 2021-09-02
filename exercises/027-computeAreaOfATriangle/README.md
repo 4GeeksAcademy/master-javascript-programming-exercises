@@ -1,10 +1,10 @@
 # `27` computeAreaOfATriangle
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "computeAreaOfATriangle".
+1. Write a function called `computeAreaOfATriangle`.
 
-Given the base and height of a triangle, "computeAreaOfATriangle" returns its area.
+Given the base and height of a triangle `computeAreaOfATriangle` returns its area.
 
 ```Javascript
 var output = computeAreaOfATriangle(4, 6);

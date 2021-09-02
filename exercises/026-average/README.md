@@ -1,10 +1,10 @@
 # `26` Average
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "average".
+1. Write a function called `average`.
 
-Given two numbers, "average" returns their average.
+Given two numbers, `average` returns their average.
 
 ```Javascript
 var output = average(4, 6);

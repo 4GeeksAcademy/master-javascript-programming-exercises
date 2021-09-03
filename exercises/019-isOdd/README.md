@@ -1,6 +1,6 @@
 # `19` isOdd
 
-## 📝 Instruction
+## 📝 Instructions:
 
 1. Write a function called `isOdd`.
 

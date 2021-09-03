@@ -1,6 +1,6 @@
 # `08` checkAge
 
-## 📝 Instructions 
+## 📝 Instructions: 
 
 Write a function called "checkAge". 
 

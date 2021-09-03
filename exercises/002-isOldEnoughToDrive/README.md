@@ -1,6 +1,6 @@
 # `02` isOldEnoughToDrive
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Write a function called `isOldEnoughToDrive`.
 
@@ -11,6 +11,6 @@ var output = isOldEnoughToDrive(22);
 console.log(output); // --> true
 ```
 
-## 💡 Hint
+## 💡 Hint:
 
 1. The legal driving age in the United States is 16.

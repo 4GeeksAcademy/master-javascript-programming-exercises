@@ -1,6 +1,6 @@
 # `09` getFullName
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `getFullName`.
 
@@ -9,3 +9,4 @@ Dado un nombre y un apellido, `getFullName` retorna un string con el nombre y ap
 ```Javascript
 var output = getFullName('Joe', 'Smith');
 console.log(output); // --> 'Joe Smith'
+```

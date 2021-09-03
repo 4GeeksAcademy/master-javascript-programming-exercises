@@ -1,6 +1,6 @@
 # `04` isOldEnoughToDrinkAndDrive
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `isOldEnoughToDrinkAndDrive`.
 
@@ -11,7 +11,7 @@ var output = isOldEnoughToDrinkAndDrive(22);
 console.log(output); // --> false
 ```
 
-## 💡 Pista
+## 💡 Pista:
 
 + La edad legal para poder beber en los Estados Unidos es de 21 años.
 

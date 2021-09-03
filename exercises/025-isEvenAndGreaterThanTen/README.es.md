@@ -9,5 +9,5 @@ Dado un número, `isEvenAndGreaterThanTen` retorna si el número es par y mayor 
 
 ```Javascript
 var output = isEvenAndGreaterThanTen(13);
-console.log(output); // --> falso
+console.log(output); // --> false
 ```

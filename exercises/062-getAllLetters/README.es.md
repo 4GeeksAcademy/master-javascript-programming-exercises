@@ -1,12 +1,12 @@
 # `62` getAllLetters
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getAllLetters".
+1. Escribe una función llamada `getAllLetters`.
 
-Dada una palabra, "getAllLetters" regresa un arreglo que contenga todos los caracteres de la palabra. 
+Dada una palabra, `getAllLetters` regresa un arreglo que contenga todos los caracteres de la palabra. 
+## :bulb: Pista:
 
-Notas:
 * Si se da un string vacío, debe regresar un arreglo vacío.
 
 ```Javascript

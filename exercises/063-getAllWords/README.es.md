@@ -1,12 +1,12 @@
 # `63` getAllWords
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getAllWords".
+1. Escribe una función llamada `getAllWords`.
 
-Dada una oración, "getAllWords" regresa un arreglo que contenga cada palabra de la oración. 
+Dada una oración, `getAllWords` regresa un arreglo que contenga cada palabra de la oración. 
+## :bulb: Pista:
 
-Notas:
 * Si se da un string vacío, debe regresar un arreglo vacío.
 
 ```Javascript

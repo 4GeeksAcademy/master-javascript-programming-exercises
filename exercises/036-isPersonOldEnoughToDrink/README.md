@@ -1,12 +1,13 @@
 # `36` isPersonOldEnoughToDrink
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called “isPersonOldEnoughToDrink”.
+Write a function called `isPersonOldEnoughToDrink`.
 
-Given a “person” object, that contains an “age” property, “isPersonOldEnoughToDrink” returns whether the given person is old enough to drink.
+Given a `person` object, that contains an `age` property, `isPersonOldEnoughToDrink` returns whether the given person is old enough to drink.
 
-Notes:
+## :bulb: Hint:
+
 * The legal drinking age in the United States is 21.
 
 

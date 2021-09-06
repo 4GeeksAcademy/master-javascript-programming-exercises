@@ -1,10 +1,10 @@
 # `69` removeNumbersLargerThan
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "removeNumbersLargerThan".
+1. Escribe una función llamada `removeNumbersLargerThan`.
 
-Dado un número y un objeto, "removeNumbersLargerThan"  elimina cualquier propiedad cuyos valores sean números mayores que el número dado.
+Dado un número y un objeto, `removeNumbersLargerThan`  elimina cualquier propiedad cuyos valores sean números mayores que el número dado.
 
 ```Javascript
 var obj = {

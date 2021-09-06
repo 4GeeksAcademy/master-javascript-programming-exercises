@@ -1,13 +1,14 @@
 # `39` getFirstElement
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called “getFirstElement”.
+Write a function called `getFirstElement`.
 
-Given an array, “getFirstElement” returns the first element of the given array.
+Given an array, `getFirstElement` returns the first element of the given array.
 
-Notes:
-* If the given array has a length of 0, it should return undefined.
+## :bulb: Pista:
+
+* If the given array has a length of 0, it should return `undefined`.
 
 
 ```Javascript

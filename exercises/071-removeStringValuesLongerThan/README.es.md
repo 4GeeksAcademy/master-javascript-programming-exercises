@@ -1,10 +1,10 @@
 # `71` removeStringValuesLongerThan
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "removeStringValuesLongerThan".
+Escribe una función llamada `removeStringValuesLongerThan`.
 
-Dado un número y un objeto, "removeStringValuesLongerThan" elimina cualquier propiedad en el objeto dado cuyos valores son strings más largas que el número dado.
+Dado un número y un objeto, `removeStringValuesLongerThan` elimina cualquier propiedad en el objeto dado cuyos valores son strings más largas que el número dado.
 
 ```Javascript
 var obj = {

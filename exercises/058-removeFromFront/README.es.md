@@ -1,13 +1,14 @@
 # `58` removeFromFront
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "removeFromFront".
+1. Escribe una función llamada `removeFromFront`.
 
-Dado un arreglo, "removeFromFront" regresa el arreglo con su primer elemento eliminado.
+Dado un arreglo, `removeFromFront` regresa el arreglo con su primer elemento eliminado.
 
-Notas:
-* Deberías estar familiarizado con el métedo 'shift'.
+## :bulb: Pista:
+
+* Deberías estar familiarizado con el métedo `shift`.
 
 ```Javascript
 var output = removeFromFront([1, 2, 3]);

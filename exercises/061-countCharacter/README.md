@@ -1,10 +1,10 @@
 # `61` countCharacter
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called “countCharacter”.
+1. Write a function called `countCharacter`.
 
-Given a string input and a character, “countCharacter” returns the number of occurences of a given character in the given string.
+Given a string input and a character, `countCharacter` returns the number of occurences of a given character in the given string.
 
 
 ```Javascript

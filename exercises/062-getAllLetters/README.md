@@ -1,12 +1,13 @@
 # `62` getAllLetters
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "getAllLetters".
+1. Write a function called `getAllLetters`.
 
-Given a word, "getAllLetters" returns an array containing every character in the word. 
+Given a word, `getAllLetters` returns an array containing every character in the word. 
 
-Notes:
+## :bulb: Hint:
+
 * If given an empty string, it should return an empty array.
 
 ```Javascript

@@ -1,10 +1,10 @@
 # `70` removeNumbersLessThan
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "removeNumbersLessThan".
+Write a function called `removeNumbersLessThan`.
 
-Given a number and an object, "removeNumbersLessThan" removes any property whose values are numbers less than the given number.
+Given a number and an object, `removeNumbersLessThan` removes any property whose values are numbers less than the given number.
 
 
 ```Javascript

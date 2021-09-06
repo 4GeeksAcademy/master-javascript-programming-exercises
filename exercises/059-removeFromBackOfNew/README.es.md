@@ -1,12 +1,14 @@
 # `59` removeFromBackOfNew
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "removeFromBackOfNew".
+1. Escribe una función llamada `removeFromBackOfNew`.
 
-Dado un arreglo, "removeFromBackOfNew" regresa un nuevo arreglo que contenga a todos excepto el último elemento del arreglo dado.
+Dado un arreglo, `removeFromBackOfNew` regresa un nuevo arreglo que contenga a todos excepto el último elemento del arreglo dado.
 
-Notas:* Deberías estar familiarizado con el método 'pop'.
+## :bulb: Pista:
+
+* Deberías estar familiarizado con el método `pop`.
 
 ```Javascript
 var arr = [1, 2, 3];

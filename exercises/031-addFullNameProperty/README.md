@@ -1,6 +1,6 @@
 # `31` addFullNameProperty
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Write a function called `addFullNameProperty`.
 

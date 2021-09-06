@@ -1,12 +1,14 @@
 # `42` addToBack
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "addToBack".
+1. Escribe una función llamada `addToBack`.
 
-Dado un arreglo y un elemento, "addToBack" regresa el arreglo con el elemento añadido al final.
+Dado un arreglo y un elemento, `addToBack` regresa el arreglo con el elemento añadido al final.
 
-Nota: Debería ser el MISMO arreglo, no uno nuevo.
+## :bulb: Pista:
+
++ Debería ser el MISMO arreglo, no uno nuevo.
 
 ```Javascript
 var output = addToBack([1, 2], 3);

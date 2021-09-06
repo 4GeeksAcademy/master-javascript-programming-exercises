@@ -1,13 +1,14 @@
 # `60` removeFromFrontOfNew
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "removeFromFrontOfNew".
+1. Write a function called `removeFromFrontOfNew`.
 
-Given an array, "removeFromFrontOfNew" returns a new array containing all but the first element of the given array.
+Given an array, `removeFromFrontOfNew` returns a new array containing all but the first element of the given array.
 
-Notes:
-* You should be familiar with the 'shift' method.
+## :bulb: Hint:
+
+* You should be familiar with the `shift` method.
 
 
 ```Javascript

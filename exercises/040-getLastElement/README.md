@@ -1,19 +1,18 @@
 # `40` getLastElement
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called “getLastElement”.
+1. Write a function called `getLastElement`.
 
-Given an array, “getLastElement” returns the last element of the given array.
+Given an array, `getLastElement` returns the last element of the given array.
 
-Notes:
-* If the given array has a length of 0, it should return ‘undefined’.
+If the given array has a length of 0, it should return `undefined`.
 
 ```Javascript
 var output = getLastElement([1, 2, 3, 4]);
 console.log(output); // --> 4
 ```
 
-💡 Hint:
+## 💡 Hint:
 
-The last position in any array is: `length - 1`
++ The last position in any array is: `length - 1`

@@ -1,13 +1,13 @@
 # `59` removeFromBackOfNew
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "removeFromBackOfNew".
+1. Write a function called `emoveFromBackOfNew`.
 
-Given an array, "removeFromBackOfNew" returns a new array containing all but the last element of the given array.
+Given an array, `removeFromBackOfNew` returns a new array containing all but the last element of the given array.
+## :bulb: Hint:
 
-Notes:
-* You should be familiar with the 'pop' method.
+* You should be familiar with the `pop` method.
 
 ```Javascript
 var arr = [1, 2, 3];

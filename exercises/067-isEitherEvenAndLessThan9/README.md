@@ -1,10 +1,10 @@
 # `67` isEitherEvenAndLessThan9
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "isEitherEvenAndLessThan9".
+Write a function called `isEitherEvenAndLessThan9`.
 
-Given 2 numbers, 'isEitherEvenAndLessThan9' returns if any of the parameters ar even or if both are less than 9.
+Given 2 numbers, `isEitherEvenAndLessThan9` returns if any of the parameters ar even or if both are less than 9.
 
 
 ```Javascript

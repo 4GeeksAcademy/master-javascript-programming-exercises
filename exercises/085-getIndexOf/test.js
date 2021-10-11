@@ -11,7 +11,7 @@ test('The funtion must return the first position (index) of the given character 
     let char = 'a';
     let str = 'I am a hacker'
     var output = getIndexOf('a', 'I am a hacker');
-    expect(char).toBe(2);
+    expect(output).toBe(2);
 
 
     char = 'l';

@@ -2,6 +2,8 @@
     "slug": "master-javascript-programming-exercises",
     "duration": 10,
     "difficulty": "easy",
+    "repository": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises",
+    "description": "150 js exercises ideal for those who want to practice javascript object literals, functions and many more js features",
     "video-solutions": true,
     "graded": true,
     "config": {

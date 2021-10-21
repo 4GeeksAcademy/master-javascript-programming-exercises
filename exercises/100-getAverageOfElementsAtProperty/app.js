@@ -1,5 +1,5 @@
-// function getAverageOfElementsAtProperty(obj, key) {
+function getAverageOfElementsAtProperty(obj, key) {
   // your code here
-// }
+}
 
 

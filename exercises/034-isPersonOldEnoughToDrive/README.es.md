@@ -1,12 +1,13 @@
 # `34` isPersonOldEnoughToDrive
 
-## 📝 Instructions
+## 📝 Instrucciones:
 
-Escribe una función llamada "isPersonOldEnoughToDrive".
+Escribe una función llamada `isPersonOldEnoughToDrive`.
 
-Dado un objeto "persona", que contiene una propiedad "edad", "isPersonOldEnoughToDrive" devuelve si la persona dada tiene la edad suficiente para conducir.
+Dado un objeto `persona`, que contiene una propiedad `age`(edad), `isPersonOldEnoughToDrive` devuelve si la persona dada tiene la edad suficiente para conducir.
 
-Notas: * La edad legal para conducir en los Estados Unidos es de 16 años.
+
+ * La edad legal para conducir en los Estados Unidos es de 16 años.
 
 ```Javascript
 var obj = {

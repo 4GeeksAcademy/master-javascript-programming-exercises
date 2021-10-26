@@ -2,9 +2,9 @@
 
 ## 📝 Instructions
 
-Write a function called "isOddLength".
+1. Write a function called `isOddLength`.
 
-Given a word, "isOddLength" returns whether the length of the given word is odd.
+Given a word, `isOddLength` returns whether the length of the given word is odd.
 
 ```Javascript
 var output = isOddLength('special');

@@ -1,12 +1,14 @@
 # `81` addToFrontOfNew
 
-## 📝 Instructions 
+## 📝 Instructions: 
 
-Write a function called "addToFrontOfNew".
+1. Write a function called `addToFrontOfNew`.
 
-Given an array and an element, "addToFrontOfNew" returns a new array containing all the elements of the given array, with the given element added to the front.
+Given an array and an element, `addToFrontOfNew` returns a new array containing all the elements of the given array, with the given element added to the front.
 
-Important: It should be a NEW array instance, not the original array instance.
+## :mag_right: Important:
+
++ It should be a NEW array instance, not the original array instance.
 
 ```js
 var input = [1, 2];

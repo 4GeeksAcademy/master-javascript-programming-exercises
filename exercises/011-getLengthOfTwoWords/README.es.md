@@ -1,6 +1,6 @@
 # `11` getLengthOfTwoWords
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `getLengthOfTwoWords`.
 

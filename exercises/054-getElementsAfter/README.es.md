@@ -1,10 +1,10 @@
 # `54` getElementsAfter
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getElementsAfter".
+1. Escribe una función llamada `getElementsAfter`.
 
-Dado un arreglo y un índice, "getElementsAfter" regresa un nuevo arreglo con todos los elementos que estén después (pero sin incluir) el índice dado.
+Dado un arreglo y un índice (index), `getElementsAfter` regresa un nuevo arreglo con todos los elementos que estén después (pero sin incluir) el índice dado.
 
 ```Javascript
 var output = getElementsAfter(['a', 'b', 'c', 'd', 'e'], 2); 

@@ -1,10 +1,10 @@
 # `47` computePerimeterOfACircle
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe la función llamada "computePerimeterOfACircle".
+1. Escribe la función llamada `computePerimeterOfACircle`.
 
-Dado el radio de un círculo, "computePerimeterOfACircle" regresa su perímetro.
+Dado el radio de un círculo, `computePerimeterOfACircle` regresa su perímetro.
 
 ```Javascript
 var output = computePerimeterOfACircle(4);

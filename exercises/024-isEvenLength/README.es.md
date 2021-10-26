@@ -8,5 +8,5 @@ Dado una palabra, `isEvenLength` retorna si la cantidad de letras que tiene la p
 
 ```Javascript
 var output = isEvenLength('wow');
-console.log(output); // --> falso
+console.log(output); // --> false
 ```

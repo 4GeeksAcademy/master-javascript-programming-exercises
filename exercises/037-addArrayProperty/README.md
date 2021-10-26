@@ -1,10 +1,10 @@
 # `37` addArrayProperty
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "addArrayProperty".
+Write a function called `addArrayProperty`.
 
-Given an object, a key, and an array, "addArrayProperty" sets a new property on the object at the given key, with its value set to the given array.
+Given an object, a key, and an array, `addArrayProperty` sets a new property on the object at the given key, with its value set to the given array.
 
 ```Javascript
 var myObj = {};

@@ -1,12 +1,13 @@
 # `41` addToFront
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "addToFront".
+1. Escribe una función llamada `addToFront.
 
-Dado un arreglo y un elemento "addToFront", añade el elemento al frente del arreglo, y regresa el arreglo dado.
+Dado un arreglo y un elemento `addToFront`, añade el elemento al frente del arreglo, y regresa el arreglo dado.
 
-Notas: 
+## :bulb: Pista:
+
 * Debería ser el MISMO arreglo, no uno nuevo.
 
 ```Javascript

@@ -1,10 +1,10 @@
 # `45` computePerimeterOfATriangle
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called “computePerimeterOfATriangle”.
+1. Write a function called `computePerimeterOfATriangle`.
 
-Given 3 sides describing a triangle, “computePerimeterOfATriangle” returns its perimeter.
+Given 3 sides describing a triangle, `computePerimeterOfATriangle` returns its perimeter.
 
 
 ```Javascript

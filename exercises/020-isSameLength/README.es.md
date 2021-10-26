@@ -8,5 +8,5 @@ Dado dos palabras, `isSameLength` retorna si ambas palabras tienen la misma cant
 
 ```Javascript
 var output = isSameLength('words', 'super');
-console.log(output); // --> verdadero
+console.log(output); // --> true
 ```

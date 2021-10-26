@@ -1,12 +1,14 @@
 # `60` removeFromFrontOfNew
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "removeFromFrontOfNew".
+1. Escribe una función llamada `removeFromFrontOfNew`.
 
-Dado un arreglo, "removeFromFrontOfNew" regresa un nuevo arreglo que contenga todos los elementos menos el primero del arreglo dado. 
+Dado un arreglo, `removeFromFrontOfNew` regresa un nuevo arreglo que contenga todos los elementos menos el primero del arreglo dado. 
 
-Notas:* Debes estar familiarizado con el método 'shift'
+## :bulb: Pista: 
+
+* Debes estar familiarizado con el método `shift`.
 
 ```Javascript
 var arr = [1, 2, 3];

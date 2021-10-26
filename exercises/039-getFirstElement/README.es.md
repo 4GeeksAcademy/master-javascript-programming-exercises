@@ -1,13 +1,14 @@
 # `39` getFirstElement
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getFirstElement".
+Escribe una función llamada `getFirstElement`.
 
-Dado un arreglo, "getFirstElement" regresa el primer elemento del arreglo.
+Dado un arreglo, `getFirstElement` regresa el primer elemento del arreglo.
 
-Notas:
-* Si la longitud del arreglo dado es 0, debería regresar undefined.
+## :bulb: Pista:
+
+* Si la longitud del arreglo dado es 0, debería regresar `undefined`.
 
 ```Javascript
 var output = getFirstElement([1, 2, 3, 4, 5]);

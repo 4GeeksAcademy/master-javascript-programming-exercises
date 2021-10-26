@@ -1,12 +1,14 @@
 # `82` addToBackOfNew
 
-## 📝 Instrucciones 
+## 📝 Instrucciones: 
 
-Escribe una función llamada "addToBackOfNew".
+1. Escribe una función llamada `addToBackOfNew`.
 
-Dado un array y un elemento, "addToBackOfNew" retorna un clon de ese array dado con el elemento añadido al final.
+Dado un array y un elemento, `addToBackOfNew` retorna un clon de ese array dado con el elemento añadido al final.
 
-Importante: Debería ser una NUEVA instancia del array y la instancia original del array. 
+## :mag_right: Importante
+
+ Debería ser una NUEVA instancia del array y la instancia original del array. 
 
 ```js
 var input = [1, 2];

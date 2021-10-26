@@ -1,13 +1,14 @@
 # `58` removeFromFront
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "removeFromFront".
+1. Write a function called `removeFromFront`.
 
-Given an array, "removeFromFront" returns the given array with its first element removed.
+Given an array, `removeFromFront` returns the given array with its first element removed.
 
-Notes:
-* You should be familiar with the method 'shift'.
+## :bulb: Hint:
+
+* You should be familiar with the method `shift`.
 
 
 ```Javascript

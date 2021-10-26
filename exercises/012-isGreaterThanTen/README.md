@@ -1,6 +1,6 @@
 # `12` isGreaterThanTen
 
-## 📝 Instructions 
+## 📝 Instructions: 
 
 1. Write a function called `isGreaterThanTen`.
 

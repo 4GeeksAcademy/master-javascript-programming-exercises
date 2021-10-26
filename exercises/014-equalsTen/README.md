@@ -1,6 +1,6 @@
 # `14` equalsTen
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Write a function called `equalsTen`.
 

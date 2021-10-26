@@ -1,10 +1,10 @@
 # `75` removeArrayValues
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "removeArrayValues".
+1. Write a function called `removeArrayValues`.
 
-Given an object, "removeArrayValues" removes any properties whose values are arrays.
+Given an object, `removeArrayValues` removes any properties whose values are arrays.
 
 
 ```Javascript

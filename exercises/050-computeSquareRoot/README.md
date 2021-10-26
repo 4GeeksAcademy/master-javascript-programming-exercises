@@ -1,10 +1,10 @@
 # `50` computeSquareRoot
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "computeSquareRoot".
+1. Write a function called `computeSquareRoot`.
 
-Given a number, "computeSquareRoot" returns its square root.
+Given a number, `computeSquareRoot` returns its square root.
 
 ```Javascript
 var output = computeSquareRoot(9);

@@ -1,13 +1,14 @@
 # `64` removeFromBack
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "removeFromBack".
+1. Escribe una función llamada `removeFromBack`.
 
-Dado un arreglo, "removeFromBack" regresa el arreglo con su último elemento eliminado.
+Dado un arreglo, `removeFromBack` regresa el arreglo con su último elemento eliminado.
 
-Notas:
-* Debes estar familiarizado con el método 'pop'.
+## :bulb: Pista:
+
+* Debes estar familiarizado con el método `pop`.
 
 ```Javascript
 var output = removeFromBack([1, 2, 3]);

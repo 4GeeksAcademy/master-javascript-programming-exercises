@@ -1,12 +1,14 @@
 # `64` removeFromBack
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Wirte a function called "removeFromBack".
+1. Write a function called `removeFromBack`.
 
-Given an array, "removeFromBack" returns the array with its last element removed.
+Given an array, `removeFromBack"` returns the array with its last element removed.
 
-You should be familiar with the 'pop' method
+## :bulb: Hint:
+
+You should be familiar with the `pop` method
  
 ```Javascript
 var output = removeFromBack([1, 2, 3]);

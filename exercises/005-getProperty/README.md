@@ -1,6 +1,6 @@
 # `05` getProperty
 
-## 📝 Instructions 
+## 📝 Instructions: 
 
 1. Write a function called `getProperty`.
 
@@ -14,6 +14,6 @@ var output = getProperty(car, 'model');
 console.log(output); // --> 'value'
 ```
 
-## 💡 Hint
+## 💡 Hint:
 
 1. If there is no property at the given key, it should return `undefined`.

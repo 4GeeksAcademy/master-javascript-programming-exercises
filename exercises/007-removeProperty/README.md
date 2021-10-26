@@ -1,6 +1,6 @@
 # `07` removeProperty
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Write a function called `removeProperty`.
 

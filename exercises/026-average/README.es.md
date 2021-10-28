@@ -1,6 +1,6 @@
 # `26` Average
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `average`.
 

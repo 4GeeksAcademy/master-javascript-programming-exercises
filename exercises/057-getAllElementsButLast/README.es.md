@@ -1,10 +1,10 @@
 # `57` getAllElementsButLast
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getAllElementsButLast".
+1. Escribe una función llamada `getAllElementsButLast`.
 
-Dado un arreglo, "getAllElementsButLast" regresa un arreglo con todos los elementos excepto el último.
+Dado un arreglo, `getAllElementsButLast` regresa un arreglo con todos los elementos excepto el último.
 
 ```Javascript
 var input = [1, 2, 3, 4];

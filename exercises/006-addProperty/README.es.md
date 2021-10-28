@@ -1,15 +1,15 @@
 # `06` addProperty
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `addProperty`.
 
-Dado un objeto y una key, `addProperty` establece una nueva propiedad en ese objeto saso con un valor verdadero.
+Dado un objeto y una key, `addProperty` establece un valor `true`.
 
-Luego. lafunción tiene que devolver el objeto.
+Luego. la función tiene que devolver el objeto.
 
 ```Javascript
 var myObj = {};
 addProperty(myObj, 'myProperty');
-console.log(myObj.myProperty); // --> verdadero
+console.log(myObj.myProperty); // --> true(verdadero)
 ```

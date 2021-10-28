@@ -8,4 +8,5 @@ Dado 2 números, `isGreaterThan` retrona si `num2` es mayor que `num1`.
 
 ```Javascript
 var output = isGreaterThan(11, 10);
-console.log(output); // --> falso
+console.log(output); // --> false
+```

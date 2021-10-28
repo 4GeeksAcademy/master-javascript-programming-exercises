@@ -1,10 +1,10 @@
 # `56` getAllElementsButFirst
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "getAllElementsButFirst".
+1. Escribe una función llamada `getAllElementsButFirst`.
 
-Dado un arreglo, "getAllElementsButFirst" regresa un arreglo con todos los elementos excepto el primero.
+Dado un arreglo, `getAllElementsButFirst` regresa un arreglo con todos los elementos excepto el primero.
 
 ```Javascript
 var input = [1, 2, 3, 4];

@@ -1,10 +1,10 @@
 # `47` computePerimeterOfACircle
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "computePerimeterOfACircle".
+1. Write a function called `computePerimeterOfACircle`.
 
-Given the radius of a circle, "computePerimeterOfACircle" returns its perimeter.
+Given the radius of a circle, `computePerimeterOfACircle` returns its perimeter.
 
 ```Javascript
 var output = computePerimeterOfACircle(4);

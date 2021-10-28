@@ -1,10 +1,10 @@
 # `48` computeAreaOfACircle
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called “computeAreaOfACircle”.
+1. Write a function called `computeAreaOfACircle`.
 
-Given the radius of a circle, “computeAreaOfACircle” returns its area.
+Given the radius of a circle, `computeAreaOfACircle` returns its area.
 
 
 ```Javascript

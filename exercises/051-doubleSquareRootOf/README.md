@@ -2,9 +2,9 @@
 
 ## 📝 Instructions
 
-Write a function called "doubleSquareRootOf".
+1. Write a function called `doubleSquareRootOf`.
 
-Given a number, "doubleSquareRootOf" returns double its square root.
+Given a number, `doubleSquareRootOf` returns double its square root.
 
 ```Javascript
 var output = doubleSquareRootOf(121);

@@ -8,5 +8,5 @@ Dado 2 números, `isEitherEven` retorna si es verdadero o no que uno de los núm
 
 ```Javascript
 var output = isEitherEven(1, 4);
-console.log(output); // --> verdadero
+console.log(output); // --> true (verdadero)
 ```

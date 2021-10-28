@@ -1,10 +1,10 @@
 # `73` countNumberOfKeys
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "countNumberOfKeys".
+1. Write a function called `countNumberOfKeys`.
 
-Given an object, "countNumberOfKeys" returns how many properties the given object has.
+Given an object, `countNumberOfKeys` returns how many properties the given object has.
 
 ```Javascript
 var obj = {

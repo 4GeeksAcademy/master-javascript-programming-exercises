@@ -1,6 +1,6 @@
 # `03` isOldEnoughToVote
 
-## 📝 Insructions
+## 📝 Insructions:
 
 1. Write a function called `isOldEnoughToVote`.
 
@@ -11,6 +11,6 @@ var output = isOldEnoughToVote(22);
 console.log(output); // --> true
 ```
 
-## 💡 Hint
+## 💡 Hint:
 
 + The legal voting age in the United States is 18.

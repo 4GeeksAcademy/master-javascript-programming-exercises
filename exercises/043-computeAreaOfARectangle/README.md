@@ -1,10 +1,10 @@
 # `43` computeAreaOfARectangle
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "computeAreaOfARectangle".
+1. Write a function called `computeAreaOfARectangle`.
 
-Given the length and width of a rectangle, "computeAreaOfARectangle" returns its area.
+Given the length and width of a rectangle `computeAreaOfARectangle` returns its area.
 
 ```Javascript
 var output = computeAreaOfARectangle(4, 8);

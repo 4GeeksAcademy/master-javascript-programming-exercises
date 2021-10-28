@@ -1,12 +1,13 @@
 # `35` isPersonOldEnoughToVote
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "isPersonOldEnoughToVote".
+Escribe una función llamada `isPersonOldEnoughToVote`.
 
-Dado un objeto "persona", que contiene una propiedad "edad", "isPersonOldEnoughToVote" devuelve si la persona dada tiene la edad suficiente para votar.
+Dado un objeto `person`, que contiene una propiedad `age` (edad), `isPersonOldEnoughToVote` devuelve si la persona dada tiene la edad suficiente para votar.
 
-Notas: 
+## :bulb: Pista:
+
 * La edad legal para votar en los Estados Unidos es de 18 años.
 
 ```Javascript

@@ -8,5 +8,5 @@ Dado 2 números, `areBothOdd` si es verdadero o no que ambos números son impare
 
 ```Javascript
 var output = areBothOdd(1, 3);
-console.log(output); // --> verdadero
+console.log(output); // --> true
 ```

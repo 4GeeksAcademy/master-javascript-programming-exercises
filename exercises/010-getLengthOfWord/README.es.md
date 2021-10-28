@@ -1,6 +1,6 @@
 # `10` getLengthOfWord
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `getLengthOfWord`.
 

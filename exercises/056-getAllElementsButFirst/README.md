@@ -1,10 +1,10 @@
 # `56` getAllElementsButFirst
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "getAllElementsButFirst".
+Write a function called `getAllElementsButFirst`.
 
-Given an array, "getAllElementsButFirst" returns an array with all the elements but not the first.
+Given an array, `getAllElementsButFirst` returns an array with all the elements but not the first.
 
 
 ```Javascript

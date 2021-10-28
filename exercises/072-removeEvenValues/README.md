@@ -1,12 +1,14 @@
 # `72` removeEvenValues
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "removeEvenValues".
+1. Write a function called `removeEvenValues`.
 
-Given any object, "removeEvenValues" removes any properties whose values are even numbers.
+Given any object, `removeEvenValues` removes any properties whose values are even numbers.
 
-Do this in place and return the original object, do not construct a cloned object that omits the properties.
+## :mag_right: Important:
+
++ Do this in place and return the original object, do not construct a cloned object that omits the properties.
 
 ```Javascript
 var obj = {
@@ -17,4 +19,7 @@ var obj = {
 removeEvenValues(obj);
 console.log(obj); // --> { b: 3 }
 ```
-Note: Remember, we are talking about any object, not just the one shown in the sample.
+
+## :bulb: Hint:
+
+Remember, we are talking about any object, not just the one shown in the sample.

@@ -1,6 +1,6 @@
 # `09` getFullName
 
-## 📝 Instructions 
+## 📝 Instructions: 
 
 1. Write a function called `getFullName`.
 

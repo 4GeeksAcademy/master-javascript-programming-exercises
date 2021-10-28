@@ -8,7 +8,7 @@ Dado un número, `equalsTen` retorna si el ese número es o no igual a `10`.
 
 ```Javascript
 var output = equalsTen(9);
-console.log(output); // --> falso
+console.log(output); // --> false
 ```
 
 ## 💡 Pista

@@ -1,8 +1,8 @@
 # `20` isSameLength
 
-## 📝 Instructions 
+## 📝 Instructions: 
 
-Write a function called `isSameLength`.
+1. Write a function called `isSameLength`.
 
 Given two words, `isSameLength` returns whether the given words have the same length.
 

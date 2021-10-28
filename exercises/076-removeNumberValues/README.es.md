@@ -1,10 +1,10 @@
 # `76` removeNumberValues
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-Escribe una función llamada "removeNumberValues".
+1. Escribe una función llamada `removeNumberValues`.
 
-Dado un objeto, "removeNumberValues" elimina cualquier propiedad cuyos valores sean números.
+Dado un objeto, `removeNumberValues` elimina cualquier propiedad cuyos valores sean números.
 
 ```Javascript
 var obj = {

@@ -1,6 +1,6 @@
 # `03` isOldEnoughToVote
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `isOldEnoughToVote`.
 
@@ -11,6 +11,6 @@ var output = isOldEnoughToVote(22);
 console.log(output); // --> true
 ```
 
-## 💡 Hint
+## 💡 Hint:
 
 + La edad legal para poder beber en los Estados Unidos es de 18 años.

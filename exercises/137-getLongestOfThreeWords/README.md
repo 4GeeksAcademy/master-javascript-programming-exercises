@@ -6,8 +6,10 @@
 
 Given 3 words, `getLongestOfThreeWords` returns the longest of three words
 
-Notas:
+## 💡 Hint:
+
 * If there is a tie, it should return the first word in the tie.
+## Expected result:
 
 ```Js
 var output = getLongestOfThreeWords('these', 'three', 'words');

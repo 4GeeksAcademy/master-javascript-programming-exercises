@@ -24,7 +24,7 @@ Given a score, `convertScoreToGradeWithPlusAndMinus` returns a string representi
 
 * If the score is between the `8` and `9` (inclusive) of a given range, return the letter with a `+`.
 
-* There are is no `F+` and there is no `F-`.
+* There are no `F+` and no `F-`.
 
 ```js
 var output = convertScoreToGradeWithPlusAndMinus(91);

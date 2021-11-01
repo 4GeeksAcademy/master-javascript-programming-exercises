@@ -1,4 +1,4 @@
-# `146` ArrayToObject[Part-1]
+# `146` ArrayToObject-Part-1
 
 ## 📝 Instructions:
 

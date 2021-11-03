@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones
 
-This exercise is "Fashion Inventory". 
+This exercise is "Fashion Inventory A". 
 
 However, DO NOT paste the code from before. Tackle each problem on your own. 
 

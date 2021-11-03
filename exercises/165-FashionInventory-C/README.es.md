@@ -6,6 +6,7 @@ Esta es una variación del problema del "Fashion Inventory".
 
 Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
 Es la misma estructura de datos de inventario que antes: 
+
 ```JS
 var inventory = [
   {
@@ -26,7 +27,9 @@ var inventory = [
   }
 ];
 ```
- Ahora encuentra todos los zapatos negros. Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos. 
+
+ 1. Ahora encuentra todos los zapatos negros( con el name `black`). Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos. 
+ 
 ```Js
 [
    [Brunello Cucinelli,tasselled black low-top lace-up,1000],

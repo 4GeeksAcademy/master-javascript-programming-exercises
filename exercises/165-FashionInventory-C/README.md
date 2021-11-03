@@ -1,15 +1,15 @@
-# `163` Fashion Inventory A
+# `165` Fashion Inventory C
 
-## 📝 Instructions:
+## 📝 Instrucciones
 
-You have a fashion catalog, an inventory of items from various high-fashion designers.
+This exercise is similar to the  "Fashion Inventory A and B" but, DO NOT paste the code from before.
+
+You have a fashion catalog, an inventory of items from various high fashion designers. 
 
 Each designer has a lineup of shoes. Each shoe has a name and a price.
 
-It looks like this:
- 
-```js
-var currentInventory = [
+```JS
+var inventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -29,18 +29,13 @@ var currentInventory = [
 ];
 ```
 
-1. Look up all the shoes across all the designers and list them out in a array of array with format:
+ Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them in a flat list, similar to part A.
 
-```js
-[[designer name, shoe name, price], [designer name. shoe name, price], ....]
-```
-
-## Example output:
-
+ ## Example output:
+ 
 ```Js
 [
-  [Brunello Cucinelli, tasselled black low-top lace-up, 1000],
-  [Brunello Cucinelli, tasselled green low-top lace-up, 1100],
-...
+   [Brunello Cucinelli,tasselled black low-top lace-up,1000],
+   [Gucci,black leather laced sneakers,900]
 ]
 ```

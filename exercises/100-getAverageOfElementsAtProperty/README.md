@@ -6,7 +6,7 @@
 
 Given an object and a key, `getAverageOfElementsAtProperty` returns the average of all the elements in the array located at the given key. 
 
-## Hint :bulb::
+## 💡 Hint:
 
 * If the array at the given key is empty, it should return `0`.
 
@@ -14,6 +14,7 @@ Given an object and a key, `getAverageOfElementsAtProperty` returns the average 
 
 * If there is no property at the given key, it should return `0`.
 
+## Expected result:
 
 ```js
 var obj = {

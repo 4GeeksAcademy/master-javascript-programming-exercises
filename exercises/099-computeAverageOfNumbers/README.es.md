@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones 
 
-1, Escribe una función llamada `computeAverageOfNumbers`.
+1. Escribe una función llamada `computeAverageOfNumbers`.
 
 Dado un array de números, `computeAverageOfNumbers` retorna su promedio. 
 

@@ -2,12 +2,14 @@
 
 ## 📝 Instrucciones
 
-Esta es una variación del problema del "Fashion Inventory".
+This exercise is similar to the  "Fashion Inventory A and B" but, DO NOT paste the code from before.
 
-Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
-Es la misma estructura de datos de inventario que antes: 
+You have a fashion catalog, an inventory of items from various high fashion designers. 
 
-```js
+Each designer has a lineup of shoes. Each shoe has a name and a price.
+
+```JS
+
 var inventory = [
   {
     name: 'Brunello Cucinelli',
@@ -27,7 +29,11 @@ var inventory = [
   }
 ];
 ```
- Ahora encuentra todos los zapatos negros. Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos. 
+
+ Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them in a flat list, similar to part A.
+
+ ## Example output:
+ 
 ```Js
 [
    [Brunello Cucinelli,tasselled black low-top lace-up,1000],

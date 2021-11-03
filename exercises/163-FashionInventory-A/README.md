@@ -1,11 +1,14 @@
 # `163` Fashion Inventory A
 
-## 📝 Instrucciones
+## 📝 Instructions:
 
-Tienes un catálogo de moda, un inventario de artículos de varios diseñadores de alta costura. Cada diseñador tiene una línea de zapatos. Cada zapato tiene un nombre y un precio.
+You have a fashion catalog, an inventory of items from various high-fashion designers.
 
-Se parece a esto: 
-```Js
+Each designer has a lineup of shoes. Each shoe has a name and a price.
+
+It looks like this:
+ 
+```js
 var currentInventory = [
   {
     name: 'Brunello Cucinelli',
@@ -25,11 +28,15 @@ var currentInventory = [
   }
 ];
 ```
- Busca todos los zapatos en todos los diseñadores y listalos en un arreglo de arreglos con este formato: 
-```Js
-[[nombre diseñador, nombre zapato, precio], [nombre diseñador, nombre zapato, precio], ....]
+
+1. Look up all the shoes across all the designers and list them out in a array of array with format:
+
+```js
+[[designer name, shoe name, price], [designer name. shoe name, price], ....]
 ```
-Ejemplo
+
+## Example output:
+
 ```Js
 [
   [Brunello Cucinelli, tasselled black low-top lace-up, 1000],

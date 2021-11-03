@@ -7,7 +7,8 @@ Esta es una variación del problema del "Fashion Inventory".
 Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
 Es la misma estructura de datos de inventario que antes: 
 
-```JS
+
+```js
 var inventory = [
   {
     name: 'Brunello Cucinelli',

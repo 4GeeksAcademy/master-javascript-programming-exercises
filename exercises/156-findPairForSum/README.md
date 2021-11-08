@@ -1,6 +1,6 @@
 # `156` findPairForSum
 
-## 📝 Instrucciones:
+## 📝 Instructions:
 
 1. Given a list of positive integers and a total objective , find a pair of numbers that add up to the total objective.
 

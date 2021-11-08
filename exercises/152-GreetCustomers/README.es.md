@@ -15,22 +15,24 @@ console.log(output); // --> 'Welcome! Is this your first time?'
 ```
 
 + Caso 2 - Cliente que ha visitado solo una vez (el valor de `visits` es `1`):
+
 ```Js
 var output = greetCustomer('Joe');
 console.log(output); // --> 'Welcome back, Joe! We're glad you liked us the first time!'
 ```
 
 + Caso 3 - Cliente repetido: (el valor de `visits` es mayor que `1`):
+
 ```Js
 var output = greetCustomer('Carol');
 console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 ```
 
-## :bulb; Pista:
+## 💡 Pista:
 
 * Su función no debe alterar el objeto `customerData` para actualizar el número de visitas.
 
-* No programes con los datos de muestra exactos. Es una MALA IDEA :weary: :
+* No programes con los datos de muestra exactos. Es una MALA IDEA 😩 :
 
 ```Js
 if (firstName === 'Joe') {

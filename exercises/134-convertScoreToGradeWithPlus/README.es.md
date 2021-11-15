@@ -24,7 +24,7 @@ Dado una puntaje, `convertScoreToGradeWithPlusAndMinus` returna un string que re
 
 * Si el puntaje está entre `8` y `9` (incluido) de un rango dado, devuelva la letra con un `+`
 
-* No hay `F+` y no hay `F-`.
+* No hay `F+` ni `F-`.
 
 ## Resultado esperado:
 

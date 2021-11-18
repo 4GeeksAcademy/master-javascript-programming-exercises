@@ -1,4 +1,4 @@
-# `150` ObjectToArray[Part-2]
+# `150` ObjectToArray-Part-2
 
 ## 📝 Instructions:
 

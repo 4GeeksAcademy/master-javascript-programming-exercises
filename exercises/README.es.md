@@ -1,4 +1,4 @@
-# `166` Fashion Inventory D
+# `159-4` FashionInventory-D
 
 ## 📝 Instrucciones
 
@@ -6,7 +6,8 @@ Esta es una variación del problema del "Fashion Inventory".
 
 Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
 
-Es la misma estructura de datos de inventario que antes:   
+Es la misma estructura de datos de inventario que antes:  
+
 ```Js
 var inventory = [
   {
@@ -27,9 +28,11 @@ var inventory = [
   }
 ];
 ```
+
  La tarea ahora es encontrar todos los zapatos con cordones ¨laced¨. Escriba los nombres de los zapatos que contengan "lace" e indique qué palabra contiene "lace". 
 
 El formato de salida debe ser algo así:
+
 ```Js
 [
   {

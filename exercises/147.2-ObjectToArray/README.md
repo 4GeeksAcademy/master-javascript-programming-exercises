@@ -1,5 +1,4 @@
-# `147.2
-` ObjectToArray-Part-2
+# `147.2` ObjectToArray-Part-2
 
 ## 📝 Instructions:
 

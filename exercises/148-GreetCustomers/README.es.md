@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-Escribe una función llamada `greetCustomer`.
+1. Escribe una función llamada `greetCustomer`.
 
 Dado un nombre, `greetCustomer` devuelve un saludo en función de cuántas veces ese cliente ha visitado el restaurante. Estudia el objeto `customerData`.
 

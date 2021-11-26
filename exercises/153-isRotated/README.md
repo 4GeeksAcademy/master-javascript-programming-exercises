@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-Is one string a rotated version of another?
+1. Is one string a rotated version of another?
 
 For example:
 

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones
 
-¿Es un string una versión rotada de otro?
+1. ¿Es un string una versión rotada de otro?
 
 ejemplo :
 ```js

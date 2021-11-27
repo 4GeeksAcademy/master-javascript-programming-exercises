@@ -1,12 +1,14 @@
 # `91` countAllCharacters
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "countAllCharacters".
+1. Write a function called "countAllCharacters".
 
 Given a string, "countAllCharacters" returns an object where each key is a character in the given string. The value of each key should be how many times each character appeared in the given string.
 
-Notes:
+
+## 💡 Hint:
+
 * If given an empty string, countAllCharacters should return an empty object.
 
 ```js

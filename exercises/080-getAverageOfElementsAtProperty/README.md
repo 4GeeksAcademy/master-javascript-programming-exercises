@@ -6,7 +6,7 @@
 
 Given an object and a key, `getAverageOfElementsAtProperty` returns the average of all the elements in the array located at the given key. 
 
-## :bulb: Pista:
+## :bulb: Hint:
 
 * If the array at the given key is empty, it should return `0`.
 

@@ -1,12 +1,13 @@
-# `166` Fashion Inventory D
+# `159-4` FashionInventory-D
 
-## 📝 Instrucciones
+## 📝 Instructions:
 
-Esta es una variación del problema del "Fashion Inventory".  
+You have a fashion catalog, an inventory of items from various high-fashion designers.
 
-Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
+Each designer has a lineup of shoes. Each shoe has a name and a price.
 
-Es la misma estructura de datos de inventario que antes:   
+It looks like this:
+
 ```Js
 var inventory = [
   {
@@ -27,9 +28,11 @@ var inventory = [
   }
 ];
 ```
- La tarea ahora es encontrar todos los zapatos con cordones ¨laced¨. Escriba los nombres de los zapatos que contengan "lace" e indique qué palabra contiene "lace". 
 
-El formato de salida debe ser algo así:
+1. The task now is to find the laced shoes but we are going to render them in a somewhat complex format. Your function should return shoe names containing 'lace' in them, and indicates which word contains 'lace'.
+
+The return value's format should be structured like this:
+
 ```Js
 [
   {

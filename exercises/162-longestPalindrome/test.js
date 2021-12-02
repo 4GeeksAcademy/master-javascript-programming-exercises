@@ -21,6 +21,6 @@ test('Function sortAscendingByLength must exist', () => {
 test('The function must returns longest word within a sentence.', () => {
     const findLongestPalindrome = rewire("./app.js").__get__("findLongestPalindrome");
 
+    expect(findLongestPalindrome('My dad is a racecar athlete')).toBe('a racecar a')
     expect(findLongestPalindrome('Madam, i\'m adam')).toBe('Madam')
-    expect(findLongestPalindrome('No lemon, no melon')).toBe('melon')
 });

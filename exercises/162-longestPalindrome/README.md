@@ -12,6 +12,6 @@ Other palindromes in the above string include "dad", "ete", " dad " (including t
 
 * Use every function.
 
-* If there are multiple palindromes with the same lenght, return the last one. 
+* If there are multiple palindromes with the same length, return the last one. 
 
 * It should not be case sensitive.

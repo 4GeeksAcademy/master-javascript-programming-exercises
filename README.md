@@ -1,5 +1,9 @@
 # Master Javascript tutorial at 4Geeks Academy
 
+> 160 exercises about Javascript.
+
+These exercises are not done, please take [these in the mean time](https://repl.it/classroom/invite/8FaFGSO).
+
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-beginner-exercises-tutorial)

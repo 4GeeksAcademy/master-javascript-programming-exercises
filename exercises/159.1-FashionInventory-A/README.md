@@ -1,4 +1,4 @@
-# `159.2` FashionInventory-A
+# `159.1` FashionInventory-A
 
 ## 📝 Instructions:
 

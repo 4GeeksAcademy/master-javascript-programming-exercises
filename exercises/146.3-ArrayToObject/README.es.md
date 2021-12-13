@@ -1,4 +1,4 @@
-# `146.3` ArraytoObject-Part-3
+# `146.3` ArraytoObject
 
 ## 📝 Instrucciones:
 

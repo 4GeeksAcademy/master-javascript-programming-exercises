@@ -27,6 +27,12 @@ test('If the property in the given key is not an array, it should return an empt
     };
     var output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toEqual([])
+
+    obj = {
+        key: {}
+    }
+    output = getSmallestElementAtProperty(obj, 'key')
+    expect(output).toBe([])
 })
 
 test('If there is no property on the key, it should return an empty array.', () => {

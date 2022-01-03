@@ -5,7 +5,7 @@ test('Function getLengthOfLongestElement must exist', () => {
     expect(getLengthOfLongestElement).not.toBe(undefined);
 });
 
-test('Must returns 0 if the array is void.', () => {
+test('Must returns 0 if the array is empty.', () => {
     const getLengthOfLongestElement = rewire("./app.js").__get__("getLengthOfLongestElement");
 
     var output = getLengthOfLongestElement([])

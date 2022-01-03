@@ -14,7 +14,7 @@ test('The function must returns the largest element of the array located in the 
     expect(output).toBe(4)
 })
 
-test('If the array is void, it should return an void array.', () => {
+test('If the array is empty, it should return an empty array.', () => {
     const getLargestElementAtProperty = rewire("./app.js").__get__("getLargestElementAtProperty");
     var obj = {
         key: []

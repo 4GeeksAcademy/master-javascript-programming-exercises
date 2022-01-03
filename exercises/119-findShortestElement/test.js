@@ -18,7 +18,7 @@ test('If there are elements with the same length, then it should return the firs
     expect(findShortestElement(['i', 'was', 'here'])).toBe('i');
 })
 
-test('If array is void must return void string', () => {
+test('If array is empty must return empty string', () => {
     const findShortestElement = rewire('./app.js').__get__("findShortestElement");
 
     var output = findShortestElement([])

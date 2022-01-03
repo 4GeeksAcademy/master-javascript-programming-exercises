@@ -20,7 +20,7 @@ test('The Function must returns an array containing all the squared elements of 
     expect(output).toEqual([100, 1024, 49])
 })
 
-test('If the array is void, it should return an void array.', () => {
+test('If the array is empty, it should return an empty array.', () => {
     const getSquaredElementsAtProperty = rewire("./app.js").__get__("getSquaredElementsAtProperty");
     var obj = {
         key: []

@@ -5,7 +5,7 @@ test('Function getSmallestElementAtProperty must exist', () => {
     expect(getSmallestElementAtProperty).not.toBe(undefined);
 });
 
-test('If the array is void, it should return an void array.', () => {
+test('If the array is empty, it should return an empty array.', () => {
     const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     var obj = {
         key: [2, 1, 5]

@@ -23,7 +23,7 @@ test('Function must returns the product of all elements in the array located at 
     expect(output).toBe(6)
 })
 
-test('If the array is void, it should return 0.', () => {
+test('If the array is empty, it should return 0.', () => {
     const getProductOfAllElementsAtProperty = rewire("./app.js").__get__("getProductOfAllElementsAtProperty");
     var obj = {
         key: []

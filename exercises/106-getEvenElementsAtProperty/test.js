@@ -14,7 +14,7 @@ test('Must returns an array containing all the even elements of the array locate
     expect(output).toEqual([1000, 50])
 })
 
-test('If the array is void, it should return an void array.', () => {
+test('If the array is empty, it should return an empty array.', () => {
     const getEvenElementsAtProperty = rewire("./app.js").__get__("getEvenElementsAtProperty");
     var obj = {
         key: []

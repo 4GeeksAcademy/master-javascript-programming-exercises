@@ -15,7 +15,7 @@ test('If there are strings with the same length, must returns the first element 
     expect(getLongestElement(['1234', 'rocky', 'eerie'])).toBe('rocky');
 })
 
-test('If array is void must return void string ', () => {
+test('If array is empty must return empty string ', () => {
     const getLongestElement = rewire('./app.js').__get__("getLongestElement");
 
     var output = getLongestElement([])

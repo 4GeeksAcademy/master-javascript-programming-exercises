@@ -14,7 +14,7 @@ test('The function must returns an array that contains all but the last element 
     expect(output).toEqual([3, 2])
 })
 
-test('If the array is empty, it should return an void array.', () => {
+test('If the array is empty, it should return an empty array.', () => {
     const getAllButLastElementOfProperty = rewire("./app.js").__get__("getAllButLastElementOfProperty");
     var obj = {
         key: []

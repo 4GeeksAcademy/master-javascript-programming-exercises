@@ -12,7 +12,7 @@ test ('Function must returns the length of the shortest string in the array.', (
     expect(getLengthOfShortestElement(['1234', 'rocky', 'eerie'])).toBe(4);
 })
 
-test('If array is void must return 0', () => {
+test('If array is empty must return 0', () => {
     const getLengthOfShortestElement = rewire('./app.js').__get__("getLengthOfShortestElement");
 
     var output = getLengthOfShortestElement([])

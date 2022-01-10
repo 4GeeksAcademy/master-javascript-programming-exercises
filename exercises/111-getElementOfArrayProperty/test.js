@@ -14,7 +14,7 @@ test('The function must returns the value of an element in the index provided wi
     expect(output).toBe('Vladimir')
 })
 
-test('If the array is void, it should return an void array.', () => {
+test('If the array is empty, it should return an empty array.', () => {
     const getElementOfArrayProperty = rewire("./app.js").__get__("getElementOfArrayProperty");
     var obj = {
         key: []

@@ -6,13 +6,15 @@
 
 Dado un objeto y una key, `getAverageOfElementsAtProperty` regresa el promedio (`average`) de todos los elementos del array localizados en la key dada. 
 
-## :bulb: Pista:
+## 💡 Pista:
 
 * Si el array en la key dada está vacío, debe regresar `0`.
 
 * Si la propiedad en la key dada no es un array, debe regresar `0`.
 
 * Si no hay propiedad en la key dada, debe regresar `0`.
+
+## Resultado esperado:
 
 ```js
 var obj = {

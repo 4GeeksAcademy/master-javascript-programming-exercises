@@ -14,7 +14,7 @@ test('Function must returns the sum of all elements in the array located at the 
     expect(output).toBe(9)
 })
 
-test('If the array is void, it should return 0.', () => {
+test('If the array is empty, it should return 0.', () => {
     const getSumOfAllElementsAtProperty = rewire("./app.js").__get__("getSumOfAllElementsAtProperty");
     var obj = {
         key: []

@@ -4,10 +4,9 @@
 
 1. Escribe una función llamada `convertScoreToGradeWithPlusAndMinus`.
 
-Dada una puntaje, `convertScoreToGradeWithPlusAndMinus` returna un string que representa la calificación de letra correspondiente a la puntuación dada.
+Dado una puntaje, `convertScoreToGradeWithPlusAndMinus` returna un string que representa la calificación de letra correspondiente a la puntuación dada.
 
-
-## :bulb: Pista:
+## 💡 Pista:
 
 * (100 - 90) --> 'A'
 
@@ -25,10 +24,11 @@ Dada una puntaje, `convertScoreToGradeWithPlusAndMinus` returna un string que re
 
 * Si el puntaje está entre `8` y `9` (incluido) de un rango dado, devuelva la letra con un `+`
 
-* No hay `F+` y no hay `F-`.
+* No hay `F+` ni `F-`.
+
+## Resultado esperado:
 
 ```js
 var output = convertScoreToGradeWithPlusAndMinus(91);
 console.log(output); // --> 'A-'
-
 ```

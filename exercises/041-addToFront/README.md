@@ -6,9 +6,9 @@
 
 Given an array and an element, `addToFront` adds the given element to the front of the given array, and returns the given array.
 
-## :bulb: Hint:
+## 💡 Hint:
 
-* It should be the SAME array, not a new array.
++ It should be the SAME array, not a new array.
 
 ```Javascript
 var output = addToFront([1, 2], 3);

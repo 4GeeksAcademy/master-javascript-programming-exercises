@@ -6,7 +6,7 @@ Escribe una función llamada `isPersonOldEnoughToVote`.
 
 Dado un objeto `person`, que contiene una propiedad `age` (edad), `isPersonOldEnoughToVote` devuelve si la persona dada tiene la edad suficiente para votar.
 
-## :bulb: Pista:
+## 💡 Pista:
 
 * La edad legal para votar en los Estados Unidos es de 18 años.
 

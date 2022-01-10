@@ -6,10 +6,9 @@
 
 Given an array, `removeFromFrontOfNew` returns a new array containing all but the first element of the given array.
 
-## :bulb: Hint:
+## 💡 Hint:
 
-* You should be familiar with the `shift` method.
-
++ You should be familiar with the `shift` method.
 
 ```Javascript
 var arr = [1, 2, 3];

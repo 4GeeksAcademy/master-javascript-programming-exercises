@@ -11,6 +11,6 @@ Given 2 arrays, `joinArrays` returns an array with the elements of `arr1`, follo
 var output = joinArrays([1, 2], [3, 4]);
 console.log(output); // --> [1, 2, 3, 4]
 ```
-## :bulb: Hint:
+## 💡 Hint:
 
 + You should use the concat method.

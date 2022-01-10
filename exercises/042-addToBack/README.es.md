@@ -6,7 +6,7 @@
 
 Dado un arreglo y un elemento, `addToBack` regresa el arreglo con el elemento añadido al final.
 
-## :bulb: Pista:
+## 💡 Pista:
 
 + Debería ser el MISMO arreglo, no uno nuevo.
 

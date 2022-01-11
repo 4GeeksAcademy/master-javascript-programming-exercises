@@ -6,7 +6,7 @@ Write a function called `getFirstElement`.
 
 Given an array, `getFirstElement` returns the first element of the given array.
 
-## :bulb: Pista:
+## 💡 Pista:
 
 * If the given array has a length of 0, it should return `undefined`.
 

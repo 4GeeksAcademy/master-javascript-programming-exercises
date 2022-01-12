@@ -6,9 +6,9 @@ Write a function called `isPersonOldEnoughToVote`.
 
 Given a `person` object, that contains an `age` property, `isPersonOldEnoughToVote` returns whether the given person is old enough to vote.
 
-## :bulb: Hint:
+## 💡 Hint:
 
-* The legal voting age in the United States is 18.
++ The legal voting age in the United States is 18.
 
 ```Javascript
 var obj = {

@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-Write a function called `addArrayProperty`.
+1. Write a function called `addArrayProperty`.
 
 Given an object, a key, and an array, `addArrayProperty` sets a new property on the object at the given key, with its value set to the given array.
 

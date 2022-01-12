@@ -4,7 +4,7 @@
 
 1. Write a function called `isEitherEvenOrAreBoth7`.
 
-Given 2 numbers, '`isEitherEvenOrAreBoth7` returns if any parameter is `even` or is both are `7`. If it's not true, it will return `false`.
+Given 2 numbers, '`isEitherEvenOrAreBoth7` returns if any parameter is `even` or if both are `7`. If it's not true, it will return `false`.
 
 ```Javascript
 var output = isEitherEvenOrAreBoth7(3, 7);

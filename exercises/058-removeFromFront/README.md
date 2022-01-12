@@ -6,10 +6,9 @@
 
 Given an array, `removeFromFront` returns the given array with its first element removed.
 
-## :bulb: Hint:
+## 💡 Hint:
 
-* You should be familiar with the method `shift`.
-
++ You should be familiar with the method `shift`.
 
 ```Javascript
 var output = removeFromFront([1, 2, 3]);

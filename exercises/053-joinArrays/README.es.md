@@ -11,6 +11,6 @@ var output = joinArrays([1, 2], [3, 4]);
 console.log(output); // --> [1, 2, 3, 4]
 ```
 
-## :bulb: Pista:
+## 💡 Pista:
 
 + Deberías estar familiarizado con el método `concat` para este problema. 

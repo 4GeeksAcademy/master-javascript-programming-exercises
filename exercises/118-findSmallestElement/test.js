@@ -12,7 +12,7 @@ test('Function must returns the smallest number within the array.', () => {
     expect(findSmallestElement([11, 32, 8, 19, 51, 13])).toBe(8);
 })
 
-test('If array is void must return 0', () => {
+test('If array is empty must return 0', () => {
     const findSmallestElement = rewire('./app.js').__get__("findSmallestElement");
 
     var output = findSmallestElement([])

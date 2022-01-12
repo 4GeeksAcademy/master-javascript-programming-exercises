@@ -14,7 +14,7 @@ test('The function must return the odd elements of the array located in the give
     expect(output).toEqual([1, 3, 5])
 })
 
-test('If the array is void, it should return an void array.', () => {
+test('If the array is empty, it should return an empty array.', () => {
     const getOddElementsAtProperty = rewire("./app.js").__get__("getOddElementsAtProperty");
     var obj = {
         key: []

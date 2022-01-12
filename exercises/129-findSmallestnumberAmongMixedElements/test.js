@@ -22,7 +22,7 @@ test('If the given array contains no number elements, it should return 0.', () =
     expect(output).toBe(0);
 })
 
-test('If array is void must return 0', () => {
+test('If array is empty must return 0', () => {
     const findSmallestNumberAmongMixedElements = rewire('./app.js').__get__("findSmallestNumberAmongMixedElements");
 
     var output = findSmallestNumberAmongMixedElements([])

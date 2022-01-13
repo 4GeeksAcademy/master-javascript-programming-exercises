@@ -8,11 +8,11 @@ Dado un Objeto y un Key, `getSmallestElementAtProperty` retorna El elemento más
  
 ## :bulb: Pista:
 
-* Si el arreglo está vacío, debería retornar un arreglo vacío.
+* Si el arreglo está vacío, debería retornar undefined.
 
-* Si la propiedad en el Key dado no es un arreglo, retorna un arreglo vacío.
+* Si la propiedad en el Key dado no es un arreglo, retorna undefined.
 
-* Si no hay ninguna propiedad en el Key, debería retronar un arreglo vacío.
+* Si no hay ninguna propiedad en el Key, debería retronar undefined.
 
 ```Js
 var obj = {

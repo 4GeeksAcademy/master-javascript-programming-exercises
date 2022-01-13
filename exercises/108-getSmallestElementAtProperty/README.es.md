@@ -10,7 +10,7 @@ Dado un Objeto y un Key, `getSmallestElementAtProperty` retorna El elemento más
 
 * Si el arreglo está vacío, debería retornar undefined.
 
-* Si la propiedad en el Key dado no es un arreglo, retorna undefined.
+* Si la propiedad en el Key dado no es un arreglo, retornar undefined.
 
 * Si no hay ninguna propiedad en el Key, debería retronar undefined.
 

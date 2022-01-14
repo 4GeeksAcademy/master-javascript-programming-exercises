@@ -29,7 +29,9 @@ var inventory = [
 ];
 ```
 
-The task now is to find the laced shoes but we are going to render them in a somewhat complex format. Your function should return shoe names containing 'lace' in them, and indicates which word contains 'lace'.
+The task now is to find the laced shoes but we are going to render them in a somewhat complex format. 
+
+Your function should return shoe names containing 'lace' in them, and indicate which word contains 'lace'.
 
 The return value's format should be structured like this:
 

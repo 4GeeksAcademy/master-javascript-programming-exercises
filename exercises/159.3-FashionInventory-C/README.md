@@ -10,7 +10,7 @@ Each designer has a lineup of shoes. Each shoe has a name and a price.
 
 ```JS
 
-var inventory = [
+var currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -30,7 +30,7 @@ var inventory = [
 ];
 ```
 
- Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them in a flat list, similar to part A.
+ Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them in a flat list similarly to part A.
 
  ## Example output:
  
@@ -40,3 +40,18 @@ var inventory = [
    [Gucci,black leather laced sneakers,900]
 ]
 ```
+
+## 💡 Hint
+
++ Here is an example of a flat list code:
+
+```js
+var flatList = "First line/ nSecond Line/nThird Line/n";
+console.log(flatList);
+```
+
++ Notice that a flat ist refers to a string where each new line is separated by the newline symbol.
+
++ Also note that the "flat list" ends with a newline symbol.
+
++ Create helper funcions if needed

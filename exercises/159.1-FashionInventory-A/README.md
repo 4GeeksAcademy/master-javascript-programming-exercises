@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-You have a fashion catalog, an inventory of items from various high-fashion designers.
+1. You have a fashion catalog, an inventory of items from various high-fashion designers.
 
 Each designer has a lineup of shoes. Each shoe has a name and a price.
 
@@ -29,12 +29,11 @@ var currentInventory = [
 ];
 ```
 
-1. Look up all the shoes across all the designers and list them out in a array of array with format:
+Write a function that will take in this `CurrentInventory`array as its argument. Your function should access all the shoes acorss each designer and return them out in a flat list:
 
 ```js
-[[designer name, shoe name, price], [designer name. shoe name, price], ....]
+{designer name} - {shoe name} - {price}{designer name} - {shoe name} - {price}
 ```
-
 ## Example output:
 
 ```Js
@@ -44,3 +43,18 @@ var currentInventory = [
 ...
 ]
 ```
+
+## 💡 Hint
+
++ Here is an example of a flat list code:
+
+```js
+var flatList = "First line/ nSecond Line/nThird Line/n";
+console.log(flatList);
+```
+
++ Be aware that a flat ist refers to a string where each new line is separated by the newline symbol.
+
++ Also note that the "flat list" ends with a newline symbol.
+
++ The return value is a **string**

@@ -5,16 +5,16 @@ test('Function average must exist', () => {
     expect(average).not.toBe(undefined);
 });
 
-test('Function average must exist', () => {
+test('Function average must return the correct result', () => {
     const average = rewire("./app.js").__get__("average");
 
-    expect(average(5, 8)).toBe(6.5)
-    expect(average(5, 15)).toBe(10)
+    expect(average([5, 8])).toBe(6.5)
+    expect(average([5, 15])).toBe(10)
 });
 
 test('The function must sum the given numbers', () => {
     const sum = rewire("./app.js").__get__("sum");
     
-    expect(sum(4, 5)).toBe(9)
-    expect(sum(2, 1)).toBe(3)
+    expect(sum([4, 5])).toBe(9)
+    expect(sum([2, 1])).toBe(3)
 });

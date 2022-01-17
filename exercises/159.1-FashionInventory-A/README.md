@@ -29,32 +29,24 @@ var currentInventory = [
 ];
 ```
 
-Write a function that will take in this `CurrentInventory`array as its argument. Your function should access all the shoes acorss each designer and return them out in a flat list:
+Write a function that will take in this `CurrentInventory` array as its argument. Your function should access all the shoes across each designer and return them out in a flat list with this order:
 
 ```js
-{designer name} - {shoe name} - {price}{designer name} - {shoe name} - {price}
+[designer name, shoe name, price]
 ```
+
 ## Example output:
 
 ```Js
 [
   [Brunello Cucinelli, tasselled black low-top lace-up, 1000],
   [Brunello Cucinelli, tasselled green low-top lace-up, 1100],
-...
+  ...
 ]
 ```
 
 ## 💡 Hint
 
-+ Here is an example of a flat list code:
++ You should probably use nested loops.
 
-```js
-var flatList = "First line/ nSecond Line/nThird Line/n";
-console.log(flatList);
-```
-
-+ Be aware that a flat ist refers to a string where each new line is separated by the newline symbol.
-
-+ Also note that the "flat list" ends with a newline symbol.
-
-+ The return value is a **string**
++ The return value is a Matrix (an array with arrays inside of it).

@@ -5,7 +5,7 @@ test('Function getSmallestElementAtProperty must exist', () => {
     expect(getSmallestElementAtProperty).not.toBe(undefined);
 });
 
-test('If the array is void, it should return an void array.', () => {
+test('The function must returns the smallest element of the array located in the key.', () => {
     const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     var obj = {
         key: [2, 1, 5]
@@ -13,6 +13,11 @@ test('If the array is void, it should return an void array.', () => {
     var output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toBe(1)
 
+    
+})
+
+test('If the property in the given key is an empty array, it should return `undefined`.', () => {
+    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     obj = {
         key: []
     };
@@ -21,7 +26,8 @@ test('If the array is void, it should return an void array.', () => {
     expect(output).toEqual(undefined)
 })
 
-test('If the property in the given key is not an array, it should return an empty array.', () => {
+
+test('If the property in the given key is a number, it should return `undefined`.', () => {
     const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     var obj = {
         key: 3
@@ -29,7 +35,11 @@ test('If the property in the given key is not an array, it should return an empt
     var output = getSmallestElementAtProperty(obj, 'key')
     //expect(output).toEqual([])
     expect(output).toEqual(undefined)
+})
 
+
+test('If the property in the given key is not an array, it should return `undefined`.', () => {
+    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     obj = {
         key: {}
     }
@@ -37,6 +47,18 @@ test('If the property in the given key is not an array, it should return an empt
     //expect(output).toEqual([])
     expect(output).toEqual(undefined)
 })
+
+
+test('If the property in the given key is {}, it should return `undefined`.', () => {
+    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
+    obj = {
+        key: {}
+    }
+    output = getSmallestElementAtProperty(obj, 'key')
+    //expect(output).toEqual([])
+    expect(output).toEqual(undefined)
+})
+
 
 test('If there is no property on the key, it should return an empty array.', () => {
     const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");

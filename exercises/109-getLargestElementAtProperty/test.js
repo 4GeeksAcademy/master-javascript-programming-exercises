@@ -14,28 +14,39 @@ test('The function must returns the largest element of the array located in the 
     expect(output).toBe(4)
 })
 
-test('If the array is void, it should return an void array.', () => {
+test('If the array is void, it should return `undefined`.', () => {
     const getLargestElementAtProperty = rewire("./app.js").__get__("getLargestElementAtProperty");
     var obj = {
         key: []
     };
     var output = getLargestElementAtProperty(obj, 'key')
-    expect(output).toEqual([])
+    expect(output).toEqual(undefined)
 })
 
-test('If the property in the given key is not an array, it should return an empty array.', () => {
+
+test('If the property in the given key is not an array, it should return `undefined`.', () => {
+    const getLargestElementAtProperty = rewire("./app.js").__get__("getLargestElementAtProperty");
+    obj = {
+        key: {}
+    }
+    output = getLargestElementAtProperty(obj, 'key')
+    //expect(output).toEqual([])
+    expect(output).toEqual(undefined)
+})
+
+test('If the property in the given key is a number, it should return `undefined`.', () => {
     const getLargestElementAtProperty = rewire("./app.js").__get__("getLargestElementAtProperty");
     var obj = {
         key: 9
     };
     var output = getLargestElementAtProperty(obj, 'key')
-    expect(output).toEqual([])
+    expect(output).toEqual(undefined)
 })
 
-test('If there is no property on the key, it should return an empty array.', () => {
+test('If there is no property on the key, it should return `undefined`.', () => {
     const getLargestElementAtProperty = rewire("./app.js").__get__("getLargestElementAtProperty");
     var obj = {
     };
     var output = getLargestElementAtProperty(obj, 'key')
-    expect(output).toEqual([])
+    expect(output).toEqual(undefined)
 })

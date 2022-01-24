@@ -2,9 +2,10 @@
 
 ## 📝 Instrucciones:
 
-1. Tienes un catálogo de moda, un inventario de artículos de varios diseñadores de alta costura. Cada diseñador tiene una línea de zapatos. Cada zapato tiene un nombre y un precio.
+ Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. 
+ 
+ Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio y tiene este formato:
 
-Se parece a esto: 
 
 ```Js
 var currentInventory = [
@@ -26,7 +27,8 @@ var currentInventory = [
   }
 ];
 ```
- BWrite a function that will take in this `CurrentInventory` array as its argument. Your function should access all the shoes across each designer and return them out in a flat list with this order:
+ 
+1. Escribe una función llamada `renderInventory` que tenga como argumento esta matriz `currentInventory`. función debe acceder a todos los zapatos de cada diseñador con este orden:
 
 ```js
 [designer name, shoe name, price]

@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. You have a fashion catalog, an inventory of items from various high-fashion designers.
+ You have a fashion catalog, an inventory of items from various high-fashion designers.
 
 Each designer has a lineup of shoes. Each shoe has a name and a price.
 
@@ -29,7 +29,7 @@ var currentInventory = [
 ];
 ```
 
-Write a function that will take in this `CurrentInventory` array as its argument. Your function should access all the shoes across each designer and return them out in a flat list with this order:
+Write a function called `renderInventory` that will take in this `CurrentInventory` array as its argument. Your function should access all the shoes across each desiger with this order:
 
 ```js
 [designer name, shoe name, price]

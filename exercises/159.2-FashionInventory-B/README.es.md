@@ -6,7 +6,8 @@ Esta es una variación del problema del "Fashion Inventory".
 
 Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta. 
 
-Es la misma estructura de datos de inventario que antes:   
+Es la misma estructura de datos de inventario que antes:  
+
 ```Js
 var inventory = [
   {
@@ -27,7 +28,11 @@ var inventory = [
   }
 ];
 ```
-Ahora muestre el costo promedio de todos los zapatos por diseñador en este formato: 
+
+Ahora muestra el costo promedio de todos los zapatos por diseñador en este formato.
+
+## Ejemplo de salida:
+
 ```Js
 var expected = {
   'designers': [
@@ -42,3 +47,8 @@ var expected = {
   ]
 };
 ```
+
+## 💡 Pista:
+
++ Puedes usar funciones auxiliares.
+

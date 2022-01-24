@@ -28,7 +28,7 @@ var currentInventory = [
 ];
 ```
  
-1. Escribe una función llamada `renderInventory` que tenga como argumento esta matriz `currentInventory`. función debe acceder a todos los zapatos de cada diseñador con este orden:
+1. Escribe una función llamada `renderInventory` que tenga como argumento esta matriz `currentInventory`. La función debe acceder a todos los zapatos de cada diseñador con este orden:
 
 ```js
 [designer name, shoe name, price]

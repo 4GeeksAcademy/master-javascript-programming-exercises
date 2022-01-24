@@ -30,7 +30,7 @@ var currentInventory = [
 ];
 ```
 
- Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them in a flat list similarly to part A.
+ Now, you have to find all the shoes with `black` in the name. 
 
  ## Example output:
  
@@ -43,15 +43,6 @@ var currentInventory = [
 
 ## 💡 Hint
 
-+ Here is an example of a flat list code:
-
-```js
-var flatList = "First line/ nSecond Line/nThird Line/n";
-console.log(flatList);
-```
-
-+ Notice that a flat ist refers to a string where each new line is separated by the newline symbol.
-
-+ Also note that the "flat list" ends with a newline symbol.
-
 + Create helper funcions if needed
+
++ Your function should filter `black` shoes.

@@ -4,10 +4,14 @@
 
 DO NOT paste the code from before. Tackle each problem on your own. 
 
-It's the same inventory data structure as before. You have a fashion catalog, an inventory of items from various high-fashion designers. Each designer has a lineup of shoes. Each shoe has a name and price an it look like this:
+It's the same inventory data structure as before. 
+
+You have a fashion catalog, an inventory `currentInventory` with items from various high-fashion designers. 
+
+Each designer has a lineup of shoes. Each shoe has a name and price an it look like this:
 
 ```Js
-var inventory = [
+var currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -27,7 +31,7 @@ var inventory = [
 ];
 ```
 
-Your function should return the average cost of all shoes per designer in this format:
+1. Write a function called `renderInventory` that will take in this `CurrentInventory` array as its argument. Your function should now return the average cost of all shoes per designer in this format:
 
 ```js
 var expected = {
@@ -46,7 +50,9 @@ var expected = {
 
 ## 💡 Hint:
 
-+ You may use helper functions.
++ You may use auxiliary variables
+
++ You may use nested loops..
 
 
 

@@ -8,8 +8,12 @@ Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
 
 Es la misma estructura de datos de inventario que antes:  
 
+Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. 
+
+ Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio y tiene este formato:
+
 ```Js
-var inventory = [
+var currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -29,9 +33,7 @@ var inventory = [
 ];
 ```
 
-Ahora muestra el costo promedio de todos los zapatos por diseñador en este formato.
-
-## Ejemplo de salida:
+1. Escribe una función llamada `renderInventory` que tenga como argumento esta matriz `currentInventory`. Ahora debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
 
 ```Js
 var expected = {
@@ -50,5 +52,7 @@ var expected = {
 
 ## 💡 Pista:
 
-+ Puedes usar funciones auxiliares.
++ Puedes usar variables auxiliares.
+
++ Podrìas usar loops anidados.
 

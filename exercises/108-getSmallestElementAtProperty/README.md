@@ -8,11 +8,11 @@ Given an object and a key, `getSmallestElementAtProperty` returns the smallest e
 
 ## :bulb: Hint:
 
-* If the array is empty, it should return `undefined`.
+* If the array is empty, it should return an empty array `[]`.
 
-* If the property at the given key is not an array, it should return `undefined`. 
+* If the property at the given key is not an array, it should return an empty array `[]`. 
 
- * If there is no property at the key, it should return `undefined`.
+ * If there is no property at the key, it should return an empty array `[]`.
 
 
 ```Js

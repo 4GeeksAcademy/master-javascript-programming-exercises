@@ -29,7 +29,7 @@ var inventory = [
 ];
 ```
 
- 1. Ahora encuentra todos los zapatos negros( con el name `black`). Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos. +
+ 1. Ahora encuentra todos los zapatos negros( con el name `black`). Es el mismo resultado que la parte 1, pero se filtran solo los nombres de zapatos que contienen "negro" en ellos. 
  
 ```Js
 [
@@ -42,4 +42,4 @@ var inventory = [
 
 + Crea funciones auxiliares si es necesario.
 
-+ Tu función debe filtrar (filter) los zapatos negros.
++ El resultado es una matriz.

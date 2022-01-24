@@ -46,3 +46,5 @@ var currentInventory = [
 + Create helper funcions if needed
 
 + Your function should filter `black` shoes.
+
++ Your result should be a matrix.

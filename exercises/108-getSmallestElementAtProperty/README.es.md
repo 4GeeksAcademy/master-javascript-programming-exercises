@@ -6,7 +6,7 @@
 
 Dado un Objeto y un Key, `getSmallestElementAtProperty` retorna El elemento más pequeño del arreglo ubicado en el Key. 
  
-## :bulb: Pistass:
+## :bulb: Pistas:
 
 * Si el arreglo está vacío, debería retornar un arreglo vacío `[]`.
 

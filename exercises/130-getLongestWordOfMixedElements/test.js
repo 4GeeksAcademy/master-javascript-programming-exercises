@@ -12,14 +12,14 @@ test('Function must returns the longest string in the array.', () => {
     expect(output).toBe('word');
 })
 
-test('If the given array, not contains string , it should return a void string.', () => {
+test('If the given array, not contains string , it should return a empty string.', () => {
     const getLongestWordOfMixedElements = rewire('./app.js').__get__("getLongestWordOfMixedElements");
 
     var output = getLongestWordOfMixedElements([1, 2, 3, 4])
     expect(output).toBe('');
 })
 
-test('If array is void must return a void string', () => {
+test('If array is empty must return a empty string', () => {
     const getLongestWordOfMixedElements = rewire('./app.js').__get__("getLongestWordOfMixedElements");
 
     var output = getLongestWordOfMixedElements([])

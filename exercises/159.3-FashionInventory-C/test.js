@@ -8,7 +8,7 @@ test('Function renderInventory must exist', () => {
 test('The function should filter all the shoes that contain the word "black" in the array.', () => {
     const renderInventory = rewire("./app.js").__get__("renderInventory");
 
-    const output = renderInventory(
+    let output = renderInventory([
         {
             name: 'Brunello Cucinelli',
             shoes: [
@@ -24,14 +24,14 @@ test('The function should filter all the shoes that contain the word "black" in 
                 { name: 'red leather laced sneakers', price: 800 },
                 { name: 'black leather laced sneakers', price: 900 }
             ]
-        })
+        }])
     expect(output).toEqual([
         ['Brunello Cucinelli', 'tasselled black low-top lace-up', 1000],
         ['Gucci', 'black leather laced sneakers', 900]
     ])
 
 
-    output = renderInventory(
+    output = renderInventory([
         {
             name: 'Adidas',
             shoes: [
@@ -45,6 +45,6 @@ test('The function should filter all the shoes that contain the word "black" in 
                 { name: 'Jordan 6 Rings', price: 170 },
                 { name: 'Nike Air Max 2090 EOI', price: 160 }
             ]
-        })
+        }])
     expect(output).toEqual([])
 });

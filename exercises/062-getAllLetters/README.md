@@ -6,7 +6,7 @@
 
 Given a word, `getAllLetters` returns an array containing every character in the word. 
 
-## :bulb: Hint:
+## 💡 Hint:
 
 * If given an empty string, it should return an empty array.
 

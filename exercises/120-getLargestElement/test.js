@@ -12,7 +12,7 @@ test('Function must returns the largest number within the array.', () => {
     expect(getLargestElement([15, 22, 18, 23])).toBe(23);
 })
 
-test('If array is void must return void string', () => {
+test('If array is empty must return empty string', () => {
     const getLargestElement = rewire('./app.js').__get__("getLargestElement");
 
     var output = getLargestElement([])

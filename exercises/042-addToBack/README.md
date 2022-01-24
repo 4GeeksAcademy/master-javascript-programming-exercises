@@ -6,7 +6,7 @@ Write a function called "addToBack".
 
 1. Given an array and an element, `addToBack` returns the given array with the given element added to the end.
 
-## :bulb: Hint:
+## 💡 Hint:
 
 + It should be the SAME array, not a new array.
 

@@ -6,7 +6,7 @@
 
 Dados dos objetos y una clave, `addObjectProperty` establece una nueva propiedad en el primer objeto en la clave (key) dada.
 
- El valor de esa nueva propiedad es todo el segundo objeto.
+El valor de esa nueva propiedad es todo el segundo objeto.
 
 ```Javascript
 var person1 = {

@@ -18,13 +18,13 @@ test('If there are strings with the same length, then it should return the first
     expect(findShortestWordAmongMixedElements([ 1, 'i', 2, 'a'])).toBe('i');
 })
 
-test('If the given array contains no string, it should return an void string.', () => {
+test('If the given array contains no string, it should return an empty string.', () => {
     const findShortestWordAmongMixedElements = rewire('./app.js').__get__("findShortestWordAmongMixedElements");
 
     expect(findShortestWordAmongMixedElements([ 1, 2, 3, 4])).toBe('');
 })
 
-test('If array is void must return void string', () => {
+test('If array is empty must return empty string', () => {
     const findShortestWordAmongMixedElements = rewire('./app.js').__get__("findShortestWordAmongMixedElements");
 
     var output = findShortestWordAmongMixedElements([])

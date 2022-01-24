@@ -1,6 +1,6 @@
 # `08` checkAge
 
-## :pencil: Instructions:
+## 📝 Instrucciones:
 
 1. Escribe una función llamada `checkAge`. 
 

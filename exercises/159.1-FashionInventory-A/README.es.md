@@ -26,16 +26,24 @@ var currentInventory = [
   }
 ];
 ```
- Busca todos los zapatos de todos los diseñadores y listalos en un arreglo de arreglos con este formato: 
+ BWrite a function that will take in this `CurrentInventory` array as its argument. Your function should access all the shoes across each designer and return them out in a flat list with this order:
 
-```Js
-[[nombre diseñador, nombre zapato, precio], [nombre diseñador, nombre zapato, precio], ....]
+```js
+[designer name, shoe name, price]
 ```
-Ejemplo
+
+## Ejemplo de salida:
+
 ```Js
 [
   [Brunello Cucinelli, tasselled black low-top lace-up, 1000],
   [Brunello Cucinelli, tasselled green low-top lace-up, 1100],
-...
+  ...
 ]
 ```
+
+## 💡 Pista:
+
++ Deberías usar loops anidados.
+
++ El valor retornado debe ser una matriz (array dentro de un array)

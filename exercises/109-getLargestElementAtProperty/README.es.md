@@ -8,11 +8,11 @@ Dado un Objeto y un Key, `getLargestElementAtProperty` retorna el elemento más 
 
 ## 💡 Pista:
 
-* Si el arreglo está vacío, debería retornar `undefined`.
+* Si el arreglo está vacío, debería retornar un arreglo vacío `[]`.
 
-* Si la propiedad en el Key dado no es un arreglo, debería retornar `undefined`.
+* Si la propiedad en el Key dado no es un arreglo, debería retornar un arreglo vacío `[]`.
 
-* Si no hay ninguna propiedad en el Key, debería retornar `undefined`.
+* Si no hay ninguna propiedad en el Key, debería retornar un arreglo vacío `[]`.
 
 ## Resultado esperado:
 

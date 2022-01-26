@@ -12,12 +12,12 @@ Dado un objeto `persona`, que contiene una propiedad `edad`, `isPersonOldEnoughT
  
  + La edad legal para conducir en los Estados Unidos es de 16 años. 
  
- + Siempre es ilegal beber y conducir en los Estados Unidos :laughing:.
+ + Siempre es ilegal beber y conducir en los Estados Unidos :laughing: pero en este caso haremos una excepción 🤫.
 
 ```Javascript
 var obj = {
   age: 45
 };
 var output = isPersonOldEnoughToDrinkAndDrive(obj);
-console.log(output); // --> false
+console.log(output); // --> true
 ```

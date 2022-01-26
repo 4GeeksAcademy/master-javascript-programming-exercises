@@ -12,12 +12,12 @@ Given a `person` object, that contains an `age` property, `isPersonOldEnoughToDr
 
 * The legal driving age in the United States is `16`.
 
-* It is always illegal to drink and drive in the United States :laughing:.
+* It is always illegal to drink and drive in the United States :laughing: but in this case we will make an exception 🤫.
 
 ```Javascript
 var obj = {
   age: 45
 };
 var output = isPersonOldEnoughToDrinkAndDrive(obj);
-console.log(output); // --> false
+console.log(output); // --> true
 ```

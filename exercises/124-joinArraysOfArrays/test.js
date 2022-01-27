@@ -10,7 +10,7 @@ test('Function joinArrayOfArrays must exist', () => {
     expect(joinArrayOfArrays).not.toBe(undefined);
 });
 
-test('You need to use concat in your function', () => {
+test('You should use concat in your function', () => {
     expect(app_content).toMatch(/\.concat/gm);
 });
 

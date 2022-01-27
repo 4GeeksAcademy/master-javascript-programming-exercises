@@ -18,7 +18,7 @@ test('Function must returns a single array containing the elements of the nested
     expect(joinArrayOfArrays([[1, 4], [true, false], ['x', 'y']])).toEqual([1, 4, true, false, 'x', 'y']);
 })
 
-test("Your solution works with other entries", () => {
+test("your solution works with other examples. Testing with [[2, 6], [4, true]]", () => {
     expect(joinArrayOfArrays([[2, 6], [4, true]])).toEqual([2, 6, 4, true]);
 })
 

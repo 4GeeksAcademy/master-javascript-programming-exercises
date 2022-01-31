@@ -14,4 +14,4 @@
 
 + Test that your implementation works.
 
-+ Both functions recieve a `list`/`array` of numbers.
++ Both functions should receive a `list`/`array` of numbers.

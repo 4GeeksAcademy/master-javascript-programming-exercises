@@ -4,7 +4,7 @@
 
 Write a function called `isEitherEvenAndLessThan9`.
 
-Given 2 numbers, `isEitherEvenAndLessThan9` returns if any of the parameters ar even or if both are less than 9.
+Given 2 numbers, `isEitherEvenAndLessThan9` should return `true` only if one of the numbers is even and both are less than 9, otherwise it must return `false`.
 
 
 ```Javascript

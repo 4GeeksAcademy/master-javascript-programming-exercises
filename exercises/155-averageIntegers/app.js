@@ -1,4 +1,4 @@
-function average(num1, num2) {
+function average(array_of_numbers) {
   // process array of numbers
 }
 

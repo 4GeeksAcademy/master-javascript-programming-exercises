@@ -8,7 +8,7 @@ test('Function renderInventory must exist', () => {
 test('The function should return an array with the "name" and "averagePrice" objects of the corresponding products', () => {
     const renderInventory = rewire("./app.js").__get__("renderInventory");
 
-    const output = renderInventory(
+    let output = renderInventory([
         {
             name: 'Brunello Cucinelli',
             shoes: [
@@ -24,14 +24,14 @@ test('The function should return an array with the "name" and "averagePrice" obj
                 { name: 'red leather laced sneakers', price: 800 },
                 { name: 'black leather laced sneakers', price: 900 }
             ]
-        })
+        }])
     expect(output).toEqual([
         { 'name': 'Brunello Cucinelli', 'averagePrice': 1025 },
         { 'name': 'Gucci', 'averagePrice': 850 }
     ])
 
 
-    output = renderInventory(
+    output = renderInventory([
         {
             name: 'Adidas',
             shoes: [
@@ -45,7 +45,7 @@ test('The function should return an array with the "name" and "averagePrice" obj
                 { name: 'Jordan 6 Rings', price: 170 },
                 { name: 'Nike Air Max 2090 EOI', price: 160 }
             ]
-        })
+        }])
     expect(output).toEqual([
         { 'name': 'Adidas', 'averagePrice': 115 },
         { 'name': 'Nike', 'averagePrice': 165 }

@@ -4,7 +4,7 @@
 
 Escribe una función llamada `isEitherEvenAndLessThan9`.
 
-Dados dos números, `isEitherEvenAndLessThan9` regresa si alguno de los parámetros es par (even) y los dos son menores de 9.
+Dados dos números, `isEitherEvenAndLessThan9` returna `true` si alguno de los dos parámetros es par (even) y los dos son menores de 9, de otra forma debe retornar `false`.
 
 ```Javascript
 var output = isEitherEvenAndLessThan9(2, 4);

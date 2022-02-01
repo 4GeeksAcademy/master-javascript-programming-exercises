@@ -1,12 +1,22 @@
 # `159.1` FashionInventory-A
 
-## 📝 Instructions:
-
- You have a fashion catalog, an inventory of items from various high-fashion designers.
+You have a fashion catalog, an inventory of items from various high-fashion designers.
 
 Each designer has a lineup of shoes. Each shoe has a name and a price.
 
-It looks like this:
+## 📝 Instructions:
+
+1. Write a function called `renderInventory` that will receive as a parameter an array like `currentInventory`. Your function should access all the shoes across each desiger and return a matrix (array of arrays) like this:
+
+```js
+[
+   [designer name, shoe name, price],
+   [designer name, shoe name, price],
+   ...
+]
+```
+
+## Example input:
  
 ```js
 var currentInventory = [
@@ -29,12 +39,6 @@ var currentInventory = [
 ];
 ```
 
-Write a function called `renderInventory` that will take in this `CurrentInventory` array as its argument. Your function should access all the shoes across each desiger with this order:
-
-```js
-[designer name, shoe name, price]
-```
-
 ## Example output:
 
 ```Js
@@ -45,7 +49,7 @@ Write a function called `renderInventory` that will take in this `CurrentInvento
 ]
 ```
 
-## 💡 Hint
+## 💡 Hints:
 
 + You should probably use nested loops.
 

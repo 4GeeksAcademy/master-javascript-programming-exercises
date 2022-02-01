@@ -6,7 +6,7 @@ Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un p
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `renderInventory` que recibe como parámetro una matriz como `currentInventory`. La función debe retornar una matriz (array de arrays) con todos los zapatos de cada diseñador en este orden:
+1. Escribe una función llamada `renderInventory` que recibe como parámetro un array como `currentInventory`. La función debe retornar una matriz (array de arrays) con todos los zapatos de cada diseñador en este orden:
 
 ```js
 [

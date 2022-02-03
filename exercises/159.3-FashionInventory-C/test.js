@@ -1,13 +1,11 @@
 const rewire = require("rewire");
+const renderInventory = rewire("./app.js").__get__("renderInventory");
 
 test('Function renderInventory must exist', () => {
-    const renderInventory = rewire("./app.js").__get__("renderInventory");
     expect(renderInventory).not.toBe(undefined);
 });
 
 test('The function should filter all the shoes that contain the word "black" in the array.', () => {
-    const renderInventory = rewire("./app.js").__get__("renderInventory");
-
     let output = renderInventory([
         {
             name: 'Brunello Cucinelli',
@@ -30,8 +28,10 @@ test('The function should filter all the shoes that contain the word "black" in 
         ['Gucci', 'black leather laced sneakers', 900]
     ])
 
+});
 
-    output = renderInventory([
+test('If there is no shoe containing black in its name, the function should return an empty array []', () => {
+    let output = renderInventory([
         {
             name: 'Adidas',
             shoes: [

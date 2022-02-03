@@ -30,12 +30,19 @@ var inventory = [
 ];
 ```
 
- Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them in a flat list, similar to part A.
+[comment]: < Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them in a flat list, similar to part A.>
+
+1. Complete the `renderInventory` function to return the expected result.
+
+2. Return a list (container) with another list but in this one it will contain the data of the shoe that includes the name `black` in it with its respective price.
+
+3. If there is no shoe containing `black` in its name, the function should return an empty array `[]`.
+
 
  ## Example output:
  
 ```Js
-[
+[ // list container
    [Brunello Cucinelli,tasselled black low-top lace-up,1000],
    [Gucci,black leather laced sneakers,900]
 ]

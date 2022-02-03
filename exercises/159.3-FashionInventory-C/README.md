@@ -6,7 +6,7 @@ You have a fashion catalog, an inventory of items from various high fashion desi
 
 Each designer has a lineup of shoes. Each shoe has a name and a price.
 
-## 📝 Instrucciones
+## 📝 Instructions
 
 1. Complete the `renderInventory` function to return the expected result.
 

@@ -1,12 +1,20 @@
 # `159.3` FashionInventory-C
 
-## 📝 Instrucciones
-
 Esta es una variación del problema del "Fashion Inventory".
 
 Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
-Es la misma estructura de datos de inventario que antes: 
 
+Es la misma estructura de datos de inventario que antes.
+
+## 📝 Instrucciones
+
+1. Completa la función `renderInventory` para que retorne el resultado esperado.
+
+2. Retorna una lista (contenedora) con otra lista pero en esta contendrá los datos del zapato que incluya el nombre `black` en él con su repectivo precio.
+
+3. Si no hay ningún zapato que contenga `negro` en su nombre, la función debería devolver un array vacío `[]`.
+
+## Ejemplo entrada:
 
 ```js
 var inventory = [
@@ -29,12 +37,6 @@ var inventory = [
 ];
 ```
 [comment]: <Ahora encuentra todos los zapatos negros( con el name `black`). Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos.>
-
- 1. Completa la función `renderInventory` para que retorne el resultado esperado.
-
- 2. Retorna una lista (contenedora) con otra lista pero en esta contendrá los datos del zapato que incluya el nombre `black` en él con su repectivo precio.
-
- 3. Si no hay ningún zapato que contenga `negro` en su nombre, la función debería devolver un array vacío `[]`.
  
 ## Resultado esperado:
 

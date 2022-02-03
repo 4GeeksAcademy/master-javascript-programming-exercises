@@ -1,15 +1,12 @@
 const rewire = require("rewire");
+const file = rewire("./app.js");
+const getLaceNameDataForShoes = file.__get__('getLaceNameDataForShoes');
 
 test("The function getLaceNameDataForShoes should exist", function(){
-    const file = rewire("./app.js");
-    const getLaceNameDataForShoes = file.__get__('getLaceNameDataForShoes');
     expect(getLaceNameDataForShoes).toBeTruthy();
 });
 
 test("Function getLaceNameDataForShoes should return correct data", function(){
-    const file = rewire("./app.js");
-    const getLaceNameDataForShoes = file.__get__('getLaceNameDataForShoes');
-
     let inventory = [
         {
           name: 'Brunello Cucinelli',
@@ -72,9 +69,6 @@ test("Function getLaceNameDataForShoes should return correct data", function(){
 });
 
 test("Function getLaceNameDataForShoes should return correct data", function(){
-    const file = rewire("./app.js");
-    const getLaceNameDataForShoes = file.__get__('getLaceNameDataForShoes');
-
     let inventory = [
         {
           name: 'Brunello Cucinelli',

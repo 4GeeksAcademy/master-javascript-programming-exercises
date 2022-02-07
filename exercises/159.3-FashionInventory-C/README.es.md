@@ -10,9 +10,15 @@ Es la misma estructura de datos de inventario que antes.
 
 1. Completa la función `renderInventory` para que retorne el resultado esperado.
 
-2. Retorna una matriz (Lista de listas) pero en esta contendrá los datos del zapato que incluya el nombre `black` en él con su repectivo precio.
+2. Retorna una matriz (Lista de listas) las listas contendrán los datos del zapato que incluya el nombre `black` en él, con su repectivo precio. En el siguiente orden:
 
-3. Si no hay ningún zapato que contenga `black` en su nombre, la función debería devolver un array vacío `[]`.
+```js
+[
+  [brandName, shoeModel, price],
+  [brandName, shoeModel, price],
+  ...
+]
+```
 
 ## Ejemplo de entrada:
 
@@ -38,7 +44,7 @@ var inventory = [
 ```
 [comment]: <Ahora encuentra todos los zapatos negro ( con el name `black`). Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos.>
  
-## Ejemplo de Salidada:
+## Ejemplo de Salida:
 
 ```Js
 [
@@ -46,3 +52,7 @@ var inventory = [
    [Gucci, black leather laced sneakers,900]
 ]
 ```
+
+## 💡 Hint:
+
++ Si no hay ningún zapato que contenga `black` en su nombre, la función debería devolver un array vacío `[]`.

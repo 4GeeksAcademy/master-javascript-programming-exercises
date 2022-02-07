@@ -1,10 +1,10 @@
-# `22` isEitherEven
+# `022` isEitherEven
 
 ## 📝 Instructions:
 
-1. Write a function called `isEitherEven`.
+1. Write a function called `isEitherEven`. Given two numbers, `isEitherEven` returns whether or not either one of the given numbers is even.
 
-Given two numbers, `isEitherEven` returns whether or not either one of the given numbers is even.
+## Example:
 
 ```Javascript
 var output = isEitherEven(1, 4);

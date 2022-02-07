@@ -1,10 +1,10 @@
-# `29` square
+# `029` square
 
 ## 📝 Instructions
 
-Write a function called `square`.
+1. Write a function called `square`. Given a number, `square` should return the square of the given number.
 
-Given a number, `square` should return the square of the given number.
+## Example:
 
 ```Javascript
 var output = square(5);

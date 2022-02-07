@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isOldEnoughToVote`. Dado un número, en este caso una edad, `isOldEnoughToVote`  retorna si la persona de esa edad tiene la edad necesaria para votar legalmente en los Estados Unidos.
+1. Escribe una función llamada `isOldEnoughToVote`. Dado un número, en este caso una edad, `isOldEnoughToVote` retorna si la persona de esa edad tiene la edad necesaria para votar legalmente en los Estados Unidos.
 
 ## Ejemplo:
 
@@ -13,4 +13,4 @@ console.log(output); // --> true
 
 ## 💡 Pista:
 
-+ La edad legal para poder beber en los Estados Unidos es de 18 años.
++ La edad legal para poder votar en los Estados Unidos es de 18 años.

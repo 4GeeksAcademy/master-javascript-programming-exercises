@@ -1,10 +1,10 @@
-# `37` addArrayProperty
+# `037` addArrayProperty
 
 ## 📝 Instrucciones:
 
-1. Escribe una funcion llamada `addArrayProperty`.
+1. Escribe una funcion llamada `addArrayProperty`. Dado un objeto, un key y un arreglo, `addArrayProperty` establece una nueva propiedad en el objeto con la key dada, con su valor establecido en el arreglo dado.
 
-Dado un objeto, un key y un arreglo, `addArrayProperty` establece una nueva propiedad en el objeto con la key dada, con su valor establecido en el arreglo dado.
+## Ejemplo:
 
 ```Javascript
 var myObj = {};

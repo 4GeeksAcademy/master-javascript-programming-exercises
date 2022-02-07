@@ -1,20 +1,19 @@
-# `36` isPersonOldEnoughToDrink
+# `036` isPersonOldEnoughToDrink
 
 ## 📝 Instructions:
 
-Write a function called `isPersonOldEnoughToDrink`.
+1. Write a function called `isPersonOldEnoughToDrink`. Given a `person` object, that contains an `age` property, `isPersonOldEnoughToDrink` returns whether the given person is old enough to drink.
 
-Given a `person` object, that contains an `age` property, `isPersonOldEnoughToDrink` returns whether the given person is old enough to drink.
-
-## 💡 Hint:
-
-* The legal drinking age in the United States is 21.
-
+## Example:
 
 ```Javascript
-var obj = {
+var person = {
   age: 16
 };
 var output = isPersonOldEnoughToDrink(obj);
 console.log(output); // --> false
 ```
+## 💡 Hint:
+
++ The legal drinking age in the United States is 21.
+

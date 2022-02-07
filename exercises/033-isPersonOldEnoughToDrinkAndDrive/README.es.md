@@ -1,20 +1,20 @@
-# `33` isPersonOldEnoughToDrinkAndDrive
+# `033` isPersonOldEnoughToDrinkAndDrive
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isPersonOldEnoughToDrinkAndDrive`.
+1. Escribe una función llamada `isPersonOldEnoughToDrinkAndDrive`. Dado un objeto `person`, que contiene una propiedad `age`, `isPersonOldEnoughToDrinkAndDrive` devuelve si la persona dada tiene la edad suficiente para beber y conducir legalmente en los Estados Unidos.
 
-Dado un objeto `persona`, que contiene una propiedad `edad`, `isPersonOldEnoughToDrinkAndDrive` devuelve si la persona dada tiene la edad suficiente para beber y conducir legalmente en los Estados Unidos.
+## Ejemplo:
 
 ```Javascript
-var obj = {
+var person = {
   age: 45
 };
 var output = isPersonOldEnoughToDrinkAndDrive(obj);
 console.log(output); // --> false
 ```
 
-## 💡 Pistas:
+## 💡 Pista:
 
  + La edad legal para beber alcohol en los Estados Unidos es de 21 años. 
  

@@ -8,11 +8,13 @@
 
 - `Welcome, {insert_name_here}!`, if they are 21 or older.
 
-Naturally, replace `{insert_name_here}` with the given name. :)
-
 ## Example:
 
 ```Javascript
 var output = checkAge('Adrian', 22);
 console.log(output); // --> 'Welcome, Adrian!'
 ```
+
+## 💡 Hint:
+
++ Naturally, replace `{insert_name_here}` with the given name. :)

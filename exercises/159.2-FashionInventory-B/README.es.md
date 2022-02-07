@@ -1,16 +1,18 @@
 # `159.2` FashionInventory-B
-
-## 📝 Instrucciones
-
-Esta es una variación del problema del "Fashion Inventory". 
-
-Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta. 
+ 
+NO pegues el código de antes. Afronta cada problema por su cuenta. 
 
 Es la misma estructura de datos de inventario que antes:  
 
 Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. 
 
- Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio y tiene este formato:
+ Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
+
+## 📝 Instrucciones:
+
+1. Escribe una función llamada `renderInventory` que tenga como argumento esta matriz `currentInventory`. Ahora debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
+
+## Example input:
 
 ```Js
 var currentInventory = [
@@ -32,8 +34,7 @@ var currentInventory = [
   }
 ];
 ```
-
-1. Escribe una función llamada `renderInventory` que tenga como argumento esta matriz `currentInventory`. Ahora debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
+## Expected output:
 
 ```Js
 var expected = {

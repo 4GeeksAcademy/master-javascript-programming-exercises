@@ -10,11 +10,11 @@ Es la misma estructura de datos de inventario que antes.
 
 1. Completa la función `renderInventory` para que retorne el resultado esperado.
 
-2. Retorna una lista (contenedora) con otra lista pero en esta contendrá los datos del zapato que incluya el nombre `black` en él con su repectivo precio.
+2. Retorna una matriz (Lista de listas) pero en esta contendrá los datos del zapato que incluya el nombre `black` en él con su repectivo precio.
 
-3. Si no hay ningún zapato que contenga `negro` en su nombre, la función debería devolver un array vacío `[]`.
+3. Si no hay ningún zapato que contenga `black` en su nombre, la función debería devolver un array vacío `[]`.
 
-## Ejemplo entrada:
+## Ejemplo de entrada:
 
 ```js
 var inventory = [
@@ -36,13 +36,13 @@ var inventory = [
   }
 ];
 ```
-[comment]: <Ahora encuentra todos los zapatos negros( con el name `black`). Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos.>
+[comment]: <Ahora encuentra todos los zapatos negro ( con el name `black`). Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos.>
  
-## Resultado esperado:
+## Ejemplo de Salidada:
 
 ```Js
-[ // lista contenedora
-   [Brunello Cucinelli,tasselled black low-top lace-up,1000],
-   [Gucci,black leather laced sneakers,900]
+[
+   [Brunello Cucinelli, tasselled black low-top lace-up,1000],
+   [Gucci, black leather laced sneakers,900]
 ]
 ```

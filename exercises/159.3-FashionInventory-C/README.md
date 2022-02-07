@@ -14,9 +14,9 @@ Each designer has a lineup of shoes. Each shoe has a name and a price.
 
 ```js
 [
-   [name: shoeName, price: shoePrice],
-   [name: shoeName, price: shoePrice],
-   ...
+  [brandName, shoeModel, price],
+  [brandName, shoeModel, price],
+  ...
 ]
 ```
 

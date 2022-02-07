@@ -2,8 +2,7 @@
 
 ## 📝 Instrucciones:
 
-Escribe una función llamada `isOldEnoughToDrive` que 
-dado un número, en este caso una edad, `isOldEnoughToDrive` retorna si la persona de esa edad tiene la edad necesaria para conducir legalmente en los Estados Unidos.
+Escribe una función llamada `isOldEnoughToDrive` que dado un número, en este caso una edad, `isOldEnoughToDrive` retorna si la persona de esa edad tiene la edad necesaria para conducir legalmente en los Estados Unidos.
 
 ## Ejemplo:
 

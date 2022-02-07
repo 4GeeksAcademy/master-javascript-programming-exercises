@@ -1,10 +1,10 @@
-# `17` isEqualTo
+# `017` isEqualTo
 
 ## 📝 Instructions: 
 
-1. Write a function called `isEqualTo`.
+1. Write a function called `isEqualTo`. Given 2 numbers, `isEqualTo` returns whether `num2` is equal to `num1`.
 
-Given 2 numbers, `isEqualTo` returns whether `num2` is equal to `num1`.
+## Example:
 
 ```Javascript
 var output = isEqualTo(11, 10);

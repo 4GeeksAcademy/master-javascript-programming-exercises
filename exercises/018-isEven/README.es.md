@@ -1,10 +1,10 @@
-# `18` isEven
+# `018` isEven
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isEven`.
+1. Escribe una función llamada `isEven`. Dado un número, `isEven` retorna si el número es par.
 
-Dado un número, `isEven` retorna si el número es par.
+## Ejemplo:
 
 ```Javascript
 var output = isEven(11);

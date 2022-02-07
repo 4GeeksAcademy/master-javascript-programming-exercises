@@ -1,10 +1,10 @@
-# `14` equalsTen
+# `014` equalsTen
 
 ## 📝 Instructions:
 
-1. Write a function called `equalsTen`.
+1. Write a function called `equalsTen`. Given a number, `equalsTen` returns whether or not the given number is 10.
 
-Given a number, `equalsTen` returns whether or not the given number is `10`.
+## Example:
 
 ```Javascript
 var output = equalsTen(9);

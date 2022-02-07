@@ -1,12 +1,16 @@
 # `159.3` FashionInventory-C
 
-## 📝 Instrucciones
-
 This exercise is similar to the  "Fashion Inventory A and B" but, DO NOT paste the code from before.
 
 You have a fashion catalog, an inventory of items from various high fashion designers. 
 
 Each designer has a lineup of shoes. Each shoe has a name and a price.
+
+## 📝 Instrucciones:
+
+ 1. Now, you have to find all the shoes with `black` in the name. 
+
+## Example input:
 
 ```JS
 
@@ -29,9 +33,6 @@ var currentInventory = [
   }
 ];
 ```
-
- Now, you have to find all the shoes with `black` in the name. 
-
  ## Example output:
  
 ```Js
@@ -42,8 +43,6 @@ var currentInventory = [
 ```
 
 ## 💡 Hint
-
-+ Create helper funcions if needed
 
 + Your function should filter `black` shoes.
 

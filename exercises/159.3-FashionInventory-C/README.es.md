@@ -1,15 +1,20 @@
 # `159.3` FashionInventory-C
 
-## 📝 Instrucciones
 
 Esta es una variación del problema del "Fashion Inventory".
 
 Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
-Es la misma estructura de datos de inventario que antes: 
 
+Es la misma estructura de datos de inventario. 
 
-```js
-var inventory = [
+## 📝 Instrucciones
+
+ 1. Ahora encuentra todos los zapatos negros( con el name `black`). Es el mismo resultado que la parte 1, pero se filtran solo los nombres de zapatos que contienen "negro" en ellos. 
+ 
+ ## Example input:
+
+ ```js
+var currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -29,15 +34,14 @@ var inventory = [
 ];
 ```
 
- 1. Ahora encuentra todos los zapatos negros( con el name `black`). Es el mismo resultado que la parte 1, pero se filtran solo los nombres de zapatos que contienen "negro" en ellos. 
- 
+## Example output:
+
 ```Js
 [
    [Brunello Cucinelli,tasselled black low-top lace-up,1000],
    [Gucci,black leather laced sneakers,900]
 ]
 ```
-
 ## 💡 Pista:
 
 + Crea funciones auxiliares si es necesario.

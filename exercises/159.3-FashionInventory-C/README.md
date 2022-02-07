@@ -10,9 +10,15 @@ Each designer has a lineup of shoes. Each shoe has a name and a price.
 
 1. Complete the `renderInventory` function to return the expected result.
 
-2. Return a list (container) with another list but in this one it will contain the data of the shoe that includes the name `black` in it with its respective price.
+2. Return a matrix (List contained by lists) these lists will contain the shoes' data that includes the name `black` in it with its respective price. In the following order:
 
-3. If there is no shoe containing `black` in its name, the function should return an empty array `[]`.
+```js
+[
+   [name: shoeName, price: shoePrice],
+   [name: shoeName, price: shoePrice],
+   ...
+]
+```
 
 ## Example input: 
 
@@ -41,8 +47,12 @@ var inventory = [
  ## Example output:
  
 ```Js
-[ // list container
+[
    [Brunello Cucinelli,tasselled black low-top lace-up,1000],
    [Gucci,black leather laced sneakers,900]
 ]
 ```
+
+## 💡 Hint:
+
++ If there is no shoe containing `black` in its name, the function should return an empty array `[]`.

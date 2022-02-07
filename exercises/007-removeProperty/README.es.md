@@ -1,10 +1,10 @@
-# `07` removeProperty
+# `007` removeProperty
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `removeProperty`.
+1. Escribe una función llamada `removeProperty`. Dado un objeto y una key, `removeProperty` elimina esa llave de ese objeto dado.
 
-Dado un objeto y una key, `removeProperty` elimina esa llave de ese objeto dado.
+## Ejemplo:
 
 ```Javascript
 var obj = {

@@ -1,10 +1,10 @@
-# `04` isOldEnoughToDrinkAndDrive
+# `004` isOldEnoughToDrinkAndDrive
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isOldEnoughToDrinkAndDrive`.
+1. Escribe una función llamada `isOldEnoughToDrinkAndDrive` que dado un número, en este caso una edad, retorne si la persona de esa edad tiene la edad necesaria para beber y conducir legalmente en los Estados Unidos.
 
-Dado un número, en este caso una edad `isOldEnoughToDrinkAndDrive` retorna si la persona de esa edad tiene la edad necesaria para beber y conducir legalmente en los Estados Unidos.
+## Ejemplo:
 
 ```Javascript
 var output = isOldEnoughToDrinkAndDrive(22);

@@ -1,12 +1,12 @@
-# `06` addProperty
+# `006` addProperty
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `addProperty`.
-
-Dado un objeto y una key, `addProperty` establece un valor `true`.
+1. Escribe una función llamada `addProperty`. Dado un objeto y una key, `addProperty` establece un valor `true`.
 
 Luego. la función tiene que devolver el objeto.
+
+## Ejemplo:
 
 ```Javascript
 var myObj = {};

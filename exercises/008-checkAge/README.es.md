@@ -6,9 +6,7 @@
 
 - `¡Go home, {insert_name_here}!`, si son menores de 21.
 
-- `¡Welcome {insert_name_here}!`, si son mayores de 21..
-
-Reemplaza `{insert_name_here}` ({inserta_nombre_aquí)} con el nombre dado. :)
+- `¡Welcome {insert_name_here}!`, si son mayores de 21.
 
 ## Ejemplo:
 
@@ -16,3 +14,7 @@ Reemplaza `{insert_name_here}` ({inserta_nombre_aquí)} con el nombre dado. :)
 var output = checkAge('Adrian', 22);
 console.log(output); // --> '¡Welcome Adrian!'
 ```
+
+## 💡 Pista:
+
++ Reemplaza `{insert_name_here}` ({inserta_nombre_aquí)} con el nombre dado. :)

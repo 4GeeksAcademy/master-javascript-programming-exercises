@@ -5,6 +5,10 @@ test('Function renderInventory must exist', () => {
     expect(renderInventory).not.toBe(undefined);
 });
 
+test('Function renderInventory must return something', () => {
+    expect(renderInventory()).toBeTruthy();
+});
+
 test('The function should filter all the shoes that contain the word "black" in the array.', () => {
     let output = renderInventory([
         {
@@ -26,6 +30,21 @@ test('The function should filter all the shoes that contain the word "black" in 
     expect(output).toEqual([
         ['Brunello Cucinelli', 'tasselled black low-top lace-up', 1000],
         ['Gucci', 'black leather laced sneakers', 900]
+    ])
+
+});
+test('The function should filter all the shoes that contain the word "black" in the array.', () => {
+    let output = renderInventory([
+        {
+            name: 'Santa Barbara',
+            shoes: [
+                { name: 'smooth black suede moccasins', price: 950 },
+                { name: 'plain olive suede moccasin', price: 1050 }
+            ]
+        }
+        ])
+    expect(output).toEqual([
+        ['Santa Barbara', 'smooth black suede moccasins', 950]
     ])
 
 });

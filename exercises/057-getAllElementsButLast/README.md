@@ -1,10 +1,10 @@
-# `57` getAllElementsButLast
+# `057` getAllElementsButLast
 
 ## 📝 Instructions:
 
-1. Write a function called `getAllElementsButLast`.
+1. Write a function called `getAllElementsButLast`. Given an array, `getAllElementsButLast` returns an array with all the elements but the last.
 
-Given an array, `getAllElementsButLast` returns an array with all the elements but the last.
+## Example:
 
 
 ```Javascript

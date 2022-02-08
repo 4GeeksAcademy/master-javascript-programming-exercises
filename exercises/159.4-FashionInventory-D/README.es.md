@@ -82,9 +82,7 @@ var inventory = [
 ```
 ## 💡 Pista
 
-Ayúdate con la información de esta página para obtener palabras de un string según espacios `" "`, comas `,` , etc.
-
-https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split
++ Ayúdate con la información de esta página para obtener palabras de un string según espacios `" "`, comas `,` , etc. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
 
 

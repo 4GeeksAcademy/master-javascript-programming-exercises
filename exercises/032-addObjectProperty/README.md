@@ -1,10 +1,10 @@
-# `32` addObjectProperty
+# `032` addObjectProperty
 
 ## 📝 Instructions
 
-Write a function called `addObjectProperty`.
+1. Write a function called `addObjectProperty`. Given two objects and a key, `addObjectProperty` sets a new property on the 1st object at the given key.
 
-Given two objects and a key, `addObjectProperty` sets a new property on the 1st object at the given key. The value of that new property is the entire 2nd object.
+## Example:
 
 ```Javascript
 var person1 = {
@@ -18,3 +18,7 @@ var person2 = {
 addObjectProperty(person1, 'manager', person2);
 console.log(person1.manager); // --> { name: 'Mr.Burns', role: 'supervisor' }
 ```
+
+## 💡 Hint:
+
++ The value of that new property is the entire 2nd object.

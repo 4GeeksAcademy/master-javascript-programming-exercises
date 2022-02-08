@@ -1,10 +1,10 @@
-# `34` isPersonOldEnoughToDrive
+# `034` isPersonOldEnoughToDrive
 
 ## 📝 Instrucciones:
 
-Escribe una función llamada `isPersonOldEnoughToDrive`.
+1. Escribe una función llamada `isPersonOldEnoughToDrive`. Dado un objeto `persona`, que contiene una propiedad `age`(edad), `isPersonOldEnoughToDrive` devuelve si la persona dada tiene la edad suficiente para conducir.
 
-Dado un objeto `persona`, que contiene una propiedad `age`(edad), `isPersonOldEnoughToDrive` devuelve si la persona dada tiene la edad suficiente para conducir.
+## Ejemplo:
 
 ```Js
 var obj = {

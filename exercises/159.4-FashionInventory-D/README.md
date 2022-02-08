@@ -82,9 +82,4 @@ var inventory = [
 
 ## 💡 Hint
 
-Help yourself with the information on this page to get words from a string according to spaces `" "`, commas `,` , etc.
-
-https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split
-
-The return value's format should be structured like this:
-
++ Help yourself with the information on this page to get words from a string according to spaces `" "`, commas `,` , etc. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split

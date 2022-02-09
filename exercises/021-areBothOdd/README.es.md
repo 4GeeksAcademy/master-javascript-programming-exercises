@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `areBothOdd`. Que dados 2 números, `areBothOdd` retorna `true` i ambos números son impares y `false` si ambos números no lo son.
+1. Escribe una función llamada `areBothOdd`, que dados 2 números, `areBothOdd` retorna `true` si ambos números son impares, de lo contrario retorna `false`.
 
 ## Ejemplo de Entrada:
 

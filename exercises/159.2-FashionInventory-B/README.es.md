@@ -10,9 +10,23 @@ Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inv
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `renderInventory` que tenga como argumento esta matriz `currentInventory`. Ahora debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
+1. Escribe una función llamada `renderInventory` que reciba como parámetro un arreglo como `currentInventory`. Y esta debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
 
-## Example input:
+```Js
+[
+    {
+      'name': 'Designer Name',
+      'averagePrice': 000
+    },
+    {
+      'name': 'Designer Name',
+      'averagePrice': 000
+    },
+    ...
+]
+```
+
+## Ejemplo de Entrada:
 
 ```Js
 var currentInventory = [
@@ -34,11 +48,10 @@ var currentInventory = [
   }
 ];
 ```
-## Expected output:
+## Ejemplo de Salida:
 
 ```Js
-var expected = {
-  'designers': [
+[
     {
       'name': 'Brunello Cucinelli',
       'averagePrice': 1025
@@ -47,13 +60,11 @@ var expected = {
       'name': 'Gucci',
       'averagePrice': 850
     }
-  ]
-};
+]
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + Puedes usar variables auxiliares.
 
 + Podrìas usar loops anidados.
-

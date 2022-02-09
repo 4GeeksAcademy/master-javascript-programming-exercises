@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `isOddLength`. Given a word, `isOddLength` returns whether the length of the given word is odd.
+1. Write a function called `isOddLength`. Given a word, `isOddLength` returns `true` if the length of the given word is odd, otherwise it returns `false`.
 
 ## Example:
 

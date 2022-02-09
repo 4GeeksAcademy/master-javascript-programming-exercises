@@ -1,12 +1,12 @@
-# `23` isOddLength
+# `023` isOddLength
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-1. Escribe una función llamada `isOddLength`.
+1. Escribe una función llamada `isOddLength`. Dada una palabra, `isOddLength` retorna `true` si la cantidad de letras que tiene la palabra es impar, de lo contrario retorna `false`.
 
-Dado una palabra, `isOddLength` retorna si la cantidad de letras que tiene la palabra es impar.
+## Ejemplo:
 
 ```Javascript
 var output = isOddLength('special');
-console.log(output); // --> verdadero
+console.log(output); // true
 ```

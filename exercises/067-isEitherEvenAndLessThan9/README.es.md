@@ -1,10 +1,10 @@
-# `67` isEitherEvenAndLessThan9
+# `067` isEitherEvenAndLessThan9
 
 ## 📝 Instrucciones:
 
-Escribe una función llamada `isEitherEvenAndLessThan9`.
+1. Escribe una función llamada `isEitherEvenAndLessThan9`. Dados dos números, `isEitherEvenAndLessThan9` returna `true` si alguno de los dos parámetros es par y los dos son menores de 9, de otra forma debe retornar `false`.
 
-Dados dos números, `isEitherEvenAndLessThan9` returna `true` si alguno de los dos parámetros es par (even) y los dos son menores de 9, de otra forma debe retornar `false`.
+## Ejemplos:
 
 ```Javascript
 var output = isEitherEvenAndLessThan9(2, 4);

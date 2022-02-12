@@ -1,12 +1,16 @@
-# `84` areValidCredentials
+# `084` areValidCredentials
 
-## 📝 Instrucciones 
+## 📝 Instrucciones: 
 
-Escribe una función llamada "areValidCredentials".
+1. Escribe una función llamada `areValidCredentials`. Dado un nombre y una contraseña,  `areValidCredentials` retorna verdadero si el nombre tiene más de 3 caracteres. 
 
-Dado un nombre y una contraseña,  "areValidCredentials" retorna verdadero si el nombre tiene más de 3 caracteres Y, la contraseña tiene por lo menos 8 caracteres. De lo contrario retorna falso.
+## Ejemplo:
 
 ```js
 var output = areValidCredentials('Ritu', 'mylongpassword')
 console.log(output); // --> verdadero
 ```
+
+## 💡 Pista:
+
++ La contraseña debe tener por lo menos 8 caracteresm de lo contrario retorna falso.

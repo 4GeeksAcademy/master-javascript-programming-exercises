@@ -1,13 +1,11 @@
-# `99` computeAverageOfNumbers
+# `099` computeAverageOfNumbers
 
-## 📝 Instrucciones 
+## 📝 Instrucciones: 
 
-1. Escribe una función llamada `computeAverageOfNumbers`.
-
-Dado un array de números, `computeAverageOfNumbers` retorna su promedio. 
+1. Escribe una función llamada `computeAverageOfNumbers`. Dado un array de números, `computeAverageOfNumbers` retorna su promedio. 
 
 
-## Resultado esperado:
+## Ejemplo:
 
 ```js
 var input = [1,2,3,4,5];

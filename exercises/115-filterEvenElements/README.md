@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `filterEvenElements`.
+1. Write a function called `filterEvenElements`. Given an array of numbers, `filterEvenElements` returns an array containing only the even numbers of the given array.
 
-Given an array of numbers, `filterEvenElements` returns an array containing only the even numbers of the given array.
+## Example:
 
 ```Js
 var output = filterEvenElements([2, 3, 4, 5, 6]);

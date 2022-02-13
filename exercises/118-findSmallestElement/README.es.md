@@ -2,15 +2,15 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `findSmallestElement`.
+1. Escribe una función llamada `findSmallestElement`. Dado un array de números, `findSmallestElement` retorna el número más pequeño dentro del array.
 
-Dado un arreglo de números, `findSmallestElement` retorna el número más pequeño dentro del arreglo.
-
-## :bulb: Pista:
-
-* Si el arreglo dado está vacío, debería retornar `0`.
+## Ejemplo:
 
 ```Js
 var output = findSmallestElement([4, 1, 9, 10]);
 console.log(output); // --> 1
 ```
+
+## 💡 Pista:
+
+* Si el array dado está vacío, debería retornar `0`.

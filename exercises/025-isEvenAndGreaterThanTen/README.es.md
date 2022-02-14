@@ -1,10 +1,10 @@
-# `25` isEvenAndGreaterThanTen
+# `025` isEvenAndGreaterThanTen
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isEvenAndGreaterThanTen`.
+1. Escribe una función llamada `isEvenAndGreaterThanTen`. Dado un número, `isEvenAndGreaterThanTen` retorna `true` si el número es par y mayor que 10, de lo contrario retorna `false`.
 
-Dado un número, `isEvenAndGreaterThanTen` retorna si el número es par y mayor que `10`.
+## Ejemplo:
 
 ```Javascript
 var output = isEvenAndGreaterThanTen(13);

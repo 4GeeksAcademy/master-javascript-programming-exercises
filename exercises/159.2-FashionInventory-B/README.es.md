@@ -1,14 +1,35 @@
 # `159.2` FashionInventory-B
+ 
+NO pegues el código de antes. Afronta cada problema por su cuenta. 
 
-## 📝 Instrucciones
+Es la misma estructura de datos de inventario que antes:  
 
-Esta es una variación del problema del "Fashion Inventory". 
+Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. 
 
-Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta. 
+ Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
 
-Es la misma estructura de datos de inventario que antes:   
+## 📝 Instrucciones:
+
+1. Escribe una función llamada `renderInventory` que reciba como parámetro un arreglo como `currentInventory`. Y esta debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
+
 ```Js
-var inventory = [
+[
+    {
+      'name': 'Designer Name',
+      'averagePrice': 000
+    },
+    {
+      'name': 'Designer Name',
+      'averagePrice': 000
+    },
+    ...
+]
+```
+
+## Ejemplo de Entrada:
+
+```Js
+var currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -27,10 +48,10 @@ var inventory = [
   }
 ];
 ```
-Ahora muestre el costo promedio de todos los zapatos por diseñador en este formato: 
+## Ejemplo de Salida:
+
 ```Js
-var expected = {
-  'designers': [
+[
     {
       'name': 'Brunello Cucinelli',
       'averagePrice': 1025
@@ -39,6 +60,11 @@ var expected = {
       'name': 'Gucci',
       'averagePrice': 850
     }
-  ]
-};
+]
 ```
+
+## 💡 Pistas:
+
++ Puedes usar variables auxiliares.
+
++ Podrìas usar loops anidados.

@@ -11,7 +11,7 @@ var car = {
   model: 'Toyota'
 };
 var output = getProperty(car, 'model');
-console.log(output); // --> 'value'
+console.log(output); // --> 'Toyota'
 ```
 
 ## 💡 Hint:

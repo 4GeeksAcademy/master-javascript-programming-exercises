@@ -13,3 +13,4 @@ var obj = {
 }
 removeProperty(obj, 'name');
 console.log(obj.name); // --> undefined
+```

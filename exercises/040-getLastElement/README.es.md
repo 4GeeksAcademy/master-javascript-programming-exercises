@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getLastElement`. Dado el array `getLastElement`, regresa el último elemento del array.
+1. Escribe una función llamada `getLastElement`. Dado un array `getLastElement`, regresa el último elemento del array.
 
 ## Ejemplo:
 

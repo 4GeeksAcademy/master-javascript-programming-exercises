@@ -2,14 +2,14 @@
 
 ## 📝 Instructions:
 
-1. Write a function `joinArrayOfArrays`.
+1. Write a function `joinArrayOfArrays`. Given a matrix (array of arrays), `joinArrayOfArrays` returns a single array containing the elements of the nested arrays. 
 
-Given an array of arrays, `joinArrayOfArrays` returns a single array containing the elements of the nested arrays. 
+## Example:
 
 ```Js
 var output = joinArrayOfArrays([[1, 4], [true, false], ['x', 'y']]);
 console.log(output); // --> [1, 4, true, false, 'x', 'y']
 ```
-## :bulb: Hint:
+## 💡 Hint:
 
 + You should be familiar with the `concat` method for this problem.

@@ -2,14 +2,15 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `joinArrayOfArrays`.
+1. Escribe una función llamada `joinArrayOfArrays`. Dado una matriz (array de arrays), `joinArrayOfArrays` retorna un array único que contenga los elementos de los arrays anidados.
 
-Dado un arreglo de arreglos, `joinArrayOfArrays` retorna un arreglo único que contenga los elementos de los arreglos anidados.
+## Ejemplo:
 
 ```Js
 var output = joinArrayOfArrays([[1, 4], [true, false], ['x', 'y']]);
 console.log(output); // --> [1, 4, true, false, 'x', 'y']
 ```
-## :bulb: Pista:
+
+## 💡 Pista:
 
 + Debes estar familiarizado con el método `concat`. 

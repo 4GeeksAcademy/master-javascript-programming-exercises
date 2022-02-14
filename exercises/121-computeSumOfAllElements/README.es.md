@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeSumOfAllElements`.
+1. Escribe una función llamada `computeSumOfAllElements`. Dado una array de numeros, `computeSumOfAllElements` retorna la suma de todos los elementos del array.
 
-Dado una arreglo de numeros, `computeSumOfAllElements` retorna la suma de todos los elementos del arreglo.
+## Ejemplo:
 
 ```Js
 var output = computeSumOfAllElements([1, 2, 3])

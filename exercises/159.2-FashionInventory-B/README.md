@@ -1,15 +1,35 @@
 # `159.2` FashionInventory-B
 
-## 📝 Instrucciones
+DO NOT paste the code from before. Tackle each problem on your own. 
 
-This exercise is "Fashion Inventory A". 
+It's the same inventory data structure as before. 
 
-However, DO NOT paste the code from before. Tackle each problem on your own. 
+You have a fashion catalog, an inventory `currentInventory` with items from various high-fashion designers. 
 
-It's the same inventory data structure as before:
+Each designer has a lineup of shoes. Each shoe has a name and price.
+
+## 📝 Instructions:
+
+1. Write a function called `renderInventory` that will take in as paramater an array like `CurrentInventory`. Your function should now return the average cost of all shoes by designer in this format:
 
 ```Js
-var inventory = [
+[
+    {
+      'name': 'Designer Name',
+      'averagePrice': 000
+    },
+    {
+      'name': 'Designer Name',
+      'averagePrice': 000
+    },
+    ...
+]
+```
+
+## Example input:
+
+```Js
+var currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -28,11 +48,10 @@ var inventory = [
   }
 ];
 ```
+## Expected output:
 
-Now show the average cost of all shoes by designer in this format:
-
-var expected = {
-  'designers': [
+```Js
+[
     {
       'name': 'Brunello Cucinelli',
       'averagePrice': 1025
@@ -41,6 +60,11 @@ var expected = {
       'name': 'Gucci',
       'averagePrice': 850
     }
-  ]
-};
+]
 ```
+
+## 💡 Hint:
+
++ You may use auxiliary variables
+
++ You may use nested loops.

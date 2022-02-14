@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isEvenAndGreaterThanTen`. Dado un número, `isEvenAndGreaterThanTen` retorna si el número es par y mayor que 10.
+1. Escribe una función llamada `isEvenAndGreaterThanTen`. Dado un número, `isEvenAndGreaterThanTen` retorna `true` si el número es par y mayor que 10, de lo contrario retorna `false`.
 
 ## Ejemplo:
 

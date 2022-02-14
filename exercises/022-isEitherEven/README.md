@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `isEitherEven`. Given two numbers, `isEitherEven` returns whether or not either one of the given numbers is even.
+1. Write a function called `isEitherEven`. Given 2 numbers, `isEitherEven` returns `true` if one of the numbers is odd, otherwise it should return `false`.
 
 ## Example:
 

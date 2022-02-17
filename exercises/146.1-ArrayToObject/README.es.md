@@ -2,40 +2,42 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función `transformFirstAndLast` que tome un arreglo y devuelva un objeto con:
+1. Escribe una función `transformFirstAndLast` que tome un array y devuelva un objeto *cuyo primer elemento sea la key del objeto*, y
 
-+  el primer elemento del arreglo como key del objeto, y
+cuyo *último elemento sea el valor de esa key*.
 
-+ el último elemento del arreglo como el valor de esa key.
-
- ### Ejemplo de entrada:
+ ## Ejemplo de entrada 1:
 
  ```Js
 ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']
 ```
 
-### Ejemplo de salida:
+## Ejemplo de salida 1:
 
 ```Js
 {
   Queen : 'Beyonce'
 }
-```
+``` 
 
- No cambies el arreglo de entrada. Supón que todos los elementos en el arreglo de entrada serán del tipo `string`.
-
-Ten en cuenta que el arreglo de entrada puede tener un número variable de elementos. Tu código debe acomodar eso flexiblemente.
-
-### Ejemplo de entrada:
+### Ejemplo de entrada 2:
 
 ```js
 ['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Spacey']
 ```
 
-### Ejemplo de salida:
+### Ejemplo de salida 2:
 
 ```Js
 {
   Kevin : 'Spacey'
 }
 ```
+
+## 💡 Pistas:
+
++ No cambies el array de entrada. 
+
++ Supón que todos los elementos en el array de entrada serán del tipo `string`.
+
++ Ten en cuenta que el array de entrada puede tener un número variable de elementos. Tu código debe ser flexible.

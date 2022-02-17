@@ -4,7 +4,7 @@
 
 1. Write a function called "getAllKeys" which returns an array of all the input object's keys.
 
-Example input: 
+## Example input: 
 
 ```Js
 {
@@ -13,16 +13,20 @@ Example input:
   hasPets : true
 }
 ```
-Function's return value (output) :
+
+## Example output
 
 ```Js
 ['name', 'age', 'hasPets']
 ```
-Do not use `Object.keys` to solve this prompt.
 
-Note that your function should be able to handle any object passed in it.
+## 💡 Hints:
 
-E.g. it should also handle an input like:
++ Do not use `Object.keys` to solve this prompt.
+
++ Note that your function should be able to handle any object passed in it. E.g. it should also handle an input like:
+
+## Example input: 
 
 ```Js
 {
@@ -32,7 +36,8 @@ E.g. it should also handle an input like:
   grammyWins : 1
 }
 ```
-Function's return value (output):
+
+## Example output
 
 ```Js
 ['a', 'number', 'hungry', 'grammyWins']

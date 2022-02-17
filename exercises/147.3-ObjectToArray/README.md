@@ -4,7 +4,7 @@
 
 1. Write a function called `convertObjectToList` that converts a literal object into an array of arryas, like this:
 
-+ Argument:
+## Example input:
 
 ```Js
 {
@@ -13,15 +13,15 @@
   role: 'producer'
 }
 ```
-+ Return value:
+## Example output:
 
 ```Js
 [['name', 'Holly'], ['age', 35], ['role', 'producer']]
 ```
 
-Note that your function should handle ANY object like that one and not just the given sample.
+## 💡 Hint:
 
-E.g. Should handle this one or ANY other object containing simple key-values.
++ Note that your function should handle ANY object like that one and not just the given sample. E.g. Should handle this one or ANY other object containing simple key-values:
 
 ```Js
 {

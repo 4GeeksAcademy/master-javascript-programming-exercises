@@ -4,7 +4,7 @@
 
 1. Write a function called `listAllValues` which returns an array of all the input object's values.
 
-Example input:
+## Example input 1:
 
 ```Js
 {
@@ -13,14 +13,18 @@ Example input:
   hasPets : false
 }
 ```
-Function's return value (output):
+
+## Expected output 1:
 
 ```Js
 ['Krysten', 33, false]
 ```
-Note that the input may have a different number of keys and values than the given sample. 
 
-E.g. it should also handle an input like:
+## 💡 Hint:
+
++ Note that the input may have a different number of keys and values than the given sample. E.g. it should also handle an input like:
+
+# Example input 1:
 
 ```Js
 {
@@ -30,7 +34,8 @@ E.g. it should also handle an input like:
   grammyWins : 1
 }
 ```
-Function's return value (output):
+
+## Expected output:
 
 ```Js
 ['a', 11, true, 1]

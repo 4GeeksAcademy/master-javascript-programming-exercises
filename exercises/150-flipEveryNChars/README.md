@@ -8,14 +8,15 @@
 
 3. When call function, return string with every n of characters flipped including spaces.
 
-Example:
+## Example:
 
 ```Js
 var input = 'a short example'; 
 var output = flipEveryNChars(input, 5);
 console.log(output); // --> ohs axe trelpma
 ```
-Example piece's:
+
+**Example pieces**
 
 ```js
 'a sho' -> 'ohs a'

@@ -2,13 +2,12 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `greetCustomer`.
+1. Escribe una función llamada `greetCustomer`. Dado un nombre, `greetCustomer` devuelve un saludo en función de cuántas veces ese cliente ha visitado el restaurante. Estudia el objeto `customerData`. 
 
-Dado un nombre, `greetCustomer` devuelve un saludo en función de cuántas veces ese cliente ha visitado el restaurante. Estudia el objeto `customerData`.
-
-El saludo debe ser diferente, dependiendo del nombre en su reserva.
+- El saludo debe ser diferente, dependiendo del nombre en su reserva.
 
 + Caso 1 - Cliente desconocido (El nombre no se encuentra en el customerData ):
+
 ```Js
 var output = greetCustomer('Terrance');
 console.log(output); // --> 'Welcome! Is this your first time?'
@@ -28,11 +27,11 @@ var output = greetCustomer('Carol');
 console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
-* Su función no debe alterar el objeto `customerData` para actualizar el número de visitas.
++ Su función no debe alterar el objeto `customerData` para actualizar el número de visitas.
 
-* No programes con los datos de muestra exactos. Es una MALA IDEA 😩 :
++ No programes con los datos de muestra exactos. Es una MALA IDEA 😩 :
 
 ```Js
 if (firstName === 'Joe') {

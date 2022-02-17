@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `listAllValues` que devuelve un arreglo de todos los valores del objeto de entrada.
+1. Escribe una función llamada `listAllValues` que devuelve un array de todos los valores del objeto de entrada.
 
-Ejemplo del objeto de entrada:
+## Ejemplo de entrada 1:
 
 ```Js
 {
@@ -13,14 +13,17 @@ Ejemplo del objeto de entrada:
   hasPets : false
 }
 ```
-Valor de retorno de la función (salida):
+
+## Ejemplo de salida 1:
 
 ```Js
 ['Krysten', 33, false]
 ```
-Ten en cuenta que la entrada puede tener un número diferente de keys y valores que la muestra dada.
+## 💡 Pistas:
 
-Por ejemplo también debería manejar una entrada como:
++ Ten en cuenta que la entrada puede tener una cantidad diferente de keys y valores que la muestra dada. Por ejemplo también debería manejar una entrada como:
+
+# Ejemplo de entrada 2:
 
 ```Js
 {
@@ -30,7 +33,8 @@ Por ejemplo también debería manejar una entrada como:
   grammyWins : 1
 }
 ```
-Valor de retorno de la función (salida):
+
+## Ejemplo de salida 2:
 
 ```Js
 ['a', 11, true, 1]

@@ -8,7 +8,7 @@
 
 3. Cuando llames a la función, devuelve un string con cada n de caracteres invertidos, incluidos los espacios.
 
-Ejemplo:
+## Ejemplo:
 
 ```Js
 var input = 'a short example'; 
@@ -16,7 +16,8 @@ var output = flipEveryNChars(input, 5);
 console.log(output); // --> ohs axe trelpma
 ```
 
-Desglosando este ejemplo, pieza por pieza:
+**Desglosando este ejemplo, pieza por pieza:**
+
 ```js
 'a sho' -> 'ohs a'
 'rt ex' -> 'xe tr'

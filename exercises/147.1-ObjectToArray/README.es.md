@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `getAllKeys` que devuelve un array de todas las keys del objeto de entrada. 
 
-### Ejemplo de entrada:
+### Ejemplo de entrada 1:
 
 ```Js
 {
@@ -14,7 +14,7 @@
 }
 ```
 
-### Ejemplo de salida:
+### Ejemplo de salida 1:
 
 ```Js
 ['name', 'age', 'hasPets']

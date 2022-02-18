@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `greetCustomer`. Dado un nombre, `greetCustomer` devuelve un saludo en función de cuántas veces ese cliente ha visitado el restaurante. Estudia el objeto `customerData`. 
+1. Escribe una función llamada `greetCustomer`. Dado un nombre, `greetCustomer` retorna un saludo en función de cuántas veces ese cliente ha visitado el restaurante. Estudia el objeto `customerData`. 
 
-- El saludo debe ser diferente, dependiendo del nombre en su reserva.
+- El saludo debe ser diferente, dependiendo del nombre de la reserva del cliente:
 
 + Caso 1 - Cliente desconocido (El nombre no se encuentra en el customerData ):
 
@@ -32,6 +32,8 @@ console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 + Su función no debe alterar el objeto `customerData` para actualizar el número de visitas.
 
 + No programes con los datos de muestra exactos. Es una MALA IDEA 😩 :
+
+## Ejemplo de entrada:
 
 ```Js
 if (firstName === 'Joe') {

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `listAllValues` que devuelve un array de todos los valores del objeto de entrada.
+1. Escribe una función llamada `listAllValues` que devuelva un array de todos los valores del objeto de entrada.
 
 ## Ejemplo de entrada 1:
 
@@ -19,7 +19,7 @@
 ```Js
 ['Krysten', 33, false]
 ```
-## 💡 Pistas:
+## 💡 Pista:
 
 + Ten en cuenta que la entrada puede tener una cantidad diferente de keys y valores que la muestra dada. Por ejemplo también debería manejar una entrada como:
 

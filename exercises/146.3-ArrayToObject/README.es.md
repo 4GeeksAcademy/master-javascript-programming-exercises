@@ -28,4 +28,4 @@
 
 ## 💡 Pista:
 
-+ Ten en cuenta que la entrada puede tener una cantidad diferente de filas o keys a las del ejemplo. Por ejemplo, supongamos que el departamento de recursos humanos agrega un campo `tshirtSize` a cada registro de empleado. Tu código debe ser capaz de adaptarse.
++ Ten en cuenta que la entrada puede tener una cantidad diferente de filas o keys a las del ejemplo. Por ejemplo, supongamos que el departamento de recursos humanos agrega un campo `tshirtSize` a cada registro de empleado. Tu código debe ser flexible y adaptarse.

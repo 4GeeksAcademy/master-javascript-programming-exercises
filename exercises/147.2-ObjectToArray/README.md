@@ -24,7 +24,7 @@
 
 + Note that the input may have a different number of keys and values than the given sample. E.g. it should also handle an input like:
 
-# Example input 1:
+# Example input 2:
 
 ```Js
 {
@@ -35,7 +35,7 @@
 }
 ```
 
-## Expected output:
+## Expected output 2:
 
 ```Js
 ['a', 11, true, 1]

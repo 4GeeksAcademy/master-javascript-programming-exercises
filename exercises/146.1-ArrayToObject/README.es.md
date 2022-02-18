@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función `transformFirstAndLast` que tome un array y devuelva un objeto *cuyo primer elemento sea la key del objeto*, y
+1. Escribe una función `transformFirstAndLast` que tome un array y devuelva un objeto cuyo *primer elemento sea la key del objeto*, y
 
 cuyo *último elemento sea el valor de esa key*.
 
@@ -38,6 +38,6 @@ cuyo *último elemento sea el valor de esa key*.
 
 + No cambies el array de entrada. 
 
-+ Supón que todos los elementos en el array de entrada serán del tipo `string`.
++ Supón que todos los elementos en el array de entrada serán del tipo string.
 
-+ Ten en cuenta que el array de entrada puede tener un número variable de elementos. Tu código debe ser flexible.
++ Ten en cuenta que el array de entrada puede teneruna cantidad variable de elementos por lo que tu código debe ser flexible.

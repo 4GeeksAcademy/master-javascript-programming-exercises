@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Write a function called "getAllKeys" which returns an array of all the input object's keys.
+1. Write a function called `getAllKeys` which returns an array of all the input object's keys.
 
-## Example input: 
+## Example input 1: 
 
 ```Js
 {
@@ -14,7 +14,7 @@
 }
 ```
 
-## Example output
+## Example output 1:
 
 ```Js
 ['name', 'age', 'hasPets']
@@ -26,7 +26,7 @@
 
 + Note that your function should be able to handle any object passed in it. E.g. it should also handle an input like:
 
-## Example input: 
+## Example input 2: 
 
 ```Js
 {
@@ -37,7 +37,7 @@
 }
 ```
 
-## Example output
+## Example output 2:
 
 ```Js
 ['a', 'number', 'hungry', 'grammyWins']

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getNthElement`. Dado un array y un número entero, `getNthElement` regresa un elemento del entero, dentro del array dado.
+1. Escribe una función llamada `getNthElement`. Dado un array y un número entero, `getNthElement` regresa un elemento del entero, dentro de la posición dada.
 
 ## Ejemplo:
 

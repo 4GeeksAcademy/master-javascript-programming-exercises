@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isPersonOldEnoughToDrinkAndDrive`. Dado un objeto `persona`, que contiene una propiedad `edad`, `isPersonOldEnoughToDrinkAndDrive` devuelve si la persona dada tiene la edad suficiente para beber y conducir legalmente en los Estados Unidos.
+1. Escribe una función llamada `isPersonOldEnoughToDrinkAndDrive`. Dado un objeto `persona`, que contiene una propiedad `edad`, `isPersonOldEnoughToDrinkAndDrive` devuelve `true` si la persona tiene la edad suficiente para beber y conducir legalmente en los Estados Unidos. De lo contrario retorna `false`.
 
 ## Ejemplo:
 

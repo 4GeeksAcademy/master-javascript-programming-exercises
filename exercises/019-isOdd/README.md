@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `isOdd`. Given a number, `isOdd` returns whether the given number is odd.
+1. Write a function called `isOdd`. Given a number, `isOdd` returns `true` if the given number is odd. Otherwise it returns `false`.
 
 ## Example:
 

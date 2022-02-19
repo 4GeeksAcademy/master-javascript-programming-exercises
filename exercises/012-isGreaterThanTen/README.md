@@ -2,7 +2,7 @@
 
 ## 📝 Instructions: 
 
-1. Write a function called `isGreaterThanTen`. Given a number, `isGreaterThanTen` returns whether it is greater than 10.
+1. Write a function called `isGreaterThanTen`. Given a number, `isGreaterThanTen` returns `true` if it is greater than 10, otherwise it returns `false`.
 
 ## Example:
 

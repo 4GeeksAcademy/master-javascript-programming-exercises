@@ -2,11 +2,11 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isGreaterThanTen`. Dado un número, `isGreaterThanTen` retorna si éste es mayor a 10.
+1. Escribe una función llamada `isGreaterThanTen`. Dado un número, `isGreaterThanTen` retorna `true` éste es mayor a 10, sino retorna `false`.
 
 ## Ejemplo:
 
 ```Javascript
 var output = isGreaterThanTen(11);
-console.log(output); // --> verdadero
+console.log(output); // --> true
 ```

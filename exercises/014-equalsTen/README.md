@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `equalsTen`. Given a number, `equalsTen` returns whether or not the given number is 10.
+1. Write a function called `equalsTen`. Given a number, `equalsTen` returns `true` if the given number is 10. Otherwise it returns `false`.
 
 ## Example:
 

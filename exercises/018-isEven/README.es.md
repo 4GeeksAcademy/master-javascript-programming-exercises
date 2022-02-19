@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isEven`. Dado un número, `isEven` retorna si el número es par.
+1. Escribe una función llamada `isEven`. Dado un número, `isEven` retorna `true` si el número es par. De lo contrario retorna `false`.
 
 ## Ejemplo:
 

@@ -1,8 +1,7 @@
 # `159.1` FashionInventory-A
 
 Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. 
- 
-Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
+ Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
 
 ## 📝 Instrucciones:
 
@@ -49,7 +48,7 @@ var currentInventory = [
 ]
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + Deberías usar loops anidados.
 

@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Is one string a rotated version of another?
+1. Is one string a rotated version of another? If yes, `isRotated` function should return `true`.
 
-For example:
+## Example:
 
 ```js
 String 1: 'hello world'

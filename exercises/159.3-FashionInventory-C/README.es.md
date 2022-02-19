@@ -1,10 +1,6 @@
 # `159.3` FashionInventory-C
-
-Esta es una variación del problema del "Fashion Inventory".
-
-Sin embargo, NO pegues el código de antes. Afronta cada problema por su cuenta.
-
-Es la misma estructura de datos de inventario que antes.
+y`
+Es la misma estructura de datos del inventario `currentInventory` de antes pero ahora debes encontrar todos los zapatos negros (con el string `black`). 
 
 ## 📝 Instrucciones
 
@@ -42,9 +38,8 @@ var inventory = [
   }
 ];
 ```
-[comment]: <Ahora encuentra todos los zapatos negro ( con el name `black`). Es el mismo resultado que la parte 1, pero se filtró solo a los nombres de zapatos que contienen "negro" en ellos.>
- 
-## Ejemplo de Salida:
+
+ ## Ejemplo de Salida:
 
 ```Js
 [
@@ -53,6 +48,10 @@ var inventory = [
 ]
 ```
 
-## 💡 Hint:
+## 💡 Hints:
+
++ Esta es una variación del problema del "Fashion Inventory", sin embargo, NO pegues el código de antes. Afronta cada problema por separado.
+
++ Es el mismo resultado que el Fashion Inventory A,  pero ahora solo se filtran los nombres de zapatos que contienen `black`.
 
 + Si no hay ningún zapato que contenga `black` en su nombre, la función debería devolver un array vacío `[]`.

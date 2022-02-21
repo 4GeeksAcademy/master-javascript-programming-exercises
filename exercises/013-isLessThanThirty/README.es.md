@@ -1,10 +1,10 @@
-# `13` isLessThan30
+# `013` isLessThan30
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isLessThan30`.
+1. Escribe una función llamada `isLessThan30`. Dado un número, `isLessThan30` retorna `true` si ese número es menor de 30. De lo contrario retorna `false`.
 
-Dado un número, `isLessThan30` retorna si ese número es menor de `30`.
+## Ejemplo:
 
 ```Javascript
 var output = isLessThan30(9);

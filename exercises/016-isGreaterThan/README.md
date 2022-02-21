@@ -1,10 +1,10 @@
-# `16` isGreaterThan
+# `016` isGreaterThan
 
 ## 📝 Instructions:
 
-1. Write a function called `isGreaterThan`.
+1. Write a function called `isGreaterThan`. Given 2 numbers, `isGreaterThan` returns `true` if `num2` is greater than `num1`. Otherwise it returns `false`.
 
-Given 2 numbers, `isGreaterThan` returns whether `num2` is greater than `num1`.
+## Example:
 
 ```Javascript
 var output = isGreaterThan(11, 10);

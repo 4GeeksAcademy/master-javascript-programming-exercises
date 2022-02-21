@@ -1,10 +1,10 @@
-# `11` getLengthOfTwoWords
+# `011` getLengthOfTwoWords
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getLengthOfTwoWords`.
+1. Escribe una función llamada `getLengthOfTwoWords`. Dado dos palabras, `getLengthOfTwoWords` retorna la *suma* de sus letras.
 
-Dado dos palabras, `getLengthOfTwoWords` retorna la *suma* de sus letras.
+## Ejemplo:
 
 ```Javascript
 var output = getLengthOfTwoWords('some', 'words');

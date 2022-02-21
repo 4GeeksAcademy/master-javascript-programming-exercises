@@ -1,10 +1,10 @@
-# `30` computeAverageLengthOfWords
+# `030` computeAverageLengthOfWords
 
 ## 📝 Instrucciones:
 
-Escribe una función llamada `computeAverageLengthOfWords`.
+1. Escribe una función llamada `computeAverageLengthOfWords`. Dado dos palabras, `computeAverageLengthOfWords` retorna el promedio de la cantidad de letras de ambas.
 
-Dado dos palabras, `computeAverageLengthOfWords` retorna el promedio de la cantidad de letras de ambas.
+## Ejemplo:
 
 ```Javascript
 var output = computeAverageLengthOfWords('code', 'programs');

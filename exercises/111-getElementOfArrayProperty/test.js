@@ -24,7 +24,7 @@ test('If the array is empty, it should return undefined', () => {
     var obj = {
         key: []
     };
-    var output = getElementOfArrayProperty(obj, 'key')
+    var output = getElementOfArrayProperty(obj, 'key', 2)
     expect(output).toBe(undefined)
 })
 
@@ -32,13 +32,13 @@ test('If the property in the given key is not an array, it should return undefin
     var obj = {
         key: 9
     };
-    var output = getElementOfArrayProperty(obj, 'key')
+    var output = getElementOfArrayProperty(obj, 'key', 9)
     expect(output).toBe(undefined)
 })
 
 test('If there is no property on the key, it should return undefined.', () => {
     var obj = {
     };
-    var output = getElementOfArrayProperty(obj, 'key')
+    var output = getElementOfArrayProperty(obj, 'key', 2)
     expect(output).toBe(undefined)
 })

@@ -4,7 +4,7 @@
 
 1. Write a function called `getElementOfArrayProperty`.
 
-The `getElementOfArrayProperty` function receives three parameters, `(obj , key , index)`, this function returns the value of an array element found in the property (`key`) of the given object (`obj`) through its index (`index`).
+Given an object, a key, and a numerical index, `getElementOfArrayProperty` returns the value of the element at the given index of the array located within the given object at the given key.
 
 ## :bulb: Hint:
 
@@ -23,5 +23,3 @@ var obj = {
 var output = getElementOfArrayProperty(obj, 'key', 0); 
 console.log(output); // --> 'Jamil'
 ```
-
-* In the previous example we are saying that we want to know the value that contains the `index` 0 in the property called `key`, property that is located inside the object `obj`.

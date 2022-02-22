@@ -6,7 +6,6 @@
 
 Dado un Objeto, un Key y un index númerico, `getElementOfArrayProperty` retorna el valor de un elemento en el index proporcionado del arreglo localizado dentro del Objeto en la key dada.
 
-un elemento en el index proporcionado del arreglo localizado dentro del Objeto en la key dada
 ## :bulb: Pista:
 
 * Si el arreglo está vacío, debería retornar `undefined`.

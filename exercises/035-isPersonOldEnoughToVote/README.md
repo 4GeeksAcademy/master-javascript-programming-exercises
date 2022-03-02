@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-Write a function called `isPersonOldEnoughToVote`.nGiven a `person` object, that contains an `age` property, `isPersonOldEnoughToVote` returns whether the given person is old enough to vote.
+Write a function called `isPersonOldEnoughToVote`.nGiven a `person` object, that contains an `age` property, `isPersonOldEnoughToVote` returns `true` if the given person is old enough to vote. Otherwise it returns `false`.
 
 ## Example:
 

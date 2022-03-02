@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getNthElement`. Dado un array y un número entero, `getNthElement` regresa un elemento del entero, dentro de la posición dada.
+1. Escribe una función llamada `getNthElement`. Dado un array y un número entero, `getNthElement` regresa el elemento del array, ubicado dentro de la posición dada.
 
 ## Ejemplo:
 
@@ -14,4 +14,3 @@ console.log(output); // --> 3
 ## 💡 Pista:
 
 + Si el arreglo tiene una longitud 0, debería regresar `undefined`.
-

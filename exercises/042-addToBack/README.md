@@ -1,16 +1,16 @@
-# `42` addToBack
+# `042` addToBack
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Write a function called "addToBack". 
+1. Write a function called `addToBack`. Given an array and an element, `addToBack` returns the given array with the given element added to the end.
 
-1. Given an array and an element, `addToBack` returns the given array with the given element added to the end.
-
-## 💡 Hint:
-
-+ It should be the SAME array, not a new array.
+## Example:
 
 ```Javascript
 var output = addToBack([1, 2], 3);
 console.log(output); // -> [1, 2, 3]
 ```
+
+## 💡 Hint:
+
++ It should be the SAME array, not a new array.

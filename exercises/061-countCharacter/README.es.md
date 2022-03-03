@@ -1,10 +1,10 @@
-# `61` countCharacter
+# `061` countCharacter
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `countCharacter`.
+1. Escribe una función llamada `countCharacter`. Dado un string input y un caracter, `countCharacter` regresa el número de repeticiones del caracter dado en el string.
 
-Dado un string input y un caracter, `countCharacter` regresa el número de repeticiones del caracter dado en el string.
+## Ejemplo:
 
 ```Javascript
 var output = countCharacter('I am a hacker', 'a');

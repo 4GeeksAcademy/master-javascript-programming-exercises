@@ -1,10 +1,10 @@
-# `15` isLessThan
+# `015` isLessThan
 
 ## 📝 Instructions:
 
-1. Write a function called `isLessThan`.
+1. Write a function called `isLessThan`. Given 2 numbers, `isLessThan` returns `true` if `num2` is less than `num1`. Otherwise it returns `false`.
 
-Given 2 numbers, `isLessThan` returns whether `num2` is less than `num1`.
+## Example:
 
 ```Javascript
 var output = isLessThan(9, 4);

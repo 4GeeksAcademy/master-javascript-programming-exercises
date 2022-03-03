@@ -1,10 +1,10 @@
-# `19` isOdd
+# `019` isOdd
 
 ## 📝 Instructions:
 
-1. Write a function called `isOdd`.
+1. Write a function called `isOdd`. Given a number, `isOdd` returns `true` if the given number is odd. Otherwise it returns `false`.
 
-Given a number, `isOdd` returns whether the given number is odd.
+## Example:
 
 ```Javascript
 var output = isOdd(9);

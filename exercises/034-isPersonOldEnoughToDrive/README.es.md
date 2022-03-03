@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isPersonOldEnoughToDrive`. Dado un objeto `persona`, que contiene una propiedad `age`(edad), `isPersonOldEnoughToDrive` devuelve si la persona dada tiene la edad suficiente para conducir.
+1. Escribe una función llamada `isPersonOldEnoughToDrive`. Dado un objeto `persona`, que contiene una propiedad `age`(edad), `isPersonOldEnoughToDrive` devuelve `true` la persona dada tiene la edad suficiente para conducir. De lo contrario retorna `false`.
 
 ## Ejemplo:
 

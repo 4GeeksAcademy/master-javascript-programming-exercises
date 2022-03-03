@@ -1,4 +1,4 @@
-# `49` computePower
+# `049` computePower
 
 ## 📝 Instructions:
 

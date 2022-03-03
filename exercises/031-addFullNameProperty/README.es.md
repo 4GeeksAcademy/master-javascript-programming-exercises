@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `addFullNameProperty`. Dado un objeto que tiene una propiedad `firstName` y una propiedad `lastName`, `addFullNameProperty` devuelve una propiedad `fullName` cuyo valor es una string con el nombre y el apellido separados por un espacio.
+1. Escribe una función llamada `addFullNameProperty`. Dado un objeto que tiene una propiedad `firstName` y una propiedad `lastName`, `addFullNameProperty` agrega la propiedad `fullName` al objeto, su valor es una string con el nombre y el apellido separados por un espacio.
 
 ## Ejemplo:
 

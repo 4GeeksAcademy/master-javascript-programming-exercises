@@ -1,10 +1,10 @@
-# `77` removeStringValues
+# `077` removeStringValues
 
 ## 📝 Instructions:
 
-1. Write a function called `removeStringValues`.
+1. Write a function called `removeStringValues`. Given an object, `removeStringValues` removes any properties whose values are strings.
 
-Given an object, `removeStringValues` removes any properties whose values are strings.
+## Example:
 
 ```Javascript
 var obj = {

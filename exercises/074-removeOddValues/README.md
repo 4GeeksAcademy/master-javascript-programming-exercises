@@ -1,10 +1,10 @@
-# `74` removeOddValues
+# `074` removeOddValues
 
 ## 📝 Instructions:
 
-1. Write a function called `removeOddValues`.
+1. Write a function called `removeOddValues`. Given an object, `removeOddValues` removes any properties whose values are odd numbers.
 
-Given an object, `removeOddValues` removes any properties whose values are odd numbers.
+## Example:
 
 ```Javascript
 var obj = {

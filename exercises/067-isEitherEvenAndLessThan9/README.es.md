@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isEitherEvenAndLessThan9`. Dados dos números, `isEitherEvenAndLessThan9` returna `true` si alguno de los dos parámetros es par y los dos son menores de 9, de otra forma debe retornar `false`.
+1. Escribe una función llamada `isEitherEvenAndLessThan9`. Dados dos números, `isEitherEvenAndLessThan9` retorna `true` si alguno de los dos parámetros es par y los dos son menores de 9, de otra forma debe retornar `false`.
 
 ## Ejemplos:
 

@@ -1,12 +1,10 @@
-# `32` addObjectProperty
+# `032` addObjectProperty
 
 ## 📝 Instrucciones
 
-1. Escribe una función llamada `addObjectProperty`.
+1. Escribe una función llamada `addObjectProperty`. Dados dos objetos y una clave (key), `addObjectProperty` establece una nueva propiedad en el primer objeto en la clave (key) dada. El valor de esa nueva propiedad es todo el segundo objeto.
 
-Dados dos objetos y una clave, `addObjectProperty` establece una nueva propiedad en el primer objeto en la clave (key) dada.
-
-El valor de esa nueva propiedad es todo el segundo objeto.
+## Ejemplo:
 
 ```Javascript
 var person1 = {

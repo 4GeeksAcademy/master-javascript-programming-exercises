@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `removeStringValuesLongerThan`. Given an number and an object, `removeStringValuesLongerThan` removes any properties on the given object whose values are strings longer than the given number.
+1. Write a function called `removeStringValuesLongerThan`. Given a number and an object, `removeStringValuesLongerThan` removes any properties on the given object whose values are strings longer than the given number.
 
 ## Example:
 

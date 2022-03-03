@@ -1,10 +1,10 @@
-# `51` doubleSquareRootOf
+# `051` doubleSquareRootOf
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `doubleSquareRootOf`.
+1. Escribe una función llamada `doubleSquareRootOf`. Dado un número, `doubleSquareRootOf` regresa el doble de su raíz cuadrada.
 
-Dado un número, `doubleSquareRootOf` regresa el doble de su raíz cuadrada.
+## Ejemplo:
 
 ```Javascript
 var output = doubleSquareRootOf(121);

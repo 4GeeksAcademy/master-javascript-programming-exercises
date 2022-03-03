@@ -1,10 +1,10 @@
-# `52` getLengthOfThreeWords
+# `052` getLengthOfThreeWords
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getLengthOfThreeWords`.
+1. Escribe una función llamada `getLengthOfThreeWords`. Dadas 3 palabras, `getLengthOfThreeWords` regresa la suma de sus letras.
 
-Dadas 3 palabras, `getLengthOfThreeWords` regresa la suma de sus letras.
+## Ejemplo:
 
 ```Javascript
 var output = getLengthOfThreeWords('some', 'other', 'words');

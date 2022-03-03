@@ -1,16 +1,15 @@
-# `55` getElementsUpTo
+# `055` getElementsUpTo
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getElementsUpTo`.
+1. Escribe una función llamada `getElementsUpTo`. Dado un array y un índice, `getElementsUpTo`, regresa un array con todos los elementos hasta (pero sin incluir) el elemento en el índice dado.
 
-Dado un arreglo y un índice, `getElementsUpTo`, regresa un arreglo con todos los elementos hasta (pero sin incluir) el elemento en el índice dado.
-
-## 💡 Pista:
-
-+ Para poder hacer este ejercicio debes estar familiarizado con el método `splice`.
+## Ejemplo:
 
 ```Javascript
 var output = getElementsUpTo(['a', 'b', 'c', 'd', 'e'], 3) 
 console.log(output); // --> ['a', 'b', 'c']
 ```
+## 💡 Pista:
+
++ Para poder hacer este ejercicio debes estar familiarizado con el método `slice`.

@@ -1,16 +1,16 @@
-# `41` addToFront
+# `041` addToFront
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `addToFront.
+1. Escribe una función llamada `addToFront`. Dado un array y un elemento, `addToFront` añade el elemento al frente del array, y regresa el array dado.
 
-Dado un arreglo y un elemento `addToFront`, añade el elemento al frente del arreglo, y regresa el arreglo dado.
-
-## 💡 Pista:
-
-+ Debería ser el MISMO arreglo, no uno nuevo.
+## Ejemplo:
 
 ```Javascript
 var output = addToFront([1, 2], 3);
 console.log(output); // -> [3, 1, 2]
 ```
+
+## 💡 Pista:
+
++ Debería ser el MISMO arreglo, no uno nuevo.

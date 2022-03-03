@@ -1,10 +1,10 @@
-# `49` computePower
+# `049` computePower
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computePower`.
+1. Escribe una función llamada `computePower`. Dado un número y un exponente, `computePower` regresa el número, elevado al exponente. 
 
-Dado un número y un exponente, `computePower` regresa el número, elevado al exponente. 
+## Ejemplo:
 
 ```Javascript
 var output = computePower(2, 3);

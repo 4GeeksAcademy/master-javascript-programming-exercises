@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `select`. Given an array and an object, `select` returns a new object whose properties are those in the given object AND whose keys are present in the given array. 
+1. Write a function called `select`. Given an array and an object, `select` returns a new object whose properties must be on the given array and the given object as well. 
 
 ## Example:
 

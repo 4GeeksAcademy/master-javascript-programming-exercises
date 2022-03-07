@@ -15,4 +15,4 @@ console.log(output); // --> [1, 2, 3]
 
 ## 💡 Hint:
 
-+ It should be a NEW array instance, not the original array instance.
++ It should return a NEW array, instead of modifying the original one.

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `select`. Dado un array y un objeto, `select` retorna un nuevo objeto en el objeto dado Y cuyas keys están presentes en el array dado.
+1. Escribe una función llamada `select`. Dado un array y un objeto, `select` retorna un nuevo objeto cuyas keys deben estar presentes en el array y el objeto dado.
 
 ## Ejemplo:
 

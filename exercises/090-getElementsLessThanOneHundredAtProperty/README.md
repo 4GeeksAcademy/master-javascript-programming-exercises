@@ -16,10 +16,10 @@ console.log(output); // --> [20, 50]
 
 ## 💡 Hints:
 
-+ If the array is empty, it should return an empty array.
++ If the array is empty, it should return an empty array `[]`.
 
-+ If the array contains no elements less than 100, it should return an empty array.
++ If the array contains no elements less than 100, it should return an empty array `[]`.
 
-+ If the property at the given key is not an array, it should return an empty array.
++ If the property at the given key is not an array, it should return an empty array `[]`.
 
-+ If there is no property at the key, it should return an empty array.
++ If there is no property at the key, it should return an empty array `[]`.

@@ -15,4 +15,4 @@ console.log(output); // --> [1, 2, 3]
 
 ## 💡 Pista:
 
-+ Debería ser una NUEVA instancia del array y no la instancia original del array. 
++ Debería crear un nuevo array y no modificar el array original.

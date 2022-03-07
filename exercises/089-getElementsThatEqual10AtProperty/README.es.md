@@ -13,12 +13,13 @@ var obj = {
 var output = getElementsThatEqual10AtProperty(obj, 'key');
 console.log(output); // --> [10, 10]
 ```
+
 ## 💡 Pistas:
 
-+ Si el array está vacío, debería retornar un array vacío.
++ Si el array está vacío, debería retornar un array vacío `[]`.
 
-+ Si el array no contiene ningún elemento igual a 10, debería retornar una array vacío.
++ Si el array no contiene ningún elemento igual a 10, debería retornar un array vacío `[]`.
 
-+ Si la propiedad en esa key dada no es un array, debería retornar una array vacío.
++ Si la propiedad en esa key dada no es un array, debería retornar un array vacío `[]`.
 
-+ Si no hay ninguna propiedad en dicha key, debería retornar una array vacío.
++ Si no hay ninguna propiedad en dicha key, debería retornar un array vacío `[]`.

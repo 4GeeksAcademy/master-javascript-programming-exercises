@@ -16,10 +16,10 @@ console.log(output); // --> [20, 50]
 
 ## 💡 Pistas:
 
-+ Si el array está vacío, debería retornar un array vacío.
++ Si el array está vacío, debería retornar un array vacío `[]`.
 
-+ Si el array no contiene ningún elemento menor a 100, debería retornar una array vacío.
++ Si el array no contiene ningún elemento menor a 100, debería retornar un array vacío `[]`.
 
-+ Si la propiedad en esa key dada no es un array, debería retornar una array vacío.
++ Si la propiedad en esa key dada no es un array, debería retornar un array vacío `[]`.
 
-+ Si no hay ninguna propiedad en dicha key, debería retornar una array vacío.
++ Si no hay ninguna propiedad en dicha key, debería retornar un array vacío `[]`.

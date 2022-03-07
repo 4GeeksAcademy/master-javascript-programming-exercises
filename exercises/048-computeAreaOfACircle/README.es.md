@@ -1,10 +1,10 @@
-# `48` computeAreaOfACircle
+# `048` computeAreaOfACircle
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeAreaOfACircle`.
+1. Escribe una función llamada `computeAreaOfACircle`. Dado el radio de un círculo, `computeAreaOfACircle` regresa su área.
 
-Dado el radio de un círculo, `computeAreaOfACircle` regresa su área.
+## Ejemplo:
 
 ```Javascript
 var output = computeAreaOfACircle(4);

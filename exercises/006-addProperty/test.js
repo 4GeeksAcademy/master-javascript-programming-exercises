@@ -1,5 +1,12 @@
 const rewire = require ("rewire");
 
+
+test('The function addProperty must exist.', ()=>{
+    const addProperty = rewire('./app.js').__get__('addProperty');
+    expect(addProperty).tobeTruthy();
+})
+
+
 test ("Your function must return an object", () => {
     const addProperty = rewire ('./app.js').__get__("addProperty");
 

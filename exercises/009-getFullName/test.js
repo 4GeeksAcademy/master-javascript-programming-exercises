@@ -1,5 +1,15 @@
 const rewire = require ("rewire");
 
+test('The function getFullName must exist.',()=>{
+    const getFullName = rewire('./app.js').__get__('getFullName');
+    expect(getFullName).tobeTruthy();
+})
+
+test('The function getFullName must return something.',()=>{
+    const getFullName = rewire('./app.js').__get__('getFullName');
+    expect(getFullName()).not.toBe(undefined);
+})
+
 test ('return a single string with the given first and last names', () => {
     const getFullName = rewire ('./app.js').__get__("getFullName");
     

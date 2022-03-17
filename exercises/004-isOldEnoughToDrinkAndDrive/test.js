@@ -1,5 +1,15 @@
 const rewire = require ("rewire");
 
+test('Function isOldEnoughToDrinkAndDrive must exist.', ()=>{
+    const isOldEnoughToDrinkAndDrive = rewire ('./app.js').__get__("isOldEnoughToDrinkAndDrive");
+    expect(isOldEnoughToDrinkAndDrive).toBeTruthy();
+})
+
+test('Function isOldEnoughToDrinkAndDrive must return something.', ()=>{
+    const isOldEnoughToDrinkAndDrive = rewire ('./app.js').__get__("isOldEnoughToDrinkAndDrive");
+    expect(isOldEnoughToDrinkAndDrive()).not.toBe(undefined);
+})
+
 test ('It is always illegal to drink and drive in the United States, you must always return false', () => {
     const isOldEnoughToDrinkAndDrive = rewire ('./app.js').__get__("isOldEnoughToDrinkAndDrive");
 

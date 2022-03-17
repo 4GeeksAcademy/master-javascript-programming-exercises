@@ -1,5 +1,14 @@
 const rewire = require ("rewire");
 
+test('The function checkAge must exist.', ()=>{
+    const checkAge = rewire('./app.js').__get__('checkAge');
+    expect(checkAge).toBeTruthy();
+})
+test('The function checkAge must return something.', ()=>{
+    const checkAge = rewire('./app.js').__get__('checkAge');
+    expect(checkAge()).not.toBe(undefined);
+})
+
 test ('You should return a string', () => {
     const checkAge = rewire ('./app.js').__get__("checkAge");
 
@@ -17,7 +26,7 @@ test ('The person name must be inside the string', () => {
 test ('The word "Welcome" must be inside the returned string when it\'s more than 21', () => {
     const checkAge = rewire ('./app.js').__get__("checkAge");
 
-    const output = checkAge('Adrian',21);
+    const output = checkAge('Adrian',22);
     expect(output.includes('Welcome')).toBe(true);
 })
 

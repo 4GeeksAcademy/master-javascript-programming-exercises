@@ -1,15 +1,16 @@
-# `63` getAllWords
+# `063` getAllWords
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getAllWords`.
+1. Escribe una función llamada `getAllWords`. Dado una oración, `getAllWords` regresa un array que contenga cada palabra de la oración. 
 
-Dada una oración, `getAllWords` regresa un arreglo que contenga cada palabra de la oración. 
-## :bulb: Pista:
-
-* Si se da un string vacío, debe regresar un arreglo vacío.
+## Ejemplo:
 
 ```Javascript
 var output = getAllWords('Radagast the Brown');
 console.log(output); // --> ['Radagast', 'the', 'Brown']
 ```
+
+## 💡 Pista:
+
++ Si se da un string vacío, debe regresar un array vacío.

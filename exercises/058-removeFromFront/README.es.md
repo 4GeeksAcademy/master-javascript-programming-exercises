@@ -1,10 +1,10 @@
-# `58` removeFromFront
+# `058` removeFromFront
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `removeFromFront`.
+1. Escribe una función llamada `removeFromFront`. Dado un array, `removeFromFront` regresa el array con su primer elemento eliminado.
 
-Dado un arreglo, `removeFromFront` regresa el arreglo con su primer elemento eliminado.
+## Ejemplo:
 
 ```Javascript
 var output = removeFromFront([1, 2, 3]);

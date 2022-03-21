@@ -1,11 +1,10 @@
-# `46` computeTripledAreaOfARectangle
+# `046` computeTripledAreaOfARectangle
 
 ## 📝 Instructions:
 
-Write a function called `computeTripledAreaOfARectangle`.
+1. Write a function called `computeTripledAreaOfARectangle`. Given a length and width of a rectangle, `computeTripledAreaOfARectangle` returns the rectangle’s area, multiplied by 3.
 
-Given a length and width of a rectangle, `computeTripledAreaOfARectangle` returns the rectangle’s area, multiplied by 3.
-
+## Example:
 
 ```Javascript
 var output = computeTripledAreaOfARectangle(2, 4);

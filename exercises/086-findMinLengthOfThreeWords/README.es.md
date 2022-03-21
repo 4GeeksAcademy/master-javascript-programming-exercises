@@ -1,11 +1,10 @@
-# `86` findMinLengthOfThreeWords
+# `086` findMinLengthOfThreeWords
 
 ## 📝 Instrucciones 
 
-Escribe una función llamada "findMinLengthOfThreeWords".
+1. Escribe una función llamada `findMinLengthOfThreeWords`. Dado 3 palabras, `findMinLengthOfThreeWords` retorna la cantidad de letras de la palabra más corta.
 
-
-Dado 3 palabras, "findMinLengthOfThreeWords" retorna la cantidad de letras de la palabra más corta.
+## Ejemplo:
 
 ```js
 var output = findMinLengthOfThreeWords('a', 'be', 'see');

@@ -2,11 +2,11 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `filterEvenLengthWords`. Dado un arreglo de strings, `filterEvenLengthWords` retorna un arrreglo que contenga solo los elementos del arreglo cuya longitud es un número par.
+1. Escribe una función llamada `filterEvenLengthWords`. Dado un array de strings, `filterEvenLengthWords` retorna un array que contenga solo los elementos del array cuya longitud es un número par.
 
 ## Ejemplo:
 
 ```Js
-var output = filterEvenLengthWords(['word', 'words', 'word', 'words']);
-console.log(output); // --> ['word', 'word']
+var output = filterEvenLengthWords(['word', 'horse', 'car', 'computer']);
+console.log(output); // --> ['word', 'computer']
 ```

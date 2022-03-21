@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `getLengthOfLongestElement`. Given an array, `getLengthOfLongestElement` returns the length of the longest string in the given array. It should return 0 if the array is empty.
+1. Write a function called `getLengthOfLongestElement`. Given an array, `getLengthOfLongestElement` returns the length of the longest string in the given array.
 
 ```Js
 var output = getLengthOfLongestElement(['one', 'two', 'three']);

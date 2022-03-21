@@ -1,6 +1,6 @@
 # `110` getAllButLastElementOfProperty
 
-## 📝 Instrucciones
+## 📝 Instructions
 
 1. Write a function called `getAllButLastElementOfProperty`. Given an object and a key, `getAllButLastElementOfProperty` returns an array containing all but the last element of the array located at the given key.
 
@@ -11,7 +11,7 @@ var obj = {
   key: [1, 2, 3]
 };
 var output = getAllButLastElementOfProperty(obj, 'key');
-console.log(output); // --> [1,2]
+console.log(output); // --> [1, 2]
 ```
 
 ## 💡 Hints:

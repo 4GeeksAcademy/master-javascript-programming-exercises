@@ -1,16 +1,16 @@
-# `64` removeFromBack
+# `064` removeFromBack
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `removeFromBack`.
+1. Escribe una función llamada `removeFromBack`. Dado un array, `removeFromBack` regresa el array con su último elemento eliminado.
 
-Dado un arreglo, `removeFromBack` regresa el arreglo con su último elemento eliminado.
-
-## :bulb: Pista:
-
-* Debes estar familiarizado con el método `pop`.
+## Ejemplo:
 
 ```Javascript
 var output = removeFromBack([1, 2, 3]);
 console.log(output); // --> [1, 2]
 ```
+
+## 💡 Pista:
+
++ Debes estar familiarizado con el método `pop`.

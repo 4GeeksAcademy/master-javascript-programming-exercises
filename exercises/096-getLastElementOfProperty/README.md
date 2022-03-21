@@ -18,6 +18,6 @@ console.log(output); // --> 5
 
 + If the array is empty, it should return `undefined`.
 
-+ if the property at the given key is not an array, it should return `undefined`.
++ If the property at the given key is not an array, it should return `undefined`.
 
 + If there is no property at the key, it should return `undefined`.

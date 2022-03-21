@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getFirstElementOfProperty`. Dado un objeto y una key, `getFirstElementOfProperty` retorna el elemento de un array ubicado la key dada.
+1. Escribe una función llamada `getFirstElementOfProperty`. Dado un objeto y una key, `getFirstElementOfProperty` retorna el primer elemento de un array ubicado la key dada.
  
 ## Ejemplo:
 

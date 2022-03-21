@@ -2,8 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `getEvenLengthWordsAtProperty`. Given an object and a key, `getEvenLengthWordsAtProperty`
-returns an array containing all the even length word elements of the array located at the given key.
+1. Write a function called `getEvenLengthWordsAtProperty`. Given an object and a key, `getEvenLengthWordsAtProperty` returns an array containing all the even length word elements of the array located at the given key.
 
 ## Example:
 

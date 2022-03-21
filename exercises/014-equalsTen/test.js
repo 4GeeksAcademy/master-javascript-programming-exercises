@@ -1,14 +1,19 @@
 const rewire = require ("rewire");
+const equalsTen = rewire('./app.js').__get__('equalsTen');
+test('The function equalsTen must exist.',()=>{
+    expect(equalsTen).toBeTruthy();
+})
 
-test ('function returns whether or not the given number is 10.', () => {
+test('The function equalsTen should return something.',()=>{
+    expect(equalsTen()).not.toBe(undefined);
+})
+
+test ('The function returns false where the given number is not 10.', () => {
     const equalsTen = rewire ('./app.js').__get__("equalsTen");
-
-    expect(equalsTen(10)).toBe(true);
     expect(equalsTen(9)).toBe(false);
 })
 
-test ('Use three equals === to compare because we need exact match', () => {
+test ('The function returns true where the given number is equal 10.', () => {
     const equalsTen = rewire ('./app.js').__get__("equalsTen");
-
-    expect(equalsTen("10")).toBe(false);
+    expect(equalsTen(10)).toBe(true);
 })

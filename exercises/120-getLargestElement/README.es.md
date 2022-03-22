@@ -2,15 +2,15 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función `getLargestElement`.
+1. Escribe una función `getLargestElement`. Dado un array, `getLargestElement` retorna el número más grande del array.
 
-Dado un arreglo, `getLargestElement` retorna el número más grande del arreglo.
-
-## :bulb: Pista:
-
-* Debe retornar `0` si el arreglo esta vacío.
+## Ejemplo:
 
 ```Js
 var output = getLargestElement([5, 2, 8, 3]);
 console.log(output); // --> 8;
 ```
+
+## 💡 Pista:
+
++ Debe retornar 0 si el array esta vacío.

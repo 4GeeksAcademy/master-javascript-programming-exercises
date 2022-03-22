@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `squareElements`.
+1. Escribe una función llamada `squareElements`. Dado un array de números, `squareElements` deberá retornar un nuevo array donde cada elemento es el cuadrado de cada elemento del array dado.
 
-Dado un arreglo de números, `squareElements` deberá retornar un nuevo arreglo donde cada elemento es el cuadrado de cada elemento del arreglo dado.
+## Ejemplo:
 
 ```Js
 var output = squareElements([1, 2, 3]);

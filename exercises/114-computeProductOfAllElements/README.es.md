@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeProductOfAllElements`. Dada una array de números, `computeProductOfAllElements` devuelve los productos de todos los elementos del array dado.
+1. Escribe una función llamada `computeProductOfAllElements`. Dado un array de números, `computeProductOfAllElements` devuelve los productos de todos los elementos del array dado.
 
 ## Ejemplo:
 
@@ -12,4 +12,4 @@ console.log(output); // --> 60
 ```
 ## 💡 Pista:
 
-+ Si la array dada está vacía, debería devolver 0.
++ Si el array dado está vacío, debería devolver 0.

@@ -12,3 +12,7 @@ var input = [1,2,3,4,5];
 var output = computeAverageOfNumbers(input);
 console.log(output); // --> 3
 ```
+
+## 💡 Pista:
+
++ Si el array se encuentra vacio, debería retornar 0.

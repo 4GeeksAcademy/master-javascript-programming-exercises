@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `filterOddElements`. Dada una matriz de números, `filterOddElements` devuelve una matriz que contiene solo los números impares de la matriz dada.
+1. Escribe una función llamada `filterOddElements`. Dado un array de números, `filterOddElements` devuelve un array que contiene solo los números impares del array dado.
 
 ## Ejemplo:
 

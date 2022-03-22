@@ -16,10 +16,10 @@ console.log(output); // --> 2
 
 ## 💡 Pistas:
 
-+ Si el array está vacío, debería retornar `undefined.
++ Si el array está vacío, debería retornar `undefined`.
 
-+ Si n está fuera de rango, debería retornar undefined.
++ Si n está fuera de rango, debería retornar `undefined`.
 
-+ Si el propiedad en la key dada no es un array, debería retornar undefined.
++ Si el propiedad en la key dada no es un array, debería retornar `undefined`.
 
-+ Si la key no tiene propiedad, debería retornar undefined.
++ Si la key no tiene propiedad, debería retornar `undefined`.

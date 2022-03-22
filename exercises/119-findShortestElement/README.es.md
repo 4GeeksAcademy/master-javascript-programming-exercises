@@ -15,4 +15,4 @@ console.log(output); // --> 'a'
 
 + Si son del mismo largo, entonces debe retornar el primer elemento que aparezca.
 
-+ Si el array dada está vacío, debería retornar un string vacío.
++ Si el array dado está vacío, debería retornar un string vacío.

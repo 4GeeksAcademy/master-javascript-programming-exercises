@@ -12,6 +12,4 @@ console.log(output); // --> 3
 ```
 ## 💡 Pista:
 
-+ If given array is empty, it should return 0. 
-
 + Debería retornar 0 si el array está vacío.

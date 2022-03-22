@@ -13,4 +13,4 @@ console.log(output); // --> 60
 
 ## 💡 Hint:
 
-+ If given array is empty, it should return 0.
++ If the given array is empty, it should return 0.

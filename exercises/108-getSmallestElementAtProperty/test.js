@@ -1,12 +1,10 @@
 const rewire = require("rewire");
-
+const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
 test('Function getSmallestElementAtProperty must exist', () => {
-    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     expect(getSmallestElementAtProperty).toBeTruthy();
 });
 
 test('The function must returns the smallest element of the array located in the key.', () => {
-    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     var obj = {
         key: [2, 1, 5]
     };
@@ -17,7 +15,6 @@ test('The function must returns the smallest element of the array located in the
 })
 
 test('If the property in the given key is an empty array, it should return an empty array [].', () => {
-    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     obj = {
         key: []
     };
@@ -27,7 +24,6 @@ test('If the property in the given key is an empty array, it should return an em
 
 
 test('If the property in the given key is a number, it should return an empty array [].', () => {
-    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     var obj = {
         key: 3
     };
@@ -37,7 +33,6 @@ test('If the property in the given key is a number, it should return an empty ar
 
 
 test('If the property in the given key is not an array, it should return an empty array [].', () => {
-    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     obj = {
         key: {}
     }
@@ -46,8 +41,7 @@ test('If the property in the given key is not an array, it should return an empt
 })
 
 
-test('If the property in the given key is {}, it should return an empty array [].', () => {
-    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
+test('If the property in the given key is {}, it should return an empty array [].', () => { 
     obj = {
         key: {}
     }
@@ -57,7 +51,6 @@ test('If the property in the given key is {}, it should return an empty array []
 
 
 test('If there is no property on the key, it should return an empty array.', () => {
-    const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
     var obj = {};
     var output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toEqual([])

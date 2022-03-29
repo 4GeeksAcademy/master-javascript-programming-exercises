@@ -6,38 +6,24 @@
 
 cuyo *último elemento sea el valor de esa key*.
 
- ## Ejemplo de entrada 1:
+ ## Ejemplo 1:
 
- ```Js
-['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']
+ ```js
+let output = transformFirstAndLast(['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'])
+console.log(output); // { Queen: "Beyonce" }
 ```
 
-## Ejemplo de salida 1:
+## Ejemplo 2:
 
-```Js
-{
-  Queen : 'Beyonce'
-}
-``` 
-
-### Ejemplo de entrada 2:
-
-```js
-['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Spacey']
-```
-
-### Ejemplo de salida 2:
-
-```Js
-{
-  Kevin : 'Spacey'
-}
+ ```js
+let output = transformFirstAndLast(['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Spacey'])
+console.log(output); // { Kevin: "Spacey" }
 ```
 
 ## 💡 Pistas:
 
 + No cambies el array de entrada. 
 
-+ Supón que todos los elementos en el array de entrada serán del tipo string.
++ Asume que todos los elementos en el array de entrada serán del tipo string.
 
 + Ten en cuenta que el array de entrada puede teneruna cantidad variable de elementos por lo que tu código debe ser flexible.

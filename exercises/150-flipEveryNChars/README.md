@@ -1,6 +1,6 @@
 # `150` flipEveryNChars
 
-## 📝 Instrucciones:
+## 📝 Instructions:
 
 1. Declare a function named `flipEveryNChars`.
 
@@ -16,7 +16,7 @@ var output = flipEveryNChars(input, 5);
 console.log(output); // --> ohs axe trelpma
 ```
 
-**Example pieces**
+**Example process**
 
 ```js
 'a sho' -> 'ohs a'

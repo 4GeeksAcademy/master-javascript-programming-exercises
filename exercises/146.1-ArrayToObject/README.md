@@ -2,34 +2,20 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `transformFirstAndLast` that takes in an array, and returns an object with  *the first element of the array as the object's key*, and *the last element of the array as that key's value*.
+1. Write a function called `transformFirstAndLast` that takes in an array, and returns an object with *the first element of the array as the object's key*, and *the last element of the array as that key's value*.
 
- ## Example input 1:
-
- ```Js
-['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']
-```
-
-## Example output 1:
-
-```Js
-{
-  Queen : 'Beyonce'
-}
-```
-
- ## Example input 2:
+## Example 1:
 
 ```js
-['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Spacey']
+let output = transformFirstAndLast(['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'])
+console.log(output); // { Queen: "Beyonce" }
 ```
 
-## Example output 2:
+## Example 2:
 
-```Js
-{
-  Kevin : 'Spacey'
-}
+```js
+let output = transformFirstAndLast(['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Spacey'])
+console.log(output); // { Kevin: "Spacey" }
 ```
 
 ## 💡 Hints:

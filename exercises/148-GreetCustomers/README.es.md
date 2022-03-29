@@ -31,12 +31,4 @@ console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 
 + Su función no debe alterar el objeto `customerData` para actualizar el número de visitas.
 
-+ No programes con los datos de muestra exactos. Es una MALA IDEA 😩 :
-
-## Ejemplo de entrada:
-
-```Js
-if (firstName === 'Joe') {
-  // do something
-}
-```
++ No programes con los datos de muestra exactos. Es una MALA IDEA 😩.

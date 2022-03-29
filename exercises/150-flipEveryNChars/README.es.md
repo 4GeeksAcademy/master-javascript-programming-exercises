@@ -4,9 +4,9 @@
 
 1. Declara una función llamada `flipEveryNChars`.
 
-2. La función acepta 2 parámetros denominados cadena `yn`, cuyos valores serán string y número.
+2. La función acepta 2 parámetros cuyos valores serán un string y un número.
 
-3. Cuando llames a la función, devuelve un string con cada n de caracteres invertidos, incluidos los espacios.
+3. Cuando llames a la función, ésta devuelve un string con cada n de caracteres invertidos, incluidos los espacios.
 
 ## Ejemplo:
 

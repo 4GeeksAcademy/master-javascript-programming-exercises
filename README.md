@@ -18,7 +18,7 @@ We need you! These exercises are built and maintained in collaboration with cont
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-<h2>One click installation:</h2>
+## One click installation:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git)
 
@@ -50,14 +50,14 @@ Each exercise is a small react application containing the following files:
 | **README.md** | Contains exercise instructions |
 | **test.js** | Contains the testing script for the exercise (you don't have to open this file) |
 
-## Contributors
+ ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) :bug:, contribution: (coder), (translation) :earth_americas:
-3. [Ricardo Rodriguez (RickRodriguez8080)](https://github.com/RickRodriguez8080) contribution: (build-tutorial) :white_check_mark:, (documentation) :book:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind are welcome!
+2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
+
+3. [Ricardo Rodriguez (RickRodriguez8080)](https://github.com/RickRodriguez8080) contribution: (build-tutorial)  ✅, (documentation) 📖
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!

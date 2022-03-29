@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `isEvenWithoutModulo`. Given a number, `isEvenWithoutModulo` returns `true` if it's is even. 
+1. Write a function called `isEvenWithoutModulo`. Given a number, `isEvenWithoutModulo` returns `true` if it's even. 
 
 ## Example:
 

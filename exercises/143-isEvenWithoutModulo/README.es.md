@@ -2,17 +2,17 @@
 
 ## 📝 Instrucciones:
 
-Escribe una función llamada `isEvenWithoutModulo`.
+1. Escribe una función llamada `isEvenWithoutModulo`. Dado un número, `isEvenWithoutModulo` retorna `true` si es par. 
 
-Dado un número, `isEvenWithoutModulo` retorna si es par. 
-
-## :bulb: Pista:
-
-* Lo hace sin usar el operador de módulo (`%`). 
-
-* Debería funcionar para números negativos y cero.
+## Ejemplo:
 
 ```Js
 var output = isEvenWithoutModulo(8);
 console.log(output); // --> true
 ```
+
+## 💡 Pistas:
+
++ Lo hace sin usar el operador de módulo (`%`). 
+
++ Debería funcionar para números negativos y 0.

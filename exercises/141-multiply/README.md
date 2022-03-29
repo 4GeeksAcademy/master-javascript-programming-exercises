@@ -2,15 +2,16 @@
 
 ## 📝 Instructions
 
-1. Write a function called `multiply`.
+1. Write a function called `multiply`. Given 2 integers, `multiply` returns its product.
 
-Given 2 integers, `multiply` returns its product.
-
-## :bulb: Hint:
-
-* DO NOT use the multiplication operator  (`*`)
+## Example:
 
 ```Js
 var output = multiply(4, 7);
 console.log(output); // --> 28
 ```
+
+## 💡 Hint:
+
++ DO NOT use the multiplication operator  (`*`)
+

@@ -2,15 +2,16 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `multiply`.
+1. Escribe una función llamada `multiply`. Dado 2 números enteros, `multiply` retorna su producto.
 
-Dado 2 numeros enteros, `multiply` retorna su producto.
-
-## :bulb: Pista:
-
-* No debes usar el operador de multiplicación  (`*`)
+## Ejemplo:
 
 ```Js
 var output = multiply(4, 7);
 console.log(output); // --> 28
 ```
+
+## 💡 Pista:
+
++ No debes usar el operador de multiplicación  (`*`)
+

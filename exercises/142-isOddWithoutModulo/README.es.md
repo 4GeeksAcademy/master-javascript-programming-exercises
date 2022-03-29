@@ -2,17 +2,17 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isOddWithoutModulo`.
+1. Escribe una función llamada `isOddWithoutModulo`. Dado un número, `isOddWithoutModulo` retorna `true` si el número pasado es impar.
 
-Dado un número, `isOddWithoutModulo` retorna si el número pasado es impar.
-
-## :bulb: Pista:
-
-* Lo hace sin usar el operador de módulo (`%`). 
-
-* Debería funcionar para números negativos y cero.
+## Ejemplo:
 
 ```Js
 var output = isOddWithoutModulo(17);
 console.log(output); // --> true
 ```
+
+## 💡 Pistas:
+
++ Lo hace sin usar el operador de módulo (`%`). 
+
++ Debería funcionar para números negativos y 0.

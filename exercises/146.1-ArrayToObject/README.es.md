@@ -2,40 +2,28 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función `transformFirstAndLast` que tome un arreglo y devuelva un objeto con:
+1. Escribe una función `transformFirstAndLast` que tome un array y devuelva un objeto cuyo *primer elemento sea la key del objeto*, y
 
-+  el primer elemento del arreglo como key del objeto, y
+cuyo *último elemento sea el valor de esa key*.
 
-+ el último elemento del arreglo como el valor de esa key.
+ ## Ejemplo 1:
 
- ### Ejemplo de entrada:
-
- ```Js
-['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']
+ ```js
+let output = transformFirstAndLast(['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'])
+console.log(output); // { Queen: "Beyonce" }
 ```
 
-### Ejemplo de salida:
+## Ejemplo 2:
 
-```Js
-{
-  Queen : 'Beyonce'
-}
+ ```js
+let output = transformFirstAndLast(['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Spacey'])
+console.log(output); // { Kevin: "Spacey" }
 ```
 
- No cambies el arreglo de entrada. Supón que todos los elementos en el arreglo de entrada serán del tipo `string`.
+## 💡 Pistas:
 
-Ten en cuenta que el arreglo de entrada puede tener un número variable de elementos. Tu código debe acomodar eso flexiblemente.
++ No cambies el array de entrada. 
 
-### Ejemplo de entrada:
++ Asume que todos los elementos en el array de entrada serán del tipo string.
 
-```js
-['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Spacey']
-```
-
-### Ejemplo de salida:
-
-```Js
-{
-  Kevin : 'Spacey'
-}
-```
++ Ten en cuenta que el array de entrada puede teneruna cantidad variable de elementos por lo que tu código debe ser flexible.

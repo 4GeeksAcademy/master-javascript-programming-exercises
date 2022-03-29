@@ -25,8 +25,8 @@ console.log(output); // --> 'A-'
 
 + Si la puntaje dada es mayor que 100 o menor que 0, debería retornar `INVALID SCORE`.
 
-+ Si el puntaje está entre 0 y 2 (inclusive) de un rango dado, devuelva la letra con un `-`
++ Si el puntaje está entre 0 y 2 (inclusive) de un rango dado, devuelva la letra con un `-`.
 
-+ Si el puntaje está entre 8 y 9 (inclusive) de un rango dado, devuelva la letra con un `+`
++ Si el puntaje está entre 8 y 9 (inclusive) de un rango dado, devuelva la letra con un `+`.
 
 + No existe `F+` ni `F-`.

@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `greetCustomer`. Given a name, `greetCustomer` returns a greeting based on how many times that customer has visited the restaurant.  Please check to the `customerData` object. 
+1. Write a function called `greetCustomer`. Given a name, `greetCustomer` returns a greeting based on how many times that customer has visited the restaurant. Please check to the `customerData` object. 
 
 - The greeting should be different, depending on the name on their reservation:
 
@@ -31,12 +31,5 @@ console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 
 + Our function should not alter the `customerData` object to update the number of visits.
 
-+ Do not hardcode to the exact sample data. This is a BAD IDEA 😩 :
-
-## Example input:
-
-```Js
-if (firstName === 'Joe') {
-  // do something
-}
++ Do not hardcode to the exact sample data. This is a BAD IDEA 😩.
 ```

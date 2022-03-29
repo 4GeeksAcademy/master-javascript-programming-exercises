@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `computeSumBetween`. Dado 2 números enteros, `computeSumBetween` retorna la suma de los números entre los dos enteros dados, comenzando en `num1` y excluyendo `num2`.
 
-## Ejemolo:
+## Ejemplo:
 
 ```Js
 var output = computeSumBetween(2, 5);

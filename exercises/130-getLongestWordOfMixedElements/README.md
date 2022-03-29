@@ -15,5 +15,5 @@ console.log(output); // --> 'word'
 
 + If the array is empty, it should return an empty string (“”). 
 
-+ If the array contains no strings; it should return an empty string.
++ If the array contains no strings, it should return an empty string.
 

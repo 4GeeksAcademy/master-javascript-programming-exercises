@@ -4,26 +4,11 @@
 
 1. Escribe una función llamada `transformEmployeeData` que transforma algunos datos de los empleados de un formato a otro.
 
-## Ejemplo de entrada:
+## Ejemplo:
 
-```JS
-[
-    [
-        ['firstName', 'Joe'], ['lastName', 'Blow'], ['age', 42], ['role', 'clerk']
-    ],
-    [
-        ['firstName', 'Mary'], ['lastName', 'Jenkins'], ['age', 36], ['role', 'manager']
-    ]
-]
-```
-
-## Ejemplo de salida:
-
-```Js
-[
-    {firstName: 'Joe', lastName: 'Blow', age: 42, role: 'clerk'},
-    {firstName: 'Mary', lastName: 'Jenkins', age: 36, role: 'manager'}
-]
+```js
+let output = transformEmployeeData([[['firstName', 'Joe'], ['lastName', 'Blow'], ['age', 42], ['role', 'clerk']],[['firstName', 'Mary'], ['lastName', 'Jenkins'], ['age', 36], ['role', 'manager']]]);
+console.log(output); // [{firstName: 'Joe', lastName: 'Blow', age: 42, role: 'clerk'}, {firstName: 'Mary', lastName: 'Jenkins', age: 36, role: 'manager'}]
 ```
 
 ## 💡 Pista:

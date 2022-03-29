@@ -15,4 +15,4 @@ console.log(output); // --> 'word'
 
 + Si el array está vacío, debería retornar un string vacío(“”). 
 
-+ Si el array no contiene string; debería retornar un string vacío.
++ Si el array no contiene string, debería retornar un string vacío.

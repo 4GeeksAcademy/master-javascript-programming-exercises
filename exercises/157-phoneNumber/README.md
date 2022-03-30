@@ -2,18 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Accept an array of numbers that represent a phone number.
+1. Use the skeleton and modify the functions in order to format the numbers in the following format: `(000) 000-0000`
 
-## Example input:
-
-```js
-[6, 5, 0, 8, 3, 5, 9, 1, 7, 2]
-```
-
-## Example output:
+## Example:
 
 ```js
-Return as a string in this format: `(650) 835-9172`.
+let output = PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).rnder();
+console.log(output); // "(650) 835-9172"
 ```
 
 ## 💡 Hints:

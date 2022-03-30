@@ -1,5 +1,5 @@
 # `159.3` FashionInventory-C
-y`
+
 Es la misma estructura de datos del inventario `currentInventory` de antes pero ahora debes encontrar todos los zapatos negros (con el string `black`). 
 
 ## 📝 Instrucciones
@@ -48,7 +48,7 @@ var inventory = [
 ]
 ```
 
-## 💡 Hints:
+## 💡 Pistas:
 
 + Esta es una variación del problema del "Fashion Inventory", sin embargo, NO pegues el código de antes. Afronta cada problema por separado.
 

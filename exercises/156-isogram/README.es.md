@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe y prueba una función que determine si una string es un isograma.
+1. La función `isogram` recibe un string y retorna true si el string es un isograma, sino retorna false.
 
 ## 💡 Pistas:
 
@@ -13,4 +13,3 @@
 + Supón que un string vacío es un isograma.
 
 + Ignora mayúsculas y minúsculas.
-

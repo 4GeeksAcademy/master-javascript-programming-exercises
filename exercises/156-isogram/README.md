@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. 
+1. The function `isogram` receives a string and returns `true` if the string is an isogram, otherwise it returns `false`.
 
 ## 💡 Hints:
 
@@ -13,4 +13,3 @@
 + Suppose that a string is an isogram
 
 * Ignore letter case.
-

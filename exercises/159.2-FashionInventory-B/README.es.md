@@ -1,12 +1,6 @@
 # `159.2` FashionInventory-B
  
-NO pegues el código de antes. Afronta cada problema por su cuenta. 
-
-Es la misma estructura de datos de inventario que antes:  
-
-Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. 
-
- Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
+Es la misma estructura de datos de inventario que antes, tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
 
 ## 📝 Instrucciones:
 
@@ -48,6 +42,7 @@ var currentInventory = [
   }
 ];
 ```
+
 ## Ejemplo de Salida:
 
 ```Js
@@ -62,8 +57,9 @@ var currentInventory = [
     }
 ]
 ```
-
 ## 💡 Pistas:
+
++ NO pegues el código de antes. Enfrenta cada problema por su cuenta. 
 
 + Puedes usar variables auxiliares.
 

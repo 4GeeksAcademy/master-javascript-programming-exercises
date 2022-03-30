@@ -2,11 +2,11 @@
 
 ## 📝 Instrucciones
 
-1. ¿Es un string una versión rotada de otro?
+1. La funcion `isRotated` recibe dos strings como parámetro, `isRotated` debe retornar `true` si el segundo string es una versión rotada del primer string.
 
-ejemplo :
+## Ejemplo:
+
 ```js
-String 1: 'hello world'
-String 2: 'orldhello w'
---> true
+let output = isRotated("Hello World", "orldHello W")
+console.log(output) // true
 ```

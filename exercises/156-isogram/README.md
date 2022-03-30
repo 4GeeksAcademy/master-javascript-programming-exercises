@@ -2,15 +2,14 @@
 
 ## 📝 Instructions:
 
-An **isogram**  is a word that has no repeating letters, consecutive or non-consecutive. 
+1. The function `isogram` receives a string and returns `true` if the string is an isogram, otherwise it returns `false`.
 
-1. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. 
+## 💡 Hints:
 
-## :bulb: Hint:
++ An **isogram**  is a word that has no repeating letters, consecutive or non-consecutive. 
 
-* Suppose your input has only letters.
++ Suppose your input has only letters.
 
-* Suppose that a string is an isogram
++ Suppose that a string is an isogram
 
 * Ignore letter case.
-

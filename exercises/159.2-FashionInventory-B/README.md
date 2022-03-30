@@ -1,12 +1,6 @@
 # `159.2` FashionInventory-B
 
-DO NOT paste the code from before. Tackle each problem on your own. 
-
-It's the same inventory data structure as before. 
-
-You have a fashion catalog, an inventory `currentInventory` with items from various high-fashion designers. 
-
-Each designer has a lineup of shoes. Each shoe has a name and price.
+It's the same inventory data structure as before, you have a fashion catalog, an inventory `currentInventory` with items from various high-fashion designers. Each designer has a lineup of shoes and each shoe has a name and price.
 
 ## 📝 Instructions:
 
@@ -48,7 +42,7 @@ var currentInventory = [
   }
 ];
 ```
-## Expected output:
+## Example output:
 
 ```Js
 [
@@ -63,7 +57,9 @@ var currentInventory = [
 ]
 ```
 
-## 💡 Hint:
+## 💡 Hints:
+
++ DO NOT paste the code from before. Tackle each problem on your own. 
 
 + You may use auxiliary variables
 

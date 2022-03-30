@@ -1,12 +1,9 @@
 # `159.3` FashionInventory-C
 
-This exercise is similar to the  "Fashion Inventory A and B" but, DO NOT paste the code from before.
 
-You have a fashion catalog, an inventory of items from various high fashion designers. 
+You have a fashion catalog, an `currentInventory` of items from various high fashion designers. Each designer has a lineup of shoes and each shoe has a name and a price.
 
-Each designer has a lineup of shoes. Each shoe has a name and a price.
-
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Complete the `renderInventory` function to return the expected result.
 
@@ -42,7 +39,6 @@ var inventory = [
   }
 ];
 ```
-[comment]: < Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them in a flat list, similar to part A.>
 
  ## Example output:
  
@@ -53,6 +49,10 @@ var inventory = [
 ]
 ```
 
-## 💡 Hint:
+## 💡 Hints:
+
++ This exercise is similar to the `Fashion Inventory A and B` but, DO NOT paste the code from before.
 
 + If there is no shoe containing `black` in its name, the function should return an empty array `[]`.
+
++ Now, you have to find all the shoes with `black` in the name. Your function should filter these shoes and return them similar to part A.

@@ -2,15 +2,21 @@
 
 ## 📝 Instrucciones:
 
-1. Tienes un arreglo de números que representan un número de teléfono. 
+1. Usa el esqueleto dado y modifica las funciones para que dado un array de números, genere un número de teléfono en el siguiente formato: `(000) 000-0000`
 
-Ejemplo.
+## Ejemplo:
+
 ```js
-[6, 5, 0, 8, 3, 5, 9, 1, 7, 2]
+let output = PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).rnder();
+console.log(output); // "(650) 835-9172"
 ```
-Regresa un string con este formato: `(650) 835-9172`.
 
-+ **Una mala implementación** 
+## 💡 Pistas:
+
++ No dejes ningún método sin usar. 
+
++ Este es un ejemplo de una mala implementación:
+
  ```Js
 function renderPhoneNumber(numbers){
   return '(' + numbers[0] + numbers[1] + numbers[2] + ') '
@@ -18,10 +24,5 @@ function renderPhoneNumber(numbers){
     + numbers[6] + numbers[7] + numbers[8] + numbers[9];
 }
 ```
-+ **Lo que deberías hacer en su lugar** 
 
- Lee el esqueleto orientado a objetos. Después de comprender el flujo de procesamiento que de la información, completa la implementación.
-
-## :bulb: Pista:
-
- * No dejes ningún método sin usar. 
++ Lo que deberías hacer en su lugar es leer el esqueleto orientado a objetos y después de comprender el flujo de procesamiento  de la información, completar la implementación.

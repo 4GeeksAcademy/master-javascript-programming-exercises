@@ -8,19 +8,17 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-#### Antes de empezar...Algunos tutoriales realcionados
+#### Antes de empezar...Algunos tutoriales realaionados
 
 ¡Selección completa de ejercicios de Javascript interactivos y con calificación automática para cualquier persona interesada en aprender Javascript!
 
-1. [Introducción a HTML](https://github.com/4GeeksAcademy/html-tutorial-exercises-course)
-2. [Introducción a CSS](https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
-3. [Introducción a Javascript](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)
-4. [Looping con Javascript](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) 
-5. [Funciones de Javascript](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)
-6. [Introducción a The DOM](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises)
-7. [Utilizando eventos & The DOM](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises)
-8. [Programación Orientada a Objetos](https://github.com/4GeeksAcademy/object-oriented-javascript-tutorial-exercises) 
-9. [Master en Javascript](https://github.com/4GeeksAcademy/master-javascript-programming-exercises) ← estás aquí
+#### Antes de empezar...Algunos tutoriales relacionados
+<ol>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript para Principiantes</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping con Javascript</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Funciones de Javascript </a></li>
+  <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a>← Estás aquí</li>
+</ol>
 
 ¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
 
@@ -28,7 +26,7 @@
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-## Instalación en un solo clic:
+## Instalación en un clic:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git)
 

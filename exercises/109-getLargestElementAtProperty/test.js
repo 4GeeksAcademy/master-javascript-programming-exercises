@@ -26,7 +26,7 @@ test('If the array is void, it should return an empty array `[]`.', () => {
 
 test('If the property in the given key is not an array, it should return an empty array `[]`.', () => {
     const getLargestElementAtProperty = rewire("./app.js").__get__("getLargestElementAtProperty");
-    obj = {
+    var obj = {
         key: {}
     }
     output = getLargestElementAtProperty(obj, 'key')

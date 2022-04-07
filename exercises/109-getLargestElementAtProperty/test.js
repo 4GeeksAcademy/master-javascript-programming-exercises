@@ -20,7 +20,7 @@ test('If the array is void, it should return `undefined`.', () => {
         key: []
     };
     var output = getLargestElementAtProperty(obj, 'key')
-    expect(output).toEqual(undefined)
+    expect(output).toEqual([])
 })
 
 
@@ -30,8 +30,7 @@ test('If the property in the given key is not an array, it should return `undefi
         key: {}
     }
     output = getLargestElementAtProperty(obj, 'key')
-    //expect(output).toEqual([])
-    expect(output).toEqual(undefined)
+    expect(output).toEqual([])
 })
 
 test('If the property in the given key is a number, it should return `undefined`.', () => {
@@ -40,7 +39,7 @@ test('If the property in the given key is a number, it should return `undefined`
         key: 9
     };
     var output = getLargestElementAtProperty(obj, 'key')
-    expect(output).toEqual(undefined)
+    expect(output).toEqual([])
 })
 
 test('If there is no property on the key, it should return `undefined`.', () => {
@@ -48,5 +47,5 @@ test('If there is no property on the key, it should return `undefined`.', () => 
     var obj = {
     };
     var output = getLargestElementAtProperty(obj, 'key')
-    expect(output).toEqual(undefined)
+    expect(output).toEqual([])
 })

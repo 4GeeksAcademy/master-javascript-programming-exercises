@@ -2,14 +2,18 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeFactorialOfN`.
+1. Escribe una función llamada `computeFactorialOfN`. Dado un número natural (un número entero mayor que 0), `computeFactorialOfN` retorna un factor del mismo.
 
-Dado un número natural (un número entero mayor que `0`), `computeFactorialOfN` regresa un número factorial.
+## Ejemplo 1:
 
 ```js
 var output = computeFactorialOfN(3);
 console.log(output); // --> 6
+```
 
+## Ejemplo 2:
+
+```
 var output = computeFactorialOfN(4);
 console.log(output); // --> 24
 ```

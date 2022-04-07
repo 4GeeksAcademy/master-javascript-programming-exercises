@@ -4,13 +4,22 @@
 
 1. Declare una función llamada `detectOutlierValue`.
 
-2. La función acepta el parámetro llamado `string`, cuyo valor de argumento será `string`.
+2. La función acepta el parámetro llamado `string`, cuyo valor de argumento será un `string`.
 
-3. Cuando se llama a la función, el valor devuelto debe estar indexado en 1, no en 0. (1-indexed, not indexed 0)
+3. Cuando se llama a la función, el valor devuelto debe estar indexado en 1, no en 0.
 
-Ejemplo:
+## Ejemplo 1:
+
 ```js
-detectOutlierValue("2 4 7 8 10"); // => 3 - tercer numero es impar, mientras que el resto de los números son pares
+// el tercer número es impar, mientras que el resto de los números son pares
+let output = detectOutlierValue("2 4 7 8 10"); 
+console.log(output); // 3
+```
 
-detectOutlierValue("1 10 1 1");  //=> 2 - Segundo numero es par, mientras que el resto de los números son impares
+## Ejemplo 2:
+
+```js
+// el segundo número es par, mientras que el resto de los números son impares
+let output = detectOutlierValue("1 10 1 1");  
+console.log(output); // 2
 ```

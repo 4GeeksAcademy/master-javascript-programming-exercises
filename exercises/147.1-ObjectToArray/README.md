@@ -2,38 +2,17 @@
 
 ## 📝 Instructions:
 
-1. Write a function called "getAllKeys" which returns an array of all the input object's keys.
+1. Write a function called `getAllKeys` which returns an array of all the input object's keys.
 
-Example input: 
+## Example:
 
-```Js
-{
-  name : 'Sam',
-  age : 25,
-  hasPets : true
-}
+```js
+let output = getAllKeys({name: "Sam", age: 25, hasPets: true});
+console.log(output); // ['name', 'age', 'hasPets']
 ```
-Function's return value (output) :
 
-```Js
-['name', 'age', 'hasPets']
-```
-Do not use `Object.keys` to solve this prompt.
+## 💡 Hints:
 
-Note that your function should be able to handle any object passed in it.
++ Do not use `Object.keys` to solve this prompt.
 
-E.g. it should also handle an input like:
-
-```Js
-{
-  a : 'a',
-  number : 11,
-  hungry : true,
-  grammyWins : 1
-}
-```
-Function's return value (output):
-
-```Js
-['a', 'number', 'hungry', 'grammyWins']
-```
++ Note that your function should be able to handle any object passed in it.

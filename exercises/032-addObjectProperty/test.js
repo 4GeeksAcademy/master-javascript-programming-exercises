@@ -5,7 +5,7 @@ test('Function addObjectProperty must exist', () => {
     expect(addObjectProperty).not.toBe(undefined);
 });
 
-test ("The function must return the 2nd array values with the new key ", () => {
+test ("The function must return the 2nd array values with the new key.", () => {
     const addObjectProperty = rewire("./app.js").__get__("addObjectProperty");
     var person1 = {
     name: 'Joe Blow',
@@ -21,7 +21,7 @@ test ("The function must return the 2nd array values with the new key ", () => {
    expect(result.manager).toStrictEqual({"name": "Mr. Burns", "role": "supervisor"});
 })
 
-test ("The function must return the 2nd array values with the new key ", () => {
+test ("The function must return the 2nd array values with the new key. Testing with different values", () => {
     const addObjectProperty = rewire("./app.js").__get__("addObjectProperty");
     var person1 = {
     name: 'Johny',

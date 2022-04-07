@@ -1,3 +1,3 @@
-function filterBlackShoes(shoeList) {
+function renderInventory(shoeList) {
   
 }

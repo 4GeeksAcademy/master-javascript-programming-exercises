@@ -1,10 +1,21 @@
 # `159.1` FashionInventory-A
 
+Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. 
+ Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
+
 ## 📝 Instrucciones:
 
-1. Tienes un catálogo de moda, un inventario de artículos de varios diseñadores de alta costura. Cada diseñador tiene una línea de zapatos. Cada zapato tiene un nombre y un precio.
+1. Escribe una función llamada `renderInventory` que recibe como parámetro un array como `currentInventory`. La función debe retornar una matriz (array de arrays) con todos los zapatos de cada diseñador en este orden:
 
-Se parece a esto: 
+```js
+[
+  [designer name, shoe name, price],
+  [designer name, shoe name, price]
+  ...
+]  
+```
+
+## Ejemplo de entrada:
 
 ```Js
 var currentInventory = [
@@ -26,16 +37,19 @@ var currentInventory = [
   }
 ];
 ```
- Busca todos los zapatos de todos los diseñadores y listalos en un arreglo de arreglos con este formato: 
 
-```Js
-[[nombre diseñador, nombre zapato, precio], [nombre diseñador, nombre zapato, precio], ....]
-```
-Ejemplo
+## Ejemplo de salida:
+
 ```Js
 [
   [Brunello Cucinelli, tasselled black low-top lace-up, 1000],
   [Brunello Cucinelli, tasselled green low-top lace-up, 1100],
-...
+  ...
 ]
 ```
+
+## 💡 Pistas:
+
++ Deberías usar loops anidados.
+
++ El valor retornado debe ser una matriz (array dentro de un array).

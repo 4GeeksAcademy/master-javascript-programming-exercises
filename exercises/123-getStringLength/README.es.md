@@ -6,13 +6,14 @@
 
 Dado un string, `getStringLength` retorna la longitud del string.
 
-## :bulb: Pista:
-
-* NO uses ningún método nativo de `length`.
-
-* Puedes considerar usar `substring` o `slice` como alternativas.
+## Ejemplo:
 
 ```Js
 var output = getStringLength('hello');
 console.log(output); // --> 5
 ```
+## 💡 Pistas:
+
++ NO uses ningún método nativo de `length`.
+
++ Puedes considerar usar `substring` o `slice` como alternativas.

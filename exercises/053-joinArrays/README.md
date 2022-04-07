@@ -1,11 +1,10 @@
-# `53` joinArrays
+# `053` joinArrays
 
 ## 📝 Instructions:
 
-1. Write a function called `joinArrays`.
+1. Write a function called `joinArrays`. Given 2 arrays, `joinArrays` returns an array with the elements of `arr1`, followed by the elements of `arr2` in order.
 
-Given 2 arrays, `joinArrays` returns an array with the elements of `arr1`, followed by the elements of `arr2` in order.
-
+## Example:
 
 ```Javascript
 var output = joinArrays([1, 2], [3, 4]);

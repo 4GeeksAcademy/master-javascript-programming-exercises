@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `filterOddElements`.
+1. Escribe una función llamada `filterOddElements`. Dado un array de números, `filterOddElements` devuelve un array que contiene solo los números impares del array dado.
 
-Dada una matriz de números, `filterOddElements` devuelve una matriz que contiene solo los números impares de la matriz dada.
+## Ejemplo:
 
 ```Js
 var output = filterOddElements([1, 2, 3, 4, 5]);

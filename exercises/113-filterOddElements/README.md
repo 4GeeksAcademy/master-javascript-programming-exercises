@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `filterOddElements`.
+1. Write a function called `filterOddElements`. Given an array of numbers, `filterOddElements` returns an array containing only the odd numbers of the given array.
 
-Given an array of numbers, `filterOddElements` returns an array containing only the odd numbers of the given array.
+## Example:
 
 ```Js
 var output = filterOddElements([1, 2, 3, 4, 5]);

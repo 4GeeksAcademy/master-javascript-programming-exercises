@@ -4,8 +4,14 @@
 
 1. Usa el esqueleto proporcionado para escribir una implementación funcional.
 
-## :bulb: Pista:
+2. Debes descubrir el promedio de una `lista` o array de números.
 
-* No dejes ninguna función en el esqueleto sin usar.
+3. Utiliza la función `sum` para ayudarte a sumar los números de la lista.
 
-* Comprueba que tu implementación funciona.
+## 💡 Pistas:
+
++ No dejes ninguna función en el esqueleto sin usar.
+
++ Comprueba que tu implementación funcione.
+
++ Ambas funciones reciben una `lista`/`array` de números.

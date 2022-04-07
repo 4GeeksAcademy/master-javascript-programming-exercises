@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `repeatString`.
+1. Write a function called `repeatString`. Given a string and a number, `repeatString` returns the given string repeated the given number of times.
 
-Given a string and a number, `repeatString` returns the given string repeated the given number of times.
+## Example:
 
 ```Js
 var output = repeatString('code', 3);

@@ -2,19 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getLargestElementAtProperty`.
+1. Escribe una función llamada `getLargestElementAtProperty`. Dado un Objeto y un Key, `getLargestElementAtProperty` retorna el elemento más grande en el array ubicado en el Key.
 
-Dado un Objeto y un Key, `getLargestElementAtProperty` retorna el elemento más grande en el arreglo ubicado en el Key.
-
-## 💡 Pista:
-
-* Si el arreglo está vacío, debería retornar `undefined`.
-
-* Si la propiedad en el Key dado no es un arreglo, debería retornar `undefined`.
-
-* Si no hay ninguna propiedad en el Key, debería retornar `undefined`.
-
-## Resultado esperado:
+## Ejemplo:
 
 ```Js
 var obj = {
@@ -23,3 +13,10 @@ var obj = {
 var output = getLargestElementAtProperty(obj, 'key');
 console.log(output); // --> 4
 ```
+## 💡 Pistas:
+
++ Si el array está vacío, debería retornar un array vacío `[]`.
+
++ Si la propiedad en el Key dado no es un array, debería retornar un array vacío `[]`.
+
++ Si no hay ninguna propiedad en el Key, debería retornar un array vacío `[]`.

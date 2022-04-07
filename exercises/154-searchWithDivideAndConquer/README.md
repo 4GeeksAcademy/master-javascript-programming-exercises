@@ -1,16 +1,12 @@
 # `154` searchWithDivideAndConquer
 
-## 📝 Instrucciones:
-
-**Binary search** is a searching technique which works on Divide and Conquer approach. It used to search any element in a sorted array. 
-
 Given a sorted array, such as this:
 
 ```js
 [1, 3, 16, 22, 31, 33, 34]
 ```
 
-You can search for the value `31`, as follows:
+You can use binary search for the value `31`, as follows:
 
 1. Pick the midpoint: `22`.
 
@@ -28,15 +24,22 @@ You can search for the value `31`, as follows:
 
 7. Return the index of the value.
 
-## :bulb: Hint:
+## 📝 Instructions:
 
-* If you don't find the value, you can return `null`.
+1. The function `search` receives an array of numbers and a number, it should return the position of the number given using binary search.
 
-* If at any point you calculate the index of the midpoint and get a fractional number, just round it down ("floor" it).
-
-Example : 
+## Example: 
 
 ```Js
 var arr = [1, 3, 16, 22, 31, 33, 34]
-console.log(search(arr, 31)); --> 4
+console.log(search(arr, 31)); 4
 ```
+
+## 💡 Hints:
+
++ **Binary search** is a searching technique which works on Divide and Conquer approach. It is used to search any element in a sorted array.  
+
++ If you don't find the value, you can return `null`.
+
++ If at any point you calculate the index of the midpoint and get a fractional number, just round it down ("floor" it).
+

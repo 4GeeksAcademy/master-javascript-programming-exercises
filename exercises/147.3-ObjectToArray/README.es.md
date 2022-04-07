@@ -2,30 +2,15 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `convertObjectToList` la cual convierte un objeto literal en un arreglo(array) de arreglos, como este: 
+1. Escribe una función llamada `convertObjectToList` la cual convierte un objeto literal en una matriz (array de arrays), como este: 
 
-+ Argumento:
+## Ejemplo:
 
-```Js
-{
-  name: 'Holly',
-  age: 35,
-  role: 'producer'
-}
+```js
+let output = convertObjectToList({name: "Holly", age: 35, role: "producer"});
+console.log(output); // [['name', 'Holly'], ['age', 35], ['role', 'producer']]
 ```
-+ Valor Retornado:
 
-```Js
-[['name', 'Holly'], ['age', 35], ['role', 'producer']]
-```
-Ten en cuenta que tu función debería poder manejar CUALQUIER objeto como este, no solo la muestra exacta proporcionada anteriormente.
+## 💡 Pistas:
 
-Por ejemplo, también debería poder manejar este, o cualquier otro objeto que contenga simples pares key-value (llave-valor).
-
-```Js
-{
-  species: 'canine',
-  name: 'Bowser',
-  weight: 45
-}
-```
++ Ten en cuenta que tu función debería poder manejar CUALQUIER objeto como este, no solo la muestra exacta proporcionada anteriormente.

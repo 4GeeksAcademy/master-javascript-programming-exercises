@@ -5,53 +5,53 @@ test('Function getSmallestElementAtProperty must exist', () => {
 });
 
 test('The function must returns the smallest element of the array located in the key.', () => {
-    var obj = {
+    let obj = {
         key: [2, 1, 5]
     };
-    var output = getSmallestElementAtProperty(obj, 'key')
+    let output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toBe(1)
 
     
 })
 
 test('If the property in the given key is an empty array, it should return an empty array [].', () => {
-    obj = {
+    let obj = {
         key: []
     };
-    output = getSmallestElementAtProperty(obj, 'key')
+    let output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toEqual([])
 })
 
 
 test('If the property in the given key is a number, it should return an empty array [].', () => {
-    var obj = {
+    let obj = {
         key: 3
     };
-    var output = getSmallestElementAtProperty(obj, 'key')
+    let output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toEqual([])
 })
 
 
 test('If the property in the given key is not an array, it should return an empty array [].', () => {
-    obj = {
+    let obj = {
         key: {}
     }
-    output = getSmallestElementAtProperty(obj, 'key')
+    let output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toEqual([])
 })
 
 
 test('If the property in the given key is {}, it should return an empty array [].', () => { 
-    obj = {
+    let obj = {
         key: {}
     }
-    output = getSmallestElementAtProperty(obj, 'key')
+    let output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toEqual([])
 })
 
 
 test('If there is no property on the key, it should return an empty array.', () => {
-    var obj = {};
-    var output = getSmallestElementAtProperty(obj, 'key')
+    let obj = {};
+    let output = getSmallestElementAtProperty(obj, 'key')
     expect(output).toEqual([])
 })

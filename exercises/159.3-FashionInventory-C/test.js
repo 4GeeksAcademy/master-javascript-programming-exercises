@@ -6,7 +6,7 @@ test('Function renderInventory must exist', () => {
 });
 
 test('Function renderInventory must return something', () => {
-    expect(renderInventory()).not.toBe(undefined);
+    expect(renderInventory([])).toBeTruthy();
 });
 
 test('The function should filter all the shoes that contain the word "black" in the array.', () => {

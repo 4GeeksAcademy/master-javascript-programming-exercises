@@ -6,7 +6,7 @@ test("The function getLaceNameDataForShoes should exist", function(){
     expect(getLaceNameDataForShoes).toBeTruthy();
 });
 test("The function getLaceNameDataForShoes should return something", function(){
-    expect(getLaceNameDataForShoes()).toBeTruthy();
+    expect(getLaceNameDataForShoes([])).toBeTruthy();
 });
 
 test("Function getLaceNameDataForShoes should return correct data", function(){

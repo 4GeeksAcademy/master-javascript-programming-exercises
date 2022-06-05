@@ -14,3 +14,6 @@ var obj = {
 removeProperty(obj, 'name');
 console.log(obj.name); // --> undefined
 ```
+
+##  💡 Hint: 
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete

@@ -1,5 +1,6 @@
 const rewire = require ("rewire");
 const isEven = rewire ('./app.js').__get__("isEven");
+
 test('Function isEven must exist', () => {
     expect(isEven).not.toBe(undefined);
 });

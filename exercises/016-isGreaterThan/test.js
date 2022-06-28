@@ -1,5 +1,6 @@
 const rewire = require ("rewire");
 const isGreaterThan = rewire ('./app.js').__get__("isGreaterThan");
+
 test ('Create a function isGreaterThan', () => {
     expect((isGreaterThan)).toBeTruthy();
 })

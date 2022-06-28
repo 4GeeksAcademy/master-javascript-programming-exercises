@@ -5,7 +5,7 @@ test('The function isLessThan must exist.',()=>{
     expect(isLessThan).toBeTruthy();
 })
 test('The function isLessThan should return something.',()=>{
-    expect(isLessThan).not.toBe(undefined);
+    expect(isLessThan(5, 6)).not.toBe(undefined);
 })
 
 test ('The function return true if num1 is bigger than num2.', () => {

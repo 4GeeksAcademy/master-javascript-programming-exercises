@@ -1,5 +1,6 @@
 const rewire = require ("rewire");
 const isEqualTo = rewire("./app.js").__get__("isEqualTo");
+
 test('Function isEqualTo must exist', () => {
     expect(isEqualTo).toBeTruthy()
 });

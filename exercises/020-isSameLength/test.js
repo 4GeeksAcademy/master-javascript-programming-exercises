@@ -5,7 +5,7 @@ test('Function isSameLength must exist', () => {
     expect(isSameLength).not.toBe(undefined);
 });
 test('Function isSameLength must return something', () => {
-    expect(isSameLength()).not.toBe(undefined);
+    expect(isSameLength('words', 'super')).not.toBe(undefined);
 });
 
 test('Function isSameLength must return boolean', () => {

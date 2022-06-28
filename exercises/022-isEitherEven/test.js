@@ -5,15 +5,22 @@ test('Function isEitherEven must exist', () => {
     expect(isEitherEven).not.toBe(undefined);
 });
 
-
 test('Function isEitherEven must return boolean', () => {
-    expect(typeof(isEitherEven(3,3)) == "boolean" || isEitherEven(3,3) === 0).toBeTruthy()
+    expect(typeof(isEitherEven(3,3)) == "boolean").toBeTruthy()
 });
 
-test ('Tested with (15,17) and it should return false', () => {
-    expect(isEitherEven(15, 17)).toBe(false);
+test ('Tested with (15, 17) and it should return false', () => {
+    expect(isEitherEven(15, 17)).toBe(true);
 })
+
 test ('Tested with (7,12) and it should return true', () => {
     expect(isEitherEven(7, 12)).toBe(true);
- 
+})
+
+test ('Tested with (4, 12) and it should return false', () => {
+    expect(isEitherEven(4, 12)).toBe(false);
+})
+
+test ('Tested with (2, 14) and it should return false', () => {
+    expect(isEitherEven(2, 14)).toBe(false);
 })

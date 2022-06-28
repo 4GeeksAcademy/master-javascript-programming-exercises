@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test ('The function removeProperty must exist', () => {
+    const removeProperty = rewire ('./app.js').__get__("removeProperty");
+    expect(removeProperty).not.toBe(undefined);
+})
+
 test ('function removes the given key from the given object.', function () {
     const removeProperty = rewire ('./app.js').__get__("removeProperty");
 

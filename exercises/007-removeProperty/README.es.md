@@ -14,3 +14,6 @@ var obj = {
 removeProperty(obj, 'name');
 console.log(obj.name); // --> undefined
 ```
+
+## 💡 Pista
++ https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/delete

@@ -1,13 +1,17 @@
 const rewire = require ("rewire");
+const computeAreaOfATriangle = rewire("./app.js").__get__("computeAreaOfATriangle");
+
 
 test('Function computeAreaOfATriangle must exist', () => {
-    const computeAreaOfATriangle = rewire("./app.js").__get__("computeAreaOfATriangle");
     expect(computeAreaOfATriangle).not.toBe(undefined);
 });
+test('Function computeAreaOfATriangle should return a number', () => {
+    expect(typeof computeAreaOfATriangle(1,2)).toBe('number');
+});
 
-test ('function should return the area of a triangle.', () => {
-    const computeAreaOfATriangle = rewire ('./app.js').__get__("computeAreaOfATriangle");
-
-    expect(computeAreaOfATriangle(24, 36)).toBe(432);
+test ('The function should return the area of a triangle. Testing with (102, 93)', () => {
     expect(computeAreaOfATriangle(102, 93)).toBe(4743);
+})
+test ('function should return the area of a triangle. Testing with (24, 36)', () => {
+    expect(computeAreaOfATriangle(24, 36)).toBe(432);
 })

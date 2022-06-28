@@ -1,19 +1,26 @@
 const rewire = require ("rewire");
+const isEitherEven = rewire("./app.js").__get__("isEitherEven");
 
 test('Function isEitherEven must exist', () => {
-    const isEitherEven = rewire("./app.js").__get__("isEitherEven");
     expect(isEitherEven).not.toBe(undefined);
 });
 
-
 test('Function isEitherEven must return boolean', () => {
-    const isEitherEven = rewire("./app.js").__get__("isEitherEven");
-    expect(typeof(isEitherEven(3,3)) == "boolean" || isEitherEven(3,3) === 0).toBeTruthy()
+    expect(typeof(isEitherEven(3,3)) == "boolean").toBeTruthy()
 });
 
-test ('Tested with (7,12) & (15,17) and it should have returned true and false', () => {
-    const isEitherEven = rewire ('./app.js').__get__("isEitherEven");
+test ('Tested with (15, 17) and it should return false', () => {
+    expect(isEitherEven(15, 17)).toBe(true);
+})
 
+test ('Tested with (7,12) and it should return true', () => {
     expect(isEitherEven(7, 12)).toBe(true);
-    expect(isEitherEven(15, 17)).toBe(false);
+})
+
+test ('Tested with (4, 12) and it should return false', () => {
+    expect(isEitherEven(4, 12)).toBe(false);
+})
+
+test ('Tested with (2, 14) and it should return false', () => {
+    expect(isEitherEven(2, 14)).toBe(false);
 })

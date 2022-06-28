@@ -1,13 +1,26 @@
 const rewire = require ("rewire");
 
+const isEvenAndGreaterThanTen = rewire("./app.js").__get__("isEvenAndGreaterThanTen");
 test('Function isEvenAndGreaterThanTen must exist', () => {
-    const isEvenAndGreaterThanTen = rewire("./app.js").__get__("isEvenAndGreaterThanTen");
     expect(isEvenAndGreaterThanTen).not.toBe(undefined);
 });
 
-test ('function should return whether it is both even and greater than 10.', () => {
-    const isEvenAndGreaterThanTen = rewire ('./app.js').__get__("isEvenAndGreaterThanTen");
+test('Function isEvenAndGreaterThanTen must return boolean', () => {
+    expect(typeof(isEvenAndGreaterThanTen(100))).toBe("boolean");
+});
 
-    expect(isEvenAndGreaterThanTen(13)).toBe(false);
+test ('The function should return true if the given number is greater and even than ten.', () => {
     expect(isEvenAndGreaterThanTen(12)).toBe(true);
+})
+
+test ('The function should return false when the given number isn\'t grater than ten or odd.', () => {
+    expect(isEvenAndGreaterThanTen(13)).toBe(false);
+})
+
+test ('The function should return false when the given number isn\'t grater than ten or odd.', () => {
+    expect(isEvenAndGreaterThanTen(3)).toBe(false);
+})
+
+test ('The function should return false when the given number isn\'t grater than ten or odd.', () => {
+    expect(isEvenAndGreaterThanTen(6)).toBe(false);
 })

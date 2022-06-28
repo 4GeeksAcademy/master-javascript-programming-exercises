@@ -6,7 +6,7 @@ test('The function isGreaterThanTen must exist.',()=>{
 })
 
 test('The function isGreaterThanTen must return something.',()=>{
-    expect(isGreaterThanTen()).not.toBe(undefined)
+    expect(isGreaterThanTen(10)).not.toBe(undefined)
 })
 
 test ('function should return the expected output when the number is less or equal than 10.', () => {

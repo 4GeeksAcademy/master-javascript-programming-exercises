@@ -6,7 +6,7 @@ test('The function getLengthOfTwoWords must exist.', ()=>{
 })
 
 test('The function getLengthOfTwoWords should return something.',()=>{
-    expect(getLengthOfTwoWords()).not.toBe(undefined);
+    expect(getLengthOfTwoWords('some', 'words')).not.toBe(undefined);
 })
 
 test ("function should return the sum of their lengths. Testing with 'some', 'words'", () => {

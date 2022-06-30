@@ -1,12 +1,17 @@
 const rewire = require ("rewire");
-
+const addObjectProperty = rewire("./app.js").__get__("addObjectProperty");
 test('Function addObjectProperty must exist', () => {
-    const addObjectProperty = rewire("./app.js").__get__("addObjectProperty");
+   
     expect(addObjectProperty).not.toBe(undefined);
 });
 
+test('Function addObjectProperty must return something', () => {
+   
+    expect(addObjectProperty({},'test',{})).not.toBe(undefined);
+});
+
 test ("The function must return the 2nd array values with the new key.", () => {
-    const addObjectProperty = rewire("./app.js").__get__("addObjectProperty");
+   
     var person1 = {
     name: 'Joe Blow',
     role: 'schlub'
@@ -22,7 +27,7 @@ test ("The function must return the 2nd array values with the new key.", () => {
 })
 
 test ("The function must return the 2nd array values with the new key. Testing with different values", () => {
-    const addObjectProperty = rewire("./app.js").__get__("addObjectProperty");
+   
     var person1 = {
     name: 'Johny',
     role: 'schlub'

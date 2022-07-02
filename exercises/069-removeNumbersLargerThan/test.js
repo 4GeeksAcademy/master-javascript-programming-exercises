@@ -1,27 +1,38 @@
 const rewire = require("rewire");
+const removeNumbersLargerThan = rewire("./app.js").__get__("removeNumbersLargerThan");
 
 test('Function removeNumbersLargerThan must exist', () => {
-    const removeNumbersLargerThan = rewire("./app.js").__get__("removeNumbersLargerThan");
+    
     expect(removeNumbersLargerThan).not.toBe(undefined);
+});
+test('Function removeNumbersLargerThan must return something', () => {
+    
+    expect(removeNumbersLargerThan({a:1, b:2})).not.toBe(undefined);
+});
+test('Function removeNumbersLargerThan must return a object', () => {
+    
+    expect(typeof removeNumbersLargerThan({a:1, b:2})).toBe("object");
 });
 
 test('The function must remove any property whose value is a number greater than the given number.', () => {
-    const removeNumbersLargerThan = rewire("./app.js").__get__("removeNumbersLargerThan");
-    var obj = {
-        a: 8,
-        b: 2,
-        c: 'montana'
-    }
-    removeNumbersLargerThan(5, obj)
-    var output = (obj)
-    expect(output).toEqual({ b: 2, c: 'montana' })
 
-    obj = {
+    let obj = {
         a: 9,
         b: 11,
         c: 'chile'
     }
     removeNumbersLargerThan(10, obj)
-    output = (obj)
+    let output = (obj)
     expect(output).toEqual({ a: 9, c: 'chile' })
+})
+test('The function must remove any property whose value is a number greater than the given number.', () => {
+
+    let obj = {
+        a: 8,
+        b: 2,
+        c: 'montana'
+    }
+    removeNumbersLargerThan(5, obj)
+    let output = (obj)
+    expect(output).toEqual({ b: 2, c: 'montana' })
 })

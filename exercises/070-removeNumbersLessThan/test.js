@@ -1,27 +1,37 @@
 const rewire = require("rewire");
+const removeNumbersLessThan = rewire("./app.js").__get__("removeNumbersLessThan");
 
 test('Function removeNumbersLessThan must exist', () => {
-    const removeNumbersLessThan = rewire("./app.js").__get__("removeNumbersLessThan");
+   
     expect(removeNumbersLessThan).not.toBe(undefined);
+});
+test('Function removeNumbersLessThan must return something', () => {
+   
+    expect(removeNumbersLessThan({a:1, b:2})).not.toBe(undefined);
+});
+test('Function removeNumbersLessThan must return a object', () => {
+   
+    expect(typeof removeNumbersLessThan({a:1, b:2})).not.toBe("object");
 });
 
 test('The function must remove any property whose value is a number less than the given number.', () => {
-    const removeNumbersLessThan = rewire("./app.js").__get__("removeNumbersLessThan");
-    var obj = {
+    let obj = {
         a: 8,
         b: 2,
         c: 'montana'
     }
     removeNumbersLessThan(5, obj)
-    var output = (obj)
+    let output = (obj)
     expect(output).toEqual({ a: 8, c: 'montana' })
+})
+test('The function must remove any property whose value is a number less than the given number.', () => {
 
-    obj = {
+    let obj = {
         a: 9,
         b: 11,
         c: 'chile'
     }
     removeNumbersLessThan(10, obj)
-    output = (obj)
+    let output = (obj)
     expect(output).toEqual({ b: 11, c: 'chile' })
 })

@@ -16,11 +16,11 @@ test('Function removeFromFront must return a list', () => {
 
 test('Function must return the given array with its first element removed. Testing with [3,6,9,12]', () => {
 
-    output = removeFromFront([3, 6, 9, 12])
+    let output = removeFromFront([3, 6, 9, 12])
     expect(output).toEqual([6, 9, 12])
 })
 test('Function must return the given array with its first element removed. Testing with [1,2,3,4]', () => {
 
-    var output = removeFromFront([1, 2, 3, 4])
+    let output = removeFromFront([1, 2, 3, 4])
     expect(output).toEqual([2, 3, 4])
 })

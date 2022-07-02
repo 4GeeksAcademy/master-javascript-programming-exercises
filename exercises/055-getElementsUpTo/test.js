@@ -16,12 +16,12 @@ test('Function getElementsUpTo must return a list', () => {
 
 test('Function must return an array with all elements up to the given index', () => {
 
-    var output = getElementsUpTo(['a', 'b', 'c', 'd', 'e'], 3)
+    let output = getElementsUpTo(['a', 'b', 'c', 'd', 'e'], 3)
     expect(output).toEqual(['a', 'b', 'c'])
 })
 
 test('Function must return an array, not including the elements after the given index', () => {
 
-    var output = getElementsUpTo(['you', 'did', 'it', 'not', 'did', 'it'], 3)
+    let output = getElementsUpTo(['you', 'did', 'it', 'not', 'did', 'it'], 3)
     expect(output).toEqual(['you', 'did', 'it'])
 })

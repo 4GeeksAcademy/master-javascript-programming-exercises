@@ -16,12 +16,12 @@ test('Function getElementsAfter must return a list', () => {
 
 test('Function must return a new array with all the elements after the given index.', () => {
 
-    var output = getElementsAfter(['a', 'b', 'c', 'd', 'e'], 2)
+    let output = getElementsAfter(['a', 'b', 'c', 'd', 'e'], 2)
     expect(output).toEqual(['d', 'e'])
 })
 
 test('The function must not return the other elements of the array.', () => {
 
-    var output = getElementsAfter(['you', 'can', 'do', 'it'], 1)
+    let output = getElementsAfter(['you', 'can', 'do', 'it'], 1)
     expect(output).toEqual(['do', 'it'])
 })

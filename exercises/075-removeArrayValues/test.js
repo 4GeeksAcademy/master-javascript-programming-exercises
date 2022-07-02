@@ -1,13 +1,22 @@
 const rewire = require("rewire");
+const removeArrayValues = rewire("./app.js").__get__("removeArrayValues");
 
 test('Function removeArrayValues must exist', () => {
-    const removeArrayValues = rewire("./app.js").__get__("removeArrayValues");
+    
     expect(removeArrayValues).not.toBe(undefined);
+});
+test('Function removeArrayValues must return something', () => {
+    
+    expect(removeArrayValues({a: 1, b: [1]})).not.toBe(undefined);
+});
+test('Function removeArrayValues must return an object', () => {
+    
+    expect(typeof removeArrayValues({a: 1, b: [1]})).toBe("object");
 });
 
 
 test('The function must removes any properties whose values are arrays.', () => {
-    const removeArrayValues = rewire("./app.js").__get__("removeArrayValues");
+  
     var obj = {
         a: [1, 3, 4],
         b: 2,
@@ -15,8 +24,10 @@ test('The function must removes any properties whose values are arrays.', () => 
     }
     removeArrayValues(obj)
     expect(obj).toEqual({ b: 2 })
+})
+test('The function must removes any properties whose values are arrays.', () => {
 
-    obj = {
+    let obj = {
         a: [3, 2, 6],
         b: 55,
         c: ['let\'s', 'rock'],

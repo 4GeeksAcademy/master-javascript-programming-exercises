@@ -1,13 +1,19 @@
-const rewire = require("rewire");
+const rewire = require('rewire');
+const getAllElementsButNth = rewire('./app.js').__get__('getAllElementsButNth');
 
 test('Function getAllElementsButNth must exist', () => {
-    const getAllElementsButNth = rewire("./app.js").__get__("getAllElementsButNth");
-    expect(getAllElementsButNth).not.toBe(undefined);
+  expect(getAllElementsButNth).not.toBe(undefined);
+});
+test('Function getAllElementsButNth must return something', () => {
+  expect(getAllElementsButNth([1], 0)).not.toBe(undefined);
+});
+test('Function getAllElementsButNth must return an array', () => {
+  expect(typeof getAllElementsButNth([1], 0)).toBe('object');
 });
 
 test('The function must returns an array with all elements except the nth .', () => {
-    const getAllElementsButNth = rewire('./app.js').__get__("getAllElementsButNth");
-
-    expect(getAllElementsButNth(['a', 'b', 'c'], 1)).toEqual(['a', 'c'])
-    expect(getAllElementsButNth(['f', 'c', 'q'], 1)).toEqual(['f', 'q'])
-})
+  expect(getAllElementsButNth(['f', 'c', 'q'], 1)).toEqual(['f', 'q']);
+});
+test('The function must returns an array with all elements except the nth .', () => {
+  expect(getAllElementsButNth(['a', 'b', 'c'], 1)).toEqual(['a', 'c']);
+});

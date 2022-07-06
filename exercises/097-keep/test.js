@@ -1,15 +1,28 @@
-const rewire = require ("rewire");
+const rewire = require('rewire');
+const keep = rewire('./app.js').__get__('keep');
 
 test('Function keep must exist', () => {
-    const keep = rewire("./app.js").__get__("keep");
-    expect(keep).not.toBe(undefined);
+  expect(keep).not.toBe(undefined);
+});
+test('Function keep must return something', () => {
+  expect(keep([1, 2, 3], 2)).not.toBe(undefined);
+});
+test('Function keep must return a number', () => {
+  expect(typeof keep([1, 2, 1], 1)).toBe('number');
 });
 
-test ('The function must return only the elements that match the given keeper element.', () => {
-    const keep = rewire ('./app.js').__get__("keep");
-    
-    var output = keep([1, 2, 3, 2, 1], 2)
+test('The function must return only the elements that match the given keeper element.', () => {
+  let output = keep([1, 2, 3, 2, 1], 2);
 
-    expect().toBe();
-    
-})
+  expect(output).toBe([2, 2]);
+});
+test('The function must return only the elements that match the given keeper element.', () => {
+  let output = keep([1, 2, 1, 2, 1], 1);
+
+  expect(output).toBe([1, 1, 1]);
+});
+test('If no elements match, the function keep should return an empty array [].', () => {
+  let output = keep([1, 2, 1, 2, 1], 3);
+
+  expect(output).toBe([]);
+});

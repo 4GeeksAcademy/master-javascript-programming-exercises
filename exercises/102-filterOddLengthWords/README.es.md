@@ -10,3 +10,9 @@
 var output = filterOddLengthWords(['there', 'it', 'is', 'now']);
 console.log(output); // --> ['there', "now']
 ```
+
+## 💡 Pista:
+
+- Si el array está vacío, debe regresar un array vacío `[]`.
+
+- Si no contiene ningún elemento cuyo length es impar, debe regresar un array vacío `[]`.

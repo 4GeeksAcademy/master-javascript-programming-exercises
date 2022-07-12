@@ -27,6 +27,6 @@ test('The function must return false if both numbers are even and both are great
     expect(output).toBe(false)
 })
 test('The function must return false if both numbers are not even and both are less than 9.', () => {
-    var output = isEitherEvenAndLessThan9(9, 5);
+    var output = isEitherEvenAndLessThan9(7, 5);
     expect(output).toBe(false)
 })

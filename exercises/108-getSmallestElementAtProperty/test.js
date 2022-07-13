@@ -1,7 +1,15 @@
 const rewire = require("rewire");
 const getSmallestElementAtProperty = rewire("./app.js").__get__("getSmallestElementAtProperty");
 test('Function getSmallestElementAtProperty must exist', () => {
-    expect(getSmallestElementAtProperty).toBeTruthy();
+    expect(getSmallestElementAtProperty).not.toBe(undefined);
+});
+test('Function getSmallestElementAtProperty must return something', () => {
+    expect(getSmallestElementAtProperty({key: [1,2,3]}, 'key')).not.toBe(undefined);
+});
+test('Function getSmallestElementAtProperty must return a number', () => {
+    expect(typeof getSmallestElementAtProperty({ key: [1, 2, 3] }, 'key')).toBe(
+      'number'
+    );
 });
 
 test('The function must returns the smallest element of the array located in the key.', () => {

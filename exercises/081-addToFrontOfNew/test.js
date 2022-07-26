@@ -1,21 +1,28 @@
-const rewire = require ("rewire");
+const rewire = require('rewire');
+const addToFrontOfNew = rewire('./app.js').__get__('addToFrontOfNew');
 
 test('Function addToFrontOfNew must exist', () => {
-    const addToFrontOfNew = rewire("./app.js").__get__("addToFrontOfNew");
-    expect(addToFrontOfNew).not.toBe(undefined);
+  expect(addToFrontOfNew).not.toBe(undefined);
 });
 
-test ('The returned array should have one more item than the original one .', () => {
-    const addToFrontOfNew = rewire ('./app.js').__get__("addToFrontOfNew");
-     
-    let input = [1, 2];
-    let output = addToFrontOfNew(input, 3);
-     expect(output.length>input.length).toBe(true);
-})
+test('Function addToFrontOfNew must return something', () => {
+  expect(addToFrontOfNew([1], [2])).not.toBe(undefined);
+});
 
-test ('Function returns a new array containing all the elements of the given array, with the given element added to the front.', () => {
-    const addToFrontOfNew = rewire ('./app.js').__get__("addToFrontOfNew");
-     
-     expect(addToFrontOfNew([1, 2], 3)).toEqual([3, 1, 2]);
-     expect(addToFrontOfNew([12, 16], 10)).toEqual([10, 12, 16]);
-})
+test('Function addToFrontOfNew must return an array', () => {
+  expect(typeof addToFrontOfNew([1], [2])).toBe('object');
+});
+
+test('The returned array should have one more item than the original one .', () => {
+  let input = [1, 2];
+  let output = addToFrontOfNew(input, 3);
+  expect(output.length).toBeGreaterThan(input.length);
+});
+
+test('Function returns a new array containing all the elements of the given array, with the given element added to the front.', () => {
+  expect(addToFrontOfNew([1, 2], 3)).toEqual([3, 1, 2]);
+});
+
+test('Function returns a new array containing all the elements of the given array, with the given element added to the front.', () => {
+  expect(addToFrontOfNew([12, 16], 10)).toEqual([10, 12, 16]);
+});

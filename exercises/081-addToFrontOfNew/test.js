@@ -8,8 +8,8 @@ test('Function addToFrontOfNew must exist', () => {
 test ('The returned array should have one more item than the original one .', () => {
     const addToFrontOfNew = rewire ('./app.js').__get__("addToFrontOfNew");
      
-    var input = [1, 2];
-    var output = addToFrontOfNew(input, 3);
+    let input = [1, 2];
+    let output = addToFrontOfNew(input, 3);
      expect(output.length>input.length).toBe(true);
 })
 

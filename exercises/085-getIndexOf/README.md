@@ -7,7 +7,7 @@
 ## Example:
 
 ```js
-var output = getIndexOf('a', 'I am a hacker');
+let output = getIndexOf('a', 'I am a hacker');
 console.log(output); // --> 2
 ```
 

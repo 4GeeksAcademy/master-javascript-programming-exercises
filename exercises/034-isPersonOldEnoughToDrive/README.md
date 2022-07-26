@@ -8,10 +8,10 @@
 ## Example:
 
 ```Javascript
-var obj = {
+let obj = {
   age: 16
 };
-var output = isPersonOldEnoughToDrive(obj);
+let output = isPersonOldEnoughToDrive(obj);
 console.log(output); // --> true
 ```
 

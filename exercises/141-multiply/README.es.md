@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = multiply(4, 7);
+let output = multiply(4, 7);
 console.log(output); // --> 28
 ```
 

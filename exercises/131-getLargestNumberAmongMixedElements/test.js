@@ -8,20 +8,20 @@ test('Function getLargestNumberAmongMixedElements must exist', () => {
 test('The function must return the largest number in the array.', () => {
     const getLargestNumberAmongMixedElements = rewire('./app.js').__get__("getLargestNumberAmongMixedElements");
 
-    var output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up'])
+    let output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up'])
     expect(output).toBe(5);
 })
 
 test('If the given array, not contains number elements , it should return 0.', () => {
     const getLargestNumberAmongMixedElements = rewire('./app.js').__get__("getLargestNumberAmongMixedElements");
 
-    var output = getLargestNumberAmongMixedElements(['1', '2', 'three'])
+    let output = getLargestNumberAmongMixedElements(['1', '2', 'three'])
     expect(output).toBe(0);
 })
 
 test('If array is empty must return 0', () => {
     const getLargestNumberAmongMixedElements = rewire('./app.js').__get__("getLargestNumberAmongMixedElements");
 
-    var output = getLargestNumberAmongMixedElements([])
+    let output = getLargestNumberAmongMixedElements([])
     expect(output).toBe(0)
 })

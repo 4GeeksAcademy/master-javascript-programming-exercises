@@ -8,8 +8,8 @@ test('Function getAllWords must exist', () => {
 test ('The function returns an array containing every word in the sentence.', () => {
     const getAllWords = rewire ('./app.js').__get__("getAllWords");
     
-    var input = "Radagast the Brown"
-    var output = getAllWords(input)
+    let input = "Radagast the Brown"
+    let output = getAllWords(input)
     expect(output).toEqual(['Radagast', 'the', 'Brown']);
 
     input = "Friday Mood"

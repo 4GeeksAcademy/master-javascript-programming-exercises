@@ -7,7 +7,7 @@ Write a function called `getAllWords`. Given a sentence, `getAllWords` returns a
 ## Example:
 
 ```Javascript
-var output = getAllWords('Radagast the Brown');
+let output = getAllWords('Radagast the Brown');
 console.log(output); // --> ['Radagast', 'the', 'Brown']
 ```
 

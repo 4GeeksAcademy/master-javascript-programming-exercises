@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = countCharacter('I am a hacker', 'a');
+let output = countCharacter('I am a hacker', 'a');
 console.log(output); // --> 3
 ```

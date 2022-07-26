@@ -9,7 +9,7 @@ test('Must return an array with the elements of arr1, arr2, arr3', () => {
     const joinThreeArrays = rewire('./app.js').__get__("joinThreeArrays");
     
      
-    var output = joinThreeArrays([1, 2], [3, 4], [5, 6])
+    let output = joinThreeArrays([1, 2], [3, 4], [5, 6])
     expect(output).toStrictEqual([1, 2, 3, 4, 5, 6])
 
     output = joinThreeArrays([5, 2], [9, 4, 7], [32, 9, 11])

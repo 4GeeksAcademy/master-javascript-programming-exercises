@@ -15,7 +15,7 @@ test('The function addFullNameProperty must return an object', () => {
 test('The object that the function addFullNameProperty returns must include a fullName property', () => {
     const addFullNameProperty = rewire("./app.js").__get__("addFullNameProperty");
     let result = addFullNameProperty({});
-    expect(typeof(result.fullName)).not.toBe("undefined");
+    expect(typeof(result.fullName)).not.toBe(undefined);
 });
 
 

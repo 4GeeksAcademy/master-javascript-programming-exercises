@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
+let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
 console.log(output); // --> 'two'
 ```
 

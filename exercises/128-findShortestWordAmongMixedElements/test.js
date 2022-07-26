@@ -8,7 +8,7 @@ test('Function findShortestWordAmongMixedElements must exist', () => {
 test('Function must return the shortest string within the array.', () => {
     const findShortestWordAmongMixedElements = rewire('./app.js').__get__("findShortestWordAmongMixedElements");
 
-    var output = findShortestWordAmongMixedElements([4, 'two', 2, 'three'])
+    let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three'])
     expect(output).toBe('two');
 })
 
@@ -27,6 +27,6 @@ test('If the given array contains no string, it should return an empty string.',
 test('If array is empty must return empty string', () => {
     const findShortestWordAmongMixedElements = rewire('./app.js').__get__("findShortestWordAmongMixedElements");
 
-    var output = findShortestWordAmongMixedElements([])
+    let output = findShortestWordAmongMixedElements([])
     expect(output).toBe('')
 })

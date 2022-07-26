@@ -8,14 +8,14 @@ test('Function getLengthOfLongestElement must exist', () => {
 test('Must returns 0 if the array is empty.', () => {
     const getLengthOfLongestElement = rewire("./app.js").__get__("getLengthOfLongestElement");
 
-    var output = getLengthOfLongestElement([])
+    let output = getLengthOfLongestElement([])
     expect(output).toBe(0)
 })
 
 test('Must returns the length of the longest string in the array.', () => {
     const getLengthOfLongestElement = rewire("./app.js").__get__("getLengthOfLongestElement");
 
-    var output = getLengthOfLongestElement(['one', 'two', 'three'])
+    let output = getLengthOfLongestElement(['one', 'two', 'three'])
     expect(output).toBe(5)
 
     output = getLengthOfLongestElement(['es', 'hora', 'de', 'comer'])

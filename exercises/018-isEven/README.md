@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = isEven(11);
+let output = isEven(11);
 console.log(output); // --> false
 ```

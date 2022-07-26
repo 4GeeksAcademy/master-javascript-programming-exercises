@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = isOddLength('special');
+let output = isOddLength('special');
 console.log(output); // true
 ```

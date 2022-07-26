@@ -8,7 +8,7 @@ test('Function removeArrayValues must exist', () => {
 
 test('The function must removes any properties whose values are arrays.', () => {
     const removeArrayValues = rewire("./app.js").__get__("removeArrayValues");
-    var obj = {
+    let obj = {
         a: [1, 3, 4],
         b: 2,
         c: ['hi', 'there']

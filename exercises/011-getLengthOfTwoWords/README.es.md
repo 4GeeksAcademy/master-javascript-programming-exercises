@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = getLengthOfTwoWords('some', 'words');
+let output = getLengthOfTwoWords('some', 'words');
 console.log(output); // --> 9
 ```

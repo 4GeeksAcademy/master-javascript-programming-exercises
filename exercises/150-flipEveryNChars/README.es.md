@@ -11,8 +11,8 @@
 ## Ejemplo:
 
 ```Js
-var input = 'a short example'; 
-var output = flipEveryNChars(input, 5);
+let input = 'a short example'; 
+let output = flipEveryNChars(input, 5);
 console.log(output); // --> ohs axe trelpma
 ```
 

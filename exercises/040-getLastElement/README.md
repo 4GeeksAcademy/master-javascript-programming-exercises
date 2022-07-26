@@ -7,7 +7,7 @@
 ## Example:
 
 ```Javascript
-var output = getLastElement([1, 2, 3, 4]);
+let output = getLastElement([1, 2, 3, 4]);
 console.log(output); // --> 4
 ```
 

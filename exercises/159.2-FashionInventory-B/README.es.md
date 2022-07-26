@@ -23,7 +23,7 @@ Es la misma estructura de datos de inventario que antes, tienes un catálogo de 
 ## Ejemplo de Entrada:
 
 ```Js
-var currentInventory = [
+let currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [

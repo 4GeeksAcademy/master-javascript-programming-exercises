@@ -7,6 +7,10 @@
 ## Example:
 
 ```Javascript
-var output = getLengthOfThreeWords('some', 'other', 'words');
+let output = getLengthOfThreeWords('some', 'other', 'words');
 console.log(output); // --> 14
 ```
+
+## 💡 Hint: 
+
++ Remember to use the function `length` on strings to know it's length.

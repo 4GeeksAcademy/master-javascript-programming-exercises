@@ -1,4 +1,4 @@
-var customerData = {
+let customerData = {
   'Joe': {
     visits: 1
   },
@@ -14,7 +14,7 @@ var customerData = {
 };
 
 function greetCustomer(firstName) {
-  var greeting = '';
+  let greeting = '';
 	
   // your code here
 	

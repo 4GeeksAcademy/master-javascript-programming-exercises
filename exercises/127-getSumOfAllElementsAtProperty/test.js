@@ -7,35 +7,35 @@ test('Function getSumOfAllElementsAtProperty must exist', () => {
 
 test('Function must returns the sum of all elements in the array located at the given key.', () => {
     const getSumOfAllElementsAtProperty = rewire("./app.js").__get__("getSumOfAllElementsAtProperty");
-    var obj = {
+    let obj = {
         key: [2, 3, 4]
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key')
+    let output = getSumOfAllElementsAtProperty(obj, 'key')
     expect(output).toBe(9)
 })
 
 test('If the array is empty, it should return 0.', () => {
     const getSumOfAllElementsAtProperty = rewire("./app.js").__get__("getSumOfAllElementsAtProperty");
-    var obj = {
+    let obj = {
         key: []
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key')
+    let output = getSumOfAllElementsAtProperty(obj, 'key')
     expect(output).toBe(0)
 })
 
 test('If the property in the given key is not an array, it should return 0.', () => {
     const getSumOfAllElementsAtProperty = rewire("./app.js").__get__("getSumOfAllElementsAtProperty");
-    var obj = {
+    let obj = {
         key: 4
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key')
+    let output = getSumOfAllElementsAtProperty(obj, 'key')
     expect(output).toBe(0)
 })
 
 test('If there is no property on the key, it should return 0.', () => {
     const getSumOfAllElementsAtProperty = rewire("./app.js").__get__("getSumOfAllElementsAtProperty");
-    var obj = {
+    let obj = {
     };
-    var output = getSumOfAllElementsAtProperty(obj, 'key')
+    let output = getSumOfAllElementsAtProperty(obj, 'key')
     expect(output).toBe(0)
 })

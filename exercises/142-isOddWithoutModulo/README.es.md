@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = isOddWithoutModulo(17);
+let output = isOddWithoutModulo(17);
 console.log(output); // --> true
 ```
 

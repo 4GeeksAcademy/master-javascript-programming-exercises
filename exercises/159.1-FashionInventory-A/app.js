@@ -1,4 +1,4 @@
-var currentInventory = [
+let currentInventory = [
     {
         name: 'Brunello Cucinelli',
         shoes: [

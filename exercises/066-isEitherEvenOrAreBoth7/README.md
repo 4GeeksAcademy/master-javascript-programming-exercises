@@ -7,9 +7,9 @@
 ## Examples:
 
 ```Javascript
-var output = isEitherEvenOrAreBoth7(3, 7);
+let output = isEitherEvenOrAreBoth7(3, 7);
 console.log(output); // --> false
 
-var output = isEitherEvenOrAreBoth7(2, 3);
+let output = isEitherEvenOrAreBoth7(2, 3);
 console.log(output); // --> true
 ```

@@ -26,7 +26,7 @@ test('The function must eliminate the property whose values are strings longer t
 })
 test('The function must eliminate the property whose values are strings longer than the given number.', () => {
     const removeStringValuesLongerThan = rewire("./app.js").__get__("removeStringValuesLongerThan");
-    var obj = {
+    let obj = {
         name: 'Montana',
         age: 20,
         location: 'Texas'

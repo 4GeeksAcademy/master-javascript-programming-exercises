@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Javascript
-var output = getAllWords('Radagast the Brown');
+let output = getAllWords('Radagast the Brown');
 console.log(output); // --> ['Radagast', 'the', 'Brown']
 ```
 

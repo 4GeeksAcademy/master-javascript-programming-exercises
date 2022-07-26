@@ -7,10 +7,10 @@
 ## Ejemplo:
 
 ```Javascript
-var obj = {
+let obj = {
   age: 16
 };
-var output = isPersonOldEnoughToDrink(obj);
+let output = isPersonOldEnoughToDrink(obj);
 console.log(output); // --> false
 ```
 

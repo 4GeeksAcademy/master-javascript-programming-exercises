@@ -1,18 +1,26 @@
 const rewire = require ("rewire");
+const getAllWords = rewire("./app.js").__get__("getAllWords");
 
 test('Function getAllWords must exist', () => {
-    const getAllWords = rewire("./app.js").__get__("getAllWords");
     expect(getAllWords).not.toBe(undefined);
 });
 
-test ('The function returns an array containing every word in the sentence.', () => {
-    const getAllWords = rewire ('./app.js').__get__("getAllWords");
-    
-    var input = "Radagast the Brown"
-    var output = getAllWords(input)
-    expect(output).toEqual(['Radagast', 'the', 'Brown']);
+test('Function getAllWords must return something', () => {    
+    expect(getAllWords('test')).not.toBe(undefined);
+});
 
-    input = "Friday Mood"
-    output = getAllWords(input)
+test('Function getAllWords must return a list', () => {    
+    expect(typeof getAllWords('test')).toBe("object");
+});
+
+test('The function returns an array containing every word in the sentence.', () => {    
+    let input = "Friday Mood"
+    let output = getAllWords(input)
     expect(output).toEqual(['Friday', 'Mood']);
-})
+});
+
+test('The function returns an array containing every word in the sentence.', () => {
+    let input = "Radagast the Brown"
+    let output = getAllWords(input)
+    expect(output).toEqual(['Radagast', 'the', 'Brown']);
+});

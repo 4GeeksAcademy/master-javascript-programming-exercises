@@ -7,10 +7,10 @@
 ## Example:
 
 ```Js
-var obj = {
+let obj = {
   key: [2, 1, 5]
 };
-var output = getSquaredElementsAtProperty(obj, 'key');
+let output = getSquaredElementsAtProperty(obj, 'key');
 console.log(output); // --> [4, 1, 25]
 ```
 

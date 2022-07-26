@@ -9,7 +9,7 @@ Luego. la función tiene que devolver el objeto.
 ## Ejemplo:
 
 ```Javascript
-var myObj = {};
+let myObj = {};
 addProperty(myObj, 'myProperty');
 console.log(myObj.myProperty); // --> true
 ```

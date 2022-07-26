@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = isEitherEven(1, 4);
+let output = isEitherEven(1, 4);
 console.log(output); // --> true
 ```

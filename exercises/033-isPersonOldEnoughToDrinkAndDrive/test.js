@@ -9,13 +9,6 @@ test('Function isPersonOldEnoughToDrinkAndDrive must return something', () => {
     expect(isPersonOldEnoughToDrinkAndDrive({})).not.toBe(undefined);
 });
 
-test('The function gets an object with a parameter named age', () => {
-    let obj = {
-        age: 12
-    }
-    expect(isPersonOldEnoughToDrinkAndDrive(obj.age)).not.toBe(undefined)
-});
-
 test ('Function should return a false if age less than 21', () => {
     expect(isPersonOldEnoughToDrinkAndDrive({ age: 20 })).toBe(false);
 })

@@ -21,6 +21,6 @@ test('Function must return the first value of the array', () => {
 })
 test('Function must return undefined if the length of the array is empty', () => {
    
-    const output = getFirstElement([], 0)
+    const output = getFirstElement([])
     expect(output).toBe(undefined)
 })

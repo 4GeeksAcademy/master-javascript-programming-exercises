@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = isEvenLength('wow');
+let output = isEvenLength('wow');
 console.log(output); // --> false
 ```

@@ -8,7 +8,7 @@ test('Function countNumberOfKeys must exist', () => {
 
 test('The function must returns how many properties the given object has.', () => {
     const countNumberOfKeys = rewire("./app.js").__get__("countNumberOfKeys");
-    var obj = {
+    let obj = {
         a: 1,
         b: 2,
         c: 3

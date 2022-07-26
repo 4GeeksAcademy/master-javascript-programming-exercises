@@ -8,7 +8,7 @@ test('Function removeStringValues must exist', () => {
 
 test('The function must removes any properties whose values are strings.', () => {
     const removeStringValues = rewire("./app.js").__get__("removeStringValues");
-    var obj = {
+    let obj = {
         a: 2,
         b: 'remaining',
         c: 4

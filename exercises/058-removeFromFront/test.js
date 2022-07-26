@@ -8,7 +8,7 @@ test('Function removeFromFront must exist', () => {
 test('Function must return the given array with its first element removed.', () => {
     const removeFromFront = rewire('./app.js').__get__("removeFromFront");
 
-    var output = removeFromFront([1, 2, 3, 4])
+    let output = removeFromFront([1, 2, 3, 4])
     expect(output).toEqual([2, 3, 4])
 
     output = removeFromFront([3, 6, 9, 12])

@@ -7,13 +7,13 @@ test('Function removeNumbersLessThan must exist', () => {
 
 test('The function must remove any property whose value is a number less than the given number.', () => {
     const removeNumbersLessThan = rewire("./app.js").__get__("removeNumbersLessThan");
-    var obj = {
+    let obj = {
         a: 8,
         b: 2,
         c: 'montana'
     }
     removeNumbersLessThan(5, obj)
-    var output = (obj)
+    let output = (obj)
     expect(output).toEqual({ a: 8, c: 'montana' })
 
     obj = {

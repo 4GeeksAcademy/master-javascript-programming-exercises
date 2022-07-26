@@ -8,13 +8,13 @@ test('Function computePerimeterOfACircle must exist', () => {
 test('Must return the perimeter of a circle', () => {
     const computePerimeterOfACircle = rewire('./app.js').__get__("computePerimeterOfACircle");
     
-    var output = computePerimeterOfACircle(4)
+    let output = computePerimeterOfACircle(4)
     expect(output).toBe(25.132741228718345)
 })
 
 test('Must return the perimeter of a circle', () => {
     const computePerimeterOfACircle = rewire('./app.js').__get__("computePerimeterOfACircle");
     
-    var output = computePerimeterOfACircle(33)
+    let output = computePerimeterOfACircle(33)
     expect(output).toBe(207.34511513692635)
 })

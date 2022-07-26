@@ -17,7 +17,7 @@ The task now is to find the laced shoes but we are going to render them in a som
 ## Example input:
 
 ```js
-var inventory = [
+let inventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [

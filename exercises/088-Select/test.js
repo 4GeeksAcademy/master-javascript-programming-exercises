@@ -7,14 +7,14 @@ test('Function select must exist', () => {
 
 test ('The return object must contain the properties specified on the array.', () => {
     const select = rewire ('./app.js').__get__("select");
-    var arr = ['a', 'c', 'e'];
-    var obj = {
+    let arr = ['a', 'c', 'e'];
+    let obj = {
                 a: 1,
                 b: 2,
                 c: 3,
                 d: 4
     };
-    var output = select(arr, obj);
+    let output = select(arr, obj);
 
    
     expect(output['a']).toBe(1)
@@ -25,8 +25,8 @@ test ('The return object must contain the properties specified on the array.', (
 
 test ('The return object must not contain the properties that are not present in both arr and obj.', () => {
     const select = rewire ('./app.js').__get__("select");
-    var arr = ['c', 'e','l'];
-    var obj = {
+    let arr = ['c', 'e','l'];
+    let obj = {
                 a: 5,
                 b: 2,
                 c: 4,
@@ -34,7 +34,7 @@ test ('The return object must not contain the properties that are not present in
                 h: 8,
                 l: 12
     };
-    var output = select(arr, obj);
+    let output = select(arr, obj);
 
    
     expect(output['a']).toBe(undefined)

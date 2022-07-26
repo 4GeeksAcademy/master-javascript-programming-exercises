@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = getFullName('Joe', 'Smith');
+let output = getFullName('Joe', 'Smith');
 console.log(output); // --> 'Joe Smith'
 ```

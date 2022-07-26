@@ -8,10 +8,10 @@ test('Function getAverageOfElementsAtProperty must exist', () => {
 test('The function must return the average of all the elements in the array located at given key.', () => {
     const getAverageOfElementsAtProperty = rewire('./app.js').__get__("getAverageOfElementsAtProperty");
 
-    var obj = {
+    let obj = {
         key: [1, 2, 3]
     };
-    var output = getAverageOfElementsAtProperty(obj, 'key');
+    let output = getAverageOfElementsAtProperty(obj, 'key');
     expect(output).toBe(2);
 
     obj = {
@@ -24,9 +24,9 @@ test('The function must return the average of all the elements in the array loca
 test('The function must return 0 if there\'s no property at the given key.', () => {
     const getAverageOfElementsAtProperty = rewire('./app.js').__get__("getAverageOfElementsAtProperty");
 
-    var obj = {
+    let obj = {
         key: []
     };
-    var output = getAverageOfElementsAtProperty(obj, 'key');
+    let output = getAverageOfElementsAtProperty(obj, 'key');
     expect(output).toBe(0);
 })

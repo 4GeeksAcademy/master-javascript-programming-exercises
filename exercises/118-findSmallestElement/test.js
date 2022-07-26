@@ -15,6 +15,6 @@ test('Function must returns the smallest number within the array.', () => {
 test('If array is empty must return 0', () => {
     const findSmallestElement = rewire('./app.js').__get__("findSmallestElement");
 
-    var output = findSmallestElement([])
+    let output = findSmallestElement([])
     expect(output).toBe(0)
 })

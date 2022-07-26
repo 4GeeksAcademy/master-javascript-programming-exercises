@@ -7,7 +7,7 @@ test('Function removeEvenValues must exist', () => {
 
 test('The function must removes any properties whose values are even numbers', () => {
     const removeEvenValues = rewire("./app.js").__get__("removeEvenValues");
-    var obj = {
+    let obj = {
         a: 2,
         b: 3,
         c: 4

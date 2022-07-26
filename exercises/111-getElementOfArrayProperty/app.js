@@ -1,4 +1,4 @@
-var obj = {
+let obj = {
  key: ['Jamil', 'Albrey']
 };
 function getElementOfArrayProperty(obj, key, index) {

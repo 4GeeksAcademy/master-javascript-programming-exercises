@@ -8,7 +8,7 @@ test('Function removeFromBack must exist', () => {
 test('Function must return an array with all elements, but not the last', () => {
     const removeFromBack = rewire('./app.js').__get__("removeFromBack");
 
-    var output = removeFromBack([1, 2, 3])
+    let output = removeFromBack([1, 2, 3])
     expect(output).toEqual([1, 2])
     
     output = removeFromBack([9, 3, 7, 16])

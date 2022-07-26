@@ -11,7 +11,7 @@
 ## Example:
 
 ```Javascript
-var output = checkAge('Adrian', 22);
+let output = checkAge('Adrian', 22);
 console.log(output); // --> 'Welcome, Adrian!'
 ```
 

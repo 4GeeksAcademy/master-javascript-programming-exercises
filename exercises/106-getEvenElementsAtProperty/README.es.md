@@ -7,10 +7,10 @@
 ## Ejemplo:
 
 ```js
-var obj = {
+let obj = {
   key: [1000, 11, 50, 17]
 };
-var output = getEvenElementsAtProperty(obj, 'key');
+let output = getEvenElementsAtProperty(obj, 'key');
 console.log(output); // --> [1000, 50]
 ```
 

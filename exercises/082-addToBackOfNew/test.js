@@ -8,8 +8,8 @@ test('Function addToBackOfNew must exist', () => {
 test ('The returned array should have one more item than the original one .', () => {
     const addToBackOfNew = rewire ('./app.js').__get__("addToBackOfNew");
      
-    var input = [1, 2];
-    var output = addToBackOfNew(input, 3);
+    let input = [1, 2];
+    let output = addToBackOfNew(input, 3);
      expect(output.length>input.length).toBe(true);
 })
 

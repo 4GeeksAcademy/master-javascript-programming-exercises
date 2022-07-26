@@ -1,13 +1,11 @@
 const rewire = require("rewire");
+const removeNumberValues = rewire("./app.js").__get__("removeNumberValues");
 
 test('Function removeNumberValues must exist', () => {
-    const removeNumberValues = rewire("./app.js").__get__("removeNumberValues");
     expect(removeNumberValues).not.toBe(undefined);
 });
 
-
-test('The function must removes any properties whose values are numbers.', () => {
-    const removeNumberValues = rewire("./app.js").__get__("removeNumberValues");
+test('The function must remove any properties whose values are numbers.', () => {
     let obj = {
         a: 2,
         b: 'remaining',
@@ -15,8 +13,10 @@ test('The function must removes any properties whose values are numbers.', () =>
     };
     removeNumberValues(obj)
     expect(obj).toEqual({ b: 'remaining' })
+});
 
-    obj = {
+test('The function must remove any properties whose values are numbers.', () => {
+    let obj = {
         a: [3, 2, 6, 'hello'],
         b: 'u can',
         c: 4,
@@ -25,4 +25,4 @@ test('The function must removes any properties whose values are numbers.', () =>
     }
     removeNumberValues(obj)
     expect(obj).toEqual({ a: [3, 2, 6, 'hello'], b: 'u can', d: 'do it' })
-})
+});

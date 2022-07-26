@@ -6,15 +6,13 @@ const getElementsLessThan100AtProperty = rewire('./app.js').__get__(
 test('Function getElementsLessThan100AtProperty must exist', () => {
   expect(getElementsLessThan100AtProperty).not.toBe(undefined);
 });
+
 test('Function getElementsLessThan100AtProperty must return something', () => {
-  expect(getElementsLessThan100AtProperty({ key: [20] }, 'key')).not.toBe(
-    undefined
-  );
+  expect(getElementsLessThan100AtProperty({ key: [20] }, 'key')).not.toBe(undefined);
 });
+
 test('Function getElementsLessThan100AtProperty must return an array', () => {
-  expect(typeof getElementsLessThan100AtProperty({ key: [20] }, 'key')).toBe(
-    'object'
-  );
+  expect(typeof getElementsLessThan100AtProperty({ key: [20] }, 'key')).toBe('object');
 });
 
 test('The function must return every element less than 100 on a given key.', () => {
@@ -33,6 +31,7 @@ test('The function must return every element less than 100 on a given key.', () 
   let output = getElementsLessThan100AtProperty(obj, 'key');
   expect(output).toBe([10, 50, 10, 20, 6, 10, 98, 10]);
 });
+
 test('If the array is empty, it should return an empty array.', () => {
   let obj = {
     key: [],
@@ -40,6 +39,7 @@ test('If the array is empty, it should return an empty array.', () => {
   let output = getElementsLessThan100AtProperty(obj, 'key');
   expect(output).toBe([]);
 });
+
 test('If the array contains no elements less than 100, it should return an empty array.', () => {
   let obj = {
     key: [100, 101, 200],
@@ -47,6 +47,7 @@ test('If the array contains no elements less than 100, it should return an empty
   let output = getElementsLessThan100AtProperty(obj, 'key');
   expect(output).toBe([]);
 });
+
 test('If the property at the given key is not an array, it should return an empty array.', () => {
   let obj = {
     key: { a: 10 },
@@ -54,6 +55,7 @@ test('If the property at the given key is not an array, it should return an empt
   let output = getElementsLessThan100AtProperty(obj, 'key');
   expect(output).toBe([]);
 });
+
 test('If there is no property at the key, it should return an empty array.', () => {
   let obj = {};
   let output = getElementsLessThan100AtProperty(obj, 'key');

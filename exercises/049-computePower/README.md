@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = computePower(2, 3);
+let output = computePower(2, 3);
 console.log(output); // --> 8
 ```

@@ -9,10 +9,10 @@ test('Function getElementsThatEqual10AtProperty must exist', () => {
 test ('The function must return every element equal to 10 on a given key.', () => {
     const getElementsThatEqual10AtProperty = rewire ('./app.js').__get__("getElementsThatEqual10AtProperty");
 
-    var obj = {
+    let obj = {
     key: [1000, 10, 50, 10]
 };
-var output = getElementsThatEqual10AtProperty(obj, 'key');
+let output = getElementsThatEqual10AtProperty(obj, 'key');
     expect(obj.key[1]).toBe(10);
     expect(obj.key[3]).toBe(10);
 })
@@ -20,10 +20,10 @@ var output = getElementsThatEqual10AtProperty(obj, 'key');
 test ('The function must return every element equal to 10 on a given key.', () => {
     const getElementsThatEqual10AtProperty = rewire ('./app.js').__get__("getElementsThatEqual10AtProperty");
 
-    var obj = {
+    let obj = {
     key: [1000, 10, 50, 10, 20, 6, 10, 98, 10]
 };
-var output = getElementsThatEqual10AtProperty(obj, 'key');
+let output = getElementsThatEqual10AtProperty(obj, 'key');
     expect(obj.key[1]).toBe(10);
     expect(obj.key[3]).toBe(10);
     expect(obj.key[6]).toBe(10);

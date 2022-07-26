@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = computeAreaOfARectangle(4, 8);
+let output = computeAreaOfARectangle(4, 8);
 console.log(output); // --> 32
 ```

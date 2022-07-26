@@ -7,7 +7,7 @@ test('Function removeOddValues must exist', () => {
 
 test('The function must removes any properties whose values are odd numbers.', () => {
     const removeOddValues = rewire("./app.js").__get__("removeOddValues");
-    var obj = {
+    let obj = {
         a: 2,
         b: 3,
         c: 4

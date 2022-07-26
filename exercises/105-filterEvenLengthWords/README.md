@@ -7,6 +7,6 @@
 ## Example:
 
 ```Js
-var output = filterEvenLengthWords(['word', 'horse', 'car', 'computer']);
+let output = filterEvenLengthWords(['word', 'horse', 'car', 'computer']);
 console.log(output); // --> ['word', 'computer']
 ```

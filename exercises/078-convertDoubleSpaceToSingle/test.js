@@ -9,7 +9,7 @@ test('Function convertDoubleSpaceToSingle must exist', () => {
 test('The function must return all the double spaces converted to single spaces.', () => {
     const convertDoubleSpaceToSingle = rewire("./app.js").__get__("convertDoubleSpaceToSingle");
 
-    var output = convertDoubleSpaceToSingle("string  with  double  spaces")
+    let output = convertDoubleSpaceToSingle("string  with  double  spaces")
     expect(output).toEqual("string with double spaces")
 
     output = convertDoubleSpaceToSingle("my  cat  has  broken,  says  woof")

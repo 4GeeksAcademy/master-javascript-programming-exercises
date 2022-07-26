@@ -7,11 +7,11 @@
 ## Ejemplo:
 
 ```Javascript
-var obj1 = {
+let obj1 = {
   a: 1,
   b: 2
 };
-var obj2 = {
+let obj2 = {
   b: 4,
   c: 3
 };

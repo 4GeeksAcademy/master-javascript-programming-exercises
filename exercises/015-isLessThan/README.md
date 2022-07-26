@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = isLessThan(9, 4);
+let output = isLessThan(9, 4);
 console.log(output); // --> true
 ```

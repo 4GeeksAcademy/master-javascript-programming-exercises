@@ -7,5 +7,5 @@
 ## Ejemplo:
 
 ```Javascript
-var output = isEqualTo(11, 10);
+let output = isEqualTo(11, 10);
 console.log(output); // --> false

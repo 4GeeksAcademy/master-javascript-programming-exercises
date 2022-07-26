@@ -7,7 +7,7 @@
 ## Example;
 
 ```Javascript
-var output = isOldEnoughToDrinkAndDrive(22);
+let output = isOldEnoughToDrinkAndDrive(22);
 console.log(output); // --> false
 ```
 

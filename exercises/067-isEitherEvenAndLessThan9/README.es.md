@@ -7,9 +7,9 @@
 ## Ejemplos:
 
 ```Javascript
-var output = isEitherEvenAndLessThan9(2, 4);
+let output = isEitherEvenAndLessThan9(2, 4);
 console.log(output); // --> true
 
-var output = isEitherEvenAndLessThan9(72, 2);
+let output = isEitherEvenAndLessThan9(72, 2);
 console.log(output); // --> false
 ```

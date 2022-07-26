@@ -7,7 +7,7 @@
 ## Example:
 
 ```js
-var output = convertScoreToGradeWithPlusAndMinus(91);
+let output = convertScoreToGradeWithPlusAndMinus(91);
 console.log(output); // --> 'A-'
 
 ```

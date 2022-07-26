@@ -8,9 +8,9 @@ test('Function "or" must exist', () => {
 test('Function must return true or false', () => {
     const or = rewire('./app.js').__get__("or");
 
-    var output = or(true, false);
+    let output = or(true, false);
     expect(!(!output && !output)).toBeTruthy()
 
-    var output = or(false, false);
+    let output = or(false, false);
     expect(!(!output && !output)).toBeFalsy()
 })

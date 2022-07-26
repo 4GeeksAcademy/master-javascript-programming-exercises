@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = computeSquareRoot(9);
+let output = computeSquareRoot(9);
 console.log(output); // --> 3
 ```

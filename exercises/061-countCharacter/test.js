@@ -8,7 +8,7 @@ test('Function countCharacter must exist', () => {
 test('Function must returns the number of occurences of a given character', () => {
     const countCharacter = rewire('./app.js').__get__("countCharacter");
 
-    var output = countCharacter('I am a hacker', 'a')
+    let output = countCharacter('I am a hacker', 'a')
     expect(output).toBe(3)
     output = countCharacter("Tres tigres tristes", 's')
     expect(output).toBe(4)
@@ -17,7 +17,7 @@ test('Function must returns the number of occurences of a given character', () =
 test('Function must not return the length of the given string', () => {
     const countCharacter = rewire('./app.js').__get__("countCharacter");
 
-    var output = countCharacter("starship", 's')
+    let output = countCharacter("starship", 's')
     expect(output).not.toBe(8)
     output = countCharacter("array", 'r')
     expect(output).not.toBe(4)

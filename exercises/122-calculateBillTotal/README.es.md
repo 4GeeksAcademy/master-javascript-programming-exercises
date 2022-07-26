@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = calculateBillTotal(20);
+let output = calculateBillTotal(20);
 console.log(output); // --> 24.9
 ```
 

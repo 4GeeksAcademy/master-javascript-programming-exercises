@@ -15,6 +15,6 @@ test('Function must returns the largest number within the array.', () => {
 test('If array is empty must return empty string', () => {
     const getLargestElement = rewire('./app.js').__get__("getLargestElement");
 
-    var output = getLargestElement([])
+    let output = getLargestElement([])
     expect(output).toBe(0)
 })

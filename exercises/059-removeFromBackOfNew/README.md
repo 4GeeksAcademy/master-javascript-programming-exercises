@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `emoveFromBackOfNew`. Given an array, `removeFromBackOfNew` returns a new array containing all but the last element of the given array.
+1. Write a function called `removeFromBackOfNew`. Given an array, `removeFromBackOfNew` returns a new array containing all but the last element of the given array.
 
-## Example:
+## Example:
 
 ```Javascript
 let arr = [1, 2, 3];

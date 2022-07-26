@@ -13,4 +13,4 @@ console.log(output); // --> 14
 
 ## 💡 Hint: 
 
-- Recuerda de usar `length` para saber la longitud de un a cadena / string.
++ Recuerda de usar `length` para saber la longitud de una cadena / string.

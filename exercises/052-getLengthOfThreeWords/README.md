@@ -12,4 +12,5 @@ console.log(output); // --> 14
 ```
 
 ## 💡 Hint: 
-- Remember to use the function `length` on strings to know it's length.
+
++ Remember to use the function `length` on strings to know it's length.

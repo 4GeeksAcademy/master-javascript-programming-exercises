@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = computePerimeterOfACircle(4);
+let output = computePerimeterOfACircle(4);
 console.log(output); // --> 25.132741228718345
 ```

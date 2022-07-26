@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = computeAverageLengthOfWords('code', 'programs');
+let output = computeAverageLengthOfWords('code', 'programs');
 console.log(output); // --> 6
 ```

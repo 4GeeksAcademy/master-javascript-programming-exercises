@@ -1,4 +1,4 @@
 function getLastElement(array) {
-  // your code here
+  // Add your code after this line
   return 4
 }

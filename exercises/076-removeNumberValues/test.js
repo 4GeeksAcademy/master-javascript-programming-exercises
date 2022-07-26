@@ -8,7 +8,7 @@ test('Function removeNumberValues must exist', () => {
 
 test('The function must removes any properties whose values are numbers.', () => {
     const removeNumberValues = rewire("./app.js").__get__("removeNumberValues");
-    var obj = {
+    let obj = {
         a: 2,
         b: 'remaining',
         c: 4

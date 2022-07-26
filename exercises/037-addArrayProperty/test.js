@@ -1,18 +1,21 @@
 const rewire = require ("rewire");
+const addArrayProperty = rewire("./app.js").__get__("addArrayProperty");
 
 test('Function addArrayProperty must exist', () => {
-    const addArrayProperty = rewire("./app.js").__get__("addArrayProperty");
+    
     expect(addArrayProperty).not.toBe(undefined);
+});
+test('Function addArrayProperty must return something', () => {
+    
+    expect(addArrayProperty({},'')).not.toBe(undefined);
 });
 
 test ("Your function must return an object", () => {
-    const addArrayProperty = rewire ('./app.js').__get__("addArrayProperty");
 
     expect(typeof(addArrayProperty({},'name'))).toEqual("object");  
 })
 
-test ('function should set a new property on the given object and key with a value of "myArray".', () => {
-    const addArrayProperty = rewire ('./app.js').__get__("addArrayProperty");
+test ('function should set a new property on the given object and key with a value of the given atrray.', () => {
 
     let myObj = {}
     let myArray=[1,3]
@@ -20,7 +23,7 @@ test ('function should set a new property on the given object and key with a val
     expect(myObj.myProperty).toStrictEqual([1, 3]);
 })
 
-test ('function should set a new property on the given object and key with a value of "myArray".', () => {
+test ('function should set a new property on the given object and key with a value of the given array. Testing with different values', () => {
     const addArrayProperty = rewire ('./app.js').__get__("addArrayProperty");
 
     let Versions = {}

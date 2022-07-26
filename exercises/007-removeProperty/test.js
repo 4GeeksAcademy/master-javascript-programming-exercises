@@ -19,7 +19,7 @@ test ('function removes the given key from the given object.', function () {
 test ('Tried the function with key age, it should remove it', () => {
     const removeProperty = rewire ('./app.js').__get__("removeProperty");
 
-    var obj = {
+    let obj = {
         name: 'Sam',
         age: 20
     }

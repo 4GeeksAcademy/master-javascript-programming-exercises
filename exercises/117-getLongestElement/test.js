@@ -18,6 +18,6 @@ test('If there are strings with the same length, must returns the first element 
 test('If array is empty must return empty string ', () => {
     const getLongestElement = rewire('./app.js').__get__("getLongestElement");
 
-    var output = getLongestElement([])
+    let output = getLongestElement([])
     expect(output).toBe('')
 })

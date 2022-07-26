@@ -7,20 +7,20 @@ test('Function getAverageOfElementsAtProperty must exist', () => {
 
 test('If array is empty must return 0', () => {
     const getAverageOfElementsAtProperty = rewire('./app.js').__get__("getAverageOfElementsAtProperty");
-    var obj = {
+    let obj = {
         key: []
     };
-    var output = getAverageOfElementsAtProperty(obj["key"])
+    let output = getAverageOfElementsAtProperty(obj["key"])
     expect(output).toBe(0)
 })
 
 
 test('Fuction returns the average of array elements', () => {
     const getAverageOfElementsAtProperty = rewire('./app.js').__get__("getAverageOfElementsAtProperty");
-    var obj = {
+    let obj = {
         key: [4, 8, 6]
     };
-    var output = getAverageOfElementsAtProperty(obj, 'key')
+    let output = getAverageOfElementsAtProperty(obj, 'key')
     expect(output).toBe(6)
 
 

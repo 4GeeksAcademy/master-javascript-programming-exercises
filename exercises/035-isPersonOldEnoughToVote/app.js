@@ -1,3 +1,4 @@
 function isPersonOldEnoughToVote(person) {
-  // tu codigo aqui
+  // Add your code after this line
+  
 }

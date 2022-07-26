@@ -7,11 +7,11 @@
 ## Ejemplo:
 
 ```Javascript
-var obj = {
+let obj = {
   a: 1,
   b: 2,
   c: 3
 };
-var output = countNumberOfKeys(obj);
+let output = countNumberOfKeys(obj);
 console.log(output); // --> 3
 ```

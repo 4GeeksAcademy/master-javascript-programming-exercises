@@ -20,7 +20,7 @@ You have a fashion catalog, an `currentInventory` of items from various high fas
 ## Example input: 
 
 ```JS
-var inventory = [
+let inventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [

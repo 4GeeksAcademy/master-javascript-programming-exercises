@@ -19,7 +19,7 @@ La tarea ahora es encontrar todos los zapatos con cordones "laced". Escriba los 
 ## Ejemplo de Entrada:
 
 ```js
-var inventory = [
+let inventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [

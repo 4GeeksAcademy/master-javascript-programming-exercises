@@ -9,21 +9,21 @@
 + Case 1 - Unknown customer (Name is not present in `customerData`): 
 
 ```Js
-var output = greetCustomer('Terrance');
+let output = greetCustomer('Terrance');
 console.log(output); // --> 'Welcome! Is this your first time?'
 ```
 
 + Case 2 - Customer who has visited only once ( `visits` value is `1` ):
 
 ```Js
-var output = greetCustomer('Joe');
+let output = greetCustomer('Joe');
 console.log(output); // --> 'Welcome back, Joe! We're glad you liked us the first time!'
 ```
 
 + Case 3 - Repeat customer: ( `visits` value is greater than `1`):
 
 ```Js
-var output = greetCustomer('Carol');
+let output = greetCustomer('Carol');
 console.log(output); // --> 'Welcome back, Carol! So glad to see you again!'
 ```
 

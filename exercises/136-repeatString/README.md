@@ -7,6 +7,6 @@
 ## Example:
 
 ```Js
-var output = repeatString('code', 3);
+let output = repeatString('code', 3);
 console.log(output); // --> 'codecodecode'
 ```

@@ -5,6 +5,7 @@ let obj = {
 
 function removeStringValues(obj) {
     // your code here
+    
 }
 
 removeStringValues(obj);

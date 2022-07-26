@@ -5,6 +5,7 @@ let obj = {
 };
 function removeNumberValues(obj) {
     // your code here
+    
 }
 
 removeNumberValues(obj);

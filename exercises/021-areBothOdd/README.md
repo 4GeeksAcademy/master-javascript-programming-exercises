@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = areBothOdd(1, 3);
+let output = areBothOdd(1, 3);
 console.log(output); // --> true
 ```

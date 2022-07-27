@@ -9,7 +9,7 @@ Dado un string, `getStringLength` retorna la longitud del string.
 ## Ejemplo:
 
 ```Js
-var output = getStringLength('hello');
+let output = getStringLength('hello');
 console.log(output); // --> 5
 ```
 ## 💡 Pistas:

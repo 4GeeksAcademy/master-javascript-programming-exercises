@@ -21,3 +21,4 @@ test('If array is empty must return empty string ', () => {
   let output = getLongestElement([]);
   expect(output).toBe('');
 });
+

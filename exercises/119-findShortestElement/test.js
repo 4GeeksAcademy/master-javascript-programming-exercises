@@ -14,6 +14,7 @@ test('Function must returns the smallest number within the array.', () => {
   expect(output).toBe('a');
 });
 
+
 test('If there are elements with the same length, then it should return the first element found.', () => {
   expect(findShortestElement(['i', 'w', 'as here'])).toBe('i');
 });

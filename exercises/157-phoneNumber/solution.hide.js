@@ -3,7 +3,7 @@ function PhoneNumberFormatter(numbers) {
   }
   
   PhoneNumberFormatter.prototype.render = function() {
-    var string = '';
+    let string = '';
     // your code here
     string = this.parenthesize(this.getAreaCode()) + " " + this.getExchangeCode() + "-" + this.getLineNumber();
     return string;

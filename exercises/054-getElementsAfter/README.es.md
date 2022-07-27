@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = getElementsAfter(['a', 'b', 'c', 'd', 'e'], 2); 
+let output = getElementsAfter(['a', 'b', 'c', 'd', 'e'], 2); 
 console.log(output); // --> ['d', 'e']
 ```

@@ -7,6 +7,6 @@
 ## Example:
 
 ```Javascript
-var output = isSameLength('words', 'super');
+let output = isSameLength('words', 'super');
 console.log(output); // --> true
 ```

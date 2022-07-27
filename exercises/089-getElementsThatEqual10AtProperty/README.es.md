@@ -7,10 +7,10 @@
 ## Ejemplo:
 
 ```js
-var obj = {
+let obj = {
   key: [1000, 10, 50, 10]
 };
-var output = getElementsThatEqual10AtProperty(obj, 'key');
+let output = getElementsThatEqual10AtProperty(obj, 'key');
 console.log(output); // --> [10, 10]
 ```
 

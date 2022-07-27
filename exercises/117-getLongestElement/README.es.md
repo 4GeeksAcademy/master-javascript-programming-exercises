@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = getLongestElement(['one', 'two', 'three']);
+let output = getLongestElement(['one', 'two', 'three']);
 console.log(output); // --> 'three'
 ```
 ## 💡 Pista:

@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = average(4, 6);
+let output = average(4, 6);
 console.log(output); // --> 5
 ```

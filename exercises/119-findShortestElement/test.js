@@ -8,7 +8,7 @@ test('Function findShortestElement must exist', () => {
 test('Function must returns the smallest number within the array.', () => {
     const findShortestElement = rewire('./app.js').__get__("findShortestElement");
 
-    var output = findShortestElement(['a', 'two', 'three'])
+    let output = findShortestElement(['a', 'two', 'three'])
     expect(output).toBe('a');
 })
 
@@ -21,6 +21,6 @@ test('If there are elements with the same length, then it should return the firs
 test('If array is empty must return empty string', () => {
     const findShortestElement = rewire('./app.js').__get__("findShortestElement");
 
-    var output = findShortestElement([])
+    let output = findShortestElement([])
     expect(output).toBe('')
 })

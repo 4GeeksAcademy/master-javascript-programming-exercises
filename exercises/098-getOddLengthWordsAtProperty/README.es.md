@@ -7,10 +7,10 @@
 ## Ejemplo:
 
 ```js
-var obj = {
+let obj = {
   key: ['It', 'has', 'some', 'words']
 };
-var output = getOddLengthWordsAtProperty(obj, 'key');
+let output = getOddLengthWordsAtProperty(obj, 'key');
 console.log(output); // --> ['has', 'words']
 ```
 

@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```js
-var output = findMaxLengthOfThreeWords('a', 'be', 'see');
+let output = findMaxLengthOfThreeWords('a', 'be', 'see');
 console.log(output); // --> 3
 ```

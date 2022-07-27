@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = getLongestOfThreeWords('these', 'three', 'words');
+let output = getLongestOfThreeWords('these', 'three', 'words');
 console.log(output); // --> 'these'
 ```
 

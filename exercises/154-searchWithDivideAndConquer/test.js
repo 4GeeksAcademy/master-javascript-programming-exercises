@@ -8,7 +8,7 @@ test('Function search must exist', () => {
 test('The function must return the index of the number within the array.', () => {
     const search = rewire("./app.js").__get__("search");
 
-    var arr = [1, 3, 16, 22, 31, 33, 34]
+    let arr = [1, 3, 16, 22, 31, 33, 34]
 
     expect(search(arr, 31)).toBe(4)
     expect(search(arr, 16)).toBe(2)

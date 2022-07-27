@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = getLengthOfShortestElement(['one', 'two', 'three']);
+let output = getLengthOfShortestElement(['one', 'two', 'three']);
 console.log(output); // --> 3
 ```
 ## 💡 Pista:

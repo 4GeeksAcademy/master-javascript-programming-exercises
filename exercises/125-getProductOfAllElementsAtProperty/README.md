@@ -7,10 +7,10 @@
 ## Example:
 
 ```Js
-var obj = {
+let obj = {
   key: [1, 2, 3, 4]
 };
-var output = getProductOfAllElementsAtProperty(obj, 'key');
+let output = getProductOfAllElementsAtProperty(obj, 'key');
 console.log(output); // --> 24
 ```
 ## 💡  Hints:

@@ -1,13 +1,14 @@
 const rewire = require('rewire');
-const computeAverageOfNumbers = rewire('./app.js').__get__(
-  'computeAverageOfNumbers'
-);
+const computeAverageOfNumbers = rewire('./app.js').__get__('computeAverageOfNumbers');
+
 test('Function computeAverageOfNumbers must exist', () => {
   expect(computeAverageOfNumbers).not.toBe(undefined);
 });
+
 test('Function computeAverageOfNumbers must return something', () => {
   expect(computeAverageOfNumbers([1, 2, 3])).not.toBe(undefined);
 });
+
 test('Function computeAverageOfNumbers must return a number', () => {
   expect(typeof computeAverageOfNumbers([1, 2, 3])).toBe('number');
 });

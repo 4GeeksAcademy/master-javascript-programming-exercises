@@ -1,37 +1,68 @@
-const rewire = require ("rewire");
+const rewire = require('rewire');
+const getElementsGreaterThan10AtProperty = rewire('./app.js').__get__(
+  'getElementsGreaterThan10AtProperty'
+);
 
 test('Function getElementsGreaterThan10AtProperty must exist', () => {
-    const getElementsGreaterThan10AtProperty = rewire("./app.js").__get__("getElementsGreaterThan10AtProperty");
-    expect(getElementsGreaterThan10AtProperty).not.toBe(undefined);
+  expect(getElementsGreaterThan10AtProperty).not.toBe(undefined);
 });
 
-test ('The function must return only the elements of the array that are greater than 10.', () => {
-    const getElementsGreaterThan10AtProperty = rewire ('./app.js').__get__("getElementsGreaterThan10AtProperty");
-    
-    let obj = {
-    key: [1, 20, 30]
-};
+test('Function getElementsGreaterThan10AtProperty must return something', () => {
+  expect(getElementsGreaterThan10AtProperty([11])).not.toBe(undefined);
+});
 
+test('Function getElementsGreaterThan10AtProperty must return a number', () => {
+  expect(typeof getElementsGreaterThan10AtProperty([11])).toBe('object');
+});
 
-    let output = getElementsGreaterThan10AtProperty(obj, 'key');
-    expect(obj.key[1]).toBe(20);
-    expect(obj.key[2]).toBe(30);
-   
- 
-})
+test('The function must return only the elements of the array that are greater than 10.', () => {
+  let obj = {
+    key: [1, 20, 30],
+  };
 
-test ('The function must return only the elements of the array that are greater than 10.', () => {
-    const getElementsGreaterThan10AtProperty = rewire ('./app.js').__get__("getElementsGreaterThan10AtProperty");
-    
-    let obj = {
-    key: [1, 60, 30, 90, 12]
-};
+  let output = getElementsGreaterThan10AtProperty(obj, 'key');
+  expect(output).toBe([20, 30]);
+});
 
+test('The function must return only the elements of the array that are greater than 10. Testing with different values.', () => {
+  let obj = {
+    key: [1, 60, 30, 90, 12],
+  };
 
-    let output = getElementsGreaterThan10AtProperty(obj, 'key');
-    expect(obj.key[1]).toBe(60);
-    expect(obj.key[2]).toBe(30);
-    expect(obj.key[3]).toBe(90);
-    expect(obj.key[4]).toBe(12);
- 
-})
+  let output = getElementsGreaterThan10AtProperty(obj, 'key');
+  expect(output).toBe([60, 30, 90, 12]);
+});
+
+test('If the array is empty, it should return an empty array.', () => {
+  let obj = {
+    key: [],
+  };
+
+  let output = getElementsGreaterThan10AtProperty(obj, 'key');
+  expect(output).toBe([]);
+});
+
+test('If the array contains no elements greater than 10, it should return an empty array.', () => {
+  let obj = {
+    key: [1, 9, 10],
+  };
+
+  let output = getElementsGreaterThan10AtProperty(obj, 'key');
+  expect(output).toBe([]);
+});
+
+test('If the property at the given key is not an array, it should return an empty array.', () => {
+  let obj = {
+    key: 2,
+  };
+
+  let output = getElementsGreaterThan10AtProperty(obj, 'key');
+  expect(output).toBe([]);
+});
+
+test('If there is no property at the key, it should return an empty array.', () => {
+  let obj = {};
+
+  let output = getElementsGreaterThan10AtProperty(obj, 'key');
+  expect(output).toBe([]);
+});

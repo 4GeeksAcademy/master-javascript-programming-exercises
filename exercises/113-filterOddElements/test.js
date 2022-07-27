@@ -8,7 +8,7 @@ test('Function filterOddElements must return something', () => {
   expect(filterOddElements([1, 2])).not.toBe(undefined);
 });
 test('Function filterOddElements must return an array', () => {
-  expect(filterOddElements([1, 2])).toBe('object');
+  expect(typeof filterOddElements([1, 2])).toBe('object');
 });
 
 test('Function must returns an array containing only the odd numbers of the given array.', () => {

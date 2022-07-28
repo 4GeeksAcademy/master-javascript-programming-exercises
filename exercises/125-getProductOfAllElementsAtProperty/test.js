@@ -63,3 +63,4 @@ test('If there is no property on the key, it should return 0.', () => {
   let output = getProductOfAllElementsAtProperty(obj, 'key');
   expect(output).toBe(0);
 });
+

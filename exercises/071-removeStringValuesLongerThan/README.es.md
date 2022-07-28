@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Javascript
-var obj = {
+let obj = {
   name: 'Montana',
   age: 20,
   location: 'Texas'

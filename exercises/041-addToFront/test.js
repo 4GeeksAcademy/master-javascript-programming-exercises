@@ -1,13 +1,32 @@
 const rewire = require ("rewire");
+const addToFront = rewire("./app.js").__get__("addToFront");
 
 test('Function addToFront must exist', () => {
-    const addToFront = rewire("./app.js").__get__("addToFront");
+    
     expect(addToFront).not.toBe(undefined);
 });
 
-test('The function must return the given number to the front of the array', () => {
-    const addToFront = rewire("./app.js").__get__("addToFront");
+test('Function addToFront must return something', () => {
+    
+    expect(addToFront([],1)).not.toBe(undefined);
+});
+
+test('Function addToFront must return an array', () => {
+    
+    expect(typeof addToFront([],1)).toBe("object");
+});
+
+test('The function must return the given number at the front of the array. Testing with different values (1/3)', () => {
+
+    expect(addToFront([6, 7], 8)).toStrictEqual([8, 6, 7]);
+});
+
+test('The function must return the given number at the front of the array. Testing with different values (2/3)', () => {
+
+    expect(addToFront([], 8)).toStrictEqual([8]);
+});
+
+test('The function must return the given number at the front of the array. Testing with different values (3/3)', () => {
 
     expect(addToFront([1, 2], 3)).toStrictEqual([3, 1, 2]);
-    expect(addToFront([6, 7], 8)).toStrictEqual([8, 6, 7]);
 });

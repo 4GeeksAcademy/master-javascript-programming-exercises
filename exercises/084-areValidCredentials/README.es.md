@@ -9,6 +9,6 @@
 ## Ejemplo:
 
 ```js
-var output = areValidCredentials('Ritu', 'mylongpassword')
+let output = areValidCredentials('Ritu', 'mylongpassword')
 console.log(output); // --> verdadero
 ```

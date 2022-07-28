@@ -27,3 +27,4 @@ test('If array is empty must return a empty string', () => {
   let output = getLongestWordOfMixedElements([]);
   expect(output).toBe('');
 });
+

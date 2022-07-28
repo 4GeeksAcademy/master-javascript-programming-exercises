@@ -26,7 +26,7 @@ test('Function must returns the smallest number within the array.', () => {
   ]);
   expect(output).toBe(4);
 
-  output = findSmallestNumberAmongMixedElements(['a', 'b', 2, 3, 'clear']);
+  let output = findSmallestNumberAmongMixedElements(['a', 'b', 2, 3, 'clear']);
   expect(output).toBe(2);
 });
 

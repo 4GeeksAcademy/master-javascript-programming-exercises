@@ -7,7 +7,7 @@
 ## Example:
 
 ```Javascript
-var output = or(true, false);
+let output = or(true, false);
 console.log(output); // --> true;
 ```
 

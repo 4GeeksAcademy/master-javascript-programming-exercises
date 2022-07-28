@@ -7,14 +7,14 @@
 ## Ejemplo:
 
 ```Javascript
-var person1 = {
+let person1 = {
   name: 'Joe Blow',
   role: 'schlub'
 };
-var person2 = {
+let person2 = {
   name: 'Mr. Burns',
   role: 'supervisor'
 };
 addObjectProperty(person1, 'manager', person2);
-console.log(person1.manager); // --> { name: 'Mr.Burns', role: 'supervisor' }
+console.log(person1.manager); // --> { name: 'Mr. Burns', role: 'supervisor' }
 ```

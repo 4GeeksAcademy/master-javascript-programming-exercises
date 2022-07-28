@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = computeCompoundInterest(1500, .043, 4, 6);
+let output = computeCompoundInterest(1500, .043, 4, 6);
 console.log(output); // --> 438.83682213410543
 ```
 

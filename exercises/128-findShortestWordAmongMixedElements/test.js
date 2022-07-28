@@ -18,9 +18,11 @@ test('Function findShortestWordAmongMixedElements must return a string', () => {
 });
 
 test('Function must return the shortest string within the array.', () => {
+
   let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
   expect(output).toBe('two');
 });
+
 
 test('If there are strings with the same length, then it should return the first element found.', () => {
   expect(findShortestWordAmongMixedElements([1, 'i', 2, 'a'])).toBe('i');
@@ -34,3 +36,4 @@ test('If array is empty must return empty string', () => {
   let output = findShortestWordAmongMixedElements([]);
   expect(output).toBe('');
 });
+

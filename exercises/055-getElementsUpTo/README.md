@@ -6,7 +6,7 @@
 
 
 ```Javascript
-var output = getElementsUpTo(['a', 'b', 'c', 'd', 'e'], 3) 
+let output = getElementsUpTo(['a', 'b', 'c', 'd', 'e'], 3) 
 console.log(output); // --> ['a', 'b', 'c']
 ```
 

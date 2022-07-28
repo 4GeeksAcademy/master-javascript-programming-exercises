@@ -7,7 +7,7 @@
 ## Example:
 
 ```Javascript
-var output = equalsTen(9);
+let output = equalsTen(9);
 console.log(output); // --> false
 ```
 

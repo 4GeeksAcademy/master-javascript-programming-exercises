@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = square(5);
+let output = square(5);
 console.log(output); // --> 25
 ```

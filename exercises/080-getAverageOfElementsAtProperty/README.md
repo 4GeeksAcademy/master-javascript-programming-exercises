@@ -7,10 +7,10 @@
 ## Example:
 
 ```js
-var obj = {
+let obj = {
   key: [1, 2, 3]
 };
-var output = getAverageOfElementsAtProperty(obj, 'key');
+let output = getAverageOfElementsAtProperty(obj, 'key');
 console.log(output); // --> 2
 ```
 

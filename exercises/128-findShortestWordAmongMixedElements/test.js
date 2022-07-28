@@ -1,32 +1,36 @@
-const rewire = require("rewire");
+const rewire = require('rewire');
+const findShortestWordAmongMixedElements = rewire('./app.js').__get__(
+  'findShortestWordAmongMixedElements'
+);
 
 test('Function findShortestWordAmongMixedElements must exist', () => {
-    const findShortestWordAmongMixedElements = rewire("./app.js").__get__("findShortestWordAmongMixedElements");
-    expect(findShortestWordAmongMixedElements).not.toBe(undefined);
+  expect(findShortestWordAmongMixedElements).not.toBe(undefined);
+});
+test('Function findShortestWordAmongMixedElements must return something', () => {
+  expect(findShortestWordAmongMixedElements([4, 'two', 2, 'three'])).not.toBe(
+    undefined
+  );
+});
+test('Function findShortestWordAmongMixedElements must return a string', () => {
+  expect(
+    typeof findShortestWordAmongMixedElements([4, 'two', 2, 'three'])
+  ).toBe('string');
 });
 
 test('Function must return the shortest string within the array.', () => {
-    const findShortestWordAmongMixedElements = rewire('./app.js').__get__("findShortestWordAmongMixedElements");
-
-    var output = findShortestWordAmongMixedElements([4, 'two', 2, 'three'])
-    expect(output).toBe('two');
-})
+  let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
+  expect(output).toBe('two');
+});
 
 test('If there are strings with the same length, then it should return the first element found.', () => {
-    const findShortestWordAmongMixedElements = rewire('./app.js').__get__("findShortestWordAmongMixedElements");
-
-    expect(findShortestWordAmongMixedElements([ 1, 'i', 2, 'a'])).toBe('i');
-})
+  expect(findShortestWordAmongMixedElements([1, 'i', 2, 'a'])).toBe('i');
+});
 
 test('If the given array contains no string, it should return an empty string.', () => {
-    const findShortestWordAmongMixedElements = rewire('./app.js').__get__("findShortestWordAmongMixedElements");
-
-    expect(findShortestWordAmongMixedElements([ 1, 2, 3, 4])).toBe('');
-})
+  expect(findShortestWordAmongMixedElements([1, 2, 3, 4])).toBe('');
+});
 
 test('If array is empty must return empty string', () => {
-    const findShortestWordAmongMixedElements = rewire('./app.js').__get__("findShortestWordAmongMixedElements");
-
-    var output = findShortestWordAmongMixedElements([])
-    expect(output).toBe('')
-})
+  let output = findShortestWordAmongMixedElements([]);
+  expect(output).toBe('');
+});

@@ -12,7 +12,7 @@ test('Function convertScoreToGrade must return a string', () => {
 });
 
 test('if the punctuation is from 100 to 90 it must return grade "A".', () => {
-  expect(convertScoreToGrade(91)).toBe('A');
+  expect(convertScoreToGrade(91)).toBe('A');6
 });
 
 test('if the punctuation is from 89 to 80 it must return grade "B".', () => {

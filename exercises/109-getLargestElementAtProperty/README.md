@@ -7,10 +7,10 @@
 ## Example:
 
 ```Js
-var obj = {
+let obj = {
   key: [1, 2, 4]
 };
-var output = getLargestElementAtProperty(obj, 'key');
+let output = getLargestElementAtProperty(obj, 'key');
 console.log(output); // --> 4
 ```
 

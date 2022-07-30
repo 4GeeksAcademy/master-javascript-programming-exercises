@@ -7,10 +7,10 @@
 ## Example:
 
 ```Javascript
-var car = {
+let car = {
   model: 'Toyota'
 };
-var output = getProperty(car, 'model');
+let output = getProperty(car, 'model');
 console.log(output); // --> 'Toyota'
 ```
 

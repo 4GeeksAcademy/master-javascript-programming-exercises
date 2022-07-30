@@ -7,10 +7,10 @@
 ## Ejemplo:
 
 ```js
-var output = keep([1, 2, 3, 2, 1], 2) 
+let output = keep([1, 2, 3, 2, 1], 2) 
 console.log(output); --> [2, 2]
 ```
 
 ## 💡 Pista:
 
-+ Si no coincide ningún elemento, `keep` debería retornar un array vacío.
++ Si no coincide ningún elemento, la función `keep` debería retornar un array vacío `[]`.

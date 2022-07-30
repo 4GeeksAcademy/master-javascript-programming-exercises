@@ -1,65 +1,68 @@
-const rewire = require ("rewire");
+const rewire = require('rewire');
+const getOddLengthWordsAtProperty = rewire('./app.js').__get__('getOddLengthWordsAtProperty');
 
 test('Function getOddLengthWordsAtProperty must exist', () => {
-    const getOddLengthWordsAtProperty = rewire("./app.js").__get__("getOddLengthWordsAtProperty");
-    expect(getOddLengthWordsAtProperty).not.toBe(undefined);
+  expect(getOddLengthWordsAtProperty).not.toBe(undefined);
 });
 
-test ('The function must return only the odd elements on a given key.', () => {
-    const getOddLengthWordsAtProperty = rewire ('./app.js').__get__("getOddLengthWordsAtProperty");
-    
-    var obj = {
-    key: ['It', 'has', 'some', 'words']
-};
-    var output = getOddLengthWordsAtProperty(obj, 'key');
+test('Function getOddLengthWordsAtProperty must return something', () => {
+  expect(getOddLengthWordsAtProperty({ key: ['tes'] })).not.toBe(undefined);
+});
 
-    expect(obj.key[1].length  % 2 !== 0).toBe(true);
-    expect(obj.key[1].length  % 2 !== 0).toBe(true);
-    
-})
+test('Function getOddLengthWordsAtProperty must return an array', () => {
+  expect(typeof getOddLengthWordsAtProperty({ key: ['tes'] })).toBe('object');
+});
 
+test('The function must return only the odd elements on a given key.', () => {
+  let obj = {
+    key: ['It', 'has', 'some', 'tests'],
+  };
+  let output = getOddLengthWordsAtProperty(obj, 'key');
+  expect(output).toBe(['has', 'tests']);
+});
 
-test ('The function must return undefined if there\'s no property at the given key.', () => {
-    const getOddLengthWordsAtProperty = rewire ('./app.js').__get__("getOddLengthWordsAtProperty");
-    
-    var obj = {
-    key: ['It', 'has', 'some', 'words']
-};
-    var output = getOddLengthWordsAtProperty(obj, 'key');
+test('The function must return only the odd elements on a given key.', () => {
+  let obj = {
+    key: ['It', 'apple', 'some', 'flags', 'car'],
+  };
+  let output = getOddLengthWordsAtProperty(obj, 'key');
+  expect(output).toBe(['apple', 'flags', 'car']);
+});
 
-    expect(obj.key[0].length  % 2 !== 0).toBe(false);
-    expect(obj.key[2].length  % 2 !== 0).toBe(false);
-    
-})
+test('If the array is empty, it should return an empty array.', () => {
+  let obj = {
+    key: [],
+  };
+  let output = getOddLengthWordsAtProperty(obj, 'key');
+  expect(output).toBe([]);
+});
 
+test('If it contains no odd length elements, it should return an empty array.', () => {
+  let obj = {
+    key: ['It', 'some'],
+  };
+  let output = getOddLengthWordsAtProperty(obj, 'key');
+  expect(output).toBe([]);
+});
 
+test('If the property at the given key is not an array, it should return an empty array.', () => {
+  let obj = {
+    key: 2,
+  };
+  let output = getOddLengthWordsAtProperty(obj, 'key');
+  expect(output).toBe([]);
+});
 
-test ('The function must return only the odd elements on a given key.', () => {
-    const getOddLengthWordsAtProperty = rewire ('./app.js').__get__("getOddLengthWordsAtProperty");
-    
-    var obj = {
-    key: ['It', 'apple', 'some', 'flags', 'car']
-};
-    var output = getOddLengthWordsAtProperty(obj, 'key');
+test('If the property at the given key is not an array, it should return an empty array.', () => {
+  let obj = {
+    key: {},
+  };
+  let output = getOddLengthWordsAtProperty(obj, 'key');
+  expect(output).toBe([]);
+});
 
-    expect(obj.key[1].length  % 2 !== 0).toBe(true);
-    expect(obj.key[3].length  % 2 !== 0).toBe(true);
-    expect(obj.key[4].length  % 2 !== 0).toBe(true);
-    
-})
-
-test ('The function must return undefined if there\'s no property at the given key.', () => {
-    const getOddLengthWordsAtProperty = rewire ('./app.js').__get__("getOddLengthWordsAtProperty");
-    
-    var obj = {
-    key: ['It', 'apple', 'some', 'flags', 'car']
-};
-    var output = getOddLengthWordsAtProperty(obj, 'key');
-
-    expect(obj.key[0].length  % 2 !== 0).toBe(false);
-    expect(obj.key[2].length  % 2 !== 0).toBe(false);
-    
-})
-
-
-
+test('If there is no property at the given key, it should return an empty array..', () => {
+  let obj = {};
+  let output = getOddLengthWordsAtProperty(obj, 'key');
+  expect(output).toBe([]);
+});

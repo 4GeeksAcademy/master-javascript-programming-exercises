@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = modulo(25, 4);
+let output = modulo(25, 4);
 console.log(output); // --> 1
 ```
 

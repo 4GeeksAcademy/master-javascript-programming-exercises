@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Javascript
-var output = removeFromFront([1, 2, 3]);
+let output = removeFromFront([1, 2, 3]);
 console.log(output); // --> [2, 3]
 ```
 ## 💡 Pista:

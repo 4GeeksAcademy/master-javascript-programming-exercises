@@ -7,6 +7,6 @@
 ## Ejemplo:
 
 ```Javascript
-var output = computePerimeterOfATriangle(6, 4, 10);
+let output = computePerimeterOfATriangle(6, 4, 10);
 console.log(output); // --> 20 
 ```

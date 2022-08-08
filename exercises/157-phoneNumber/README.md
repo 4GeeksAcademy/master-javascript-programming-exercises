@@ -7,22 +7,22 @@
 ## Example:
 
 ```js
-let output = PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).rnder();
+let output = PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).render();
 console.log(output); // "(650) 835-9172"
 ```
 
 ## 💡 Hints:
 
-+ Do not leave any methods unused.
+- Do not leave any methods unused.
 
-+  This is an example of a poor implementation:
+- This is an example of a poor implementation:
 
- ```Js
+```Js
 function renderPhoneNumber(numbers){
-  return '(' + numbers[0] + numbers[1] + numbers[2] + ') '
-    + numbers[3] + numbers[4] + numbers[5] + '-' 
-    + numbers[6] + numbers[7] + numbers[8] + numbers[9];
+ return '(' + numbers[0] + numbers[1] + numbers[2] + ') '
+   + numbers[3] + numbers[4] + numbers[5] + '-'
+   + numbers[6] + numbers[7] + numbers[8] + numbers[9];
 }
 ```
 
-+ What you should do instead is read the object-oriented skeleton. After you understand the flow of processing that it sketches out, fill in the implementation.
+- What you should do instead is read the object-oriented skeleton. After you understand the flow of processing that it sketches out, fill in the implementation.

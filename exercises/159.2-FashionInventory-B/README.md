@@ -4,7 +4,7 @@ It's the same inventory data structure as before, you have a fashion catalog, an
 
 ## 📝 Instructions:
 
-1. Write a function called `renderInventory` that will take in as paramater an array like `CurrentInventory`. Your function should now return the average cost of all shoes by designer in this format:
+1. Write a function called `renderAverageCostPerDesigner` that will take in as paramater an array like `CurrentInventory`. Your function should now return the average cost of all shoes by designer in this format:
 
 ```Js
 [

@@ -1,12 +1,14 @@
 const rewire = require('rewire');
-const renderInventory = rewire('./app.js').__get__('renderInventory');
+const renderAverageCostPerDesigner = rewire('./app.js').__get__(
+  'renderAverageCostPerDesigner'
+);
 
-test('Function renderInventory must exist', () => {
-  expect(renderInventory).not.toBe(undefined);
+test('Function renderAverageCostPerDesigner must exist', () => {
+  expect(renderAverageCostPerDesigner).not.toBe(undefined);
 });
-test('Function renderInventory must return something', () => {
+test('Function renderAverageCostPerDesigner must return something', () => {
   expect(
-    renderInventory([
+    renderAverageCostPerDesigner([
       {
         name: 'Brunello Cucinelli',
         shoes: [
@@ -26,7 +28,7 @@ test('Function renderInventory must return something', () => {
     ])
   ).not.toBe(undefined);
 });
-test('Function renderInventory must return an array with arrays [{}]', () => {
+test('Function renderAverageCostPerDesigner must return an array with arrays [{}]', () => {
   let test = [
     {
       name: 'Brunello Cucinelli',
@@ -45,12 +47,12 @@ test('Function renderInventory must return an array with arrays [{}]', () => {
       ],
     },
   ];
-  expect(typeof renderInventory(test)).toBe('object') &&
-    typeof expect(renderInventory(test)[0]).toBe('object');
+  expect(typeof renderAverageCostPerDesigner(test)).toBe('object') &&
+    typeof expect(renderAverageCostPerDesigner(test)[0]).toBe('object');
 });
 
 test('The function should return an array with the "name" and "averagePrice" objects of the corresponding products', () => {
-  let output = renderInventory([
+  let output = renderAverageCostPerDesigner([
     {
       name: 'Brunello Cucinelli',
       shoes: [
@@ -74,7 +76,7 @@ test('The function should return an array with the "name" and "averagePrice" obj
   ]);
 });
 test('The function should return an array with the "name" and "averagePrice" objects of the corresponding products', () => {
-  let output = renderInventory([
+  let output = renderAverageCostPerDesigner([
     {
       name: 'Adidas',
       shoes: [

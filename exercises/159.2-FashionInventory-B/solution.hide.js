@@ -16,7 +16,17 @@ let currentInventory = [
     ],
   },
 ];
-
 function renderAverageCostPerDesigner(inventory) {
-    // your code here
+  let aux = [];
+  inventory.map((e) => {
+    let price = 0;
+    let length = e.shoes.length;
+    e.shoes.map((x) => {
+      price += x.price;
+    });
+    aux.push({ name: e.name, averagePrice: price / length });
+  });
+  return aux;
 }
+
+console.log(renderAverageCostPerDesigner(currentInventory));

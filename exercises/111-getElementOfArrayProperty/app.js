@@ -1,6 +1,8 @@
 let obj = {
- key: ['Jamil', 'Albrey']
+    key: ['Jamil', 'Albrey']
 };
+
 function getElementOfArrayProperty(obj, key, index) {
     // your code here
+
 }

@@ -7,5 +7,6 @@ function findShortestElement(arr) {
   }
   return aux;
 }
-var output = findShortestElement(['a', 'two', 'three']);
+
+let output = findShortestElement(['a', 'two', 'three']);
 console.log(output); // --> 'a'

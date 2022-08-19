@@ -7,5 +7,5 @@ function getLongestElement(arr) {
   }
   return aux;
 }
-var output = getLongestElement(['one', 'two', 'three']);
+let output = getLongestElement(['one', 'two', 'three']);
 console.log(typeof ''); // --> 'three'

@@ -1,9 +1,9 @@
-var obj = {
+let obj = {
   key: [],
 };
 function getElementOfArrayProperty(obj, key, index) {
   // your code here
-  if (Object.keys(obj)[0] != key) return undefined;
+  if (!obj[key]) return undefined;
   if (obj[key][index]) return obj[key][index];
   else return undefined;
 }

@@ -7,5 +7,5 @@ function filterEvenElements(arr) {
   return aux;
 }
 
-var output = filterEvenElements([2, 3, 4, 5, 6]);
+let output = filterEvenElements([2, 3, 4, 5, 6]);
 console.log(output); // --> [2, 4, 6]

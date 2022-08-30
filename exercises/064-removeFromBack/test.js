@@ -6,11 +6,11 @@ test('Function removeFromBack must exist', () => {
 });
 
 test('Function removeFromBack must return something', () => {    
-    expect(removeFromBack[1,2,3]).not.toBe(undefined);
+    expect(removeFromBack([1,2,3])).not.toBe(undefined);
 });
 
 test('Function removeFromBack must return a list', () => {    
-    expect(typeof removeFromBack[1,2,3]).toBe("object");
+    expect(typeof removeFromBack([1,2,3])).toBe("object");
 });
 
 test('Function must return an array with all elements, but not the last', () => {

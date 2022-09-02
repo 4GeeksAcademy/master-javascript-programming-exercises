@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `getStringLength`. Given a string, `getStringLength` returns the lenght of that string.
+1. Write a function called `getStringLength`. Given a string, `getStringLength` returns the length of that string.
 
 ## Example:
 

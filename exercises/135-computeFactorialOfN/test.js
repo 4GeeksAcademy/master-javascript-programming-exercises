@@ -1,14 +1,26 @@
-const rewire = require("rewire");
+const rewire = require('rewire');
+const computeFactorialOfN = rewire('./app.js').__get__('computeFactorialOfN');
 
 test('Function computeFactorialOfN must exist', () => {
-    const computeFactorialOfN = rewire("./app.js").__get__("computeFactorialOfN");
-    expect(computeFactorialOfN).not.toBe(undefined);
+  expect(computeFactorialOfN).not.toBe(undefined);
 });
 
-test('Given an integer greater than 0, returns a factorial number.', () => {
-    const computeFactorialOfN = rewire('./app.js').__get__("computeFactorialOfN");
-   
-    expect(computeFactorialOfN(3)).toBe(6);
-    expect(computeFactorialOfN(4)).toBe(24);
-    expect(computeFactorialOfN(12)).toBe(479001600);
-})
+test('Function computeFactorialOfN must return something', () => {
+  expect(computeFactorialOfN(1)).not.toBe(undefined);
+});
+
+test('Function computeFactorialOfN must return a number', () => {
+  expect(typeof computeFactorialOfN(1)).toBe('number');
+});
+
+test('Given an integer greater than 0, returns a factorial number. Testing with 3.', () => {
+  expect(computeFactorialOfN(3)).toBe(6);
+});
+
+test('Given an integer greater than 0, returns a factorial number. Testing with 12.', () => {
+  expect(computeFactorialOfN(12)).toBe(479001600);
+});
+
+test('Given an integer greater than 0, returns a factorial number. Testing with 4.', () => {
+  expect(computeFactorialOfN(4)).toBe(24);
+});

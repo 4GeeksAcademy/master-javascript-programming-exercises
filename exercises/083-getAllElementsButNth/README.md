@@ -7,6 +7,6 @@
 ## Example:
 
 ```js
-var output = getAllElementsButNth(['a', 'b', 'c'], 1);
+let output = getAllElementsButNth(['a', 'b', 'c'], 1);
 console.log(output); // --> ['a', 'c']
 ```

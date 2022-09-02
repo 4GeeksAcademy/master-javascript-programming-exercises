@@ -1,25 +1,28 @@
 const rewire = require ("rewire");
+const isEqualTo = rewire("./app.js").__get__("isEqualTo");
 
 test('Function isEqualTo must exist', () => {
-    const isEqualTo = rewire("./app.js").__get__("isEqualTo");
-    expect(isEqualTo).not.toBe(undefined);
+    expect(isEqualTo).toBeTruthy()
 });
 
 test('Function isEqualTo must return true or false', () => {
-    const isEqualTo = rewire("./app.js").__get__("isEqualTo");
     expect(isEqualTo(21, 21)).not.toBe(undefined);
 });
 
-test ('Tested with num1=3 & num2=6 and the function should return that num2 should not be equal to num1', () => {
-    const isEqualTo = rewire ('./app.js').__get__("isEqualTo");
-
-    expect(isEqualTo(3, 6)).toBe(false);
+test ('The function return true when both numbers are equal. Testing with 3, 3', () => {
     expect(isEqualTo(3, 3)).toBe(true);
 })
+test ('The function return true when both numbers are equal. Testing with 100, 100', () => {
+    expect(isEqualTo(100, 100)).toBe(true);
+})
 
+test ('The function return false when both numbers aren\'t equal. Testing with 1, 2', () => {
+    expect(isEqualTo(1, 2)).toBe(false);
+})
+test ('The function return false when both numbers aren\'t equal. Testing with 10, 20', () => {
+    expect(isEqualTo(10, 20)).toBe(false);
+})
 test ('Use three equals === to compare because we need exact match', () => {
-    const isEqualTo = rewire ('./app.js').__get__("isEqualTo");
-
     expect(isEqualTo(10,"10")).toBe(false);
     expect(isEqualTo("10", 10)).toBe(false);
 })

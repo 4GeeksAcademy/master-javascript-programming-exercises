@@ -7,10 +7,10 @@
 ## Ejemplo:
 
 ```Js
-var obj = {
+let obj = {
   key: [1, 2, 3]
 };
-var output = getAllButLastElementOfProperty(obj, 'key');
+let output = getAllButLastElementOfProperty(obj, 'key');
 console.log(output); // --> [1,2]
 ```
 

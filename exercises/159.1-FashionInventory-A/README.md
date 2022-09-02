@@ -17,7 +17,7 @@ You have a fashion catalog, an inventory of items from various high-fashion desi
 ## Example input:
  
 ```js
-var currentInventory = [
+let currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [

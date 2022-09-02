@@ -7,10 +7,13 @@
 ## Ejemplo:
 
 ```Javascript
-var obj = {
+let obj = {
   name: 'Sam',
   age: 20
 }
 removeProperty(obj, 'name');
 console.log(obj.name); // --> undefined
 ```
+
+## 💡 Pista
++ https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/delete

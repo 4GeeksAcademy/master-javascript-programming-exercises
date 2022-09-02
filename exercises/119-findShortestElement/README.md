@@ -7,7 +7,7 @@
 ## Example:
 
 ```Js
-var output = findShortestElement(['a', 'two', 'three']);
+let output = findShortestElement(['a', 'two', 'three']);
 console.log(output); // --> 'a'
 ```
 

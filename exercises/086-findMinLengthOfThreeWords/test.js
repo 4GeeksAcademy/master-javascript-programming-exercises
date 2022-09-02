@@ -1,16 +1,24 @@
-const rewire = require ("rewire");
+const rewire = require('rewire');
+const findMinLengthOfThreeWords = rewire('./app.js').__get__('findMinLengthOfThreeWords');
 
 test('Function findMinLengthOfThreeWords must exist', () => {
-    const findMinLengthOfThreeWords = rewire("./app.js").__get__("findMinLengthOfThreeWords");
-    expect(findMinLengthOfThreeWords).not.toBe(undefined);
+  expect(findMinLengthOfThreeWords).not.toBe(undefined);
 });
 
-test ('The function should return the element with less characters.', () => {
-    const findMinLengthOfThreeWords = rewire ('./app.js').__get__("findMinLengthOfThreeWords");
-    var output = findMinLengthOfThreeWords('past', 'present', 'future');
-    expect(output).toBe(4) 
-    var output2 = findMinLengthOfThreeWords('Toyota', 'Honda', 'Chevrolet');
-    expect(output2).toBe(5)
+test('Function findMinLengthOfThreeWords must return something', () => {
+  expect(findMinLengthOfThreeWords('past', 'present', 'future')).not.toBe(undefined);
+});
 
-    })
+test('Function findMinLengthOfThreeWords must return a number', () => {
+  expect(typeof findMinLengthOfThreeWords('test', 't', 'est')).toBe('number');
+});
 
+test('The function should return the element with less characters.', () => {
+  let output = findMinLengthOfThreeWords('past', 'present', 'future');
+  expect(output).toBe(4);
+});
+
+test('The function should return the element with less characters. Testing with different values.', () => {
+  let output = findMinLengthOfThreeWords('Toyota', 'Honda', 'Chevrolet');
+  expect(output).toBe(5);
+});

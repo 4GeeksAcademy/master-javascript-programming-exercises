@@ -1,5 +1,10 @@
 const rewire = require ("rewire");
 
+test ('The function checkAge must exist', () => {
+    const checkAge = rewire ('./app.js').__get__("checkAge");
+    expect(checkAge).not.toBe(undefined);
+})
+
 test ('You should return a string', () => {
     const checkAge = rewire ('./app.js').__get__("checkAge");
 

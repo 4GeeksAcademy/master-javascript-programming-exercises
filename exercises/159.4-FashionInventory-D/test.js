@@ -6,7 +6,25 @@ test("The function getLaceNameDataForShoes should exist", function(){
     expect(getLaceNameDataForShoes).toBeTruthy();
 });
 test("The function getLaceNameDataForShoes should return something", function(){
-    expect(getLaceNameDataForShoes()).toBeTruthy();
+    let inventory = [
+        {
+          name: 'Brunello Cucinelli',
+          shoes: [
+            {name: 'tasselled black low-top lace-up', price: 1000},
+            {name: 'tasselled green low-top lace-up', price: 1100},
+            {name: 'plain beige suede moccasin', price: 950},
+            {name: 'plain olive suede moccasin', price: 1050}
+          ]
+        },
+        {
+          name: 'Gucci',
+          shoes: [
+            {name: 'red leather laced sneakers', price: 800},
+            {name: 'black leather laced sneakers', price: 900}
+          ]
+        }
+    ];
+    expect(getLaceNameDataForShoes(inventory)).toBeTruthy();
 });
 
 test("Function getLaceNameDataForShoes should return correct data", function(){

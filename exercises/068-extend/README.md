@@ -7,11 +7,11 @@
 ## Example:
 
 ```Javascript
-var obj1 = {
+let obj1 = {
   a: 1,
   b: 2
 };
-var obj2 = {
+let obj2 = {
   b: 4,
   c: 3
 };
@@ -26,6 +26,6 @@ console.log(obj2); // --> {b: 4, c: 3}
 
 + Add any key that is not on the first object (`obj1`).
 
-+ If the first object (`obj1`) already has the given key, ignore it(don't override the property value). 
++ If the first object (`obj1`) already has the given key, ignore it (don't override the property value). 
 
 + Don't modify the second object (`obj2`).

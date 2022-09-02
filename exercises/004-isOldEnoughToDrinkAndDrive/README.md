@@ -7,12 +7,14 @@
 ## Example;
 
 ```Javascript
-var output = isOldEnoughToDrinkAndDrive(22);
+let output = isOldEnoughToDrinkAndDrive(22);
 console.log(output); // --> false
 ```
 
 ## 💡 Hint:
 
 + The legal drinking age in the United States is 21.
+
++ The legal driving age in the United States is 16.
 
 + It is always illegal to drink and drive in the United States.

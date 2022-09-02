@@ -1,3 +1,3 @@
-// var split = str.split('  ');
-// var joinSpace = split.join(' ');
+// let split = str.split('  ');
+// let joinSpace = split.join(' ');
 // return joinSpace

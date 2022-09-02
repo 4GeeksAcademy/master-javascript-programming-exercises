@@ -7,9 +7,7 @@
     "description": "150 js exercises ideal for those who want to practice javascript object literals, functions and many more js features",
     "video-solutions": true,
     "graded": true,
-    "config": {
-        "editor": {
-            "version": "1.0.72"
-        }
+    "editor": {
+        "version": "1.0.73"
     }
 }

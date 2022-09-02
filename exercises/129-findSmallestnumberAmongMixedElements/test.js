@@ -1,4 +1,5 @@
 const rewire = require('rewire');
+
 const findSmallestNumberAmongMixedElements = rewire('./app.js').__get__(
   'findSmallestNumberAmongMixedElements'
 );
@@ -6,11 +7,13 @@ const findSmallestNumberAmongMixedElements = rewire('./app.js').__get__(
 test('Function findSmallestNumberAmongMixedElements must exist', () => {
   expect(findSmallestNumberAmongMixedElements).not.toBe(undefined);
 });
+
 test('Function findSmallestNumberAmongMixedElements must return something', () => {
   expect(findSmallestNumberAmongMixedElements(['a', 'b', 1, 2])).not.toBe(
     undefined
   );
 });
+
 test('Function findSmallestNumberAmongMixedElements must return a number', () => {
   expect(typeof findSmallestNumberAmongMixedElements(['a', 'b', 1, 2])).toBe(
     'number'
@@ -26,7 +29,7 @@ test('Function must returns the smallest number within the array.', () => {
   ]);
   expect(output).toBe(4);
 
-  let output = findSmallestNumberAmongMixedElements(['a', 'b', 2, 3, 'clear']);
+  output = findSmallestNumberAmongMixedElements(['a', 'b', 2, 3, 'clear']);
   expect(output).toBe(2);
 });
 

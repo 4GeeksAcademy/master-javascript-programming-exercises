@@ -7,7 +7,7 @@ test('Function calculateBillTotal must return something', () => {
   expect(calculateBillTotal(1)).not.toBe(undefined);
 });
 test('Function calculateBillTotal must return a number', () => {
-  expect(calculateBillTotal(1)).not.toBe('number');
+  expect(typeof calculateBillTotal(1)).toBe('number');
 });
 
 test('Function must returns the total amount owed after taxes and tips. Testing with example values.', () => {

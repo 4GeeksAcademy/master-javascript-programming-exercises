@@ -6,11 +6,13 @@ const findShortestWordAmongMixedElements = rewire('./app.js').__get__(
 test('Function findShortestWordAmongMixedElements must exist', () => {
   expect(findShortestWordAmongMixedElements).not.toBe(undefined);
 });
+
 test('Function findShortestWordAmongMixedElements must return something', () => {
   expect(findShortestWordAmongMixedElements([4, 'two', 2, 'three'])).not.toBe(
     undefined
   );
 });
+
 test('Function findShortestWordAmongMixedElements must return a string', () => {
   expect(
     typeof findShortestWordAmongMixedElements([4, 'two', 2, 'three'])
@@ -18,7 +20,6 @@ test('Function findShortestWordAmongMixedElements must return a string', () => {
 });
 
 test('Function must return the shortest string within the array.', () => {
-
   let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
   expect(output).toBe('two');
 });

@@ -11,7 +11,7 @@ let output = findSmallestNumberAmongMixedElements([4, 'lincoln', 9, 'octopus']);
 console.log(output); // --> 4
 ```
 
-## 💡 Pistas:
+## 💡 Pistas:
 
 + Si se da un array vacío, debería retornar 0.
 

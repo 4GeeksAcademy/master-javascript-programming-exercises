@@ -6,11 +6,13 @@ const getLongestWordOfMixedElements = rewire('./app.js').__get__(
 test('Function getLongestWordOfMixedElements must exist', () => {
   expect(getLongestWordOfMixedElements).not.toBe(undefined);
 });
+
 test('Function getLongestWordOfMixedElements must return something', () => {
   expect(getLongestWordOfMixedElements([])).not.toBe(undefined);
 });
+
 test('Function getLongestWordOfMixedElements must return a string', () => {
-  expect(typeof getLongestWordOfMixedElements).not.toBe('string');
+  expect(typeof getLongestWordOfMixedElements([3, 'word', 5, 'up', 3, 1])).toBe('string');
 });
 
 test('Function must returns the longest string in the array.', () => {

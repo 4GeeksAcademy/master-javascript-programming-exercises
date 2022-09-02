@@ -4,5 +4,5 @@ function calculateBillTotal(preTaxAndTipAmount) {
   let tip = preTaxAndTipAmount * 0.15;
   return preTaxAndTipAmount + tax + tip;
 }
-var output = calculateBillTotal(20);
+let output = calculateBillTotal(20);
 console.log(output); // --> 24.9

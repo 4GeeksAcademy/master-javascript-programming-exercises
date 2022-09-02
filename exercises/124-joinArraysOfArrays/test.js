@@ -10,6 +10,7 @@ const app_content = fs.readFileSync(
 test('Function joinArrayOfArrays must exist', () => {
   expect(joinArrayOfArrays).not.toBe(undefined);
 });
+
 test('Function joinArrayOfArrays must return something', () => {
   expect(
     joinArrayOfArrays([
@@ -19,6 +20,7 @@ test('Function joinArrayOfArrays must return something', () => {
     ])
   ).not.toBe(undefined);
 });
+
 test('Function joinArrayOfArrays must return an array', () => {
   expect(
     typeof joinArrayOfArrays([
@@ -27,10 +29,6 @@ test('Function joinArrayOfArrays must return an array', () => {
       ['x', 'y'],
     ])
   ).toBe('object');
-});
-
-test('You should use concat in your function', () => {
-  expect(app_content).toMatch(/\.concat/gm);
 });
 
 test('Function must returns a single array containing the elements of the nested arrays.', () => {

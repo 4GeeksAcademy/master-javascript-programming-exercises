@@ -6,7 +6,7 @@ function joinArrayOfArrays(arr) {
   }
   return aux;
 }
-var output = joinArrayOfArrays([
+let output = joinArrayOfArrays([
   [1, 4],
   [true, false],
   ['x', 'y'],

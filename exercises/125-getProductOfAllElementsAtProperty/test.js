@@ -2,9 +2,11 @@ const rewire = require('rewire');
 const getProductOfAllElementsAtProperty = rewire('./app.js').__get__(
   'getProductOfAllElementsAtProperty'
 );
+
 test('Function getProductOfAllElementsAtProperty must exist', () => {
   expect(getProductOfAllElementsAtProperty).not.toBe(undefined);
 });
+
 test('Function getProductOfAllElementsAtProperty must return something', () => {
   expect(
     getProductOfAllElementsAtProperty(
@@ -15,15 +17,16 @@ test('Function getProductOfAllElementsAtProperty must return something', () => {
     )
   ).not.toBe(undefined);
 });
+
 test('Function getProductOfAllElementsAtProperty must return a number', () => {
   expect(
-    getProductOfAllElementsAtProperty(
+    typeof getProductOfAllElementsAtProperty(
       {
         key: [1, 2, 3, 4],
       },
       'key'
     )
-  ).not.toBe('number');
+  ).toBe('number');
 });
 
 test('Function must returns the product of all elements in the array located at the key.', () => {

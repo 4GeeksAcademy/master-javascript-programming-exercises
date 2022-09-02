@@ -6,11 +6,13 @@ const getSumOfAllElementsAtProperty = rewire('./app.js').__get__(
 test('Function getSumOfAllElementsAtProperty must exist', () => {
   expect(getSumOfAllElementsAtProperty).not.toBe(undefined);
 });
+
 test('Function getSumOfAllElementsAtProperty must return something', () => {
   expect(getSumOfAllElementsAtProperty({ key: [1, 2] }, 'key')).not.toBe(
     undefined
   );
 });
+
 test('Function getSumOfAllElementsAtProperty must return a number', () => {
   expect(typeof getSumOfAllElementsAtProperty({ key: [1, 2] }, 'key')).toBe(
     'number'

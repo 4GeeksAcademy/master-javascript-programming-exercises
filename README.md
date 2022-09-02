@@ -40,7 +40,7 @@ $ npm i learnpack -g
 $ learnpack plugins:install learnpack-node
 ```
 
-2. Start the tutorial/exercises by running the following command at the same level where your bc.json file is:
+2. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g

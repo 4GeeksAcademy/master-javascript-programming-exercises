@@ -6,9 +6,11 @@ const getLargestNumberAmongMixedElements = rewire('./app.js').__get__(
 test('Function getLargestNumberAmongMixedElements must exist', () => {
   expect(getLargestNumberAmongMixedElements).not.toBe(undefined);
 });
+
 test('Function getLargestNumberAmongMixedElements must return something', () => {
   expect(getLargestNumberAmongMixedElements([1])).not.toBe(undefined);
 });
+
 test('Function getLargestNumberAmongMixedElements must return a number', () => {
   expect(typeof getLargestNumberAmongMixedElements([1])).toBe('number');
 });

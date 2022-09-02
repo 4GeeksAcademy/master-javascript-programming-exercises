@@ -1,18 +1,21 @@
+
 const rewire = require('rewire');
 const convertScoreToGrade = rewire('./app.js').__get__('convertScoreToGrade');
 
 test('Function convertScoreToGrade must exist', () => {
   expect(convertScoreToGrade).not.toBe(undefined);
 });
+
 test('Function convertScoreToGrade must return something', () => {
   expect(convertScoreToGrade(1)).not.toBe(undefined);
 });
+
 test('Function convertScoreToGrade must return a string', () => {
   expect(typeof convertScoreToGrade(1)).toBe('string');
 });
 
 test('if the punctuation is from 100 to 90 it must return grade "A".', () => {
-  expect(convertScoreToGrade(91)).toBe('A');6
+  expect(convertScoreToGrade(91)).toBe('A');
 });
 
 test('if the punctuation is from 89 to 80 it must return grade "B".', () => {

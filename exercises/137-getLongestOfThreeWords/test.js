@@ -6,9 +6,11 @@ const getLongestOfThreeWords = rewire('./app.js').__get__(
 test('Function getLongestOfThreeWords must exist', () => {
   expect(getLongestOfThreeWords).not.toBe(undefined);
 });
+
 test('Function getLongestOfThreeWords must return something', () => {
   expect(getLongestOfThreeWords('test', 'tes', 'te')).not.toBe(undefined);
 });
+
 test('Function getLongestOfThreeWords must return a string', () => {
   expect(typeof getLongestOfThreeWords('test', 'tes', 'te')).toBe('string');
 });

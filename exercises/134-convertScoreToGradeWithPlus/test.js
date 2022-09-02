@@ -6,9 +6,11 @@ const convertScoreToGradeWithPlusAndMinus = rewire('./app.js').__get__(
 test('Function convertScoreToGradeWithPlusAndMinus must exist', () => {
   expect(convertScoreToGradeWithPlusAndMinus).not.toBe(undefined);
 });
+
 test('Function convertScoreToGradeWithPlusAndMinus must return something', () => {
   expect(convertScoreToGradeWithPlusAndMinus(1)).not.toBe(undefined);
 });
+
 test('Function convertScoreToGradeWithPlusAndMinus must return a string', () => {
   expect(typeof convertScoreToGradeWithPlusAndMinus(1)).toBe('string');
 });
@@ -40,11 +42,13 @@ test('if the punctuation is from 69 to 60 it must return grade "D".', () => {
 test('if the punctuation is from 59 to 0 it must return grade "F". Testing with 42.', () => {
   expect(convertScoreToGradeWithPlusAndMinus(42)).toBe('F');
 });
+
 test('if the punctuation is from 59 to 0 it must return grade "F". Testing with 42.', () => {
-  expect(convertScoreToGradeWithPlusAndMinus(42)).not.toBe('F-');
+  expect(convertScoreToGradeWithPlusAndMinus(52)).not.toBe('F-');
 });
+
 test('if the punctuation is from 59 to 0 it must return grade "F". Testing with 48.', () => {
-  expect(convertScoreToGradeWithPlusAndMinus(48)).not.toBe('F+');
+  expect(convertScoreToGradeWithPlusAndMinus(58)).not.toBe('F+');
 });
 
 test('If the given score is greater than 100 or less than 0, it should return "INVALID SCORE".', () => {

@@ -12,9 +12,7 @@ test('Function getSquaredElementsAtProperty must return something', () => {
   );
 });
 test('Function getSquaredElementsAtProperty must return an array', () => {
-  expect(
-    typeof etSquaredElementsAtProperty({ key: [1, 2, 3] }, 'key')
-  ).not.toBe('object');
+  expect(Array.isArray(getSquaredElementsAtProperty({ key: [1, 2, 3] }, 'key'))).toBeTruthy();
 });
 
 test('The Function must returns an array containing all the squared elements of the array, located at the given key.', () => {

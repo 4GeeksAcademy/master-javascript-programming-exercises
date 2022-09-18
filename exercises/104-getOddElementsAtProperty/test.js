@@ -12,9 +12,7 @@ test('Function getOddElementsAtProperty must return something', () => {
   );
 });
 test('Function getOddElementsAtProperty must return an array', () => {
-  expect(typeof getOddElementsAtProperty({ key: [1, 2, 3] }, 'key')).toBe(
-    'object'
-  );
+  expect(Array.isArray(getOddElementsAtProperty({ key: [1, 2, 3] }, 'key'))).toBeTruthy();
 });
 
 test('The function must return the odd elements of the array located in the given key.', () => {

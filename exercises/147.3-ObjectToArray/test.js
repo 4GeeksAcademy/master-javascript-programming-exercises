@@ -4,6 +4,7 @@ const convertObjectToList = rewire('./app.js').__get__('convertObjectToList');
 test('Function convertObjectToList must exist', () => {
   expect(convertObjectToList).not.toBe(undefined);
 });
+
 test('Function convertObjectToList must return something', () => {
   expect(
     convertObjectToList({
@@ -13,6 +14,7 @@ test('Function convertObjectToList must return something', () => {
     })
   ).not.toBe(undefined);
 });
+
 test('Function convertObjectToList must return an array', () => {
   expect(
     typeof convertObjectToList({
@@ -35,6 +37,7 @@ test('The function should convert a literal object to an array and return all in
     ['role', 'producer'],
   ]);
 });
+
 test('The function should convert a literal object to an array and return all in to an array', () => {
   let output = convertObjectToList({
     name: 'Johnny',

@@ -1,4 +1,4 @@
-let output = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'];
+let arr = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'];
 
 function transformFirstAndLast(array) {
   // your code here
@@ -7,4 +7,4 @@ function transformFirstAndLast(array) {
   return aux;
 }
 
-console.log(output);
+console.log(transformFirstAndLast(arr));

@@ -4,6 +4,7 @@ const fromListToObject = rewire('./app.js').__get__('fromListToObject');
 test('Function fromListToObject must exist', () => {
   expect(fromListToObject).not.toBe(undefined);
 });
+
 test('Function fromListToObject must return something', () => {
   expect(
     fromListToObject([
@@ -12,6 +13,7 @@ test('Function fromListToObject must return something', () => {
     ])
   ).not.toBe(undefined);
 });
+
 test('Function fromListToObject must return an object {}', () => {
   expect(
     typeof fromListToObject([
@@ -29,7 +31,8 @@ test('Function must return an object with each pair of elements as key-value.', 
   ]);
   expect(output).toEqual({ make: 'Ford', model: 'Mustang', year: 1964 });
 });
-test('Function must return an object with each pair of elements as key-value.', () => {
+
+test('Function must return an object with each pair of elements as key-value. Testing with different values.', () => {
   let output = fromListToObject([
     ['name', 'Jerry'],
     ['pet', 'Cat'],

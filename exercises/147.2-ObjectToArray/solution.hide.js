@@ -1,7 +1,11 @@
 function listAllValues(obj) {
   // your code here
-  return Object.values(obj);
+  let arr = [];
+  for(let element in obj){
+    arr.push(obj[element]);
+  }
+  return arr
 }
 
-let output = listAllValues({ name: 'Krysten', age: 33, hasPets: false });
+let output = listAllValues({ name: 'Sam', age: 25, hasPets: true });
 console.log(output);

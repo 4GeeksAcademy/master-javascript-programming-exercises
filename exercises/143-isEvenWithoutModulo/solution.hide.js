@@ -1,7 +1,16 @@
 function isEvenWithoutModulo(num) {
   // your code here
-  if (num % 2 == 0) return true;
-  else return false;
+  let aux = true;
+  if (num >= 0) {
+      for (let x = -1; x <= num + 1; x += 2) {
+          if (x === num) aux = false;
+      }
+  } else {
+      for (let x = -1; x >= num - 1; x -= 2) {
+          if (x === num) aux = false;
+      }
+  }
+  return aux;
 }
-let output = isEvenWithoutModulo(8);
-console.log(output); // --> true
+let output = isEvenWithoutModulo(18);
+console.log(output); // --> false

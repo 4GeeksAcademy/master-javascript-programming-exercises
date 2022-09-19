@@ -4,6 +4,7 @@ const listAllValues = rewire('./app.js').__get__('listAllValues');
 test('Function listAllValues must exist', () => {
   expect(listAllValues).not.toBe(undefined);
 });
+
 test('Function listAllValues must return something', () => {
   expect(
     listAllValues({
@@ -13,6 +14,7 @@ test('Function listAllValues must return something', () => {
     })
   ).not.toBe(undefined);
 });
+
 test('Function listAllValues must return an array', () => {
   expect(
     typeof listAllValues({
@@ -31,6 +33,7 @@ test('The function must returns an array of all the values of the object.', () =
   });
   expect(output).toEqual(['Krysten', 33, false]);
 });
+
 test('The function must returns an array of all the values of the object.', () => {
   let output = listAllValues({
     name: 'Johnny',

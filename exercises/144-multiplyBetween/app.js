@@ -1,5 +1,6 @@
 function multiplyBetween(num1, num2) {
-    // your code here
+    // Your code here
+
 }
 
 let output = multiplyBetween(2, 5);

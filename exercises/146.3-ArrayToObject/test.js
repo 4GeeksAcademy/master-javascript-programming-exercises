@@ -6,6 +6,7 @@ const transformEmployeeData = rewire('./app.js').__get__(
 test('Function transformEmployeeData must exist', () => {
   expect(transformEmployeeData).not.toBe(undefined);
 });
+
 test('Function transformEmployeeData must return something', () => {
   expect(
     transformEmployeeData([
@@ -14,6 +15,7 @@ test('Function transformEmployeeData must return something', () => {
     ])
   ).not.toBe(undefined);
 });
+
 test('Function transformEmployeeData must return an object {}', () => {
   expect(
     typeof transformEmployeeData([
@@ -43,6 +45,7 @@ test('The function must transform employee data from one format to { key: value 
     { firstName: 'Mary', lastName: 'Jenkins', age: 36, role: 'manager' },
   ]);
 });
+
 test('The function must transform employee data from one format to { key: value }.', () => {
   let output = transformEmployeeData([
     [

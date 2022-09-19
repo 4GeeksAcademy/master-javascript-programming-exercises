@@ -10,7 +10,7 @@ test('Function filterEvenLengthWords must return something', () => {
   expect(filterEvenLengthWords(['some', 'text'])).not.toBe(undefined);
 });
 test('Function filterEvenLengthWords must return an array', () => {
-  expect(typeof filterEvenLengthWords(['some', 'text'])).toBe('object');
+  expect(Array.isArray(filterEvenLengthWords(['some', 'text']))).toBeTruthy()
 });
 
 test('The function should return only the elements of the array whose length is an even number.', () => {

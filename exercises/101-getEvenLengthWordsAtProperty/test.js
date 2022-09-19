@@ -12,9 +12,7 @@ test('Function getEvenLengthWordsAtProperty must return something', () => {
   );
 });
 test('Function getEvenLengthWordsAtProperty must return an array', () => {
-  expect(typeof getEvenLengthWordsAtProperty({ key: ['te'] }, 'key')).toBe(
-    'object'
-  );
+  expect(Array.isArray(getEvenLengthWordsAtProperty({ key: ['te'] }, 'key'))).toBeTruthy()
 });
 
 test('If the array is empty, it should return an empty array.', () => {

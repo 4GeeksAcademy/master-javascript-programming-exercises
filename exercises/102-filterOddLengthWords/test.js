@@ -8,7 +8,7 @@ test('Function filterOddLengthWords must return something', () => {
   expect(filterOddLengthWords(['you'])).not.toBe(undefined);
 });
 test('Function filterOddLengthWords must return an array', () => {
-  expect(typeof filterOddLengthWords(['you'])).toBe('object');
+  expect(Array.isArray(filterOddLengthWords(['you']))).toBeTruthy();
 });
 
 test('The function should return odd strings.', () => {

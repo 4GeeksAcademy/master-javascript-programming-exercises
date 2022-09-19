@@ -12,9 +12,7 @@ test('Function getEvenElementsAtProperty must return something', () => {
   );
 });
 test('Function getEvenElementsAtProperty must return an array', () => {
-  expect(typeof getEvenElementsAtProperty({ key: [2, 4, 5] }, 'key')).toBe(
-    'object'
-  );
+  expect(Array.isArray(getEvenElementsAtProperty({ key: [2, 4, 5] }, 'key'))).toBeTruthy()
 });
 
 test('Must returns an array containing all the even elements of the array located at the given key.', () => {

@@ -11,7 +11,7 @@ test('Function getAllButLastElementOfProperty must return something', () => {
   );
 });
 test('Function getAllButLastElementOfProperty must return an array', () => {
-  expect(typeof getAllButLastElementOfProperty({ key: [1, 2] }, 'key')).toBe('object');
+  expect(Array.isArray(getAllButLastElementOfProperty({ key: [1, 2] }, 'key'))).toBeTruthy();
 });
 
 test('The function must returns an array that contains all but the last element of the array located at the given Key.', () => {

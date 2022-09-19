@@ -6,23 +6,26 @@ const getSquaredElementsAtProperty = rewire('./app.js').__get__(
 test('Function getSquaredElementsAtProperty must exist', () => {
   expect(getSquaredElementsAtProperty).not.toBe(undefined);
 });
+
 test('Function getSquaredElementsAtProperty must return something', () => {
   expect(getSquaredElementsAtProperty({ key: [1, 2, 3] }, 'key')).not.toBe(
     undefined
   );
 });
+
 test('Function getSquaredElementsAtProperty must return an array', () => {
   expect(Array.isArray(getSquaredElementsAtProperty({ key: [1, 2, 3] }, 'key'))).toBeTruthy();
 });
 
-test('The Function must returns an array containing all the squared elements of the array, located at the given key.', () => {
+test('The Function must return an array containing all the squared elements of the array, located at the given key.', () => {
   let obj = {
     key: [2, 1, 5],
   };
   let output = getSquaredElementsAtProperty(obj, 'key');
   expect(output).toEqual([4, 1, 25]);
 });
-test('The Function must returns an array containing all the squared elements of the array, located at the given key.', () => {
+
+test('The Function must returns an array containing all the squared elements of the array, located at the given key. Testing with different values.', () => {
   let obj = {
     key: [10, 32, 7],
   };
@@ -45,6 +48,7 @@ test('If the property in the given key is not an array, it should return an empt
   let output = getSquaredElementsAtProperty(obj, 'key');
   expect(output).toEqual([]);
 });
+
 test('If the property in the given key is not an array, it should return an empty array. Testing with an object.', () => {
   let obj = {
     key: {},
@@ -52,6 +56,7 @@ test('If the property in the given key is not an array, it should return an empt
   let output = getSquaredElementsAtProperty(obj, 'key');
   expect(output).toEqual([]);
 });
+
 test('If the property in the given key is not an array, it should return an empty array. Testing with a string.', () => {
   let obj = {
     key: 'a',

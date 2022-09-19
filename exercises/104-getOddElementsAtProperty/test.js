@@ -6,11 +6,13 @@ const getOddElementsAtProperty = rewire('./app.js').__get__(
 test('Function getOddElementsAtProperty must exist', () => {
   expect(getOddElementsAtProperty).not.toBe(undefined);
 });
+
 test('Function getOddElementsAtProperty must return something', () => {
   expect(getOddElementsAtProperty({ key: [1, 2, 3] }, 'key')).not.toBe(
     undefined
   );
 });
+
 test('Function getOddElementsAtProperty must return an array', () => {
   expect(Array.isArray(getOddElementsAtProperty({ key: [1, 2, 3] }, 'key'))).toBeTruthy();
 });
@@ -30,6 +32,7 @@ test('If the array is empty, it should return an empty array.', () => {
   let output = getOddElementsAtProperty(obj, 'key');
   expect(output).toEqual([]);
 });
+
 test('If it contains no odd elements, it should return an empty array.', () => {
   let obj = {
     key: [2, 4],
@@ -45,6 +48,7 @@ test('If the property in the given key is not an array, it should return an empt
   let output = getOddElementsAtProperty(obj, 'key');
   expect(output).toEqual([]);
 });
+
 test('If the property in the given key is not an array, it should return an empty array.', () => {
   let obj = {
     key: {},
@@ -52,6 +56,7 @@ test('If the property in the given key is not an array, it should return an empt
   let output = getOddElementsAtProperty(obj, 'key');
   expect(output).toEqual([]);
 });
+
 test('If the property in the given key is not an array, it should return an empty array.', () => {
   let obj = {
     key: 'test',

@@ -6,11 +6,13 @@ const getEvenElementsAtProperty = rewire('./app.js').__get__(
 test('Function getEvenElementsAtProperty must exist', () => {
   expect(getEvenElementsAtProperty).not.toBe(undefined);
 });
+
 test('Function getEvenElementsAtProperty must return something', () => {
   expect(getEvenElementsAtProperty({ key: [2, 4, 5] }, 'key')).not.toBe(
     undefined
   );
 });
+
 test('Function getEvenElementsAtProperty must return an array', () => {
   expect(Array.isArray(getEvenElementsAtProperty({ key: [2, 4, 5] }, 'key'))).toBeTruthy()
 });

@@ -7,5 +7,5 @@ function filterEvenLengthWords(words) {
     return aux
 }
 
-var output = filterEvenLengthWords(['word', 'words', 'word', 'words']);
+let output = filterEvenLengthWords(['word', 'words', 'word', 'words']);
 console.log(output); // --> ['word', 'word']

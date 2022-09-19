@@ -2,14 +2,17 @@ const rewire = require('rewire');
 const getAllButLastElementOfProperty = rewire('./app.js').__get__(
   'getAllButLastElementOfProperty'
 );
+
 test('Function getAllButLastElementOfProperty must exist', () => {
   expect(getAllButLastElementOfProperty).not.toBe(undefined);
 });
+
 test('Function getAllButLastElementOfProperty must return something', () => {
   expect(getAllButLastElementOfProperty({ key: [1, 2] }, 'key')).not.toBe(
     undefined
   );
 });
+
 test('Function getAllButLastElementOfProperty must return an array', () => {
   expect(Array.isArray(getAllButLastElementOfProperty({ key: [1, 2] }, 'key'))).toBeTruthy();
 });
@@ -20,6 +23,14 @@ test('The function must returns an array that contains all but the last element 
   };
   let output = getAllButLastElementOfProperty(obj, 'key');
   expect(output).toEqual([3, 2]);
+});
+
+test('The function must returns an array that contains all but the last element of the array located at the given Key. Testing with different values.', () => {
+  let obj = {
+    key: ["Hello", 23, 7, "HI", "This will be deleted"],
+  };
+  let output = getAllButLastElementOfProperty(obj, 'key');
+  expect(output).toEqual(["Hello", 23, 7, "HI"]);
 });
 
 test('If the array is empty, it should return an empty array.', () => {

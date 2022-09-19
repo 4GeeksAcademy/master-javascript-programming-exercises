@@ -25,3 +25,4 @@ test('Must returns the length of the longest string in the array.', () => {
   let output = getLengthOfLongestElement(['es', 'hora', 'de', 'comer','comida']);
   expect(output).toBe(6);
 });
+

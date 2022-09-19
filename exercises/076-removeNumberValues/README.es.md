@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Javascript
-var obj = {
+let obj = {
   a: 2,
   b: 'remaining',
   c: 4

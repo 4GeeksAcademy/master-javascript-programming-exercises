@@ -18,7 +18,7 @@ Tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inv
 ## Ejemplo de entrada:
 
 ```Js
-var currentInventory = [
+let currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [

@@ -7,19 +7,19 @@
 ## Example:
 
 ```js
-var obj = {
+let obj = {
   key: ['It', 'has', 'some', 'words']
 };
-var output = getOddLengthWordsAtProperty(obj, 'key');
+let output = getOddLengthWordsAtProperty(obj, 'key');
 console.log(output); // --> ['has', 'words']
 ```
 
 ## 💡 Hints:
 
-+ If the array is empty, it should return an empty array.
++ If the array is empty, it should return an empty array `[]`.
 
-+ If it contains no odd length elements, it should return an empty array.
++ If it contains no odd length elements, it should return an empty array `[]`.
 
-+ If the property at the given key is not an array, it should return an empty array.
++ If the property at the given key is not an array, it should return an empty array `[]`.
 
 + If there is no property at the given key, it should return an empty array.

@@ -19,7 +19,7 @@ Es la misma estructura de datos del inventario `currentInventory` de antes pero 
 ## Ejemplo de entrada:
 
 ```js
-var inventory = [
+let inventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [

@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = findShortestOfThreeWords('a', 'two', 'three');
+let output = findShortestOfThreeWords('a', 'two', 'three');
 console.log(output); // --> 'a'
 ```
 

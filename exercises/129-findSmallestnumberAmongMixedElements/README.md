@@ -7,11 +7,11 @@
 ## Example:
 
 ```Js
-var output = findSmallestNumberAmongMixedElements([4, 'lincoln', 9, 'octopus']);
+let output = findSmallestNumberAmongMixedElements([4, 'lincoln', 9, 'octopus']);
 console.log(output); // --> 4
 ```
 
-## 💡 Hints:
+## 💡 Hints:
 
 + If the given array is empty, it should return 0.
 

@@ -7,10 +7,10 @@
 ## Ejemplo:
 
 ```Js
-var obj = {
+let obj = {
   key: [4, 1, 8]
 };
-var output = getSumOfAllElementsAtProperty(obj, 'key');
+let output = getSumOfAllElementsAtProperty(obj, 'key');
 console.log(output); // --> 13
 ```
 

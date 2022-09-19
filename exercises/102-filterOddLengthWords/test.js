@@ -20,4 +20,3 @@ test('The function should return odd strings.', () => {
   expect(output).toEqual(['there', 'now']);
 });
 
-

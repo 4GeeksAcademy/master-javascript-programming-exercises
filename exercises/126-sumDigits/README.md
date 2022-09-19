@@ -7,14 +7,14 @@
 ## Example 1:
 
 ```js
-var output = sumDigits(1148);
+let output = sumDigits(1148);
 console.log(output); // --> 14
 ```
 
 ## Example 2:
 
 ```Js
-var output = sumDigits(-316);
+let output = sumDigits(-316);
 console.log(output); // --> 4
 ```
 

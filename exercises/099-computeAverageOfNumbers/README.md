@@ -7,8 +7,8 @@
 ## Example:
 
 ```js
-var input = [1,2,3,4,5];
-var output = computeAverageOfNumbers(input);
+let input = [1,2,3,4,5];
+let output = computeAverageOfNumbers(input);
 console.log(output); // --> 3
 ```
 

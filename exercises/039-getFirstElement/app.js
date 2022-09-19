@@ -1,6 +1,7 @@
 function getFirstElement(array) {
-  // your code here
+  // Add your code after this line
+
 }
 
-var output = getFirstElement([1, 2, 3, 4, 5]);
+let output = getFirstElement([1, 2, 3, 4, 5]);
 console.log(output); // --> 1

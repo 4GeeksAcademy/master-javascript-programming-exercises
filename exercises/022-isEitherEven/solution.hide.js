@@ -1,6 +1,5 @@
 // Write your function here
-function isEitherEven(a,b){
-    return a % 2 !== 0 || b % 2 !== 0
+function isEitherEven(n1, n2) {
+  if (n1 % 2 == 0 || n2 % 2 == 0) return true;
+  else return false;
 }
-
-console.log(isEitherEven(3,3))

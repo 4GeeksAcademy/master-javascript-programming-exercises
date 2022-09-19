@@ -15,7 +15,6 @@ test('Function getAllButLastElementOfProperty must return an array', () => {
 });
 
 test('The function must returns an array that contains all but the last element of the array located at the given Key.', () => {
-  
   let obj = {
     key: [3, 2, 1],
   };

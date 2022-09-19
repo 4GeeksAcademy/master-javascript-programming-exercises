@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```Js
-var output = getLengthOfLongestElement(['one', 'two', 'three']);
+let output = getLengthOfLongestElement(['one', 'two', 'three']);
 console.log(output); // --> 5
 ```
 

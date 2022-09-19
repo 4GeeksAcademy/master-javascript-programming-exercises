@@ -16,3 +16,4 @@ console.log(output); // --> ['there', "now']
 - If the array is empty, it should return an empty array `[]`.
 
 - If it contains no odd length elements, it should return an empty array `[]`.
+

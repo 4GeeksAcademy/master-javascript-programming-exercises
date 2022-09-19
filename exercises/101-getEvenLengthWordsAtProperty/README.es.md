@@ -7,10 +7,12 @@
 ## Ejemplo:
 
 ```js
-var obj = {
-  key: ['a', 'long', 'game'],
+
+let obj = {
+  key: ['a', 'long', 'game']
+
 };
-var output = getEvenLengthWordsAtProperty(obj, 'key');
+let output = getEvenLengthWordsAtProperty(obj, 'key');
 console.log(output); // --> ['long', 'game']
 ```
 

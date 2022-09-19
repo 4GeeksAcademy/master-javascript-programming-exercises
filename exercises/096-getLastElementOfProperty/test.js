@@ -36,7 +36,7 @@ test('The function must return the last element of the array located at a given 
     key: [1, 2, 5, 7, 4, 3, { a: 8 }],
   };
   let output = getLastElementOfProperty(obj, 'key');
-  expect(output).toBe({ a: 8 });
+  expect(output).toEqual({ a: 8 });
 });
 
 test('The function must return the last element of the array located at a given key. It can be an array.', () => {
@@ -44,7 +44,7 @@ test('The function must return the last element of the array located at a given 
     key: [1, 2, 5, 7, 4, 3, [6, 8]],
   };
   let output = getLastElementOfProperty(obj, 'key');
-  expect(output).toBe([6, 8]);
+  expect(output).toEqual([6, 8]);
 });
 
 test('If the array is empty, it should return undefined.', () => {
@@ -68,11 +68,11 @@ test('If the property at the given key is not an array, it should return undefin
     key: {},
   };
   let output = getLastElementOfProperty(obj, 'key');
-  expect(output).toBe([]);
+  expect(output).toEqual(undefined);
 });
 
 test('If there is no property at the key, it should return undefined.', () => {
   let obj = {};
   let output = getLastElementOfProperty(obj, 'key');
-  expect(output).toBe(undefined);
+  expect(output).toEqual(undefined);
 });

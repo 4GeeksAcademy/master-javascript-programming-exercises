@@ -1,24 +1,44 @@
-const rewire = require("rewire");
+const rewire = require('rewire');
+const getAllKeys = rewire('./app.js').__get__('getAllKeys');
 
 test('Function getAllKeys must exist', () => {
-    const getAllKeys = rewire("./app.js").__get__("getAllKeys");
-    expect(getAllKeys).not.toBe(undefined);
+  expect(getAllKeys).not.toBe(undefined);
 });
 
-test('The function must returns an array of all keys on the entry object.', () => {
-    const getAllKeys = rewire("./app.js").__get__("getAllKeys");
-
-    let output = getAllKeys({
-        name: 'Sam',
-        age: 25,
-        hasPets: true
+test('Function getAllKeys must return something', () => {
+  expect(
+    getAllKeys({
+      name: 'Test',
+      age: 1,
+      role: 'Tester',
     })
-    expect(output).toEqual(['name', 'age', 'hasPets'])
+  ).not.toBe(undefined);
+});
 
-    output = getAllKeys({
-        name: 'Johnny',
-        age: 57,
-        role: 'actor'
+test('Function getAllKeys must return an array', () => {
+  expect(
+    typeof getAllKeys({
+      name: 'Test',
+      age: 1,
+      role: 'Tester',
     })
-    expect(output).toEqual(['name', 'age', 'role'])
-})
+  ).toBe('object');
+});
+
+test('The function must return an array of all keys on the entry object.', () => {
+  let output = getAllKeys({
+    name: 'Sam',
+    age: 25,
+    hasPets: true,
+  });
+  expect(output).toEqual(['name', 'age', 'hasPets']);
+});
+
+test('The function must return an array of all keys on the entry object. Testing with different values.', () => {
+  let output = getAllKeys({
+    name: 'Johnny',
+    age: 57,
+    role: 'actor',
+  });
+  expect(output).toEqual(['name', 'age', 'role']);
+});

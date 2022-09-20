@@ -39,7 +39,7 @@ test('If the property at the given key is not an array, it should return 0', () 
 
 test('If there is no property at the given key, it should return 0', () => {
   let obj = {};
-  let output = getAverageOfElementsAtProperty(obj['key']);
+  let output = getAverageOfElementsAtProperty(obj, "key");
   expect(output).toBe(0);
 });
 

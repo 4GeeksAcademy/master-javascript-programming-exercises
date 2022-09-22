@@ -8,11 +8,17 @@ test('Function getElementsGreaterThan10AtProperty must exist', () => {
 });
 
 test('Function getElementsGreaterThan10AtProperty must return something', () => {
-  expect(getElementsGreaterThan10AtProperty([11])).not.toBe(undefined);
+  let obj = {
+    key: [1, 20, 30],
+  };
+  expect(getElementsGreaterThan10AtProperty(obj, "key")).not.toBe(undefined);
 });
 
 test('Function getElementsGreaterThan10AtProperty must return a number', () => {
-  expect(typeof getElementsGreaterThan10AtProperty([11])).toBe('object');
+  let obj = {
+    key: [1, 20, 30],
+  };
+  expect(typeof getElementsGreaterThan10AtProperty(obj, "key")).toBe('object');
 });
 
 test('The function must return only the elements of the array that are greater than 10.', () => {

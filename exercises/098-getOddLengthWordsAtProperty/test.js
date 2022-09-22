@@ -18,7 +18,7 @@ test('The function must return only the odd elements on a given key.', () => {
     key: ['It', 'has', 'some', 'tests'],
   };
   let output = getOddLengthWordsAtProperty(obj, 'key');
-  expect(output).toEqual(['has']);
+  expect(output).toEqual(['has', 'tests']);
 });
 
 test('The function must return only the odd elements on a given key.', () => {
@@ -26,7 +26,7 @@ test('The function must return only the odd elements on a given key.', () => {
     key: ['It', 'apples', 'some', 'flags', 'car'],
   };
   let output = getOddLengthWordsAtProperty(obj, 'key');
-  expect(output).toEqual(['apples', 'car']);
+  expect(output).toEqual(['flags', 'car']);
 });
 
 test('If the array is empty, it should return an empty array.', () => {

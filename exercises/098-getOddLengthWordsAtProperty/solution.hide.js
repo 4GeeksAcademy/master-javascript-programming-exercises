@@ -6,7 +6,7 @@ function getOddLengthWordsAtProperty(obj, key){
 
     let newArr = [];
     for(let i = 0; i < obj[key].length; i++){
-        if(obj[key][i].length % 3 == 0){
+        if(obj[key][i].length % 2 !== 0){
             newArr.push(obj[key][i])
         }
     }

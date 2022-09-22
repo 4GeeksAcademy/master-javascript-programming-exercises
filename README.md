@@ -28,7 +28,7 @@ We need you! These exercises are built and maintained in collaboration with cont
 
 ## One click installation:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises.git)
 
 
 ## Local Installation

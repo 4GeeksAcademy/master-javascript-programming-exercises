@@ -6,11 +6,11 @@ test('Function addToFrontOfNew must exist', () => {
 });
 
 test('Function addToFrontOfNew must return something', () => {
-  expect(addToFrontOfNew([1], [2])).not.toBe(undefined);
+  expect(addToFrontOfNew([1], 2)).not.toBe(undefined);
 });
 
 test('Function addToFrontOfNew must return an array', () => {
-  expect(typeof addToFrontOfNew([1], [2])).toBe('object');
+  expect(typeof addToFrontOfNew([1], 2)).toBe('object');
 });
 
 test('The returned array should have one more item than the original one .', () => {

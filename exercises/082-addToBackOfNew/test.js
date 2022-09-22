@@ -6,11 +6,11 @@ test('Function addToBackOfNew must exist', () => {
 });
 
 test('Function addToBackOfNew must return something', () => {
-  expect(addToBackOfNew([1], [2])).not.toBe(undefined);
+  expect(addToBackOfNew([1], 2)).not.toBe(undefined);
 });
 
 test('Function addToBackOfNew must return an array', () => {
-  expect(typeof addToBackOfNew([1], [2])).toBe('object');
+  expect(typeof addToBackOfNew([1], 2)).toBe('object');
 });
 
 test('The returned array should have one more item than the original one .', () => {

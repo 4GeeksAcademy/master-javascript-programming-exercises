@@ -21,7 +21,7 @@ test('The function must return every element less than 100 on a given key.', () 
   };
 
   let output = getElementsLessThan100AtProperty(obj, 'key');
-  expect(output).toBe([20, 50]);
+  expect(output).toEqual([20, 50]);
 });
 
 test('The function must return every element less than 100 on a given key.', () => {
@@ -29,7 +29,7 @@ test('The function must return every element less than 100 on a given key.', () 
     key: [10, 50, 10, 20, 6, 10, 98, 10, 100],
   };
   let output = getElementsLessThan100AtProperty(obj, 'key');
-  expect(output).toBe([10, 50, 10, 20, 6, 10, 98, 10]);
+  expect(output).toEqual([10, 50, 10, 20, 6, 10, 98, 10]);
 });
 
 test('If the array is empty, it should return an empty array.', () => {
@@ -37,7 +37,7 @@ test('If the array is empty, it should return an empty array.', () => {
     key: [],
   };
   let output = getElementsLessThan100AtProperty(obj, 'key');
-  expect(output).toBe([]);
+  expect(output).toEqual([]);
 });
 
 test('If the array contains no elements less than 100, it should return an empty array.', () => {
@@ -45,7 +45,7 @@ test('If the array contains no elements less than 100, it should return an empty
     key: [100, 101, 200],
   };
   let output = getElementsLessThan100AtProperty(obj, 'key');
-  expect(output).toBe([]);
+  expect(output).toEqual([]);
 });
 
 test('If the property at the given key is not an array, it should return an empty array.', () => {
@@ -53,11 +53,11 @@ test('If the property at the given key is not an array, it should return an empt
     key: { a: 10 },
   };
   let output = getElementsLessThan100AtProperty(obj, 'key');
-  expect(output).toBe([]);
+  expect(output).toEqual([]);
 });
 
 test('If there is no property at the key, it should return an empty array.', () => {
   let obj = {};
   let output = getElementsLessThan100AtProperty(obj, 'key');
-  expect(output).toBe([]);
+  expect(output).toEqual([]);
 });

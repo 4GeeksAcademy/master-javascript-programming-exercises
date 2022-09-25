@@ -2,13 +2,13 @@
 
 > 160 ejercicios de Javascript.
 
-> Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.co/)
+> Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.com/)
 
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-beginner-exercises-tutorial)
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-#### Antes de empezar...Algunos tutoriales realaionados
+#### Antes de empezar...Algunos tutoriales relacionados
 
 ¡Selección completa de ejercicios de Javascript interactivos y con calificación automática para cualquier persona interesada en aprender Javascript!
 
@@ -20,7 +20,7 @@
   <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a>← Estás aquí</li>
 </ol>
 
-¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra algún error o falta de ortografía, contribuye y/o infórmanos.
+¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra algún error o falta de ortografía, contribuye y/o infórmanos.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">

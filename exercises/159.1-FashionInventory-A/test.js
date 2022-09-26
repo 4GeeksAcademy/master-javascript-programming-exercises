@@ -4,6 +4,7 @@ const renderInventory = rewire('./app.js').__get__('renderInventory');
 test('Function renderInventory must exist', () => {
   expect(renderInventory).not.toBe(undefined);
 });
+
 test('Function renderInventory must return something', () => {
   expect(
     renderInventory([
@@ -26,6 +27,7 @@ test('Function renderInventory must return something', () => {
     ])
   ).not.toBe(undefined);
 });
+
 test('Function renderInventory must return a object', () => {
   expect(
     typeof renderInventory([

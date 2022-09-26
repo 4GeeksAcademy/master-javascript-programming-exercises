@@ -8,7 +8,7 @@ A palindrome is a text that reads the same backward as forward. For example, in 
 
 ## Example:
 
-```
+```javascript
 let output = findLongestPalindrome("My dad is a racecar athlete");
 console.log(output); // "a racecar a"
 ```

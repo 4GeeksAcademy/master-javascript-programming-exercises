@@ -9,6 +9,7 @@ test('Function average must exist', () => {
 test('Function sum must exist', () => {
   expect(sum).not.toBe(undefined);
 });
+
 test('Function average must return something', () => {
   expect(average([1, 2])).not.toBe(undefined);
 });
@@ -16,6 +17,7 @@ test('Function average must return something', () => {
 test('Function sum must return something', () => {
   expect(sum([1, 2])).not.toBe(undefined);
 });
+
 test('Function average must return a number', () => {
   expect(typeof average([1, 2])).toBe('number');
 });

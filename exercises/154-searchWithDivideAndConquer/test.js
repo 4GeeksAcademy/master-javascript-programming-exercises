@@ -18,21 +18,25 @@ test('The function must return the index of the number within the array.', () =>
 
   expect(search(arr, 31)).toBe(4);
 });
+
 test('The function must return the index of the number within the array.', () => {
   let arr = [1, 3, 16, 22, 31, 33, 34];
 
   expect(search(arr, 16)).toBe(2);
 });
+
 test('The function must return the index of the number within the array.', () => {
   let arr = [1, 3, 16, 22, 31, 33, 34];
 
   expect(search(arr, 34)).toBe(6);
 });
+
 test("The function must return null if number isn't in the array.", () => {
   let arr = [1, 3, 16, 22, 31, 33, 34];
 
   expect(search(arr, 38)).toBe(null);
 });
+
 test('The function must return the index of the number within the array.', () => {
   let arr = [1, 3, 16, 22, 31, 33, 34];
 

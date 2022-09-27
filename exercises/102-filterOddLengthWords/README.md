@@ -8,5 +8,12 @@
 
 ```js
 let output = filterOddLengthWords(['there', 'it', 'is', 'now']);
-console.log(output); // --> ['there', "now'
+console.log(output); // --> ['there', "now']
 ```
+
+##  💡 Hints:
+
+- If the array is empty, it should return an empty array `[]`.
+
+- If it contains no odd length elements, it should return an empty array `[]`.
+

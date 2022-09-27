@@ -6,11 +6,11 @@ test('Function getAverageOfElementsAtProperty must exist', () => {
 });
 
 test('Function getAverageOfElementsAtProperty must return something', () => {    
-    expect(getAverageOfElementsAtProperty([1])).not.toBe(undefined);
-});
+    let obj = {
+        "key": [1,2,3]
+    };
 
-test('Function getAverageOfElementsAtProperty must return an array', () => {    
-    expect(typeof getAverageOfElementsAtProperty([1])).toBe("object");
+    expect(getAverageOfElementsAtProperty(obj, "key")).not.toBe(undefined);
 });
 
 test('The function must return the average of all the elements in the array located at given key.', () => {

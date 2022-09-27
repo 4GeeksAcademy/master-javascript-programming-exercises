@@ -1,17 +1,25 @@
-const rewire = require("rewire");
+const rewire = require('rewire');
+const filterOddLengthWords = rewire('./app.js').__get__('filterOddLengthWords');
 
 test('Function filterOddLengthWords must exist', () => {
-    const filterOddLengthWords = rewire("./app.js").__get__("filterOddLengthWords");
-    expect(filterOddLengthWords).not.toBe(undefined);
+  expect(filterOddLengthWords).not.toBe(undefined);
 });
 
+test('Function filterOddLengthWords must return something', () => {
+  expect(filterOddLengthWords(['you'])).not.toBe(undefined);
+});
+
+test('Function filterOddLengthWords must return an array', () => {
+  expect(Array.isArray(filterOddLengthWords(['you']))).toBeTruthy();
+});
 
 test('The function should return odd strings.', () => {
-    const filterOddLengthWords = rewire("./app.js").__get__("filterOddLengthWords");
+  let output = filterOddLengthWords(['you', 'can', 'do', 'it']);
+  expect(output).toEqual(['you', 'can']);
+});
 
-    let output = filterOddLengthWords(['you', 'can', 'do', 'it'])
-    expect(output).toEqual(['you', 'can'])
+test('The function should return odd strings.', () => {
+  let output = filterOddLengthWords(['there', 'it', 'is', 'now']);
+  expect(output).toEqual(['there', 'now']);
+});
 
-    output = filterOddLengthWords(['there', 'it', 'is', 'now'])
-    expect(output).toEqual(['there', 'now'])
-})

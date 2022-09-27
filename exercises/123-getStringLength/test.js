@@ -1,14 +1,26 @@
-const rewire = require("rewire");
+const rewire = require('rewire');
+const getStringLength = rewire('./app.js').__get__('getStringLength');
 
 test('Function getStringLength must exist', () => {
-    const getStringLength = rewire("./app.js").__get__("getStringLength");
-    expect(getStringLength).not.toBe(undefined);
+  expect(getStringLength).not.toBe(undefined);
+});
+
+test('Function getStringLength must return something', () => {
+  expect(getStringLength('test')).not.toBe(undefined);
+});
+
+test('Function getStringLength must return a number', () => {
+  expect(typeof getStringLength('test')).toBe('number');
+});
+
+test('Function must returns the length of the string. Testing with example values.', () => {
+  expect(getStringLength('hello')).toBe(5);
 });
 
 test('Function must returns the length of the string.', () => {
-    const getStringLength = rewire('./app.js').__get__("getStringLength");
+  expect(getStringLength('world wide web')).toBe(14);
+});
 
-    expect(getStringLength('hello')).toBe(5);
-    expect(getStringLength('world wide web')).toBe(14);
-    expect(getStringLength('python')).not.toBe(3);
-})
+test('Function must returns the length of the string.', () => {
+  expect(getStringLength('python')).toBe(6);
+});

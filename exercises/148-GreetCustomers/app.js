@@ -15,7 +15,6 @@ let customerData = {
 
 function greetCustomer(firstName) {
   let greeting = '';
-	
   // your code here
 	
   return greeting;

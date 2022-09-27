@@ -22,7 +22,7 @@ test('The return object must contain the properties specified on the array.', ()
     d: 4,
   };
   let output = select(arr, obj);
-  expect(output).toBe({ a: 1, c: 3 });
+  expect(output).toEqual({ a: 1, c: 3 });
 });
 
 test('The return object must not contain the properties that are not present in both arr and obj.', () => {
@@ -51,5 +51,5 @@ test('The return object must not contain the properties that are not present in 
     c: 4,
   };
   let output = select(arr, obj);
-  expect(output).toBe({ c: 4 });
+  expect(output).toEqual({ c: 4 });
 });

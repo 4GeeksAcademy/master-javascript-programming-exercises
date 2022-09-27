@@ -1,14 +1,26 @@
-const rewire = require("rewire");
+const rewire = require('rewire');
+const computeSummationToN = rewire('./app.js').__get__('computeSummationToN');
 
 test('Function computeSummationToN must exist', () => {
-    const computeSummationToN = rewire("./app.js").__get__("computeSummationToN");
-    expect(computeSummationToN).not.toBe(undefined);
+  expect(computeSummationToN).not.toBe(undefined);
+});
+
+test('Function computeSummationToN must return something', () => {
+  expect(computeSummationToN(1)).not.toBe(undefined);
+});
+
+test('Function computeSummationToN must return a number', () => {
+  expect(typeof computeSummationToN(1)).toBe('number');
 });
 
 test('The function must returns the sum of sequential numbers leading to the given number, starting at 0.', () => {
-    const computeSummationToN = rewire('./app.js').__get__("computeSummationToN");
+  expect(computeSummationToN(2)).toBe(3);
+});
 
-    expect(computeSummationToN(2)).toBe(3);
-    expect(computeSummationToN(6)).toBe(21);
-    expect(computeSummationToN(8)).toBe(36);
-})
+test('The function must returns the sum of sequential numbers leading to the given number, starting at 0.', () => {
+  expect(computeSummationToN(6)).toBe(21);
+});
+
+test('The function must returns the sum of sequential numbers leading to the given number, starting at 0.', () => {
+  expect(computeSummationToN(8)).toBe(36);
+});

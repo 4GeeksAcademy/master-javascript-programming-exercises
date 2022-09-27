@@ -6,11 +6,11 @@ test('Function areValidCredentials must exist', () => {
 });
 
 test('Function areValidCredentials must return something', () => {
-  expect(areValidCredentials('test', 'test')).not.toBe(undefined);
+  expect(areValidCredentials('test', 'testpassword')).not.toBe(undefined);
 });
 
 test('Function areValidCredentials must return a boolean', () => {
-  expect(typeof areValidCredentials('test', 'test')).toBe('boolean');
+  expect(typeof areValidCredentials('test', 'testpassword')).toBe('boolean');
 });
 
 test('The name should have more than 3 characters. and, the password at least 8 characters long. Testing with different values (1/5)', () => {

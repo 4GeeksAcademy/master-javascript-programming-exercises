@@ -20,7 +20,7 @@
   <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a>← Estás aquí</li>
 </ol>
 
-¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
+¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra algún error o falta de ortografía, contribuye y/o infórmanos.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
@@ -28,7 +28,7 @@
 
 ## Instalación en un clic:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises.git)
 
 
 ## Instalación local

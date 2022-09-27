@@ -1,3 +1,21 @@
+
+function findPairForSum(array, number) {
+// retorna el primer par para suma que encuentra
+  for (var i = 0; i < array.length; i++) {
+    for (var j = 1; j < array.length; j++) {
+      if (array[i] + array[j] === number) {
+        return [array[i], array[j]]
+      }
+    }
+  }
+}
+let pair = findPairForSum([3, 34, 4, 12, 5, 2], 9);
+console.log(pair); // --> [4, 5]
+
+
+///////////////////////////OLDER//////////////////
+
+
 function findPairForSum(array, number) {
   let hashMap = {},
     results = [];
@@ -12,7 +30,7 @@ function findPairForSum(array, number) {
   return results;
 }
 
-let pair = findPairForSum([3, 34, 4, 12, 5, 2, 6], 9);
+let pair2 = findPairForSum([3, 34, 4, 12, 5, 2, 6], 9);
 console.log(pair); // --> [4, 5]
 
 
@@ -29,6 +47,6 @@ function findPairForSum(array, number) {
   return results;
 }
 
-let pair2 = findPairForSum([3, 34, 4], 7);
+let pair3 = findPairForSum([3, 34, 4], 7);
 console.log(pair2); // --> [4, 5]
 

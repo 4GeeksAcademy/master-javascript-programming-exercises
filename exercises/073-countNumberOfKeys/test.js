@@ -20,7 +20,7 @@ test('The function must returns how many properties the given object has.', () =
         c: 2,
         d: 1
     };
-    output = countNumberOfKeys(obj)
+    let output = countNumberOfKeys(obj)
     expect(output).toBe(4)
 });
 

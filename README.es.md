@@ -7,7 +7,8 @@
 
 ¡Selección completa de ejercicios de Javascript interactivos y con calificación automática para cualquier persona interesada en aprender Javascript!
 <!-- hide -->
-## Instalación en un clic:
+
+## Instalación en un clic:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises.git)
 

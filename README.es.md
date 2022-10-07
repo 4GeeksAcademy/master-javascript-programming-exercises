@@ -18,13 +18,14 @@
 
 1. Instala learnpack, el package manager para tutoriales y el plugin compilador de html para learnpack, asegúrate de tener instalado node.js 14+:
 
-```
+```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-node
 ```
+
 2. Descarga este ejercicio en particular usando learnpack y `cd` dentro de la carpeta:
 
-```
+```bash
 $ learnpack download master-javascript-programming-exercises
 $ cd master-javascript-programming-exercises
 ```
@@ -40,13 +41,14 @@ $ learnpack start
 
 Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 <!-- endhide -->
+
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
 
-1. **app.js**: Represents the entry python file that will be executed by the computer.  
-2. **README.md**: Contains exercise instructions.  
-3. **test.js**: Contains the testing script for the exercise (you don't have to open this file).  
+1. **app.js**: Represents the entry python file that will be executed by the computer.
+2. **README.md**: Contains exercise instructions.
+3. **test.js**: Contains the testing script for the exercise (you don't have to open this file).
 
 ## Colaboradores
  

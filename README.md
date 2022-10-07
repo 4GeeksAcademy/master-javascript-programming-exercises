@@ -18,7 +18,7 @@ Complete selection of auto-graded and interactive Javascript exercises for anyon
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
 
-```
+```sh
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-node
 ```
@@ -32,15 +32,16 @@ $ learnpack start
 
 Note: The exercises have automatic grading but its very rigid and string, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
 <!-- endhide -->
+
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
 
-1. **app.js**: Represents the entry python file that will be executed by the computer.  
-2. **README.md**: Contains exercise instructions.  
-3. **test.js**: Contains the testing script for the exercise (you don't have to open this file).  
+1. **app.js**: Represents the entry python file that will be executed by the computer.
+2. **README.md**: Contains exercise instructions.
+3. **test.js**: Contains the testing script for the exercise (you don't have to open this file).
 
- ## Contributors
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 

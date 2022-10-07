@@ -3,7 +3,8 @@
 
 > Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.com/)
 <!-- endhide -->
-> 160 ejercicios de Javascript.
+
+160 ejercicios de Javascript.
 
 ¡Selección completa de ejercicios de Javascript interactivos y con calificación automática para cualquier persona interesada en aprender Javascript!
 <!-- hide -->

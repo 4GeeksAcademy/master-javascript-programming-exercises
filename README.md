@@ -4,7 +4,7 @@
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 <!-- endhide -->
 
-> 160 exercises about Javascript.
+**160 exercises about Javascript.**
 
 Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
 

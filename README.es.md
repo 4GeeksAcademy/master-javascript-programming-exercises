@@ -1,31 +1,12 @@
+<!-- hide -->
 # Tutorial Master Javascript de 4Geeks Academy
 
+> Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.com/)
+<!-- endhide -->
 > 160 ejercicios de Javascript.
 
-> Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.com/)
-
-![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-beginner-exercises-tutorial)
-[![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
-[![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
-
-#### Antes de empezar...Algunos tutoriales relacionados
-
 ¡Selección completa de ejercicios de Javascript interactivos y con calificación automática para cualquier persona interesada en aprender Javascript!
-
-#### Antes de empezar...Algunos tutoriales relacionados
-<ol>
-  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript para Principiantes</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping con Javascript</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Funciones de Javascript </a></li>
-  <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a>← Estás aquí</li>
-</ol>
-
-¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra algún error o falta de ortografía, contribuye y/o infórmanos.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
-
+<!-- hide -->
 ## Instalación en un clic:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises.git)
@@ -56,7 +37,7 @@ $ learnpack start
 ```
 
 Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
-
+<!-- endhide -->
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:

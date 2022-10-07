@@ -43,11 +43,10 @@ Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
-|    |    |
-|:---|:---|
-| **app.js** | Represents the entry python file that will be executed by the computer |
-| **README.md** | Contains exercise instructions |
-| **test.js** | Contains the testing script for the exercise (you don't have to open this file) |
+
+1. **app.js**: Represents the entry python file that will be executed by the computer.  
+2. **README.md**: Contains exercise instructions.  
+3. **test.js**: Contains the testing script for the exercise (you don't have to open this file).  
 
 ## Colaboradores
  

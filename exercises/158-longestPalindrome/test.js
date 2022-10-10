@@ -1,7 +1,7 @@
 const rewire = require('rewire');
-const findLongestPalindrome = rewire('./app.js').__get__(
-  'findLongestPalindrome'
-);
+const findLongestPalindrome = rewire('./app.js').__get__('findLongestPalindrome');
+const reverseString = rewire('./app.js').__get__('reverseString');
+const isPalindrome = rewire('./app.js').__get__('isPalindrome');
 
 test('Function findLongestPalindrome must exist', () => {
   expect(findLongestPalindrome).not.toBe(undefined);
@@ -23,15 +23,9 @@ test('Function reverseString must return something', () => {
 test('Function isPalindrome must exist', () => {
   expect(isPalindrome).not.toBe(undefined);
 });
+
 test('Function isPalindrome must return something', () => {
   expect(isPalindrome('some text')).not.toBe(undefined);
-});
-
-test('Function sortAscendingByLength must exist', () => {
-  expect(sortAscendingByLength).not.toBe(undefined);
-});
-test('Function sortAscendingByLength must return something', () => {
-  expect(sortAscendingByLength('word', 'word')).not.toBe(undefined);
 });
 
 test('Tested with "My dad is a racecar athlete" and it should return "a racecar a"', () => {

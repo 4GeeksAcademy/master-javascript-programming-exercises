@@ -6,17 +6,9 @@ function findLongestPalindrome(sentence) {
 }
 
 function reverseString(string) {
+  
 }
 
 function isPalindrome(word) {
   // hint: you can detect palindromes by comparing a string to its reverse
-}
-
-function sortAscendingByLength(a, b) {
-  if (a.length > b.length) {
-    return 1;
-  } else if (a.length < b.length) {
-    return -1;
-  }
-  return 0;
 }

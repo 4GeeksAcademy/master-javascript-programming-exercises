@@ -18,5 +18,20 @@ let inventory = [
 ];
 
 function getLaceNameDataForShoes(inventory) {
-    // your code here
+  // your code here
+  let aux = [];
+  inventory.map((e) => {
+    e.shoes.map((x) => {
+      let splited = x.name.split(' ');
+      let counting = 0;
+      splited.map((s) => {
+        if (s.startsWith('lace'))
+          aux.push({ nameWords: splited, targetWordIndex: counting });
+        else counting++;
+      });
+    });
+  });
+  return aux;
 }
+
+console.log(getLaceNameDataForShoes(inventory));

@@ -4,7 +4,7 @@ Es la misma estructura de datos de inventario que antes, tienes un catálogo de 
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `renderInventory` que reciba como parámetro un arreglo como `currentInventory`. Y esta debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
+1. Escribe una función llamada `renderAverageCostPerDesigner` que reciba como parámetro un arreglo como `currentInventory`. Y esta debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
 
 ```Js
 [

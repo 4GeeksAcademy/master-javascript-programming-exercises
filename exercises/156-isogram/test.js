@@ -1,14 +1,26 @@
-const rewire = require("rewire");
+const rewire = require('rewire');
+const isIsogram = rewire('./app.js').__get__('isIsogram');
 
 test('Function isIsogram must exist', () => {
-    const isIsogram = rewire("./app.js").__get__("isIsogram");
-    expect(isIsogram).not.toBe(undefined);
+  expect(isIsogram).not.toBe(undefined);
 });
 
-test('Function must return true or false if no letters are repeated', () => {
-    const isIsogram = rewire("./app.js").__get__("isIsogram");
+test('Function isIsogram must return something', () => {
+  expect(isIsogram('Test')).not.toBe(undefined);
+});
 
-    expect(isIsogram('Dermatoglyphics')).toBe(true)
-    expect(isIsogram('Camile')).toBe(true)
-    expect(isIsogram('Camille')).toBe(false)
+test('Function isIsogram must return a boolean', () => {
+  expect(typeof isIsogram('Test')).toBe('boolean');
+});
+
+test('Function must return true or false if no letters are repeated. Testing with Dermatoglyphics.', () => {
+  expect(isIsogram('Dermatoglyphics')).toBe(true);
+});
+
+test('Function must return true or false if no letters are repeated. Testing with Camile.', () => {
+  expect(isIsogram('Camile')).toBe(true);
+});
+
+test('Function must return true or false if no letters are repeated. Testing with Camille.', () => {
+  expect(isIsogram('Camille')).toBe(false);
 });

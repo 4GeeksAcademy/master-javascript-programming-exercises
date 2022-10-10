@@ -8,7 +8,7 @@ Un Palíndromo es un texto que es igual si se lee de izquierda a derecha que de 
 
 ## Ejemplo:
 
-```
+```javascript
 let output = findLongestPalindrome("My dad is a racecar athlete");
 console.log(output); // "a racecar a"
 ```

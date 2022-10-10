@@ -7,7 +7,7 @@
 ## Ejemplo:
 
 ```js
-let output = PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).rnder();
+let output = PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).render();
 console.log(output); // "(650) 835-9172"
 ```
 

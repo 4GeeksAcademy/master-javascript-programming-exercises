@@ -5,7 +5,8 @@
     "preview": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/preview.jpeg?raw=true",
     "repository": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises",
     "description": "150 js exercises ideal for those who want to practice javascript object literals, functions and many more js features",
-    "video-solutions": true,
+    "videoSolutions": false,
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
     "editor": {
         "version": "1.0.73"

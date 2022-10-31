@@ -15,3 +15,6 @@ let obj = {
 removeStringValuesLongerThan(6, obj);
 console.log(obj); // { age: 20, location: 'Texas' }
 ```
+
+## :bulb: Pista:
+1. Intenta usar el bucle 'for in' , aqui hay un link con una breve explicacion: https://www.w3schools.com/js/js_loop_forin.asp

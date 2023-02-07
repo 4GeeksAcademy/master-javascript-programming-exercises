@@ -14,4 +14,5 @@ console.log(arr); // --> [1, 2, 3]
 ```
 ## 💡 Hint:
 
-+ You should be familiar with the `pop` method.
++ You should be familiar with `filter` [More info here](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
++ Remember! You should not modify the original array. You have to return a completely **new** array.

@@ -15,4 +15,5 @@ console.log(arr); // --> [1, 2, 3]
 
 ## 💡 Pista:
 
-+ Deberías estar familiarizado con el método `pop`.
++ Deberías familiarizarte con `filter` [Más información...](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
++ Recuerda que no debes modificar el array original! Tienes que retornar un array completamente nuevo.

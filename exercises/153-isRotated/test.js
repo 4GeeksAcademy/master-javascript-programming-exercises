@@ -22,9 +22,9 @@ test('The function should return true or false if there is one of the 2 given st
 });
 
 test('The function should return true or false if there is one of the 2 given strings rotated.', () => {
-  expect(isRotated('Learning is fun', 'Lr aen ngiiufs')).toBe(true);
+  expect(isRotated('Learning is fun', 'Lr aen ngiiufs')).toBe(false);
 });
 
 test('The function should return true or false if there is one of the 2 given strings rotated.', () => {
-  expect(isRotated('Work from Home', 'kfmoemro Hor W')).toBe(true);
+  expect(isRotated('Work from Home', ' HomeWork from')).toBe(true);
 });

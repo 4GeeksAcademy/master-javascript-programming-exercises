@@ -12,3 +12,4 @@ Una rotación en una cadena se define como quitar el primer elemento y concatena
 let output = isRotated("Hello World", "orldHello W")
 console.log(output) // true
 ```
+> Más informacion acerca de la rotación de cadenas: [click aquí](https://www.techiedelight.com/es/find-lexicographically-minimal-string-rotation/)

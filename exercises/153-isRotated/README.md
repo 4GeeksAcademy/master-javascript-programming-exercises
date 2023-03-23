@@ -12,3 +12,5 @@ A rotation on a string is defined as removing first element and concatenating it
 let output = isRotated("Hello World", "orldHello W")
 console.log(output) // true
 ```
+
+> For better understanding of string rotation check this article: [click me](https://javarevisited.blogspot.com/2017/07/2-ways-to-check-if-one-string-is-rotation-of-another-String.html#axzz7tVz1WCRT)

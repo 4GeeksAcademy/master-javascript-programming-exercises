@@ -7,12 +7,14 @@
 160 ejercicios de Javascript.
 
 ¡Selección completa de ejercicios de Javascript interactivos y con calificación automática para cualquier persona interesada en aprender Javascript!
+
 <!-- hide -->
 
-## Instalación en un clic:
+## Instalación en un clic (recomendado)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises.git)
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
 
+> Una vez ya tengas abirto VSCode los ejercicios deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
 ## Instalación local
 

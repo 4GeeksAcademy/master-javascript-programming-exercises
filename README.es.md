@@ -44,13 +44,13 @@ $ learnpack start
 Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 <!-- endhide -->
 
-## How are the exercises organized?
+## ¿Cómo están organizados estos ejercicios?
 
-Each exercise is a small react application containing the following files:
+Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
 
-1. **app.js**: Represents the entry python file that will be executed by the computer.
-2. **README.md**: Contains exercise instructions.
-3. **test.js**: Contains the testing script for the exercise (you don't have to open this file).
+- **app.js**: Representa el archivo javascript de entrada que ejecutará la computadora.
+- **README.md**: Contiene las instrucciones de ejercicio.
+- **test.js**: Contiene el script del test para el ejercicio (no es necesario que abras este archivo).
 
 ## Colaboradores
  

@@ -4,6 +4,8 @@
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 <!-- endhide -->
 
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/README.es.md) :es:*
+
 **160 exercises about Javascript.**
 
 Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
@@ -31,8 +33,7 @@ $ learnpack plugins:install learnpack-node
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
-
-Note: The exercises have automatic grading but its very rigid and string, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
+master-javascript-programming-exercises
 <!-- endhide -->
 
 ## How are the exercises organized?
@@ -42,6 +43,8 @@ Each exercise is a small react application containing the following files:
 1. **app.js**: Represents the entry python file that will be executed by the computer.
 2. **README.md**: Contains exercise instructions.
 3. **test.js**: Contains the testing script for the exercise (you don't have to open this file).
+
+> Note: The exercises have automatic grading but its very rigid and string, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
 
 ## Contributors
 

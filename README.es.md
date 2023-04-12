@@ -32,7 +32,7 @@ $ learnpack download master-javascript-programming-exercises
 $ cd master-javascript-programming-exercises
 ```
 
-Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
+> Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
 
 3. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo bc.json: 
 
@@ -41,7 +41,6 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 <!-- endhide -->
 
 ## ¿Cómo están organizados estos ejercicios?
@@ -51,6 +50,8 @@ Cada ejercicio es una pequeña aplicación de react que contiene los siguientes 
 - **app.js**: Representa el archivo javascript de entrada que ejecutará la computadora.
 - **README.md**: Contiene las instrucciones de ejercicio.
 - **test.js**: Contiene el script del test para el ejercicio (no es necesario que abras este archivo).
+
+> Nota: Estos ejercicios tienen calificación automática pero es un tanto rígida, te recomiendo ignorar los tests, considéralos como una recomendación o podrías frustrarte.
 
 ## Colaboradores
  

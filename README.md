@@ -33,7 +33,6 @@ $ learnpack plugins:install learnpack-node
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
-master-javascript-programming-exercises
 <!-- endhide -->
 
 ## How are the exercises organized?

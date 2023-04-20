@@ -1,9 +1,9 @@
 function countCharacter(str, char) {
     // your code here
     charcount = 0
-    for (i in str){
-        if (i === char){
-            charcount = charcount + 1 
+    for (var i = 0; i < str.length; i++){
+        if (str[i] === char){
+            charcount = charcount + 1   
         }
     }
     return charcount

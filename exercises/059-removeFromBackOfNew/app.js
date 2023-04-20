@@ -1,7 +1,7 @@
 function removeFromBackOfNew(arr) {
   // your code here
-  new_array = arr.filter(arr)
-  return new_array
+  return new_array = arr.filter((value,index,arr)=> index < (arr.length -1 ))
+  
 }
 
 let arr = [1, 2, 3];

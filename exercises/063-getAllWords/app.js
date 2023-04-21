@@ -35,7 +35,6 @@ function getAllWords(str) {
 }
 
 let output = getAllWords('Radagast the Brown');
-//let output = getAllWords('the Brown');
-//let output2 = 'theBrown';
+
 console.log(output); // --> ['Radagast', 'the', 'Brown']
-//console.log(output2.search(' ')); // --> ['Radagast', 'the', 'Brown']
+

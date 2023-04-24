@@ -3,6 +3,19 @@ function getAverageOfElementsAtProperty(obj, key) {
     // your code here
     // get values
     // get average
+    let myarr = obj[key]
+
+    if(myarr.length == 0){
+      return 0
+    } else {
+      let sum = 0;
+      for (let i = 0; i < myarr.length; i++) {
+        sum += myarr[i];
+    }
+    return sum / myarr.length
+
+    }
+
     
     
   }

@@ -1,7 +1,15 @@
 // Write your function here
-function select(){
+function select(arr,obj){
+    let newObj = {}
+    arr.forEach((e)=>{
+        if(obj[e]){
+            newObj[e] = obj[e]
+        }
+    })
 
+    return newObj
 }
+    
 
 let arr = ['a', 'c', 'e'];
 let obj = {

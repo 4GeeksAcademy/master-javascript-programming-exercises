@@ -15,7 +15,7 @@ test ("Your function must return an object", () => {
     expect(typeof(addArrayProperty({},'name'))).toEqual("object");  
 })
 
-test ('function should set a new property on the given object and key with a value of the given atrray.', () => {
+test ('function should set a new property on the given object and key with a value of the given array.', () => {
 
     let myObj = {}
     let myArray=[1,3]

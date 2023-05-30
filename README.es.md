@@ -1,12 +1,12 @@
 <!-- hide -->
-# Tutorial Master Javascript de 4Geeks Academy
+# Tutorial Master JavaScript de 4Geeks Academy
 
 > Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.com/)
 <!-- endhide -->
 
-160 ejercicios de Javascript.
+160 ejercicios de JavaScript.
 
-¡Selección completa de ejercicios de Javascript interactivos y con calificación automática para cualquier persona interesada en aprender Javascript!
+¡Selección completa de ejercicios de JavaScript interactivos y con calificación automática para cualquier persona interesada en aprender JavaScript!
 
 <!-- hide -->
 
@@ -47,7 +47,7 @@ $ learnpack start
 
 Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
 
-- **app.js**: Representa el archivo javascript de entrada que ejecutará la computadora.
+- **app.js**: Representa el archivo JavaScript de entrada que ejecutará la computadora.
 - **README.md**: Contiene las instrucciones de ejercicio.
 - **test.js**: Contiene el script del test para el ejercicio (no es necesario que abras este archivo).
 

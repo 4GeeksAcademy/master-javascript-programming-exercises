@@ -3,8 +3,8 @@
 ## 📝 Instructions:
 
 1. Write a function called `addArrayProperty`. 
-    * `addArrayProperty` takes an object, a string key, and an array as input.
-    * `addArrayProperty` sets a new property on the object at the given key, with its value set to the given array.
+    + `addArrayProperty` takes an object, a string key, and an array as input.
+    + `addArrayProperty` sets a new property on the object at the given key, with its value set to the given array.
 
 ## Example:
 

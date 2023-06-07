@@ -5,13 +5,13 @@ test('Function isEvenLength must exist', () => {
     expect(isEvenLength).not.toBe(undefined);
 });
 
-test('Function isEvenLength must return boolean', () => {
+test('Function isEvenLength must return a boolean', () => {
     expect(typeof(isEvenLength('some'))).toBe("boolean");
 });
 
-test ('function should return true when the length is even.', () => {
+test ('Function should return true when the length is even', () => {
     expect(isEvenLength('hola')).toBe(true);
 })
-test ('function should return false when the length is odd.', () => {
+test ('Function should return false when the length is odd', () => {
     expect(isEvenLength('space')).toBe(false);
 })

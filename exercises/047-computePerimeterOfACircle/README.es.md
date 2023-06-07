@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe la función llamada `computePerimeterOfACircle`. Dado el radio de un círculo, `computePerimeterOfACircle` regresa su perímetro.
+1. Escribe la función llamada `computePerimeterOfACircle`. Dado el radio de un círculo, `computePerimeterOfACircle` retorna su perímetro.
 
 ## Ejemplo:
 

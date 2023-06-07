@@ -6,6 +6,7 @@
 
 
 ## Ejemplo:
+## Ejemplo:
 
 ```Javascript
 let output = isEqualTo(11, 10);

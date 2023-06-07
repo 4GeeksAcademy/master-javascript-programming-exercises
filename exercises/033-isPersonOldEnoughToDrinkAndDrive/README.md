@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `isPersonOldEnoughToDrinkAndDrive`. Given a `person` object, that contains an `age` property, `isPersonOldEnoughToDrinkAndDrive` returns `true` if the given person is old enough to legally drink and drive in the United States. Otherwise it returns `false`.
+1. Write a function called `isPersonOldEnoughToDrinkAndDrive`. Given a `person` object, that contains an `age` property, `isPersonOldEnoughToDrinkAndDrive` checks if the given person is old enough to legally drink and drive in the United States.
 
 ## Example:
 
@@ -18,7 +18,7 @@ console.log(output); // --> false
 
 + The legal drinking age in the United States is 21.
 
-+  The legal driving age in the United States is 16.
++ The legal driving age in the United States is 16.
 
 + It is always illegal to drink and drive in the United States 😆.
 

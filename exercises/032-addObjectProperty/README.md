@@ -1,8 +1,8 @@
 # `032` addObjectProperty
 
-## 📝 Instructions
+## 📝 Instructions:
 
-1. Write a function called `addObjectProperty`. Given two objects and a key, `addObjectProperty` sets a new property on the 1st object at the given key. The value of that new property is the entire 2nd object.
+1. Write a function called `addObjectProperty`. Given two objects and a key, `addObjectProperty` sets a new property on the 1st object at the given key. The value of that new property is the 2nd object.
 2. The function `addObjectProperty` should then return the first object with the new property.
 
 ## Example:
@@ -17,5 +17,5 @@ let person2 = {
   role: 'supervisor'
 };
 addObjectProperty(person1, 'manager', person2);
-console.log(person1.manager); // --> { name: 'Mr.Burns', role: 'supervisor' }
+console.log(person1.manager); // --> { name: 'Mr. Burns', role: 'supervisor' }
 ```

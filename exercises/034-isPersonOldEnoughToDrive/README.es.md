@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isPersonOldEnoughToDrive`. Dado un objeto `persona`, que contiene una propiedad `age`(edad), `isPersonOldEnoughToDrive` devuelve `true` la persona dada tiene la edad suficiente para conducir. De lo contrario retorna `false`.
+1. Escribe una función llamada `isPersonOldEnoughToDrive`. Dado un objeto `person`, que contiene una propiedad `age`, `isPersonOldEnoughToDrive` devuelve `true` la persona dada tiene la edad suficiente para conducir. De lo contrario retorna `false`.
 
-## Ejemplo:
+## Ejemplo:
 
 ```Js
 let obj = {

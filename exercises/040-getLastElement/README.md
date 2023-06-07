@@ -11,8 +11,6 @@ let output = getLastElement([1, 2, 3, 4]);
 console.log(output); // --> 4
 ```
 
-## 💡 Hint:
+## 💡 Hints:
 
 + The last position in any array is: `length - 1`.
-
-+ If the given array has a length of 0, it should return `undefined`.

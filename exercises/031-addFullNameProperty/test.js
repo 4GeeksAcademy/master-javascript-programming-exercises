@@ -27,7 +27,7 @@ test('Remember to include a space between firstName and lastName when creating t
 });
 
 
-test('The function addFullNameProperty must return new object called "fullName"', () => {
+test('The function addFullNameProperty must return a new object with the property "fullName"', () => {
     const addFullNameProperty = rewire("./app.js").__get__("addFullNameProperty");
     let result = addFullNameProperty({firstName: "Jade", lastName: "Smith"});
 

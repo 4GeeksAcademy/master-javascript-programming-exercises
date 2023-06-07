@@ -9,7 +9,7 @@ test('Function addObjectProperty must return something', () => {
     expect(addObjectProperty({},'test',{})).not.toBe(undefined);
 });
 
-test ("The function must return the 2nd array values with the new key.", () => {   
+test ("The function must return the 1st object with the new key.", () => {   
     let person1 = {
     name: 'Joe Blow',
     role: 'schlub'
@@ -24,7 +24,7 @@ test ("The function must return the 2nd array values with the new key.", () => {
    expect(result.manager).toStrictEqual({"name": "Mr. Burns", "role": "supervisor"});
 })
 
-test ("The function must return the 2nd array values with the new key. Testing with different values", () => {
+test ("The function must return the 1st object with the new key. Testing with different values", () => {
    
     let person1 = {
     name: 'Johny',

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getLastElement`. Dado un array `getLastElement`, regresa el último elemento del array.
+1. Escribe una función llamada `getLastElement`. Dado un array, `getLastElement` retorna el último elemento del array.
 
 ## Ejemplo:
 
@@ -11,8 +11,6 @@ let output = getLastElement([1, 2, 3, 4]);
 console.log(output); // --> 4
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + La última posición en un arreglo es: `length - 1`.
-
-+ Si el arreglo dado tiene una longitud 0, debería regresar `undefined`.

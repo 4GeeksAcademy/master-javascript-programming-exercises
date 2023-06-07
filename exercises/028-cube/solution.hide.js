@@ -1,4 +1,4 @@
 // Write your function here
-function cube(n){
+function cube(n) {
     return n * n * n
 }

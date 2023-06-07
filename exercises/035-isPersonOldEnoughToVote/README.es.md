@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isPersonOldEnoughToVote`. Dado un objeto `person`, que contiene una propiedad `age` (edad), `isPersonOldEnoughToVote` devuelve `true` si la persona dada tiene la edad suficiente para votar. De lo contrario retorna `false`.
+1. Escribe una función llamada `isPersonOldEnoughToVote`. Dado un objeto `person`, que contiene una propiedad `age`, `isPersonOldEnoughToVote` devuelve `true` si la persona dada tiene la edad suficiente para votar. De lo contrario retorna `false`.
 
 ## Ejemplo:
 

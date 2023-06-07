@@ -1,4 +1,4 @@
-# `028` Cube
+# `028` cube
 
 ## 📝 Instrucciones:
 

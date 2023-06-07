@@ -15,7 +15,7 @@ test ("Your function must return an object", () => {
     expect(typeof(addArrayProperty({},'name'))).toEqual("object");  
 })
 
-test ('function should set a new property on the given object and key with a value of the given array.', () => {
+test ('Function should set a new property on the given object and key with a value of the given array.', () => {
 
     let myObj = {}
     let myArray=[1,3]
@@ -23,7 +23,7 @@ test ('function should set a new property on the given object and key with a val
     expect(myObj.myProperty).toStrictEqual([1, 3]);
 })
 
-test ('function should set a new property on the given object and key with a value of the given array. Testing with different values', () => {
+test ('Function should set a new property on the given object and key with a value of the given array. Testing with different values', () => {
     const addArrayProperty = rewire ('./app.js').__get__("addArrayProperty");
 
     let Versions = {}

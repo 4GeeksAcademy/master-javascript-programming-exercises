@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeAreaOfATriangle`. Dado la base y altura de un triangulo, `computeAreaOfATriangle` retorna el área de un triángulo.
+1. Escribe una función llamada `computeAreaOfATriangle`. Dada la base y altura de un triangulo, `computeAreaOfATriangle` retorna el área de un triángulo.
 
 ## Ejemplo:
 

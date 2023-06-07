@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeAreaOfARectangle`. Dado el largo y ancho de un rectágulo, `computeAreaOfARectangle` regresa su área.
+1. Escribe una función llamada `computeAreaOfARectangle`. Dado el largo y ancho de un rectágulo, `computeAreaOfARectangle` devuelve su área.
 
 ## Ejemplo:
 

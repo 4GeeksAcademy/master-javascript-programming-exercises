@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `average`. Dado 2 números, `average` retorna su promedio.
+1. Escribe una función llamada `average`. Dados 2 números, `average` retorna su promedio.
 
 ## Ejemplo:
 

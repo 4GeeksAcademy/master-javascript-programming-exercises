@@ -11,6 +11,6 @@ let output = equalsTen(9);
 console.log(output); // --> false
 ```
 
-## 💡 Hint
+## 💡 Hint:
 
-+ Remember to use three equals to compare exact values. [Read more about it here](https://bytearcher.com/articles/equality-comparison-operator-javascript)
++ Remember to use three equal signs (===) to compare exact values. [Read more about it here](https://bytearcher.com/articles/equality-comparison-operator-javascript)

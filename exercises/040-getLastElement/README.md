@@ -14,5 +14,3 @@ console.log(output); // --> 4
 ## 💡 Hints:
 
 + The last position in any array is: `length - 1`.
-
-+ If the given array has a length of 0, it should return `undefined`.

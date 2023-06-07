@@ -2,9 +2,10 @@
 # Master JavaScript tutorial at 4Geeks Academy
 
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
-<!-- endhide -->
 
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/README.es.md) :es:*
+<!-- endhide -->
+
 
 **160 exercises about JavaScript.**
 
@@ -20,7 +21,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ## Local Installation (only if needed)
 
-1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 14:
+1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```bash
 $ npm i learnpack -g

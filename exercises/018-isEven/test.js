@@ -5,7 +5,7 @@ test('Function isEven must exist', () => {
     expect(isEven).not.toBe(undefined);
 });
 
-test('Function isEven must return soomething', () => {
+test('Function isEven must return something', () => {
     expect(isEven(20)).not.toBe(undefined);
 });
 

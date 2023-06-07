@@ -8,5 +8,5 @@
 
 ```Javascript
 let output = isLessThan30(9);
-console.log(output); // --> true (verdadero)
+console.log(output); // --> true
 ```

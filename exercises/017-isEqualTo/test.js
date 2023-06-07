@@ -9,17 +9,17 @@ test('Function isEqualTo must return true or false', () => {
     expect(isEqualTo(21, 21)).not.toBe(undefined);
 });
 
-test ('The function return true when both numbers are equal. Testing with 3, 3', () => {
+test ('The function should return true when both numbers are equal. Testing with 3, 3', () => {
     expect(isEqualTo(3, 3)).toBe(true);
 })
-test ('The function return true when both numbers are equal. Testing with 100, 100', () => {
+test ('The function should return true when both numbers are equal. Testing with 100, 100', () => {
     expect(isEqualTo(100, 100)).toBe(true);
 })
 
-test ('The function return false when both numbers aren\'t equal. Testing with 1, 2', () => {
+test ('The function should return false when both numbers aren\'t equal. Testing with 1, 2', () => {
     expect(isEqualTo(1, 2)).toBe(false);
 })
-test ('The function return false when both numbers aren\'t equal. Testing with 10, 20', () => {
+test ('The function should return false when both numbers aren\'t equal. Testing with 10, 20', () => {
     expect(isEqualTo(10, 20)).toBe(false);
 })
 test ('Use three equals === to compare because we need exact match', () => {

@@ -17,4 +17,4 @@ console.log(output); // --> 'Welcome, Adrian!'
 
 ## 💡 Hint:
 
-+ Naturally, replace `{insert_name_here}` with the given name. :)
++ Naturally, replace `{insert_name_here}` with the given name.

@@ -15,14 +15,14 @@ test('Function isOldEnoughToDrive must return a boolean', () => {
     expect(typeof(isOldEnoughToDrive(21))).toBe('boolean');
 });
 
-test ('should return that 16 is old enough to drive', () => {
+test ('Should return that 16 is old enough to drive', () => {
     const isOldEnoughToDrive = rewire ("./app.js").__get__("isOldEnoughToDrive");
 
     const result = isOldEnoughToDrive(16);
     expect(result).toBe(true);
 })
 
-test ('should return that 15 isn\'t old enough to drive', () => {
+test ('Should return that 15 isn\'t old enough to drive', () => {
     const isOldEnoughToDrive = rewire ("./app.js").__get__("isOldEnoughToDrive");
 
     const result = isOldEnoughToDrive(15);

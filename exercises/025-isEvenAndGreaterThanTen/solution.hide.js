@@ -1,4 +1,4 @@
 // Write your function here
-function isEvenAndGreaterThanTen(numb){
-    return numb > 10 && numb % 2 === 0
+function isEvenAndGreaterThanTen(num) {
+    return num > 10 && num % 2 === 0
 }

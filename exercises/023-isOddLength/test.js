@@ -5,14 +5,14 @@ test('Function isOddLength must exist', () => {
     expect(isOddLength).not.toBe(undefined);
 });
 
-test('Function isOddLength must return boolean', () => {
+test('Function isOddLength must return a boolean', () => {
     expect(typeof(isOddLength("someword")) === "boolean").toBe(true);
 });
 
-test ('We tried with "speach" and it should be false', () => {
-    expect(isOddLength('speach')).toBe(false);
+test ('Testing with "speech" and it should return false', () => {
+    expect(isOddLength('speech')).toBe(false);
 })
-test ('We tried with "special" and it should be true', () => {
+test ('Testing with "special" and it should return true', () => {
     expect(isOddLength('special')).toBe(true);
     
 })

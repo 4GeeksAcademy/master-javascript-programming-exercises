@@ -6,15 +6,15 @@
 
 - `Go home, {insert_name_here}!`, si son menores de 21.
 
-- `Welcome {insert_name_here}!`, si son mayores de 21.
+- `Welcome, {insert_name_here}!`, si tienen 21 años o más.
 
 ## Ejemplo:
 
 ```Javascript
 let output = checkAge('Adrian', 22);
-console.log(output); // --> '¡Welcome Adrian!'
+console.log(output); // --> 'Welcome, Adrian!'
 ```
 
 ## 💡 Pista:
 
-+ Reemplaza `{insert_name_here}` ({inserta_nombre_aquí)} con el nombre dado. :)
++ Reemplaza `{insert_name_here}` con el nombre dado.

@@ -4,7 +4,7 @@ test ('The function getFullName must exist', () => {
     const getFullName = rewire ('./app.js').__get__("getFullName");
     expect(getFullName).not.toBe(undefined);
 })
-test ('return a single string with the given first and last names', () => {
+test ('It should return a single string with the given first and last names', () => {
     const getFullName = rewire ('./app.js').__get__("getFullName");
     
     expect(getFullName('Bernado','Cubillan')).toBe('Bernado Cubillan');
@@ -12,7 +12,7 @@ test ('return a single string with the given first and last names', () => {
 })
 
 
-test ('Remember that the first and last name should be separated by a white space', () => {
+test ('Remember that the first and last name should be separated by a space', () => {
     const getFullName = rewire ('./app.js').__get__("getFullName");
 
     if(getFullName('Bernado','Cubillan')=== "BernadoCubillan") throw Error()

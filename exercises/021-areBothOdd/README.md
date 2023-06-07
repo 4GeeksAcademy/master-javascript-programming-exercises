@@ -1,6 +1,6 @@
 # `021` areBothOdd
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Write a function called `areBothOdd`. Given 2 numbers, `areBothOdd` returns `true` if both numbers are odd, otherwise it should return `false`.
 

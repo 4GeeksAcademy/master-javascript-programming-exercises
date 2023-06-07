@@ -12,6 +12,6 @@ test('Function computeAreaOfATriangle should return a number', () => {
 test ('The function should return the area of a triangle. Testing with (102, 93)', () => {
     expect(computeAreaOfATriangle(102, 93)).toBe(4743);
 })
-test ('function should return the area of a triangle. Testing with (24, 36)', () => {
+test ('The function should return the area of a triangle. Testing with (24, 36)', () => {
     expect(computeAreaOfATriangle(24, 36)).toBe(432);
 })

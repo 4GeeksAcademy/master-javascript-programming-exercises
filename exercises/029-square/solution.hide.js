@@ -1,4 +1,4 @@
 // Write your function here
-function square(n){
+function square(n) {
     return n * n
 }

@@ -11,9 +11,9 @@ test('Function computeTripledAreaOfARectangle must return a number', () => {
     expect(typeof computeTripledAreaOfARectangle(1,1)).toBe("number");
 });
 
-test('The fuction should return the area of the rectangle multiplied by 3. Testing with 2 and 4.', () => {
+test('The function should return the area of the rectangle multiplied by 3. Testing with 2 and 4', () => {
     expect(computeTripledAreaOfARectangle(2, 4)).toBe(24)
 })
-test('The fuction should return the area of the rectangle multiplied by 3. Testing with 3 and 5.', () => {
+test('The function should return the area of the rectangle multiplied by 3. Testing with 3 and 5', () => {
     expect(computeTripledAreaOfARectangle(5, 3)).toBe(45)
 })

@@ -14,3 +14,5 @@ console.log(output); // -> [1, 2, 3]
 ## 💡 Pista:
 
 + Debe devolver el MISMO array, no uno nuevo.
+
++ Intenta buscar en Google "cómo añadir un elemento al final de un array".

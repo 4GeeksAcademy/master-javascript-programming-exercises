@@ -13,7 +13,3 @@ let car = {
 let output = getProperty(car, 'model');
 console.log(output); // --> 'Toyota'
 ```
-
-## 💡 Pista:
-
-+ Si no hay una propiedad en esa key, debería retornar `undefined`.

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computePerimeterOfATriangle`. Dado 3 lados de un triángulo, `computePerimeterOfATriangle` regresa su perímetro.
+1. Escribe una función llamada `computePerimeterOfATriangle`. Dados 3 lados de un triángulo, `computePerimeterOfATriangle` retorna su perímetro.
 
 ## Ejemplo:
 

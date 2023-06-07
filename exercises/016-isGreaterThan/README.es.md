@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `isGreaterThan`. Dado 2 números, `isGreaterThan` retorna `true` si `num2` es mayor que `num1`. De lo contrario retorna `false`.
+1. Escribe una función llamada `isGreaterThan`. Dados 2 números, `isGreaterThan` retorna `true` si `num2` es mayor que `num1`. De lo contrario retorna `false`.
 
 ## Ejemplo:
 

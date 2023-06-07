@@ -8,9 +8,9 @@ test('Function cube should return a number', () => {
     expect(typeof cube(1)).toBe('number');
 });
 
-test ('The function should return the cube of the number given. Testing with (93)', () => {
+test ('The function should return the cube of the given number. Testing with (93)', () => {
     expect(cube(93)).toBe(804357);
 })
-test ('The function should return the cube of the number given. Testing with (24)', () => {
+test ('The function should return the cube of the given number. Testing with (24)', () => {
     expect(cube(24)).toBe(13824);
 })

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeAverageLengthOfWords`. Dado dos palabras, `computeAverageLengthOfWords` retorna el promedio de la cantidad de letras de ambas.
+1. Escribe una función llamada `computeAverageLengthOfWords`. Dadas dos palabras, `computeAverageLengthOfWords` retorna el promedio de la cantidad de letras de ambas.
 
 ## Ejemplo:
 

@@ -11,7 +11,7 @@ let output = addToBack([1, 2], 3);
 console.log(output); // -> [1, 2, 3]
 ```
 
-## 💡 Hint:
+## 💡 Hints:
 
 + It should be the SAME array, not a new array.
 

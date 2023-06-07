@@ -11,6 +11,8 @@ let output = addToFront([1, 2], 3);
 console.log(output); // -> [3, 1, 2]
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
-+ Debería ser el MISMO arreglo, no uno nuevo.
++ Debe devolver el MISMO arreglo, no uno nuevo.
+
++ Busca en Google el método `unshift()`.

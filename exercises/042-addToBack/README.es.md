@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `addToBack`. Dado un array y un elemento, `addToBack` regresa el array con el elemento añadido al final.
+1. Escribe una función llamada `addToBack`. Dado un array y un elemento, `addToBack` retorna el array con el elemento añadido al final.
 
 ## Ejemplo:
 
@@ -13,4 +13,4 @@ console.log(output); // -> [1, 2, 3]
 
 ## 💡 Pista:
 
-+ Debería ser el MISMO array, no uno nuevo.
++ Debe devolver el MISMO array, no uno nuevo.

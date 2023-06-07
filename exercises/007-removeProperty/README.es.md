@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `removeProperty`. Dado un objeto y una key, `removeProperty` elimina esa llave de ese objeto dado.
+1. Escribe una función llamada `removeProperty`. Dado un objeto y una key, `removeProperty` elimina la key de ese objeto dado.
 
 ## Ejemplo:
 

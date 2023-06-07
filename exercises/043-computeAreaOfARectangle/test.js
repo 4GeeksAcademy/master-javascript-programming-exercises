@@ -12,10 +12,10 @@ test('Function computeAreaOfARectangle must return a number', () => {
     expect(typeof computeAreaOfARectangle(1,2)).toBe("number");
 });
 
-test('Fuction must return the area of Rectangle. Testing with 4 and 8.', () => {
+test('Function must return the area of a rectangle. Testing with 4 and 8.', () => {
     expect(computeAreaOfARectangle(4, 8)).toBe(32)
 })
 
-test('Fuction must return the area of Rectangle. Testing with 5 and 9.', () => {
+test('Function must return the area of a rectangle. Testing with 5 and 9.', () => {
     expect(computeAreaOfARectangle(5, 9)).toBe(45)
 })

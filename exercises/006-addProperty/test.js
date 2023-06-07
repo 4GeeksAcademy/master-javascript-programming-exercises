@@ -11,7 +11,7 @@ test ("Your function must return an object", () => {
     expect(typeof(addProperty({},'name'))).toEqual("object");  
 })
 
-test ('function should set a new property on the given object and key with a value of true.', () => {
+test ('Function should set a new property on the given object and key with a value of true', () => {
     const addProperty = rewire ('./app.js').__get__("addProperty");
 
     let myObj = {}
@@ -19,7 +19,7 @@ test ('function should set a new property on the given object and key with a val
     expect(myObj.isOld).toBe(true);
 })
 
-test ('fuction should return the object', () => {
+test ('Fuction should return the object', () => {
     const addProperty = rewire ('./app.js').__get__("addProperty");
 
     let myObj = {}

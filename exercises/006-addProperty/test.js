@@ -19,7 +19,7 @@ test ('Function should set a new property on the given object and key with a val
     expect(myObj.isOld).toBe(true);
 })
 
-test ('Fuction should return the object', () => {
+test ('Function should return the object', () => {
     const addProperty = rewire ('./app.js').__get__("addProperty");
 
     let myObj = {}

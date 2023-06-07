@@ -10,7 +10,3 @@
 let output = getNthElement([1, 3, 5], 1);
 console.log(output); // --> 3
 ```
-
-## 💡 Pista:
-
-+ Si el array tiene una longitud 0, debería retornar `undefined`.

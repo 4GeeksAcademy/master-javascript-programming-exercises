@@ -8,11 +8,11 @@ test('The function isLessThan should return something',()=>{
     expect(isLessThan(5, 6)).not.toBe(undefined);
 })
 
-test ('The function returns true if num1 is bigger than num2', () => {
+test ('The function returns true if num1 is greater than num2', () => {
     const isLessThan = rewire ('./app.js').__get__("isLessThan");
     expect(isLessThan(9, 3)).toBe(true);
 })
-test ('The function returns true if num1 is bigger than num2', () => {
+test ('The function returns true if num1 is greater than num2', () => {
     const isLessThan = rewire ('./app.js').__get__("isLessThan");
     expect(isLessThan(3, 2)).toBe(true);
 })

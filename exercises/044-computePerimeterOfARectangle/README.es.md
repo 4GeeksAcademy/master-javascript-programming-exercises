@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computePerimeterOfARectangle`. Dado el largo y ancho de un rectángulo, `computePerimeterOfARectangle` regresa su perímetro.
+1. Escribe una función llamada `computePerimeterOfARectangle`. Dado el largo y ancho de un rectángulo, `computePerimeterOfARectangle` retorna su perímetro.
 
 ## Ejemplo:
 

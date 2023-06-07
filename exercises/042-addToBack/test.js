@@ -14,7 +14,7 @@ test('Function addToBack must return an array', () => {
     expect(typeof addToBack([],2)).toBe("object");
 });
 
-test('The function must return the given number in the last position of the array.', () => {
+test('The function must return the given number in the last position of the array', () => {
 
     expect(addToBack([1, 2], 3)).toStrictEqual([1, 2, 3]);
 });

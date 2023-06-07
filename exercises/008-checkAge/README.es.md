@@ -12,7 +12,7 @@
 
 ```Javascript
 let output = checkAge('Adrian', 22);
-console.log(output); // --> '¡Welcome, Adrian!'
+console.log(output); // --> 'Welcome, Adrian!'
 ```
 
 ## 💡 Pista:

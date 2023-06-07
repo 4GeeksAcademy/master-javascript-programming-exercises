@@ -1,6 +1,6 @@
 # `010` getLengthOfWord
 
-## 📝 Instructions 
+## 📝 Instructions:
 
 1. Write a function called `getLengthOfWord`. Given a word, `getLengthOfWord` returns the length of the given word.
 

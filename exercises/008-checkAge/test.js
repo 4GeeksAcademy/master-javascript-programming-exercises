@@ -12,35 +12,35 @@ test ('You should return a string', () => {
     expect(typeof output).toBe("string");
 })
 
-test ('The person name must be inside the string', () => {
+test ("The person's name must be inside the string", () => {
     const checkAge = rewire ('./app.js').__get__("checkAge");
 
     const output = checkAge('Adrian',21);
     expect(output.includes('Adrian')).toBe(true);
 })
 
-test ('The word "Welcome" must be inside the returned string when it\'s more than 21', () => {
+test ('The word "Welcome" must be inside the returned string when the person is 21 or older', () => {
     const checkAge = rewire ('./app.js').__get__("checkAge");
 
     const output = checkAge('Adrian',21);
     expect(output.includes('Welcome')).toBe(true);
 })
 
-test ('The word "Go home" must be inside the returned string when it\' younger than 21 ', () => {
+test ('The words "Go home" must be inside the returned string when the person is younger than 21', () => {
     const checkAge = rewire ('./app.js').__get__("checkAge");
 
     const output = checkAge('Adrian',20);
     expect(output.includes('Go home')).toBe(true);
 })
 
-test ('should return Welcome, Adrian! if they are 21 or older.', () => {
+test ('Should return "Welcome, Adrian!" if they are 21 or older', () => {
     const checkAge = rewire ('./app.js').__get__("checkAge");
 
     const output = checkAge('Adrian',21);
     expect(output).toBe('Welcome, Adrian!');
 })
 
-test ('should return Go home, Adrian! if they are younger than 21.', () => {
+test ('Should return "Go home, Adrian!" if they are younger than 21', () => {
     const checkAge = rewire ('./app.js').__get__("checkAge");
 
     const output = checkAge('Adrian',20);

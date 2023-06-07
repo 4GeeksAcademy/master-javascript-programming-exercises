@@ -12,10 +12,10 @@ test('Function computePerimeterOfARectangle must return a number', () => {
     expect(typeof computePerimeterOfARectangle(1,2)).toBe("number");
 });
 
-test('Fuction must return the perimeter of Rectangle. Testing with 4 and 7.', () => {
+test('Function must return the perimeter of a rectangle. Testing with 4 and 7', () => {
     expect(computePerimeterOfARectangle(7, 4)).toBe(22)
 });
 
-test('Fuction must return the perimeter of Rectangle. Testing with 2 and 5.', () => {
+test('Function must return the perimeter of a rectangle. Testing with 2 and 5', () => {
     expect(computePerimeterOfARectangle(5, 2)).toBe(14)
 });

@@ -9,7 +9,7 @@ test('The function isGreaterThanTen must return something',()=>{
     expect(isGreaterThanTen(10)).not.toBe(undefined)
 })
 
-test ('Function should return the expected output when the number is less or equal than 10', () => {
+test ('Function should return the expected output when the number is less or equal to 10', () => {
     expect(isGreaterThanTen(10)).toBe(false);
 })
 

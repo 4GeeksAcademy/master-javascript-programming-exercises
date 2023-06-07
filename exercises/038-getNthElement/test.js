@@ -9,7 +9,7 @@ test('Function getNthElement must return something', () => {
     expect(getNthElement([1],0)).not.toBe(undefined);
 });
 
-test('Function must return the value of the 2nd position in getNthElement array', () => {
+test('Function must return the value of the given position in parameter "n" getNthElement', () => {
    
     const output = getNthElement([1, 3, 5], 0)
     expect(output).toStrictEqual(1)

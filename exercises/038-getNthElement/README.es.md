@@ -13,4 +13,4 @@ console.log(output); // --> 3
 
 ## 💡 Pista:
 
-+ Si el arreglo tiene una longitud 0, debería retornar `undefined`.
++ Si el array tiene una longitud 0, debería retornar `undefined`.

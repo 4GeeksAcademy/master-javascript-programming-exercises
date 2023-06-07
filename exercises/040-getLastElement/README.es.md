@@ -11,7 +11,7 @@ let output = getLastElement([1, 2, 3, 4]);
 console.log(output); // --> 4
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + La última posición en un arreglo es: `length - 1`.
 

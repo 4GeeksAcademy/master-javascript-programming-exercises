@@ -13,6 +13,6 @@ console.log(output); // -> [3, 1, 2]
 
 ## 💡 Pistas:
 
-+ Debe devolver el MISMO arreglo, no uno nuevo.
++ Debe devolver el MISMO array, no uno nuevo.
 
 + Busca en Google el método `unshift()`.

@@ -14,5 +14,3 @@ console.log(output); // --> 4
 ## 💡 Pistas:
 
 + La última posición en un arreglo es: `length - 1`.
-
-+ Si el array dado tiene una longitud 0, debería retornar `undefined`.

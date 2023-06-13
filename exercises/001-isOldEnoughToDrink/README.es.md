@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `isOldEnoughToDrink`. Dado un número, en este caso una edad, `isOldEnoughToDrink` retorna si la persona de esa edad tiene la edad necesaria para beber legalmente en los Estados Unidos.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```javascript
 let output = isOldEnoughToDrink(22);

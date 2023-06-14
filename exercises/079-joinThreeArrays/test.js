@@ -18,7 +18,7 @@ test('Must return an array with the elements of arr1, arr2, arr3', () => {
     expect(output).toStrictEqual([5, 2, 9, 4, 7, 32, 9, 11]);
 });
 
-test('Must return an array with the elements of arr1, arr2, arr3', () => {     
+test('Must return an array with the elements of arr1, arr2, arr3. Testing with different values', () => {     
     let output = joinThreeArrays([1, 2], [3, 4], [5, 6]);
     expect(output).toStrictEqual([1, 2, 3, 4, 5, 6]);
 });

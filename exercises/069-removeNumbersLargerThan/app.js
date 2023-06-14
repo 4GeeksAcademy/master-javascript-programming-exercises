@@ -3,6 +3,7 @@ let obj = {
     b: 2,
     c: 'montana'
 }
+
 function removeNumbersLargerThan(num, obj) {
     // your code here
     

@@ -4,7 +4,7 @@
 
 1. Write a function called `extend`. Given 2 objects, `extend` adds the properties of the 2nd object to the first one.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj1 = {

@@ -1,11 +1,11 @@
-let obj = {
-    name: 'Sam',
-    age: 20
-}
-
 function removeStringValues(obj) {
     // your code here
     
+}
+
+let obj = {
+    name: 'Sam',
+    age: 20
 }
 
 removeStringValues(obj);

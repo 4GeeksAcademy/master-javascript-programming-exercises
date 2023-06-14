@@ -1,4 +1,4 @@
-function getElementsAfter(array, index) {
+function getElementsAfter(array, n) {
   // your code here
   
 }

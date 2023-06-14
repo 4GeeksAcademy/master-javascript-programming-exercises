@@ -1,6 +1,6 @@
 # `083` getAllElementsButNth
 
-## 📝 Instructions 
+## 📝 Instructions:
 
 1. Write a function called `getAllElementsButNth`. Given an array and an index, `getAllElementsButNth` returns an array with all the elements but the *Nth*.
 

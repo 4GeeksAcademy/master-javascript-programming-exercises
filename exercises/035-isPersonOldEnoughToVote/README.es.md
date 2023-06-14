@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `isPersonOldEnoughToVote`. Dado un objeto `person`, que contiene una propiedad `age`, `isPersonOldEnoughToVote` devuelve `true` si la persona dada tiene la edad suficiente para votar. De lo contrario retorna `false`.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let obj = {

@@ -13,13 +13,13 @@ test('Function getAllWords must return a list', () => {
     expect(typeof getAllWords('test')).toBe("object");
 });
 
-test('The function returns an array containing every word in the sentence.', () => {    
+test('The function returns an array containing every word in the sentence', () => {    
     let input = "Friday Mood"
     let output = getAllWords(input)
     expect(output).toEqual(['Friday', 'Mood']);
 });
 
-test('The function returns an array containing every word in the sentence.', () => {
+test('The function returns an array containing every word in the sentence. Testing with different values', () => {
     let input = "Radagast the Brown"
     let output = getAllWords(input)
     expect(output).toEqual(['Radagast', 'the', 'Brown']);

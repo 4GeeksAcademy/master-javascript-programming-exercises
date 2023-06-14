@@ -11,6 +11,8 @@ let output = convertDoubleSpaceToSingle("string  with  double  spaces");
 console.log(output); // --> "string with double spaces"
 ```
 
-## 💡 Hint:
+## 💡 Hints:
 
 + In order to solve this problem, you should be familiar with the methods `String.split()` and `Array.join()`.
+
++ Another way to solve this problem is with the methods `replace()` or `replaceAll()`.

@@ -4,7 +4,7 @@
 
 1. Write a function called `removeStringValuesLongerThan`. Given a number and an object, `removeStringValuesLongerThan` removes any properties on the given object whose values are strings longer than the given number.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj = {
@@ -15,5 +15,7 @@ let obj = {
 removeStringValuesLongerThan(6, obj);
 console.log(obj); // { age: 20, location: 'Texas' }
 ```
-## :bulb: Hint:
-1. Try using a 'for in' loop, here is a link that might help: https://www.w3schools.com/js/js_loop_forin.asp
+
+## 💡 Hint:
+
++ Try using a `for...in` loop, here is a link that might help: https://www.w3schools.com/js/js_loop_forin.asp

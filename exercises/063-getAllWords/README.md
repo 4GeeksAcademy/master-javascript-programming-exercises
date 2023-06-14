@@ -11,6 +11,7 @@ let output = getAllWords('Radagast the Brown');
 console.log(output); // --> ['Radagast', 'the', 'Brown']
 ```
 
-## 💡 Hint:
+## 💡 Hints:
 
++ Investigate the `split()` method.
 + If given an empty string, it should return an empty array.

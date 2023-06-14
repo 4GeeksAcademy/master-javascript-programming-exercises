@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `removeOddValues"`. Dado un objeto, `removeOddValues` elimina cualquier propiedad cuyos valores son números impares.
+1. Escribe una función llamada `removeOddValues"`. Dado un objeto, `removeOddValues` elimina cualquier propiedad cuyo valor sea un número impar.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let obj = {

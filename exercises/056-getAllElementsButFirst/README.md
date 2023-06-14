@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `getAllElementsButFirst`. Given an array, `getAllElementsButFirst` returns an array with all the elements but not the first.
+1. Write a function called `getAllElementsButFirst`. Given an array, `getAllElementsButFirst` returns a **NEW** array with all the elements but not the first.
 
 ## 📎 Example:
 

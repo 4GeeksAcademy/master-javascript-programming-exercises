@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeSquareRoot`. Dado un número, `computeSquareRoot` regresa su raíz cuadrada.
+1. Escribe una función llamada `computeSquareRoot`. Dado un número, `computeSquareRoot` retorna su raíz cuadrada.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = computeSquareRoot(9);

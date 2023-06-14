@@ -6,7 +6,7 @@
       + `addArrayProperty` recibe un objeto, un string que representa la key y un array.
       + `addArrayProperty` establece una nueva propiedad en el objeto con la key dada, cuyo valor debe ser el array dado.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let myObj = {};

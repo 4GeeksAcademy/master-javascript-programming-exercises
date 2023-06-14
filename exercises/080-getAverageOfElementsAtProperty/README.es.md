@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `getAverageOfElementsAtProperty`. Dado un objeto y una key, `getAverageOfElementsAtProperty`, retorna el promedio de todos los elementos en el array ubicado en esa key.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let obj = {

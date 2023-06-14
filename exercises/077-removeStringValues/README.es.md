@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `removeStringValues`. Dado un objeto, `removeStringValues` elimina cualquier propiedad en el objeto cuyo valor sea string.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let obj = {

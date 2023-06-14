@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getAllElementsButFirst`. Dado un array, `getAllElementsButFirst` retorna un array con todos los elementos excepto el primero.
+1. Escribe una función llamada `getAllElementsButFirst`. Dado un array, `getAllElementsButFirst` retorna un **NUEVO** array con todos los elementos excepto el primero.
 
 ## 📎 Ejemplo:
 

@@ -5,7 +5,7 @@
 1. Escribe una función llamada `getFirstElement`. Dado un array, `getFirstElement` regresa el primer elemento del array.
 
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = getFirstElement([1, 2, 3, 4, 5]);

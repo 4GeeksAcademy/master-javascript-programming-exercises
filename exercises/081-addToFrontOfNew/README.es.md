@@ -15,4 +15,4 @@ console.log(input); --> [1, 2]
 
 ## 💡 Pista:
 
-+  Debe crear un nuevo array y no modificar el array original.
++  Debe crear un NUEVO array y no modificar el array original.

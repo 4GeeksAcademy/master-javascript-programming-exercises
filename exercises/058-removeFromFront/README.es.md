@@ -13,5 +13,5 @@ console.log(output); // --> [2, 3]
 
 ## 💡 Pistas:
 
-+ Recuerda que el método `slice()` **NO** modifica el array dado sino que crea una copia.
++ Recuerda que el método `slice()` **NO** modifica el array dado, sino que crea una copia.
 + Deberías estar familiarizado con el método `shift()`.

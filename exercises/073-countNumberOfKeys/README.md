@@ -4,7 +4,7 @@
 
 1. Write a function called `countNumberOfKeys`. Given an object, `countNumberOfKeys` returns how many properties the given object has.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj = {

@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `equalsTen`. Dado un número, `equalsTen` retorna `true` si ese número es igual a 10. De lo contrario retorna `false`.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = equalsTen(9);

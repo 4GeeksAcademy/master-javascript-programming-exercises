@@ -6,7 +6,7 @@
 2. La función `addObjectProperty` debe devolver el primer objeto con la nueva propiedad.
 
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let person1 = {

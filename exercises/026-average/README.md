@@ -4,7 +4,7 @@
 
 1. Write a function called `average`. Given two numbers, `average` returns their average.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = average(4, 6);

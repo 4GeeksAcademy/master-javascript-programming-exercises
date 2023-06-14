@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `square`. Dado un número, `square` retorna el cuadrado de dicho número.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = square(5);

@@ -4,7 +4,7 @@
 
 1. Escribe la función llamada `computePerimeterOfACircle`. Dado el radio de un círculo, `computePerimeterOfACircle` retorna su perímetro.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = computePerimeterOfACircle(4);

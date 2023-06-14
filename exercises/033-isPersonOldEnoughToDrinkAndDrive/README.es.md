@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `isPersonOldEnoughToDrinkAndDrive`. Dado un objeto `person`, que contiene una propiedad `age`, `isPersonOldEnoughToDrinkAndDrive` valida si la persona tiene la edad suficiente para beber y conducir legalmente en los Estados Unidos.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let obj = {

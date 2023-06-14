@@ -4,7 +4,7 @@
 
 1. Write a function called `findMinLengthOfThreeWords`. Given 3 words, `findMinLengthOfThreeWords` returns the length of the shortest word.
 
-## Example:
+## 📎 Example:
 
 ```js
 let output = findMinLengthOfThreeWords('a', 'be', 'see');

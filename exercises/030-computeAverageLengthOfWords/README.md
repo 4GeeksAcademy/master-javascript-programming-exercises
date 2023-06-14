@@ -4,7 +4,7 @@
 
 1. Write a function called `computeAverageLengthOfWords`. Given two words, `computeAverageLengthOfWords` returns the average of their lengths.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = computeAverageLengthOfWords('code', 'programs');

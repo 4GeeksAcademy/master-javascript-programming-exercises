@@ -5,7 +5,7 @@
 1. Write a function called `addObjectProperty`. Given two objects and a key, `addObjectProperty` sets a new property on the 1st object at the given key. The value of that new property is the 2nd object.
 2. The function `addObjectProperty` should then return the first object with the new property.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let person1 = {

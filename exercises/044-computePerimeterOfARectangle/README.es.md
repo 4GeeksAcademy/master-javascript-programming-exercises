@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `computePerimeterOfARectangle`. Dado el largo y ancho de un rectángulo, `computePerimeterOfARectangle` retorna su perímetro.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = computePerimeterOfARectangle(5, 2);

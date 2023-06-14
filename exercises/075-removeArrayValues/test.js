@@ -5,7 +5,7 @@ test('Function removeArrayValues must exist', () => {
     expect(removeArrayValues).not.toBe(undefined);
 });
 
-test('The function must remove any properties whose values are arrays.', () => {
+test('The function must remove any properties whose values are arrays', () => {
     let obj = {
         a: [1, 3, 4],
         b: 2,
@@ -15,7 +15,7 @@ test('The function must remove any properties whose values are arrays.', () => {
     expect(obj).toEqual({ b: 2 })
 });
 
-test('The function must removes any properties whose values are arrays.', () => {
+test('The function must remove any properties whose values are arrays. Testing with different values', () => {
     let obj = {
         a: [3, 2, 6],
         b: ['let\'s', 'rock'],

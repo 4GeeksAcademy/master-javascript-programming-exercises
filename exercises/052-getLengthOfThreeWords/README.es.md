@@ -2,15 +2,15 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getLengthOfThreeWords`. Dadas 3 palabras, `getLengthOfThreeWords` regresa la suma de sus letras.
+1. Escribe una función llamada `getLengthOfThreeWords`. Dadas 3 palabras, `getLengthOfThreeWords` retorna la suma de sus letras.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = getLengthOfThreeWords('some', 'other', 'words');
 console.log(output); // --> 14
 ```
 
-## 💡 Hint: 
+## 💡 Pista: 
 
-+ Recuerda de usar `length` para saber la longitud de una cadena / string.
++ Recuerda usar la función `length` para saber la longitud de una cadena/string.

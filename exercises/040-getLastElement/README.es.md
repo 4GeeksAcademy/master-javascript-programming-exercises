@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `getLastElement`. Dado un array, `getLastElement` retorna el último elemento del array.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = getLastElement([1, 2, 3, 4]);

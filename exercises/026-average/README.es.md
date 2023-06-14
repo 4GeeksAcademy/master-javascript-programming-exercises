@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `average`. Dados 2 números, `average` retorna su promedio.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = average(4, 6);

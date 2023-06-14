@@ -10,3 +10,7 @@
 let output = getElementsAfter(['a', 'b', 'c', 'd', 'e'], 2); 
 console.log(output); // --> ['d', 'e']
 ```
+
+## 💡 Pista:
+
++ Para esto el método `slice()` puede ser útil.

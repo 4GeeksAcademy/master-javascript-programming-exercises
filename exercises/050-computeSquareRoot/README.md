@@ -4,7 +4,7 @@
 
 1. Write a function called `computeSquareRoot`. Given a number, `computeSquareRoot` returns its square root.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = computeSquareRoot(9);

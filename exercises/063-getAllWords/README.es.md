@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getAllWords`. Dado una oración, `getAllWords` regresa un array que contenga cada palabra de la oración. 
+1. Escribe una función llamada `getAllWords`. Dado una oración, `getAllWords` retorna un array que contenga cada palabra de la oración. 
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = getAllWords('Radagast the Brown');
@@ -13,4 +13,4 @@ console.log(output); // --> ['Radagast', 'the', 'Brown']
 
 ## 💡 Pista:
 
-+ Si se da un string vacío, debe regresar un array vacío.
++ Si se da un string vacío, debe retornar un array vacío.

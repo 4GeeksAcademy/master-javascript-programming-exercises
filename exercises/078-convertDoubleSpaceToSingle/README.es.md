@@ -14,3 +14,5 @@ console.log(output); // --> "string with double spaces"
 ## 💡 Pista:
 
 + Para poder resolver este problema, debes estar familiarizado con los métodos `String.split()` y `Array.join()`. 
+
++ Otra forma de poder resolver este ejercicio es con los métodos `replace()` o `replaceAll()`.

@@ -4,7 +4,7 @@
 
 1. Write a function called `computeTripledAreaOfARectangle`. Given the length and width of a rectangle, `computeTripledAreaOfARectangle` returns the rectangle's area, multiplied by 3.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = computeTripledAreaOfARectangle(2, 4);

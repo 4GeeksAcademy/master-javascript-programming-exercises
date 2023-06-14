@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `isOdd`. Dado un número, `isOdd` retorna `true` si el número es impar. De lo contrario retorna `false`.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = isOdd(9);

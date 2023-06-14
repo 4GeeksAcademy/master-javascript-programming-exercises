@@ -14,4 +14,5 @@ console.log(output); // --> [2, 3]
 ## 💡 Hints:
 
 + Remember the method `slice()` does **NOT** modify the given array, but it creates a copy of it.
+
 + You should be familiar with the method `shift()`.

@@ -13,7 +13,7 @@ test('Function countNumberOfKeys must return a number', () => {
     expect(typeof countNumberOfKeys({a:1})).toBe("number");
 });
 
-test('The function must returns how many properties the given object has.', () => {
+test('The function must return how many properties the given object has', () => {
     let obj = {
         a: 5,
         b: 4,
@@ -24,7 +24,7 @@ test('The function must returns how many properties the given object has.', () =
     expect(output).toBe(4)
 });
 
-test('The function must returns how many properties the given object has.', () => {    
+test('The function must return how many properties the given object has. Testing with different values', () => {    
     let obj = {
         a: 1,
         b: 2,
@@ -34,7 +34,7 @@ test('The function must returns how many properties the given object has.', () =
     expect(output).toBe(3)
 });
 
-test('The function must returns how many properties the given object has.', () => {
+test('The function must return how many properties the given object has. Testing with different values', () => {
     let obj = {
         a: 1,
         b: 2

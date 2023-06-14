@@ -1,4 +1,8 @@
-// array = ['a', 'b', 'c', 'd', 'e']
-// array.slice(n) = [ 'c', 'd', 'e']
+function getElementsAfter(array, n) {
+  // your code here
+  let elementsAfter = array.slice(n + 1);
+  return elementsAfter;
+}
 
-// array.splice(n + 1) = [ 'd', 'e']
+let output = getElementsAfter(['a', 'b', 'c', 'd', 'e'], 2); 
+console.log(output); // --> ['d', 'e']

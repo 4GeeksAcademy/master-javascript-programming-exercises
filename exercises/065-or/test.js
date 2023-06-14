@@ -9,7 +9,7 @@ test('Function "or" must return something', () => {
     expect(or(true,true)).not.toBe(undefined);
 });
 
-test('Function "or" must exist', () => {
+test('Function "or" must return a boolean', () => {
     expect(typeof or(true,true)).toBe("boolean");
 });
 

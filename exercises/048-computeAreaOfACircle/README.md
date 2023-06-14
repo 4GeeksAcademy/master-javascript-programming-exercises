@@ -4,7 +4,7 @@
 
 1. Write a function called `computeAreaOfACircle`. Given the radius of a circle, `computeAreaOfACircle` returns its area.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = computeAreaOfACircle(4);

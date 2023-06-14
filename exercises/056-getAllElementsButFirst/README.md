@@ -2,12 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `getAllElementsButFirst`. Given an array, `getAllElementsButFirst` returns an array with all the elements but not the first.
+1. Write a function called `getAllElementsButFirst`. Given an array, `getAllElementsButFirst` returns a **NEW** array with all the elements but not the first.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let input = [1, 2, 3, 4];
 let output = getAllElementsButFirst(input);
 console.log(output); // --> [2, 3, 4]
+console.log(input);  // --> [1, 2, 3, 4]
 ```

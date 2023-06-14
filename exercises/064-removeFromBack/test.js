@@ -18,7 +18,7 @@ test('Function must return an array with all elements, but not the last', () => 
     expect(output).toEqual([4, 5])
 });
 
-test('Function must return an array with all elements, but not the last. Testing with different values.', () => {
+test('Function must return an array with all elements, but not the last. Testing with different values', () => {
     let output = removeFromBack([9, 3, 7, 16])
     expect(output).toEqual([9, 3, 7])
 });

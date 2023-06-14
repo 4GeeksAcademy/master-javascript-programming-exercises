@@ -15,3 +15,7 @@ let obj = {
 removeNumbersLargerThan(5, obj);
 console.log(obj); // --> { b: 2, c: 'montana' }
 ```
+
+## 💡 Pista:
+
++ Recuerda usar el bucle `for...in` para iterar sobre las propiedades de un objecto.

@@ -15,4 +15,4 @@ console.log(output); // --> true;
 
 + No utilices el operador `||`.
 
-+ Usa `!` y operadores `&&` en su lugar.
++ Usa los operadores `!` y `&&` en su lugar.

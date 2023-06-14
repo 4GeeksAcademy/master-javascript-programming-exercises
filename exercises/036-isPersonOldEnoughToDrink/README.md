@@ -4,7 +4,7 @@
 
 1. Write a function called `isPersonOldEnoughToDrink`. Given a `person` object, that contains an `age` property, `isPersonOldEnoughToDrink` returns `true` if the given person is old enough to drink. Otherwise it returns `false`.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj = {

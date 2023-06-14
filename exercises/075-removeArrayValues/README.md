@@ -4,7 +4,7 @@
 
 1. Write a function called `removeArrayValues`. Given an object, `removeArrayValues` removes any properties whose values are arrays.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj = {

@@ -13,7 +13,7 @@ test('Function getAverageOfElementsAtProperty must return something', () => {
     expect(getAverageOfElementsAtProperty(obj, "key")).not.toBe(undefined);
 });
 
-test('The function must return the average of all the elements in the array located at given key.', () => {
+test('The function must return the average of all elements in the array located at the given key', () => {
     let obj = {
         key: [9, 7, 6, 4]
     };
@@ -21,7 +21,7 @@ test('The function must return the average of all the elements in the array loca
     expect(output).toBe(6.5);
 });
 
-test('The function must return the average of all the elements in the array located at given key.', () => {
+test('The function must return the average of all elements in the array located at the given key. Testing with different values', () => {
     let obj = {
         key: [15, 4, 10, 5, 20, 6]
     };
@@ -29,7 +29,7 @@ test('The function must return the average of all the elements in the array loca
     expect(output).toBe(10);
 });
 
-test('The function must return 0 if there\'s no property at the given key.', () => {
+test('The function must return 0 if there\'s no property at the given key', () => {
     let obj = {
         key: []
     };

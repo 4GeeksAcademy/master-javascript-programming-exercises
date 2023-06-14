@@ -13,4 +13,4 @@ console.log(output); // --> 3
 
 ## 💡 Pista:
 
-+ Tal vez haya una forma de obtener la raíz cuadrada de un número, intenta buscando aquí: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
++ Tal vez haya una forma de obtener la raíz cuadrada de un número, intenta buscando aquí: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math

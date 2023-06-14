@@ -4,7 +4,7 @@
 
 1. Write a function called `addToFrontOfNew`. Given an array and an element, `addToFrontOfNew` returns a new array containing all the elements of the given array, with the given element added to the front.
 
-## Example:
+## 📎 Example:
 
 ```js
 let input = [1, 2];
@@ -15,4 +15,4 @@ console.log(input); --> [1, 2]
 
 ## 💡 Hint:
 
-+ It should return a NEW array, instead of modifying the original one.
++ It should return a **NEW** array, instead of modifying the original one.

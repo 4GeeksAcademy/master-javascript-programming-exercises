@@ -4,7 +4,7 @@
 
 1. Write a function called `getAllElementsButFirst`. Given an array, `getAllElementsButFirst` returns an array with all the elements but not the first.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let input = [1, 2, 3, 4];

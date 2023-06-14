@@ -4,7 +4,7 @@
 
 1. Write a function called `addToBackOfNew`. Given an array and an element, `addToBackOfNew` returns a clone of the given array, with the given element added to the end.
 
-## Example:
+## 📎 Example:
 
 ```js
 let input = [1, 2];

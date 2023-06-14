@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `removeFromFront`. Dado un array, `removeFromFront` retorna el **mismo** array con su primer elemento eliminado.
+1. Escribe una función llamada `removeFromFront`. Dado un array, `removeFromFront` retorna el **MISMO** array con su primer elemento eliminado.
 
 ## 📎 Ejemplo:
 
@@ -13,5 +13,5 @@ console.log(output); // --> [2, 3]
 
 ## 💡 Pistas:
 
-+ Recuerda que el método `slice()` retorna un nuevo array, no el mismo.
++ Recuerda que el método `slice()` **NO** modifica el array dado sino que crea una copia.
 + Deberías estar familiarizado con el método `shift()`.

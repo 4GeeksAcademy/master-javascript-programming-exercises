@@ -29,3 +29,5 @@ console.log(obj2); // --> {b: 4, c: 3}
 + If the first object (`obj1`) already has the given key, ignore it (don't override the property value). 
 
 + Don't modify the second object (`obj2`).
+
++ The `for...in` loop might be useful.

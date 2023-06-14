@@ -4,7 +4,7 @@
 
 1. Write a function called `computePerimeterOfARectangle`.  Given the length and width of a rectangle, `computePerimeterOfARectangle` returns its perimeter.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = computePerimeterOfARectangle(5, 2);

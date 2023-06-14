@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `removeNumbersLessThan`. Dado un número y un objeto, `removeNumbersLessThan` elimina cualquier propiedad cuyos valores sean números menores que el número dado. 
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let obj = {

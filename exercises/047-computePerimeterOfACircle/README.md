@@ -4,7 +4,7 @@
 
 1. Write a function called `computePerimeterOfACircle`. Given the radius of a circle, `computePerimeterOfACircle` returns its perimeter.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = computePerimeterOfACircle(4);

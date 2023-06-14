@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `removeNumberValues`. Dado un objeto, `removeNumberValues` elimina cualquier propiedad cuyos valores sean números.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let obj = {

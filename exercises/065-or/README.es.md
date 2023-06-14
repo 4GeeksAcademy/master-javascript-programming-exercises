@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `or`. Dadas 2 expresiones booleanas, `or` regresa true o false, correspondiente al operador `||`.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = or(true, false);

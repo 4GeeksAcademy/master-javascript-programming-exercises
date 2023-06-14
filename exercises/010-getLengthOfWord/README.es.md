@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `getLengthOfWord`. Dada un palabra, `getLengthOfWord` debe retornar la cantidad de letras que tiene esa palabra.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = getLengthOfWord('some');

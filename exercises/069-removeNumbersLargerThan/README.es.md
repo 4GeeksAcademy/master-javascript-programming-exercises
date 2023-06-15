@@ -18,4 +18,4 @@ console.log(obj); // --> { b: 2, c: 'montana' }
 
 ## 💡 Pista:
 
-+ Recuerda usar el bucle `for...in` para iterar sobre las propiedades de un objecto.
++ Recuerda usar el bucle `for...in` para iterar sobre las propiedades de un objeto.

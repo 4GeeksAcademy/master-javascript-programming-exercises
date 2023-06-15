@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `addToFront`. Dado un array y un elemento, `addToFront` añade el elemento al frente del array, y regresa el array dado.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = addToFront([1, 2], 3);

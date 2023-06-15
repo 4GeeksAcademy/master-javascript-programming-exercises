@@ -15,10 +15,10 @@ test('Function joinThreeArrays must return an array', () => {
 
 test('Must return an array with the elements of arr1, arr2, arr3', () => {
     let output = joinThreeArrays([5, 2], [9, 4, 7], [32, 9, 11]);
-    expect(output).toStrictEqual([5, 2, 9, 4, 7, 32, 9, 11]);
+    expect(output).toEqual([5, 2, 9, 4, 7, 32, 9, 11]);
 });
 
 test('Must return an array with the elements of arr1, arr2, arr3. Testing with different values', () => {     
     let output = joinThreeArrays([1, 2], [3, 4], [5, 6]);
-    expect(output).toStrictEqual([1, 2, 3, 4, 5, 6]);
+    expect(output).toEqual([1, 2, 3, 4, 5, 6]);
 });

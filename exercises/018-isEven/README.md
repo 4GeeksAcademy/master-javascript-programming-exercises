@@ -4,7 +4,7 @@
 
 1. Write a function called `isEven`. Given a number, `isEven` returns `true` if it is even. Otherwise it returns `false`.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = isEven(11);

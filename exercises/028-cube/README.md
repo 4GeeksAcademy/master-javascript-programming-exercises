@@ -4,7 +4,7 @@
 
 1. Write a function called `cube`. Given a number, `cube` returns the cube of that number.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = cube(3);

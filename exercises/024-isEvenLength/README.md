@@ -4,7 +4,7 @@
 
 1. Write a function called `isEvenLength`. Given a word, `isEvenLength` returns `true` if the length of the given word is even, otherwise it returns `false`.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = isEvenLength('wow');

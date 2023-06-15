@@ -6,7 +6,7 @@
 
 Luego, la función tiene que devolver el objeto.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let myObj = {};

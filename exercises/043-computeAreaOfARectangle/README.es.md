@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `computeAreaOfARectangle`. Dado el largo y ancho de un rectágulo, `computeAreaOfARectangle` devuelve su área.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = computeAreaOfARectangle(4, 8);

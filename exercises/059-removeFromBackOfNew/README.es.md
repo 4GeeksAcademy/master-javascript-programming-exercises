@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `removeFromBackOfNew`. Dado un array, `removeFromBackOfNew` regresa un nuevo array que contenga a todos excepto el último elemento del array dado.
+1. Escribe una función llamada `removeFromBackOfNew`. Dado un array, `removeFromBackOfNew` retorna un nuevo array que contenga a todos excepto el último elemento del array dado.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let arr = [1, 2, 3];
@@ -13,7 +13,8 @@ console.log(output); // --> [1, 2]
 console.log(arr); // --> [1, 2, 3]
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
-+ Deberías familiarizarte con `filter` [Más información...](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-+ Recuerda que no debes modificar el array original! Tienes que retornar un array completamente nuevo.
++ Deberías familiarizarte con el método `filter()` [Más información...](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
++ Recuerda que no debes modificar el array original. Tienes que retornar un array completamente nuevo.

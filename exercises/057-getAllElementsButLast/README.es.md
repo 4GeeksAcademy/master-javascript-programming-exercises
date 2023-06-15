@@ -2,12 +2,12 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getAllElementsButLast`. Dado un array, `getAllElementsButLast` regresa un array con todos los elementos excepto el último.
+1. Escribe una función llamada `getAllElementsButLast`. Dado un array, `getAllElementsButLast` retorna un array con todos los elementos excepto el último.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let input = [1, 2, 3, 4];
 let output = getAllElementsButLast(input);
-console.log(output); // --> [1, 2 , 3]
+console.log(output); // --> [1, 2, 3]
 ```

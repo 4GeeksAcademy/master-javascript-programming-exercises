@@ -1,2 +1,8 @@
-// The key of your problems 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+function computeSquareRoot(num) {
+  // your code here
+  let squareRoot = Math.sqrt(num);
+  return squareRoot;
+}
+
+let output = computeSquareRoot(9);
+console.log(output); // --> 3

@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `getProperty`. Dado un objeto y una key, `getProperty` retorna el valor de la propiedad con esa key.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let car = {

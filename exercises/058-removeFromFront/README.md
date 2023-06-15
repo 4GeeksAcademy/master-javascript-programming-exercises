@@ -2,15 +2,17 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `removeFromFront`. Given an array, `removeFromFront` returns the given array with its first element removed.
+1. Write a function called `removeFromFront`. Given an array, `removeFromFront` returns the **same** array with its first element removed.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = removeFromFront([1, 2, 3]);
 console.log(output); // --> [2, 3]
 ```
 
-## 💡 Hint:
+## 💡 Hints:
 
-+ You should be familiar with the method `shift`.
++ Remember the method `slice()` does **NOT** modify the given array, but it creates a copy of it.
+
++ You should be familiar with the method `shift()`.

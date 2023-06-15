@@ -4,7 +4,7 @@
 
 1. Write a function called `addToBack`. Given an array and an element, `addToBack` returns the given array with the given element added at the end.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = addToBack([1, 2], 3);

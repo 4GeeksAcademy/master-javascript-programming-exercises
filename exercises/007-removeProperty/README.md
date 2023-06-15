@@ -4,7 +4,7 @@
 
 1. Write a function called `removeProperty`. Given an object and a key, `removeProperty` removes the given key from the given object.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj = {

@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `computeAreaOfATriangle`. Dada la base y altura de un triangulo, `computeAreaOfATriangle` retorna el área de un triángulo.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let output = computeAreaOfATriangle(4, 6);

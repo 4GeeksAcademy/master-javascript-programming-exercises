@@ -4,7 +4,7 @@
 
 1. Write a function called `getAllLetters`. Given a word, `getAllLetters` returns an array containing every character in the word. 
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = getAllLetters('Radagast');

@@ -13,12 +13,12 @@ test('Function countCharacter must return a number', () => {
     expect(typeof countCharacter('hello', 'l')).toBe("number");
 });
 
-test('Function must return the number of occurences of a given character.', () => {
+test('Function must return the number of occurences of a given character', () => {
     let output = countCharacter("Tres tigres tristes", 's')
     expect(output).toBe(4)
 });
 
-test('Function must return the number of occurences of a given character. Testing with different values.', () => {
+test('Function must return the number of occurences of a given character. Testing with different values', () => {
     let output = countCharacter('I am a hacker', 'a')
     expect(output).toBe(3)
 });

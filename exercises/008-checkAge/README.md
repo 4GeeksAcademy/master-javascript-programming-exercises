@@ -8,7 +8,7 @@
 
 - `Welcome, {insert_name_here}!`, if they are 21 or older.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = checkAge('Adrian', 22);

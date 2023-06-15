@@ -4,7 +4,7 @@
 
 1. Write a function called `computePerimeterOfATriangle`. Given 3 sides describing a triangle, `computePerimeterOfATriangle` returns its perimeter.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = computePerimeterOfATriangle(6, 4, 10);

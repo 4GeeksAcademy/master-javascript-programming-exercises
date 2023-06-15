@@ -4,7 +4,7 @@
 
 1. Write a function called `isEvenAndGreaterThanTen`. Given a number, `isEvenAndGreaterThanTen` returns `true` if the number is both even and greater than 10, otherwise it returns `false`.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let output = isEvenAndGreaterThanTen(13);

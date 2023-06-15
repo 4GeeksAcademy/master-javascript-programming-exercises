@@ -6,7 +6,6 @@
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/README.es.md) :es:*
 <!-- endhide -->
 
-
 **160 exercises about JavaScript.**
 
 Complete selection of auto-graded and interactive JavaScript exercises for anyone interested in learning JavaScript!
@@ -20,6 +19,8 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 > Once you have VSCode open, if exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local Installation (only if needed)
+
+Clone the repository in your local environment and follow the steps below:
 
 1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 14:
 

@@ -5,7 +5,7 @@ test('Function removeOddValues must exist', () => {
     expect(removeOddValues).not.toBe(undefined);
 });
 
-test('The function must removes any properties whose values are odd numbers.', () => { 
+test('The function must remove any properties whose values are odd numbers', () => { 
     let obj = {
         a: 2,
         b: 3,
@@ -15,7 +15,7 @@ test('The function must removes any properties whose values are odd numbers.', (
     expect(obj).toEqual({ a: 2, c: 4})
 });
 
-test('The function must removes any properties whose values are odd numbers.', () => {
+test('The function must remove any properties whose values are odd numbers', () => {
     let obj = {
         a: 5,
         b: 3,

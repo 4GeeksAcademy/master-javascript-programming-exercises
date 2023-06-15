@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `removeEvenValues`. Dado cualquier objeto, `removeEvenValues` elimina cualquier propiedad cuyos valores sean número pares.
+1. Escribe una función llamada `removeEvenValues`. Dado cualquier objeto, `removeEvenValues` elimina cualquier propiedad cuyos valores sean números pares.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let obj = {
@@ -15,10 +15,9 @@ let obj = {
 removeEvenValues(obj);
 console.log(obj); // --> { b: 3 }
 ```
-## 💡 Pistas:
 
-+ Recuerda, nos referimos a cualquier objeto, no solo al que se muestra en el ejemplo.
+## 💡 Pista:
 
-+ Hazlo en el sitio y regresa el objeto original, no construyas un objeto clonado que omita las propiedades.
++ Debes modificar el objeto dado, hazlo de manera programática y no hagas un *hard code*.
 
 

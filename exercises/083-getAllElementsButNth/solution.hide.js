@@ -1,32 +1,5 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function getAllElementsButNth(array, n) {
-    // Write your function here
+    // your code here
     array.splice(n, 1);
     return array
 }

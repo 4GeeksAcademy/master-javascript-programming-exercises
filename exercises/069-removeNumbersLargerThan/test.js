@@ -5,7 +5,7 @@ test('Function removeNumbersLargerThan must exist', () => {
     expect(removeNumbersLargerThan).not.toBe(undefined);
 });
 
-test('The function must remove any property whose value is a number greater than the given number.', () => {
+test('The function must remove any property whose value is a number greater than the given number', () => {
     let obj = {
         a: 9,
         b: 11,
@@ -16,7 +16,7 @@ test('The function must remove any property whose value is a number greater than
     expect(output).toEqual({ a: 9, c: 'chile' })
 });
 
-test('The function must remove any property whose value is a number greater than the given number.', () => {
+test('The function must remove any property whose value is a number greater than the given number. Testing with different values', () => {
     let obj = {
         a: 8,
         b: 2,

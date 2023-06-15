@@ -4,7 +4,7 @@
 
 1. Write a function called `removeEvenValues`. Given any object, `removeEvenValues` removes any properties whose values are even numbers.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj = {
@@ -16,8 +16,6 @@ removeEvenValues(obj);
 console.log(obj); // --> { b: 3 }
 ```
 
-## 💡 Hints:
+## 💡 Hint:
 
-+ Remember, we are talking about any object, not just the one shown in the sample
-
-+ Do this in place and return the original object, do not construct a cloned object that omits the properties.
++ You must modify the given object, do not hard code the desired result.

@@ -4,7 +4,7 @@
 
 1. Write a function called `removeOddValues`. Given an object, `removeOddValues` removes any properties whose values are odd numbers.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj = {

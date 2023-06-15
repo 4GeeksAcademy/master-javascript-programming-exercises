@@ -4,7 +4,7 @@
 
 1. Write a function called `getIndexOf`. Given a character and a string, `getIndexOf` returns the first position of the given character in the given string.
 
-## Example:
+## 📎 Example:
 
 ```js
 let output = getIndexOf('a', 'I am a hacker');

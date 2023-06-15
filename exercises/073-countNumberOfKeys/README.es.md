@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `countNumberOfKeys`. Dado un objeto, `countNumberOfKeys` regresa tantas propiedades como el objeto dado tenga.
+1. Escribe una función llamada `countNumberOfKeys`. Dado un objeto, `countNumberOfKeys` retorna la cantidad de propiedades que el objeto dado tenga.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Javascript
 let obj = {

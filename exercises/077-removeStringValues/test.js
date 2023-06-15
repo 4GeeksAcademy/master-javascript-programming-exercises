@@ -5,7 +5,7 @@ test('Function removeStringValues must exist', () => {
     expect(removeStringValues).not.toBe(undefined);
 });
 
-test('The function must removes any properties whose values are strings.', () => {
+test('The function must remove any properties whose values are strings', () => {
     let obj = {
         name: 'Sam',
         age: 20
@@ -14,7 +14,7 @@ test('The function must removes any properties whose values are strings.', () =>
     expect(obj).toEqual({ age: 20 })
 });
 
-test('The function must removes any properties whose values are strings. Testing with different values.', () => {
+test('The function must remove any properties whose values are strings. Testing with different values', () => {
     let obj = {
         a: 2,
         b: 'remaining',

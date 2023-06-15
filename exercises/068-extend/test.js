@@ -5,7 +5,7 @@ test('Function "extend" must exist', () => {
     expect(extend).not.toBe(undefined);
 });
 
-test('The function must add the properties of the 2nd object to the first one. ', () => {
+test('The function must add the properties of the 2nd object to the first one', () => {
     let obj1 = {
         a: 1,
         b: 2
@@ -19,7 +19,7 @@ test('The function must add the properties of the 2nd object to the first one. '
     expect(output).toEqual({ a: 1, b: 2, c: 3 })
 });
 
-test('If the first object already has the given key, ignore it(don\'t override the property value).', () => {
+test('If the first object already has the given key, ignore it (don\'t override the property value)', () => {
     let obj1 = {
         a: 74,
         b: 22

@@ -13,12 +13,12 @@ test('Function findMinLengthOfThreeWords must return a number', () => {
   expect(typeof findMinLengthOfThreeWords('test', 't', 'est')).toBe('number');
 });
 
-test('The function should return the element with less characters.', () => {
+test('The function should return the element with less characters', () => {
   let output = findMinLengthOfThreeWords('past', 'present', 'future');
   expect(output).toBe(4);
 });
 
-test('The function should return the element with less characters. Testing with different values.', () => {
+test('The function should return the element with less characters. Testing with different values', () => {
   let output = findMinLengthOfThreeWords('Toyota', 'Honda', 'Chevrolet');
   expect(output).toBe(5);
 });

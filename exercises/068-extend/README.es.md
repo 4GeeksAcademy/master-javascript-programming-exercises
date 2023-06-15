@@ -29,3 +29,5 @@ console.log(obj2); // --> {b: 4, c: 3}
 + Si el primer objeto (`obj1`) ya tiene la key dada, ignóralo (no sobre escribas el valor de la propiedad).
 
 + No modifiques para nada el segundo objeto (`obj2`).
+
++ El loop `for...in` puede serte útil.

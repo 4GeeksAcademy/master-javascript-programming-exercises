@@ -4,7 +4,7 @@
 
 1. Write a function called `removeStringValues`. Given an object, `removeStringValues` removes any properties whose values are strings.
 
-## Example:
+## 📎 Example:
 
 ```Javascript
 let obj = {

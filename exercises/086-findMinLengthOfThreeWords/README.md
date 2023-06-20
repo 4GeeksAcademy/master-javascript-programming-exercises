@@ -13,4 +13,4 @@ console.log(output); // --> 1
 
 ## 💡 Hint:
 
-+ You can use `Math.min()` to complete this exercise.
++ You can use the function `Math.min()` to complete this exercise.

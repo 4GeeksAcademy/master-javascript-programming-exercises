@@ -4,7 +4,7 @@
 
 1. Write a function called `getFirstElementOfProperty`. Given an object and a key, `getFirstElementOfProperty` returns the first element of the array located at the given key. 
 
-## Example:
+## 📎 Example:
 
 ```js 
 let obj = {

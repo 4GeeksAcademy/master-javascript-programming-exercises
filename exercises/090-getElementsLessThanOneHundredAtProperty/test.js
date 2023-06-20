@@ -15,7 +15,7 @@ test('Function getElementsLessThan100AtProperty must return an array', () => {
   expect(typeof getElementsLessThan100AtProperty({ key: [20] }, 'key')).toBe('object');
 });
 
-test('The function must return every element less than 100 on a given key.', () => {
+test('The function must return every element less than 100 on a given key', () => {
   let obj = {
     key: [1000, 20, 50, 500],
   };
@@ -24,7 +24,7 @@ test('The function must return every element less than 100 on a given key.', () 
   expect(output).toEqual([20, 50]);
 });
 
-test('The function must return every element less than 100 on a given key.', () => {
+test('The function must return every element less than 100 on a given key', () => {
   let obj = {
     key: [10, 50, 10, 20, 6, 10, 98, 10, 100],
   };
@@ -32,7 +32,7 @@ test('The function must return every element less than 100 on a given key.', () 
   expect(output).toEqual([10, 50, 10, 20, 6, 10, 98, 10]);
 });
 
-test('If the array is empty, it should return an empty array.', () => {
+test('If the array is empty, it should return an empty array', () => {
   let obj = {
     key: [],
   };
@@ -40,7 +40,7 @@ test('If the array is empty, it should return an empty array.', () => {
   expect(output).toEqual([]);
 });
 
-test('If the array contains no elements less than 100, it should return an empty array.', () => {
+test('If the array contains no elements less than 100, it should return an empty array', () => {
   let obj = {
     key: [100, 101, 200],
   };
@@ -48,7 +48,7 @@ test('If the array contains no elements less than 100, it should return an empty
   expect(output).toEqual([]);
 });
 
-test('If the property at the given key is not an array, it should return an empty array.', () => {
+test('If the property at the given key is not an array, it should return an empty array', () => {
   let obj = {
     key: { a: 10 },
   };
@@ -56,7 +56,7 @@ test('If the property at the given key is not an array, it should return an empt
   expect(output).toEqual([]);
 });
 
-test('If there is no property at the key, it should return an empty array.', () => {
+test('If there is no property at the key, it should return an empty array', () => {
   let obj = {};
   let output = getElementsLessThan100AtProperty(obj, 'key');
   expect(output).toEqual([]);

@@ -13,4 +13,4 @@ console.log(output); // --> 3
 
 ## 💡 Hint:
 
-+ You can use `Math.max()` to complete this exercise.
++ You can use the function `Math.max()` to complete this exercise.

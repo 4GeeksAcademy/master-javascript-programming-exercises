@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe un función llamada `findMaxLengthOfThreeWords`. Dado 3 palabras, `findMaxLengthOfThreeWords` retorna la cantidad de letras de la palabra más larga.
+1. Escribe una función llamada `findMaxLengthOfThreeWords`. Dadas 3 palabras, `findMaxLengthOfThreeWords` retorna la cantidad de letras de la palabra más larga.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let output = findMaxLengthOfThreeWords('a', 'be', 'see');

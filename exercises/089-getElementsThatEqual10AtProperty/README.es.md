@@ -1,10 +1,10 @@
 # `089` getElementsThatEqual10AtProperty
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-1. Escribe una función llamada `getElementsThatEqual10AtProperty`. Dado un objeto y una key, `getElementsThatEqual10AtProperty` retorna un array que contiene todos los elementos de un array ubicado en la key dada que sean iguales a 10.
+1. Escribe una función llamada `getElementsThatEqual10AtProperty`. Dados un objeto y una key, `getElementsThatEqual10AtProperty` retorna un array que contiene todos los elementos de un array ubicado en la key dada que sean iguales a 10.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let obj = {

@@ -13,12 +13,12 @@ test('Function findMaxLengthOfThreeWords must return a number', () => {
   expect(typeof findMaxLengthOfThreeWords('te', 'tes', 'test')).toBe('number');
 });
 
-test('The function should return the element with more characters.', () => {
+test('The function should return the element with more characters', () => {
   let output = findMaxLengthOfThreeWords('past', 'present', 'future');
   expect(output).toBe(7);
 });
 
-test('The function should return the element with more characters.', () => {
+test('The function should return the element with more characters. Testing with different values', () => {
   let output = findMaxLengthOfThreeWords('Toyota', 'Honda', 'Chevrolet');
   expect(output).toBe(9);
 });

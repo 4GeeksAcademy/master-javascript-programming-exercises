@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getElementsLessThan100AtProperty`. Dado un objeto y una key, `getElementsLessThan100AtProperty` retorna un array que contiene todos los elementos del array ubicado en esa key que sean menores a 100.
+1. Escribe una función llamada `getElementsLessThan100AtProperty`. Dados un objeto y una key, `getElementsLessThan100AtProperty` retorna un array que contiene todos los elementos del array ubicado en esa key que sean menores a 100.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let obj = {

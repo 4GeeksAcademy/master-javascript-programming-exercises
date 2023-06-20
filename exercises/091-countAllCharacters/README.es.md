@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `countAllCharacters`. Dado un string, `countAllCharacters` retorna un objeto en el cual cada key es un caracter del string dado. 
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let output = countAllCharacters('banana');

@@ -10,3 +10,7 @@
 let output = findMaxLengthOfThreeWords('a', 'be', 'see');
 console.log(output); // --> 3
 ```
+
+## 💡 Pista:
+
++ Puedes usar la función `Math.max()` para completar este ejercicio.

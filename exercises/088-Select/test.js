@@ -13,7 +13,7 @@ test('Function select must return an object', () => {
   expect(typeof select(['a'], { a: 1 })).toBe('object');
 });
 
-test('The return object must contain the properties specified on the array.', () => {
+test('The returned object must contain the properties specified in the array', () => {
   let arr = ['a', 'c', 'e'];
   let obj = {
     a: 1,
@@ -25,7 +25,7 @@ test('The return object must contain the properties specified on the array.', ()
   expect(output).toEqual({ a: 1, c: 3 });
 });
 
-test('The return object must not contain the properties that are not present in both arr and obj.', () => {
+test('The returned object must not contain the properties that are not present in both arr and obj', () => {
   let arr = ['c', 'e', 'l'];
   let obj = {
     a: 5,
@@ -43,7 +43,7 @@ test('The return object must not contain the properties that are not present in 
   expect(output['h']).toBe(undefined);
 });
 
-test('The return object must not contain the properties that are not present in both arr and obj.', () => {
+test('The returned object must not contain the properties that are not present in both arr and obj. Testing with different values', () => {
   let arr = ['c', 'f'];
   let obj = {
     a: 5,

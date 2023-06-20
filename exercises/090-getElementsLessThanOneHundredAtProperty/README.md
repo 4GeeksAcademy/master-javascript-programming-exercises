@@ -4,7 +4,7 @@
 
 1. Write a function called `getElementsLessThan100AtProperty`. Given an object and a key, `getElementsLessThan100AtProperty` returns an array containing all the elements of the array located at the given key that are less than 100.
 
-## Example:
+## 📎 Example:
 
 ```js
 let obj = {

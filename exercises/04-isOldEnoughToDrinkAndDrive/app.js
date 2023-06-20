@@ -1,3 +1,3 @@
-function isOldEnoughToDrinkAndDrive(age) {
+function isOldEnoughToDrinkOrDrive(age) {
   // your code here
 }

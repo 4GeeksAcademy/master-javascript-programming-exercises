@@ -1,10 +1,10 @@
 const rewire = require ("rewire");
 
 test ('It is always illegal to drink and drive in the United States, you must always return false', () => {
-    const isOldEnoughToDrinkAndDrive = rewire ('./app.js').__get__("isOldEnoughToDrinkAndDrive");
+    const isOldEnoughToDrinkOrDrive = rewire ('./app.js').__get__("isOldEnoughToDrinkOrDrive");
 
-    expect(isOldEnoughToDrinkAndDrive(10)).toBe(false);
-    expect(isOldEnoughToDrinkAndDrive(18)).toBe(false);
-    expect(isOldEnoughToDrinkAndDrive(21)).toBe(false);
-    expect(isOldEnoughToDrinkAndDrive(30)).toBe(false);
+    expect(isOldEnoughToDrinkOrDrive(10)).toBe(false);
+    expect(isOldEnoughToDrinkOrDrive(18)).toBe(true); 
+    expect(isOldEnoughToDrinkOrDrive(21)).toBe(true); 
+    expect(isOldEnoughToDrinkOrDrive(30)).toBe(true); 
 })

@@ -1,15 +1,15 @@
-# `04` isOldEnoughToDrinkAndDrive
+# `04` isOldEnoughToDrinkOrDrive
 
 ## 📝 Instructions
 
-Write a function called "isOldEnoughToDrinkAndDrive".
+Write a function called "isOldEnoughToDrinkOrDrive".
 
-Given a number, in this case an age, "isOldEnoughToDrinkAndDrive" returns whether a person of this given age is old enough to legally drink and drive in the United States.
+Write a function called `isOldEnoughToDrinkOrDrive`. Given a number representing an age, the function `isOldEnoughToDrinkOrDrive` determines whether a person of this given age is old enough to legally either drink or drive in the United States. It should return true if the person is old enough for either activity, and false if they are not old enough for either or if both activities are legally restricted.
 
 ```Javascript
-var output = isOldEnoughToDrinkAndDrive(22);
-console.log(output); // --> false
+var output = isOldEnoughToDrinkOrDrive(22);
+console.log(output); // --> true
 ```
 
 ## 💡 Hint
-The legal drinking age in the United States is 21.* It is always illegal to drink and drive in the United States.
+The legal drinking age in the United States is 21.

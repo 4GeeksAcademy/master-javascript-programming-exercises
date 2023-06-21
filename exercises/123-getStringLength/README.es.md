@@ -15,4 +15,4 @@ console.log(output); // --> 5
 
 + NO uses el método `length`.
 
-+ Puedes considerar usar `substring` o `slice` como alternativas.
++ Puedes considerar usar `substring()` o `slice()` como alternativas.

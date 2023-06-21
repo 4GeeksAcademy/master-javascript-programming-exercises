@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getElementOfArrayProperty`. Dado un Objeto, un Key y un index númerico, `getElementOfArrayProperty` retorna el valor de un elemento en el index proporcionado del array ubicado dentro del Objeto en la key dada.
+1. Escribe una función llamada `getElementOfArrayProperty`. Dados un objeto, una key y un index númerico, `getElementOfArrayProperty` retorna el valor de un elemento en el index proporcionado del array ubicado dentro del objeto en la key dada.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let obj = {
@@ -18,8 +18,8 @@ console.log(output); // --> 'Jamil'
 
 + Si el array está vacío, debería retornar `undefined`.
 
-+ Si el index otorgado está fuera del rango del array localizado en el Key, debería retornar `undefined`.
++ Si el index otorgado está fuera del rango del array localizado en la key, debería retornar `undefined`.
 
-+ Si la propiedad en el Key dado no es un array, debería retornar `undefined`.
++ Si la propiedad en la key dada no es un array, debería retornar `undefined`.
 
-+ Si no hay ninguna propiedad en el Key, debería retornar `undefined`.
++ Si no hay ninguna propiedad en la key, debería retornar `undefined`.

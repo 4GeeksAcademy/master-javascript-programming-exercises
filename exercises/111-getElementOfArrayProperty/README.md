@@ -4,7 +4,7 @@
 
 1. Write a function called `getElementOfArrayProperty`. Given an object, a key, and a numerical index, `getElementOfArrayProperty` returns the value of the element at the given index of the array located within the given object at the given key.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let obj = {

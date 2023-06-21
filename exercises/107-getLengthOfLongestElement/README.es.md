@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `getLengthOfLongestElement`. Dado un array, `getLengthOfLongestElement` retorna la longitud del string más largo en el array.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let output = getLengthOfLongestElement(['one', 'two', 'three']);
@@ -13,4 +13,4 @@ console.log(output); // --> 5
 
 ## 💡 Pista:
 
-+ Deberá retornar 0 si el array esta vacío.
++ Si el array está vacío, debe retornar `0`.

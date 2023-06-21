@@ -4,7 +4,7 @@
 
 1. Write a function called `getLastElementOfProperty`. Given an object and a key, `getLastElementOfProperty` returns the last element of an array located at the given key.
 
-## Example:
+## 📎 Example:
 
 ```js
 let obj = {

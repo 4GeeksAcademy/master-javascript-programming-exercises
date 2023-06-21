@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getOddElementsAtProperty`. Dado un objeto y una key, `getOddElementsAtProperty` regresa un array que contenga todos los elementos impares del array localizados en la key dada. 
+1. Escribe una función llamada `getOddElementsAtProperty`. Dados un objeto y una key, `getOddElementsAtProperty` retorna un array que contenga todos los elementos impares del array localizados en la key dada. 
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let obj = {
@@ -16,10 +16,10 @@ console.log(output); // --> [1, 3, 5]
 
 ## 💡 Pistas:
 
-+ Si el array está vacío, debe regresar un array vacío.
++ Si el array está vacío, debe retornar un array vacío `[]`.
 
-+ Si no contiene ningún elemento impar, debe regresar un array vacío.
++ Si no contiene ningún elemento impar, debe retornar un array vacío `[]`.
 
-+ Si la propiedad en la key dada no es un array, debe regresar un array vacío.
++ Si la propiedad en la key dada no es un array, debe retornar un array vacío `[]`.
 
-+ Si no hay propiedad en la key, debe regresar un array vacío.
++ Si no hay propiedad en la key, debe retornar un array vacío `[]`.

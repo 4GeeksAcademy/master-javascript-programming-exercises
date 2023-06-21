@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getFirstElementOfProperty`. Dado un objeto y una key, `getFirstElementOfProperty` retorna el primer elemento de un array ubicado la key dada.
+1. Escribe una función llamada `getFirstElementOfProperty`. Dados un objeto y una key, `getFirstElementOfProperty` retorna el primer elemento de un array ubicado en la key dada.
  
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js 
 let obj = {
@@ -18,6 +18,6 @@ console.log(output); // --> 1
 
 + Si el array está vacío, debería retornar `undefined`.
 
-+ Si el propiedad en la key dada no es un array, debería retornar `undefined`.
++ Si la propiedad en la key dada no es un array, debería retornar `undefined`.
 
 + Si la key no tiene propiedad, debería retornar `undefined`.

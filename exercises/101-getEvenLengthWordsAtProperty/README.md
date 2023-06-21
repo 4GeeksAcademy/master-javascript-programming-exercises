@@ -4,18 +4,17 @@
 
 1. Write a function called `getEvenLengthWordsAtProperty`. Given an object and a key, `getEvenLengthWordsAtProperty` returns an array containing all the even length word elements of the array located at the given key.
 
-## Example:
+## 📎 Example:
 
 ```js
 let obj = {
   key: ['a', 'long', 'game']
-  
 };
 let output = getEvenLengthWordsAtProperty(obj, 'key');
 console.log(output); // --> ['long', 'game']
 ```
 
-##  💡 Hints:
+## 💡 Hints:
 
 - If the array is empty, it should return an empty array `[]`.
 

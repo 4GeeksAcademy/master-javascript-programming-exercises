@@ -5,14 +5,14 @@
 1. Escribe una función llamada `computeAverageOfNumbers`. Dado un array de números, `computeAverageOfNumbers` retorna su promedio. 
 
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
-let input = [1,2,3,4,5];
+let input = [1, 2, 3, 4, 5];
 let output = computeAverageOfNumbers(input);
 console.log(output); // --> 3
 ```
 
 ## 💡 Pista:
 
-+ Si el array se encuentra vacio, debería retornar 0.
++ Si el array dado se encuentra vacío, debería retornar `0`.

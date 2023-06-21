@@ -1,10 +1,5 @@
-let obj = {
-  key: ['a', 'long', 'game']
-};
-
 function getEvenLengthWordsAtProperty(obj, key) {
   // your code here
-
   if (!obj[key] || !Array.isArray(obj[key])) {
     return []
   } else {
@@ -15,6 +10,3 @@ function getEvenLengthWordsAtProperty(obj, key) {
     return aux;
   }
 }
-
-let output = getEvenLengthWordsAtProperty(obj, 'key');
-console.log(output); // --> ['long', 'game']

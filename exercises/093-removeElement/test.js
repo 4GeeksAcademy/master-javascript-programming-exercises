@@ -18,11 +18,11 @@ test('Function removeElement should return an array with all the elements except
   expect(removeElement([1, 2, 3, 2, 1], 2)).toEqual([1, 3, 1]);
 });
 
-test('Function removeElement should return an array with all the elements except the discarder, testing with different values', function () {
+test('Function removeElement should return an array with all the elements except the discarder. Testing with different values', function () {
   expect(removeElement([6, 4, 4, 5, 1, 0, 4, 2, 3], 4)).toEqual([6, 5, 1, 0, 2, 3,]);
 });
 
-test('Function removeElement should return an empty array when receives an empty array', function () {
+test('Function removeElement should return an empty array when it receives an empty array', function () {
   expect(removeElement([], 3)).toEqual([]);
 });
 

@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getSmallestElementAtProperty`. Dado un objeto y una key, `getSmallestElementAtProperty` retorna el elemento maás pequeño del array ubicado en dicha key.
+1. Escribe una función llamada `getSmallestElementAtProperty`. Dados un objeto y una key, `getSmallestElementAtProperty` retorna el elemento más pequeño del array ubicado en dicha key.
 
- ## Ejemplo:
+ ## 📎 Ejemplo:
 
 ```Js
 let obj = {
@@ -18,6 +18,6 @@ console.log(output); // --> 1
 
 + Si el array está vacío, debería retornar un array vacío `[]`.
 
-+ Si la propiedad en el Key dado no es un array, debería retornar un array vacío `[]`.
++ Si la propiedad en la key dada no es un array, debería retornar un array vacío `[]`.
 
-+ Si no hay ninguna propiedad en el Key, debería retronar un array vacío `[]`.
++ Si no hay ninguna propiedad en la key, debería retornar un array vacío `[]`.

@@ -21,7 +21,7 @@ test('Function getFirstElementOfProperty must return a number', () => {
   expect(typeof getFirstElementOfProperty(obj, "key")).toBe('number');
 });
 
-test('The function must return the first element of the array located at a given key.', () => {
+test('The function must return the first element of the array located at a given key', () => {
   let obj = {
     key: [1, 2, 4],
   };
@@ -29,7 +29,7 @@ test('The function must return the first element of the array located at a given
   expect(output).toBe(1);
 });
 
-test('The function must return the first element of the array located at a given key.', () => {
+test('The function must return the first element of the array located at a given key. Testing with different values', () => {
   let obj = {
     key: [9, 8, 6, 0, 2, 4],
   };
@@ -37,7 +37,7 @@ test('The function must return the first element of the array located at a given
   expect(output).toBe(9);
 });
 
-test('If the array is empty, it should return undefined.', () => {
+test('If the array is empty, it should return undefined', () => {
   let obj = {
     key: [],
   };
@@ -45,7 +45,7 @@ test('If the array is empty, it should return undefined.', () => {
   expect(output).toBe(undefined);
 });
 
-test('If the property at the given key is not an array, it should return undefined.', () => {
+test('If the property at the given key is not an array, it should return undefined', () => {
   let obj = {
     key: 1,
   };
@@ -53,7 +53,7 @@ test('If the property at the given key is not an array, it should return undefin
   expect(output).toBe(undefined);
 });
 
-test('If there is no property at the key, it should return undefined.', () => {
+test('If there is no property at the key, it should return undefined', () => {
   let obj = {};
   let output = getFirstElementOfProperty(obj, 'key');
   expect(output).toBe(undefined);

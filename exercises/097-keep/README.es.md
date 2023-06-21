@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones: 
 
-1. Escribe una función llamada `keep`. Dado un array y un elemento, `keep` retorna una array que contiene los items que coinciden con el elemento dado.
+1. Escribe una función llamada `keep`. Dados un array y un elemento, `keep` retorna un array que contiene los items que coinciden con el elemento dado.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let output = keep([1, 2, 3, 2, 1], 2) 

@@ -19,7 +19,7 @@ test('The function must return the average of the given list of numbers', () => 
   expect(output).toBe(3);
 });
 
-test('The function must return the average of the given list of numbers (Testing with a different list)', () => {
+test('The function must return the average of the given list of numbers. Testing with different values', () => {
   let input = [1, 2, 3, 4, 5, 7, 8, 9];
   let output = computeAverageOfNumbers(input);
   expect(output).toBe(4.875);

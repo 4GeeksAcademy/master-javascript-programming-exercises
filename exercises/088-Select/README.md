@@ -1,10 +1,10 @@
-# `088` Select
+# `088` select
 
 ## 📝 Instructions:
 
 1. Write a function called `select`. Given an array and an object, `select` returns a new object whose properties must be on the given array and the given object as well. 
 
-## Example:
+## 📎 Example:
 
 ```js
 let arr = ['a', 'c', 'e'];
@@ -18,7 +18,7 @@ let output = select(arr, obj);
 console.log(output); // --> { a: 1, c: 3 }
 ```
 
-## 💡 Hint:
+## 💡 Hints:
 
 + If keys are present in the given array, but are not in the given object, it should ignore them. 
 

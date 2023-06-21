@@ -10,3 +10,7 @@
 let output = findMinLengthOfThreeWords('a', 'be', 'see');
 console.log(output); // --> 1
 ```
+
+## 💡 Pista:
+
++ Puedes usar la función `Math.min()` para completar este ejercicio.

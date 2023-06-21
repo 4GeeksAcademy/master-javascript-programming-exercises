@@ -4,7 +4,7 @@
 
 1. Write a function called `getElementsThatEqual10AtProperty`. Given an object and a key, `getElementsThatEqual10AtProperty` returns an array containing all the elements of the array located at the given key that are equal to ten.
 
-## Example:
+## 📎 Example:
 
 ```js
 let obj = {

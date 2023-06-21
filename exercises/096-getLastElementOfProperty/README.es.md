@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones: 
 
-1. Escribe una función llamada `getLastElementOfProperty`. Dado un objeto y una key, `getLastElementOfProperty` retorna el último elemento de un array en dicha key.
+1. Escribe una función llamada `getLastElementOfProperty`. Dados un objeto y una key, `getLastElementOfProperty` retorna el último elemento de un array en dicha key.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let obj = {
@@ -18,6 +18,6 @@ console.log(output); // --> 5
 
 + Si el array está vacío, debería retornar `undefined`.
 
-+ Si el propiedad en la key dada no es un array, debería retornar `undefined`.
++ Si la propiedad en la key dada no es un array, debería retornar `undefined`.
 
 + Si la key no tiene propiedad, debería retornar `undefined`.

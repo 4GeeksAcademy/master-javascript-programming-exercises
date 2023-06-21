@@ -1,5 +1,6 @@
 function getLengthOfLongestElement(arr) {
     // Your code here
+    
 }
 
 let output = getLengthOfLongestElement(['one', 'two', 'three']);

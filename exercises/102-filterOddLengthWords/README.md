@@ -2,13 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `filterOddLengthWords`. Given an array of string, `filterOddLengthWords` returns an array containing only the elements of the given array whose lengths are odd numbers.
+1. Write a function called `filterOddLengthWords`. Given an array of strings, `filterOddLengthWords` returns an array containing only the elements of the given array whose lengths are odd numbers.
 
-## Example:
+## 📎 Example:
 
 ```js
 let output = filterOddLengthWords(['there', 'it', 'is', 'now']);
-console.log(output); // --> ['there', "now']
+console.log(output); // --> ['there', 'now']
 ```
 
 ##  💡 Hints:

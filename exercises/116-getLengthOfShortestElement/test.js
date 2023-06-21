@@ -15,15 +15,15 @@ test('Function getLengthOfShortestElement must return a number', () => {
   expect(typeof getLengthOfShortestElement(['test', 'tes'])).toBe('number');
 });
 
-test('Function must returns the length of the shortest string in the array. Testing with example values.', () => {
+test('Function must return the length of the shortest string in the array', () => {
   expect(getLengthOfShortestElement(['one', 'two', 'three'])).toBe(3);
 });
 
-test('Function must returns the length of the shortest string in the array.', () => {
+test('Function must return the length of the shortest string in the array. Testing with different values', () => {
   expect(getLengthOfShortestElement(['1234', 'rocky', 'eerie'])).toBe(4);
 });
 
-test('If array is empty must return 0', () => {
+test('If array is empty, it must return 0', () => {
   let output = getLengthOfShortestElement([]);
   expect(output).toBe(0);
 });

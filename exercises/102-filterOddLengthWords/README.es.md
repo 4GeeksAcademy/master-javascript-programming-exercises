@@ -1,18 +1,18 @@
 # `102` filterOddLengthWords
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-1. Escribe una función llamada `filterOddLengthWords`. Dado un array de strings, `filterOddLengthWords` regresa un array que contenga únicamente los elementos del array dado cuya length sea números impares.
+1. Escribe una función llamada `filterOddLengthWords`. Dado un array de strings, `filterOddLengthWords` retorna un array que contenga únicamente los elementos del array dado cuya length sea números impares.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let output = filterOddLengthWords(['there', 'it', 'is', 'now']);
 console.log(output); // --> ['there', "now']
 ```
 
-## 💡 Pista:
+## 💡 Pistas:
 
-- Si el array está vacío, debe regresar un array vacío `[]`.
+- Si el array está vacío, debe retornar un array vacío `[]`.
 
-- Si no contiene ningún elemento cuyo length es impar, debe regresar un array vacío `[]`.
+- Si no contiene ningún elemento cuyo length es impar, debe retornar un array vacío `[]`.

@@ -15,4 +15,4 @@ console.log(output); // --> 24.9
 
 + Suppose that sales tax is 9.5% and tip is 15%.
 
-+ DO NOT tip the sales tax, only the amount of the tip corresponding to the amount before tax.
++ Remember that each rate must be applied separately to the original given amount.

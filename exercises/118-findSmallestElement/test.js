@@ -13,15 +13,15 @@ test('Function findSmallestElement must return a number', () => {
   expect(typeof findSmallestElement([1, 2])).toBe('number');
 });
 
-test('Function must returns the smallest number within the array. Testing with example values.', () => {
+test('Function must return the smallest number within the array', () => {
   expect(findSmallestElement([4, 1, 9, 10])).toBe(1);
 });
 
-test('Function must returns the smallest number within the array.', () => {
+test('Function must return the smallest number within the array. Testing with different values', () => {
   expect(findSmallestElement([11, 32, 8, 19, 51, 13])).toBe(8);
 });
 
-test('If array is empty must return 0', () => {
+test('If array is empty, it must return 0', () => {
   let output = findSmallestElement([]);
   expect(output).toBe(0);
 });

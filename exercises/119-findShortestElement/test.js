@@ -13,16 +13,16 @@ test('Function findShortestElement must return a number', () => {
   expect(typeof findShortestElement(['a', 'b'])).toBe('string');
 });
 
-test('Function must returns the smallest number within the array.', () => {
+test('Function must return the shortest string within the array', () => {
   let output = findShortestElement(['a', 'two', 'three']);
   expect(output).toBe('a');
 });
 
-test('If there are elements with the same length, then it should return the first element found.', () => {
+test('If there are elements with the same length, then it should return the first element found', () => {
   expect(findShortestElement(['iu', 'wi', 'as here'])).toBe('iu');
 });
 
-test('If array is empty must return empty string', () => {
+test('If array is empty, it must return an empty string', () => {
   let output = findShortestElement([]);
   expect(output).toBe('');
 });

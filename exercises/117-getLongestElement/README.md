@@ -4,15 +4,15 @@
 
 1. Write a function called `getLongestElement`. Given an array, `getLongestElement` returns the longest string in the given array.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = getLongestElement(['one', 'two', 'three']);
 console.log(output); // --> 'three'
 ```
 
-## 💡Hints:
+## 💡 Hints:
 
-+ If there are more than one string tied as the longest, it should return the element with the shorter position.
++ If there is more than one string tied as the longest, it should return the first element found.
 
 + If the array is empty, it should return an empty string.

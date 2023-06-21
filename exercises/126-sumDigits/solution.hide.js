@@ -16,5 +16,6 @@ function sumDigits(num) {
   }
   return result;
 }
+
 let output = sumDigits(-316);
 console.log(output); // --> 4

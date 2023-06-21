@@ -4,7 +4,7 @@
 
 1. Write a function called `filterEvenElements`. Given an array of numbers, `filterEvenElements` returns an array containing only the even numbers of the given array.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = filterEvenElements([2, 3, 4, 5, 6]);

@@ -13,10 +13,10 @@ test('Function filterEvenElements must return an array', () => {
   expect(typeof filterEvenElements([1, 2])).toBe('object');
 });
 
-test('Function must returns an array that contains only the even numbers found in the array.', () => {
+test('Function must return an array that contains only the even numbers found in the array', () => {
   expect(filterEvenElements([6, 8, 12, 81, 92])).toEqual([6, 8, 12, 92]);
 });
 
-test('Function must returns an array that contains only the even numbers found in the array. Testing with example values.', () => {
+test('Function must return an array that contains only the even numbers found in the array. Testing with different values', () => {
   expect(filterEvenElements([2, 3, 4, 5, 6])).toEqual([2, 4, 6]);
 });

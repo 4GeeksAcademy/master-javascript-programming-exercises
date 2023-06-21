@@ -12,10 +12,10 @@ test('Function computeSumOfAllElements must return a number', () => {
   expect(typeof computeSumOfAllElements([1, 2])).toBe('number');
 });
 
-test('Function must returns the sum of all elements of the array. Testing with example values.', () => {
+test('Function must return the sum of all elements of the array', () => {
   expect(computeSumOfAllElements([1, 2, 3])).toBe(6);
 });
 
-test('Function must returns the sum of all elements of the array.', () => {
+test('Function must return the sum of all elements of the array. Testing with different values', () => {
   expect(computeSumOfAllElements([5, 3, 9])).toBe(17);
 });

@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escriba una funcion llamada `getProductOfAllElementsAtProperty`. Dado un objeto y un key, `getProductOfAllElementsAtProperty` retorna el producto de todos los elementos en el array ubicado en el key.
+1. Escribe una función llamada `getProductOfAllElementsAtProperty`. Dados un objeto y una key, `getProductOfAllElementsAtProperty` retorna el producto de todos los elementos en el array ubicado en la key.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let obj = {
@@ -16,8 +16,8 @@ console.log(output); // --> 24
 
 ## 💡 Pistas:
 
-+ Si al array está vacío, debería retornar 0.
++ Si el array está vacío, debería retornar `0`.
 
-+ Si la propiedad en el key dado no es un array, debería retronar 0.
++ Si la propiedad en la key dada no es un array, debería retornar `0`.
 
-+ Si no hay ninguna propiedad en el key, debería retonar 0.
++ Si no hay ninguna propiedad en la key, debería retornar `0`.

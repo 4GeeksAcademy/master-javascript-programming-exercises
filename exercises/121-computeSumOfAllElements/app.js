@@ -1,5 +1,6 @@
 function computeSumOfAllElements(arr) {
   // your code here
+  
 }
 
 let output = computeSumOfAllElements([1, 2, 3])

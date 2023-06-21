@@ -13,15 +13,15 @@ test('Function getLargestElement must return a number', () => {
   expect(typeof getLargestElement([1, 2])).toBe('number');
 });
 
-test('Function must returns the largest number within the array. Testing with example values.', () => {
+test('Function must return the largest number within the array', () => {
   expect(getLargestElement([5, 2, 8, 3])).toBe(8);
 });
 
-test('Function must returns the largest number within the array.', () => {
+test('Function must return the largest number within the array. Testing with different values', () => {
   expect(getLargestElement([15, 22, 18, 23])).toBe(23);
 });
 
-test('If array is empty must return empty string', () => {
+test('If array is empty, it should return 0', () => {
   let output = getLargestElement([]);
   expect(output).toBe(0);
 });

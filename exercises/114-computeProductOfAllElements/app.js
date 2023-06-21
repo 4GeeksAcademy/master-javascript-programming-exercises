@@ -5,4 +5,3 @@ function computeProductOfAllElements(arr) {
 
 let output = computeProductOfAllElements([2, 5, 6]);
 console.log(output); // --> 60
-

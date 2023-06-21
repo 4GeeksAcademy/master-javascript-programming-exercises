@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `findShortestElement`. Dado un array, `findShortestElement` retorna el string más corto dentro del array.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let output = findShortestElement(['a', 'two', 'three']);

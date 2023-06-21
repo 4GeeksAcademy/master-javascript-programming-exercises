@@ -10,10 +10,10 @@ test('Function calculateBillTotal must return a number', () => {
   expect(typeof calculateBillTotal(1)).toBe('number');
 });
 
-test('Function must returns the total amount owed after taxes and tips. Testing with example values.', () => {
+test('Function must return the total amount owed after taxes and tips', () => {
   expect(calculateBillTotal(20)).toBe(24.9);
 });
-test('Function must returns the total amount owed after taxes and tips.', () => {
+test('Function must return the total amount owed after taxes and tips. Testing with different values', () => {
   expect(calculateBillTotal(36)).toBe(44.82);
 });
 

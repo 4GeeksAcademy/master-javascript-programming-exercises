@@ -12,6 +12,21 @@ test('Function getNthElementOfProperty must return something', () => {
   expect(getNthElementOfProperty(obj, 'key', 1)).not.toBe(undefined);
 });
 
+test('The function must return ONLY the nth element located at a given key in the given array', () => {
+  let obj1 ={
+    key: [1, 2]
+  }
+  let obj2 ={
+    key: [1, 'test']
+  }
+  let obj3 ={
+    key: [1, { a: 1 }]
+  }
+  expect(typeof getNthElementOfProperty(obj1, 'key', 1)).toBe('number')
+  expect(typeof getNthElementOfProperty(obj2, 'key', 1)).toBe('string')
+  expect(typeof getNthElementOfProperty(obj3, 'key', 1)).toBe('object');
+});
+
 test('The function must return ONLY the nth element located at a given key in the given array. It can be a number', () => {
   let obj = {
     key: [1, 2, 6],
@@ -73,19 +88,4 @@ test('If the property at the given key is not an array, it should return undefin
   };
   let output = getNthElementOfProperty(obj, 'key', 2);
   expect(output).toBe(undefined);
-});
-
-test('If the property at the given key is not an array, it should return undefined. Testing with different values', () => {
-  let obj1 ={
-    key: [1, 2]
-  }
-  let obj2 ={
-    key: [1, 'test']
-  }
-  let obj3 ={
-    key: [1, { a: 1 }]
-  }
-  expect(typeof getNthElementOfProperty(obj1, 'key', 1)).toBe('number')
-  expect(typeof getNthElementOfProperty(obj2, 'key', 1)).toBe('string')
-  expect(typeof getNthElementOfProperty(obj3, 'key', 1)).toBe('object');
 });

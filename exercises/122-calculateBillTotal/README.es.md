@@ -15,4 +15,4 @@ console.log(output); // --> 24.9
 
 + Suponga que el impuesto sobre las ventas es del 9.5% y la propina es del 15%.
 
-+ NO le des propina al impuesto sobre las ventas, solo al monto de la propina correspondiente al monto antes de impuesto.
++ Recuerda que cada valor a agregar es independiente, debes aplicar cada uno por separado al monto dado.

@@ -2,9 +2,9 @@
 
 ## 📝 Instructions: 
 
-1. Write a function called `getNthElementOfProperty`. Given an object and a key, `getNthElementOfProperty` returns the nth element of an array located at the given key.
+1. Write a function called `getNthElementOfProperty`. Given an object, a key, and a number, `getNthElementOfProperty` returns the *nth* element of an array located at the given key.
 
-## Example:
+## 📎 Example:
 
 ```js
 let obj = {
@@ -18,7 +18,7 @@ console.log(output); // --> 2
 
 + If the array is empty, it should return `undefined`.
 
-+ If n is out of range, it should return `undefined`.
++ If *n* is out of range, it should return `undefined`.
 
 + If the property at the given key is not an array, it should return `undefined`.
 

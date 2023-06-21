@@ -4,7 +4,7 @@
 
 1. Write a function called `getOddLengthWordsAtProperty`. Given an object and a key, `getOddLengthWordsAtProperty` returns an array containing all the odd length word elements of the array located at the given key. 
 
-## Example:
+## 📎 Example:
 
 ```js
 let obj = {
@@ -22,4 +22,4 @@ console.log(output); // --> ['has', 'words']
 
 + If the property at the given key is not an array, it should return an empty array `[]`.
 
-+ If there is no property at the given key, it should return an empty array.
++ If there is no property at the given key, it should return an empty array `[]`.

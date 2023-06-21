@@ -4,7 +4,7 @@
 
 1. Write a function called `getSmallestElementAtProperty`. Given an object and a key, `getSmallestElementAtProperty` returns the smallest element in the array located at the given key.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let obj = {

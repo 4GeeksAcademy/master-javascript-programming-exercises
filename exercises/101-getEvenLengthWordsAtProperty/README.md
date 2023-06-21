@@ -14,7 +14,7 @@ let output = getEvenLengthWordsAtProperty(obj, 'key');
 console.log(output); // --> ['long', 'game']
 ```
 
-## 💡 Hints:
+## 💡 Hints:
 
 - If the array is empty, it should return an empty array `[]`.
 

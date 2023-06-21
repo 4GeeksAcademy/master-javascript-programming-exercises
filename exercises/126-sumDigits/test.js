@@ -13,18 +13,18 @@ test('Function sumDigits must return a number', () => {
   expect(typeof sumDigits(1)).toBe('number');
 });
 
-test('Function must returns the sum of all its digits. Testing with (316).', () => {
+test('Function must return the sum of all its digits. Testing with (316)', () => {
   expect(sumDigits(316)).toBe(10);
 });
 
-test('Function must returns the sum of all its digits. Testing with (124).', () => {
+test('Function must return the sum of all its digits. Testing with (124)', () => {
   expect(sumDigits(124)).toBe(7);
 });
 
-test('If the number is negative, the first digit must count as negative. Testing with (-316).', () => {
+test('If the number is negative, the first digit must count as negative. Testing with (-316)', () => {
   expect(sumDigits(-316)).toBe(4);
 });
 
-test('If the number is negative, the first digit must count as negative. Testing with (-124).', () => {
+test('If the number is negative, the first digit must count as negative. Testing with (-124)', () => {
   expect(sumDigits(-124)).toBe(5);
 });

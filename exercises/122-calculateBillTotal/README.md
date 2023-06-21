@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `calculateBillTotal`. Given the amount of taxes and tip of a meal, `calculateBillTotal` returns the total amount due after paying taxes and tips.
+1. Write a function called `calculateBillTotal`. Given an amount to pay **before** taxes and tips of a meal, `calculateBillTotal` returns the total amount due after paying taxes and tips.
 
 ## 📎 Example:
 

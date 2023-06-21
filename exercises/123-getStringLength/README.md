@@ -4,7 +4,7 @@
 
 1. Write a function called `getStringLength`. Given a string, `getStringLength` returns the length of that string.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = getStringLength('hello');

@@ -2,7 +2,7 @@ function getLargestElementAtProperty(obj, key) {
   // your code here
   if (!obj[key] || !Array.isArray(obj[key]) || obj[key].length < 1) return []
   else {
-    let aux = 0
+    let aux = -999999999999999999
     obj[key].map(item => item > aux ? aux = item : null)
     return aux
   }

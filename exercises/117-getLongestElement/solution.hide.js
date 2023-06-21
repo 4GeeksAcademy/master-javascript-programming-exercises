@@ -11,4 +11,4 @@ function getLongestElement(arr) {
 }
 
 let output = getLongestElement(['one', 'two', 'three']);
-console.log(typeof ''); // --> 'three'
+console.log(output); // --> 'three'

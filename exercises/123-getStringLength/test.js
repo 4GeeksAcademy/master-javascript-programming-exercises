@@ -13,14 +13,14 @@ test('Function getStringLength must return a number', () => {
   expect(typeof getStringLength('test')).toBe('number');
 });
 
-test('Function must returns the length of the string. Testing with example values.', () => {
+test('Function must return the length of the string', () => {
   expect(getStringLength('hello')).toBe(5);
 });
 
-test('Function must returns the length of the string.', () => {
+test('Function must return the length of the string. Testing with different values', () => {
   expect(getStringLength('world wide web')).toBe(14);
 });
 
-test('Function must returns the length of the string.', () => {
+test('Function must return the length of the string. Testing with different values', () => {
   expect(getStringLength('python')).toBe(6);
 });

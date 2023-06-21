@@ -13,12 +13,12 @@ test('Function filterOddLengthWords must return an array', () => {
   expect(Array.isArray(filterOddLengthWords(['you']))).toBeTruthy();
 });
 
-test('The function should return odd strings.', () => {
+test('The function should return odd strings', () => {
   let output = filterOddLengthWords(['you', 'can', 'do', 'it']);
   expect(output).toEqual(['you', 'can']);
 });
 
-test('The function should return odd strings.', () => {
+test('The function should return odd strings. Testing with different values', () => {
   let output = filterOddLengthWords(['there', 'it', 'is', 'now']);
   expect(output).toEqual(['there', 'now']);
 });

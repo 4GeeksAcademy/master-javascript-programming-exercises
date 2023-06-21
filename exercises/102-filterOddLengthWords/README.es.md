@@ -8,7 +8,7 @@
 
 ```js
 let output = filterOddLengthWords(['there', 'it', 'is', 'now']);
-console.log(output); // --> ['there', "now']
+console.log(output); // --> ['there', 'now']
 ```
 
 ## 💡 Pistas:

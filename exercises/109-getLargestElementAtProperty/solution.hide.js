@@ -1,6 +1,3 @@
-let obj = {
-  key: [1, 2, 4]
-};
 function getLargestElementAtProperty(obj, key) {
   // your code here
   if (!obj[key] || !Array.isArray(obj[key]) || obj[key].length < 1) return []
@@ -10,5 +7,9 @@ function getLargestElementAtProperty(obj, key) {
     return aux
   }
 }
+
+let obj = {
+  key: [1, 2, 4]
+};
 let output = getLargestElementAtProperty(obj, 'key');
 console.log(output); // --> 4

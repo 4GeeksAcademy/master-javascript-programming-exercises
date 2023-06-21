@@ -13,6 +13,6 @@ console.log(output); // --> 5
 
 ## 💡 Pistas:
 
-+ NO uses ningún método nativo de `length`.
++ NO uses el método `length`.
 
 + Puedes considerar usar `substring` o `slice` como alternativas.

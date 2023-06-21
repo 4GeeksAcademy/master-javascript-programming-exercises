@@ -4,10 +4,13 @@
 
 1. Write a function called `getLengthOfLongestElement`. Given an array, `getLengthOfLongestElement` returns the length of the longest string in the given array.
 
+## 📎 Example:
+
 ```Js
 let output = getLengthOfLongestElement(['one', 'two', 'three']);
 console.log(output); // --> 5
 ```
+
 ## 💡 Hint:
 
-+ It should return 0 if the array is empty.
++ If the array is empty, it should return `0`.

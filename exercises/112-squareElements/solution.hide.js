@@ -1,10 +1,6 @@
 function squareElements(arr) {
   // your code here
-  let result = [];
-  for (let e of arr) {
-    result.push(e * e);
-  }
-  return result;
+  return arr.map(num => num ** 2);
 }
 
 let output = squareElements([1, 2, 3]);

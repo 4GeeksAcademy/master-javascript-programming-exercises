@@ -5,7 +5,7 @@ const getElementOfArrayProperty = rewire('./app.js').__get__(
 test('Function getElementOfArrayProperty must exist', () => {
   expect(getElementOfArrayProperty).not.toBe(undefined);
 });
-test('Function getElementOfArrayProperty must return something ', () => {
+test('Function getElementOfArrayProperty must return something', () => {
   expect(getElementOfArrayProperty({ key: ['test'] }, 'key', 0)).not.toBe(
     undefined
   );
@@ -16,7 +16,7 @@ test('Function getElementOfArrayProperty must return a string', () => {
   );
 });
 
-test('The function must returns the value of an element in the index provided within the Object in the given Key.', () => {
+test('The function must return the value of an element in the index provided within the object in the given key', () => {
     let obj = {
         key: ['Vladimir', 'Jimmy', 'Harris']
     };
@@ -31,6 +31,7 @@ test('If the given index is out of range of the array located at the given key, 
     let output = getElementOfArrayProperty(obj, 'key', 3)
     expect(output).toBe(undefined)
 })
+
 test('If the array is empty, it should return undefined', () => {
     let obj = {
         key: []
@@ -39,7 +40,7 @@ test('If the array is empty, it should return undefined', () => {
     expect(output).toBe(undefined)
 })
 
-test('If the property in the given key is not an array, it should return undefined.', () => {
+test('If the property in the given key is not an array, it should return undefined', () => {
     let obj = {
         key: 9
     };
@@ -47,7 +48,7 @@ test('If the property in the given key is not an array, it should return undefin
     expect(output).toBe(undefined)
 })
 
-test('If there is no property on the key, it should return undefined.', () => {
+test('If there is no property on the key, it should return undefined', () => {
     let obj = {
     };
     let output = getElementOfArrayProperty(obj, 'key', 2)

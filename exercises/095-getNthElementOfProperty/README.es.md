@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getNthElementOfProperty`. Dado un objeto y una key, `getNthElementOfProperty` retorna el elemento nth de un array ubicado en la key dada.
+1. Escribe una función llamada `getNthElementOfProperty`. Dado un objeto, una key y un número `getNthElementOfProperty` retorna el elemento *nth* de un array ubicado en la key dada.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let obj = {
@@ -18,8 +18,8 @@ console.log(output); // --> 2
 
 + Si el array está vacío, debería retornar `undefined`.
 
-+ Si n está fuera de rango, debería retornar `undefined`.
++ Si *n* está fuera de rango, debería retornar `undefined`.
 
-+ Si el propiedad en la key dada no es un array, debería retornar `undefined`.
++ Si la propiedad en la key dada no es un array, debería retornar `undefined`.
 
 + Si la key no tiene propiedad, debería retornar `undefined`.

@@ -15,4 +15,4 @@ console.log(output); // --> 3
 
 ## 💡 Pista:
 
-+ Si el array dado se encuentra vacío, debería retornar 0.
++ Si el array dado se encuentra vacío, debería retornar `0`.

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getSmallestElementAtProperty`. Dados un objeto y una key, `getSmallestElementAtProperty` retorna el elemento maás pequeño del array ubicado en dicha key.
+1. Escribe una función llamada `getSmallestElementAtProperty`. Dados un objeto y una key, `getSmallestElementAtProperty` retorna el elemento más pequeño del array ubicado en dicha key.
 
  ## 📎 Ejemplo:
 

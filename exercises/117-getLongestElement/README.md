@@ -13,6 +13,6 @@ console.log(output); // --> 'three'
 
 ## 💡 Hints:
 
-+ If there are more than one string tied as the longest, it should return the first element found.
++ If there is more than one string tied as the longest, it should return the first element found.
 
 + If the array is empty, it should return an empty string.

@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `squareElements`. Dado un array de números, `squareElements` deberá retornar un nuevo array donde cada elemento es el cuadrado de cada elemento del array dado.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let output = squareElements([1, 2, 3]);

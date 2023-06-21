@@ -2,7 +2,7 @@
 
 ## 📝 Instructions: 
 
-1. Write a function called `getNthElementOfProperty`. Given an object, a key, and a number, `getNthElementOfProperty` returns the *nth* element of an array located at the given key.
+1. Write a function called `getNthElementOfProperty`. Given an object, a key, and a number *n*, `getNthElementOfProperty` returns the *nth* element of an array located at the given key.
 
 ## 📎 Example:
 

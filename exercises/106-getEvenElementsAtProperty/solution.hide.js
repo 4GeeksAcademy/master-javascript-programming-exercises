@@ -1,16 +1,14 @@
+function getEvenElementsAtProperty(obj, key) {
+    // your code here
+    if (!Array.isArray(obj[key])) {
+      return [];
+    }
+        
+    return obj[key].filter(element => element % 2 === 0);
+}
 
 let obj = {
   key: [1000, 11, 50, 17]
 };
-
-function getEvenElementsAtProperty(obj, key) {
-  // your code here
-  if (!obj[key] || !Array.isArray(obj[key]) || obj[key].length < 1) return []
-  else {
-    let aux = []
-    obj[key].map(item => item % 2 == 0 ? aux.push(item) : null)
-    return aux;
-  }
-}
 let output = getEvenElementsAtProperty(obj, 'key');
 console.log(output); // --> [1000, 50]

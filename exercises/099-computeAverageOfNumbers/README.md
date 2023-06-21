@@ -14,4 +14,4 @@ console.log(output); // --> 3
 
 ## 💡 Hint:
 
-+ If given an empty array, it should return 0.
++ If given an empty array, it should return `0`.

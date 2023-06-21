@@ -4,7 +4,7 @@
 
 1. Write a function called `calculateBillTotal`. Given the amount of taxes and tip of a meal, `calculateBillTotal` returns the total amount due after paying taxes and tips.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = calculateBillTotal(20);

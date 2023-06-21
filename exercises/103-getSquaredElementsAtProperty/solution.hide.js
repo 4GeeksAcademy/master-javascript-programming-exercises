@@ -8,7 +8,7 @@ function getSquaredElementsAtProperty(obj, key) {
 }
 
 let obj = {
-  car: [2, 1, 5]
+  key: [2, 1, 5]
 };
-let output = getSquaredElementsAtProperty(obj, 'car');
+let output = getSquaredElementsAtProperty(obj, 'key');
 console.log(output); // --> [4, 1, 25]

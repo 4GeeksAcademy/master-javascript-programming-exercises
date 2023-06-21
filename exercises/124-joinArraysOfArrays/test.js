@@ -31,7 +31,7 @@ test('Function joinArrayOfArrays must return an array', () => {
   ).toBe('object');
 });
 
-test('Function must returns a single array containing the elements of the nested arrays.', () => {
+test('Function must return a single array containing the elements of the nested arrays', () => {
   expect(
     joinArrayOfArrays([
       [1, 4],
@@ -41,7 +41,7 @@ test('Function must returns a single array containing the elements of the nested
   ).toEqual([1, 4, true, false, 'x', 'y']);
 });
 
-test('Function must returns a single array containing the elements of the nested arrays. Testing with different values', () => {
+test('Function must return a single array containing the elements of the nested arrays. Testing with different values', () => {
   expect(
     joinArrayOfArrays([
       [2, 6],

@@ -17,7 +17,7 @@ test('Function getEvenElementsAtProperty must return an array', () => {
   expect(Array.isArray(getEvenElementsAtProperty({ key: [2, 4, 5] }, 'key'))).toBeTruthy()
 });
 
-test('Must returns an array containing all the even elements of the array located at the given key.', () => {
+test('Function must return an array containing all the even elements of the array located at the given key', () => {
   let obj = {
     key: [1000, 11, 50, 17],
   };
@@ -25,7 +25,7 @@ test('Must returns an array containing all the even elements of the array locate
   expect(output).toEqual([1000, 50]);
 });
 
-test('If the array is empty, it should return an empty array.', () => {
+test('If the array is empty, it should return an empty array', () => {
   let obj = {
     key: [],
   };
@@ -33,7 +33,7 @@ test('If the array is empty, it should return an empty array.', () => {
   expect(output).toEqual([]);
 });
 
-test('If the array does not contain even elements, it should return an empty array.', () => {
+test('If the array does not contain even elements, it should return an empty array', () => {
   let obj = {
     key: [11, 17, 7],
   };
@@ -41,7 +41,7 @@ test('If the array does not contain even elements, it should return an empty arr
   expect(output).toEqual([]);
 });
 
-test('If the property in the given key is not an array, it should return an empty array.', () => {
+test('If the property in the given key is not an array, it should return an empty array', () => {
   let obj = {
     key: 3,
   };
@@ -49,7 +49,7 @@ test('If the property in the given key is not an array, it should return an empt
   expect(output).toEqual([]);
 });
 
-test('If there is no property on the key, it should return an empty array.', () => {
+test('If there is no property on the key, it should return an empty array', () => {
   let obj = {};
   let output = getEvenElementsAtProperty(obj, 'key');
   expect(output).toEqual([]);

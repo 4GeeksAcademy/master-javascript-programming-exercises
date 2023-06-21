@@ -1,5 +1,5 @@
-  // your code here
-  function getAverageOfElementsAtProperty(obj, key){
+function getAverageOfElementsAtProperty(obj, key){
+    // your code here
     if(!obj[key] || !Array.isArray(obj[key]) || obj[key].length == 0){
         return 0;
     }

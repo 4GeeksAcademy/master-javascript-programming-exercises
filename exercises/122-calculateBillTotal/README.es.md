@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `calculateBillTotal`. Dada la cantidad de impuestos y propina de una comida `CalculateBillTotal` retorna la cantidad total adeudada después de pagar los impuestos y las propinas.
+1. Escribe una función llamada `calculateBillTotal`. Dada la cantidad a pagar de una comida antes de impuestos y propina, `CalculateBillTotal` retorna la cantidad total adeudada después de pagar los impuestos y las propinas.
  
 ## 📎 Ejemplo:
 

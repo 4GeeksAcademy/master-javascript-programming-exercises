@@ -4,10 +4,10 @@
 
 1. Write a function called `computeAverageOfNumbers`. Given an array of numbers, `computeAverageOfNumbers` returns their average. 
 
-## Example:
+## 📎 Example:
 
 ```js
-let input = [1,2,3,4,5];
+let input = [1, 2, 3, 4, 5];
 let output = computeAverageOfNumbers(input);
 console.log(output); // --> 3
 ```

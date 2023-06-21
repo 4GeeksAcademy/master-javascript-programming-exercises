@@ -1,3 +1,5 @@
+# `126` sumDigits
+
 ## 📝 Instrucciones:
 
 1. Escribe una función llamada `sumDigits`. Dado un número, `sumDigits` retorna la suma de todos sus dígitos.

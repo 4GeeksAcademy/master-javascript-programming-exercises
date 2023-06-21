@@ -17,7 +17,7 @@ test('Function getAllButLastElementOfProperty must return an array', () => {
   expect(Array.isArray(getAllButLastElementOfProperty({ key: [1, 2] }, 'key'))).toBeTruthy();
 });
 
-test('The function must returns an array that contains all but the last element of the array located at the given Key.', () => {
+test('The function must return an array that contains all but the last element of the array located at the given key', () => {
   let obj = {
     key: [3, 2, 1],
   };
@@ -25,7 +25,7 @@ test('The function must returns an array that contains all but the last element 
   expect(output).toEqual([3, 2]);
 });
 
-test('The function must returns an array that contains all but the last element of the array located at the given Key. Testing with different values.', () => {
+test('The function must return an array that contains all but the last element of the array located at the given key. Testing with different values', () => {
   let obj = {
     key: ["Hello", 23, 7, "HI", "This will be deleted"],
   };
@@ -33,7 +33,7 @@ test('The function must returns an array that contains all but the last element 
   expect(output).toEqual(["Hello", 23, 7, "HI"]);
 });
 
-test('If the array is empty, it should return an empty array.', () => {
+test('If the array is empty, it should return an empty array', () => {
   
   let obj = {
     key: [],
@@ -42,7 +42,7 @@ test('If the array is empty, it should return an empty array.', () => {
   expect(output).toEqual([]);
 });
 
-test('If the property in the given key is not an array, it should return an empty array.', () => {
+test('If the property in the given key is not an array, it should return an empty array', () => {
   
   let obj = {
     key: 9,
@@ -51,7 +51,7 @@ test('If the property in the given key is not an array, it should return an empt
   expect(output).toEqual([]);
 });
 
-test('If there is no property on the key, it should return an empty array.', () => {
+test('If there is no property on the key, it should return an empty array', () => {
   
   let obj = {};
   let output = getAllButLastElementOfProperty(obj, 'key');

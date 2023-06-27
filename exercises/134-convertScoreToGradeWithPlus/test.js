@@ -23,34 +23,38 @@ test('If the score is between 8 and 9 of a given range, return the letter with a
   expect(convertScoreToGradeWithPlusAndMinus(78)).toBe('C+');
 });
 
-test('if the punctuation is from 100 to 90 it must return grade "A".', () => {
+test('If the punctuation is from 100 to 90 it must return grade "A"', () => {
   expect(convertScoreToGradeWithPlusAndMinus(91)).toBe('A-');
 });
 
-test('if the punctuation is from 89 to 80 it must return grade "B".', () => {
+test('If the punctuation is from 89 to 80 it must return grade "B"', () => {
   expect(convertScoreToGradeWithPlusAndMinus(83)).toBe('B');
 });
 
-test('if the punctuation is from 79 to 70 it must return grade "C".', () => {
+test('If the punctuation is from 79 to 70 it must return grade "C"', () => {
   expect(convertScoreToGradeWithPlusAndMinus(78)).toBe('C+');
 });
 
-test('if the punctuation is from 69 to 60 it must return grade "D".', () => {
+test('If the punctuation is from 69 to 60 it must return grade "D"', () => {
   expect(convertScoreToGradeWithPlusAndMinus(68)).toBe('D+');
 });
 
-test('if the punctuation is from 59 to 0 it must return grade "F". Testing with 42.', () => {
+test('If the punctuation is from 59 to 0 it must return grade "F". Testing with 42', () => {
   expect(convertScoreToGradeWithPlusAndMinus(42)).toBe('F');
 });
 
-test('if the punctuation is from 59 to 0 it must return grade "F". Testing with 42.', () => {
+test('If the punctuation is from 59 to 0 it must return grade "F". Testing with 42', () => {
   expect(convertScoreToGradeWithPlusAndMinus(52)).not.toBe('F-');
 });
 
-test('if the punctuation is from 59 to 0 it must return grade "F". Testing with 48.', () => {
+test('If the punctuation is from 59 to 0 it must return grade "F". Testing with 48', () => {
   expect(convertScoreToGradeWithPlusAndMinus(58)).not.toBe('F+');
 });
 
-test('If the given score is greater than 100 or less than 0, it should return "INVALID SCORE".', () => {
+test('If the punctuation is 100 it must return grade "A+"', () => {
+  expect(convertScoreToGradeWithPlusAndMinus(100)).toBe('A+');
+});
+
+test('If the given score is greater than 100 or less than 0, it should return "INVALID SCORE"', () => {
   expect(convertScoreToGradeWithPlusAndMinus(104)).toBe('INVALID SCORE');
 });

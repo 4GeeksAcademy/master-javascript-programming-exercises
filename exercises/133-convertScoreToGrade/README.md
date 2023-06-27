@@ -4,7 +4,7 @@
 
 1. Write a function called `convertScoreToGrade`. Given a score, `convertScoreToGrade` returns a string representing the letter grade corresponding to the given score.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = convertScoreToGrade(91);

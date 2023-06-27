@@ -15,17 +15,17 @@ test('Function getLargestNumberAmongMixedElements must return a number', () => {
   expect(typeof getLargestNumberAmongMixedElements([1])).toBe('number');
 });
 
-test('The function must return the largest number in the array.', () => {
+test('The function must return the largest number in the array', () => {
   let output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up']);
   expect(output).toBe(5);
 });
 
-test('If the given array, not contains number elements , it should return 0.', () => {
+test('If the given array contains no numbers, it should return 0', () => {
   let output = getLargestNumberAmongMixedElements(['1', '2', 'three']);
   expect(output).toBe(0);
 });
 
-test('If array is empty must return 0', () => {
+test('If the array is empty, it must return 0', () => {
   let output = getLargestNumberAmongMixedElements([]);
   expect(output).toBe(0);
 });

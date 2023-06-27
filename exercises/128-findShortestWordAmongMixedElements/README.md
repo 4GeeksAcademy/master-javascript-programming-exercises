@@ -4,7 +4,7 @@
 
 1. Write a function called `findShortestWordAmongMixedElements`. Given an array, `findShortestWordAmongMixedElements` returns the shortest string within the given array.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
@@ -17,6 +17,6 @@ console.log(output); // --> 'two'
 
 + Expect the given array to have values other than strings.
 
-+ If the given array is empty, it should return an empty string.
++ If the given array is empty, it should return an empty string `[]`.
 
-+ If the given array contains no strings, it should return an empty string.
++ If the given array contains no strings, it should return an empty string `[]`.

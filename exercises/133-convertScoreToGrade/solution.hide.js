@@ -10,5 +10,5 @@ function convertScoreToGrade(score) {
   }
 }
 
-var output = convertScoreToGrade(91);
+let output = convertScoreToGrade(91);
 console.log(output); // --> 'A'

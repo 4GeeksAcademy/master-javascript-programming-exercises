@@ -17,6 +17,6 @@ console.log(output); // --> 'two'
 
 + Expect the given array to have values other than strings.
 
-+ If the given array is empty, it should return an empty string `[]`.
++ If the given array is empty, it should return an empty string `''`.
 
-+ If the given array contains no strings, it should return an empty string `[]`.
++ If the given array contains no strings, it should return an empty string `''`.

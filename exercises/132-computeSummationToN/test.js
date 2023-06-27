@@ -17,10 +17,10 @@ test('The function must return the sum of sequential numbers leading to the give
   expect(computeSummationToN(2)).toBe(3);
 });
 
-test('The function must return the sum of sequential numbers leading to the given number, starting at 0', () => {
+test('The function must return the sum of sequential numbers leading to the given number, starting at 0. Testing with different values', () => {
   expect(computeSummationToN(6)).toBe(21);
 });
 
-test('The function must return the sum of sequential numbers leading to the given number, starting at 0', () => {
+test('The function must return the sum of sequential numbers leading to the given number, starting at 0. Testing with different values', () => {
   expect(computeSummationToN(8)).toBe(36);
 });

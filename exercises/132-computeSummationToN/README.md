@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `computeSummationToN`. Given a number, `computeSummationToN`  returns the sum of sequential numbers leading up to the given number, beginning at `0`.
+1. Write a function called `computeSummationToN`. Given a number, `computeSummationToN` returns the sum of sequential numbers leading up to the given number, beginning at `0`.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = computeSummationToN(6);

@@ -20,7 +20,7 @@ test('Function must return the longest string in the array', () => {
   expect(output).toBe('word');
 });
 
-test('If the given array contain no strings, it should return an empty string', () => {
+test('If the given array contains no strings, it should return an empty string', () => {
   let output = getLongestWordOfMixedElements([1, 2, 3, 4]);
   expect(output).toBe('');
 });

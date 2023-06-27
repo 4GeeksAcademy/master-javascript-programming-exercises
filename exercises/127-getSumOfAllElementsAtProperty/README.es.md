@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getSumOfAllElementsAtProperty`. Dados un objeto y un key, `getSumOfAllElementsAtProperty` retorna la suma de todos los elementos en el array ubicado en la key dada.
+1. Escribe una función llamada `getSumOfAllElementsAtProperty`. Dados un objeto y una key, `getSumOfAllElementsAtProperty` retorna la suma de todos los elementos en el array ubicado en la key dada.
 
 ## 📎 Ejemplo:
 

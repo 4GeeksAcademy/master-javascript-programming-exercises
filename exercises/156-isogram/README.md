@@ -21,4 +21,4 @@ console.log(isIsogram("Camille")); // --> false
 
 + Ignore letter casing.
 
-+ You can begin by adding each character to a `new Set()` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
++ You can begin by adding each character to a `new Set()`. [Click here to know more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)

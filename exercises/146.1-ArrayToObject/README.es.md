@@ -22,6 +22,6 @@ console.log(output); // { Kevin: "Spacey" }
 
 + No cambies el array de entrada. 
 
-+ Asume que todos los elementos en el array de entrada serán del tipo string.
++ Asume que todos los elementos en el array de entrada serán del tipo `string`.
 
 + Ten en cuenta que el array de entrada puede teneruna cantidad variable de elementos por lo que tu código debe ser flexible.

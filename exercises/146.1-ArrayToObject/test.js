@@ -15,7 +15,7 @@ test('Function transformFirstAndLast must return an object {}', () => {
   expect(typeof transformFirstAndLast(['Test', 'Done'])).toBe('object');
 });
 
-test('The function must return an object as the first element and the key as the last element in the array.', () => {
+test('The function must return an object as the first element and the key as the last element in the array', () => {
   let output = transformFirstAndLast([
     'Queen',
     'Elizabeth',
@@ -25,7 +25,7 @@ test('The function must return an object as the first element and the key as the
   expect(output).toEqual({ Queen: 'Beyonce' });
 });
 
-test('The function must return an object with the first element of the array as the key and the last value of the array as the value of that key.', () => {
+test('The function must return an object with the first element of the array as the key and the last value of the array as the value of that key', () => {
   let output = transformFirstAndLast([
     'Kevin',
     'Bacon',

@@ -19,4 +19,4 @@ console.log(isIsogram("Camille")); // --> false
 
 + Suppose that an empty string is an isogram.
 
-+ Ignore letter case.
++ Ignore letter casing.

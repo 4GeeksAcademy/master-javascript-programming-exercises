@@ -6,7 +6,7 @@ Un Palíndromo es un texto que es igual si se lee de izquierda a derecha que de 
 
 1. Dado un string, la función `findLongestPalindrome` encuentra el palíndromo más largo dentro de una frase.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```javascript
 let output = findLongestPalindrome("My dad is a racecar athlete");

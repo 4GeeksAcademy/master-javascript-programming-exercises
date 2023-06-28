@@ -22,3 +22,7 @@ console.log(output); // --> "a racecar a"
 + La frase solo contendrá letras (sin símbolos, signos de puntuación o números).
 
 + Ignora las mayúsculas y minúsculas.
+
++ Puedes detectar palíndromos comparando un string con su forma invertida.
+
+

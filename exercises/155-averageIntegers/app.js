@@ -8,5 +8,4 @@ function sum(arr) {
   
 }
 
-
 console.log(average([1, 2])); // --> 1.5

@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `computeCompoundInterest`. Dado un préstamo, una tasa de interés, una frecuencia de capitalización y un tiempo (en años), `computeCompoundInterest` retorna la cantidad de interés compuesto generado.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let output = computeCompoundInterest(1500, .043, 4, 6);

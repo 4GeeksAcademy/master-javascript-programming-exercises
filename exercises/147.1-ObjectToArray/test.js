@@ -25,7 +25,7 @@ test('Function getAllKeys must return an array', () => {
   ).toBe('object');
 });
 
-test('The function must return an array of all keys on the entry object.', () => {
+test('The function must return an array of all keys on the entry object', () => {
   let output = getAllKeys({
     name: 'Sam',
     age: 25,
@@ -34,7 +34,7 @@ test('The function must return an array of all keys on the entry object.', () =>
   expect(output).toEqual(['name', 'age', 'hasPets']);
 });
 
-test('The function must return an array of all keys on the entry object. Testing with different values.', () => {
+test('The function must return an array of all keys on the entry object. Testing with different values', () => {
   let output = getAllKeys({
     name: 'Johnny',
     age: 57,

@@ -8,7 +8,7 @@
 
 ```js
 let output = listAllValues({name: "Krysten", age: 33, hasPets: false});
-console.log(output); // --> ['Krysten', 33, false]
+console.log(output); // --> [ 'Krysten', 33, false ]
 ```
 
 ## 💡 Pista:

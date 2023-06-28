@@ -22,3 +22,5 @@ console.log(output); // --> "a racecar a"
 + The given string will only contain letters (no symbols, punctuation signs or numbers).
 
 + It should not be case sensitive.
+
++ You can detect palindromes by comparing a string to its reverse.

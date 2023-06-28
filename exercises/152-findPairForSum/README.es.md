@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Dada una lista de números enteros positivos y un total determinado, encuentra el primer par de números que sumen el total determinado.
+1. Escribe una función llamada `findPairForSum`. Dada una lista de números enteros positivos y un total determinado, encuentra el primer par de números que sumen el total determinado.
 
 ## 📎 Ejemplo:
  

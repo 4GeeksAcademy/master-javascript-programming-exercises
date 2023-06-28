@@ -23,7 +23,7 @@ test('Function fromListToObject must return an object {}', () => {
   ).toBe('object');
 });
 
-test('Function must return an object with each pair of elements as key-value.', () => {
+test('Function must return an object with each pair of elements as key-value', () => {
   let output = fromListToObject([
     ['make', 'Ford'],
     ['model', 'Mustang'],
@@ -32,7 +32,7 @@ test('Function must return an object with each pair of elements as key-value.', 
   expect(output).toEqual({ make: 'Ford', model: 'Mustang', year: 1964 });
 });
 
-test('Function must return an object with each pair of elements as key-value. Testing with different values.', () => {
+test('Function must return an object with each pair of elements as key-value. Testing with different values', () => {
   let output = fromListToObject([
     ['name', 'Jerry'],
     ['pet', 'Cat'],

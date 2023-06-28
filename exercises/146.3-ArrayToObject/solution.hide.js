@@ -25,4 +25,5 @@ let output = transformEmployeeData([
     ['role', 'manager'],
   ],
 ]);
+
 console.log(output);

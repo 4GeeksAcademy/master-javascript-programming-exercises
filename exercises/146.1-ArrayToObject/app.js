@@ -4,4 +4,4 @@ function transformFirstAndLast(array) {
 }
 
 let arr = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'];
-console.log(transformFirstAndLast(arr));
+console.log(transformFirstAndLast(arr)); // { Queen: "Beyonce" }

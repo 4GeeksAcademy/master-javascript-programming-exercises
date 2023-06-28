@@ -20,4 +20,5 @@ function isPalindrome(word) {
   return word.length > 1 && word.toLowerCase() === reverseString(word.toLowerCase());
 }
 
-console.log(findLongestPalindrome("My dad is a racecar athlete"))
+let output = findLongestPalindrome("My dad is a racecar athlete");
+console.log(output); // --> "a racecar a"

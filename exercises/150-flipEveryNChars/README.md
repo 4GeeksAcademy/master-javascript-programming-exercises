@@ -8,7 +8,7 @@
 
 3. When call function, return string with every n of characters flipped including spaces.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let input = 'a short example'; 

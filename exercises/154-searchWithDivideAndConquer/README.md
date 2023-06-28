@@ -29,7 +29,7 @@ You can use binary search for the value `31`, as follows:
 ## 📎 Example: 
 
 ```Js
-let arr = [1, 3, 16, 22, 31, 33, 34]
+let arr = [1, 3, 16, 22, 31, 33, 34];
 console.log(search(arr, 31)); // --> 4
 ```
 

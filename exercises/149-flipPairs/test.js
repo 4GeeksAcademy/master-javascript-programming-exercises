@@ -13,7 +13,7 @@ test('Function flipPairs must return a string', () => {
   expect(typeof flipPairs('test!')).toBe('string');
 });
 
-test('The function must Mix each pair of characters in a string.', () => {
+test('The function must mix each pair of characters in a string', () => {
   let output = flipPairs(
     "check out how interesting this problem is, it's insanely interesting!"
   );
@@ -22,7 +22,7 @@ test('The function must Mix each pair of characters in a string.', () => {
   );
 });
 
-test('The function must Mix each pair of characters in a string.', () => {
+test('The function must mix each pair of characters in a string. Testing with different values', () => {
   let output = flipPairs('check my backflip!');
   expect(output).toBe('hcce kymb cafkil!p');
 });

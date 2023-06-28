@@ -7,8 +7,8 @@
 ## 📎 Ejemplo:
 
 ```js
-let output = convertObjectToList({name: "Holly", age: 35, role: "producer"});
-console.log(output); // [['name', 'Holly'], ['age', 35], ['role', 'producer']]
+let output = convertObjectToList({ name: 'Holly', age: 35, role: 'producer' });
+console.log(output); // --> [ ['name', 'Holly'], ['age', 35], ['role', 'producer'] ]
 ```
 
 ## 💡 Pista:

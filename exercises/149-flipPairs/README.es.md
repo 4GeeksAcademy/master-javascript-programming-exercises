@@ -4,9 +4,9 @@
 
 1. Declara una función llamada `flipPairs`.
 
-2. La función acepta el parámetro `string` cuyo valor sera un `string`.
+2. La función acepta un `string` como parámetro.
 
-3. Cuando llames a la función, debe retornar el string con cada par de caracteres invertidos, incluidos los espacios.
+3. Cuando llames la función, debe retornar el string con cada ***par*** de caracteres invertidos, incluidos los espacios.
 
 ## 📎 Ejemplo:
 

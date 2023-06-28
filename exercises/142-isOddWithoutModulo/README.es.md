@@ -4,7 +4,7 @@
 
 1. Escribe una función llamada `isOddWithoutModulo`. Dado un número, `isOddWithoutModulo` retorna `true` si el número pasado es impar.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let output = isOddWithoutModulo(17);
@@ -13,6 +13,6 @@ console.log(output); // --> true
 
 ## 💡 Pistas:
 
-+ Lo hace sin usar el operador de módulo (`%`). 
++ hazlo sin usar el operador de módulo (`%`). 
 
-+ Debería funcionar para números negativos y 0.
++ Debería funcionar para números negativos y `0`.

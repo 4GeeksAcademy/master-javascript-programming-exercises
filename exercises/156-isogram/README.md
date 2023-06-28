@@ -20,3 +20,5 @@ console.log(isIsogram("Camille")); // --> false
 + Suppose that an empty string is an isogram.
 
 + Ignore letter casing.
+
++ You can begin by adding each character to a `new Set()` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set

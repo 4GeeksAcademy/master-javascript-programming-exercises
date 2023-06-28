@@ -6,21 +6,21 @@
 
 2. The greeting should be different, depending on the name on their reservation:
 
-+ 📎 Case 1 - Unknown customer (Name is not present in `customerData`): 
+### 📎 Case 1 - Unknown customer (Name is not present in `customerData`): 
 
 ```Js
 let output = greetCustomer('Terrance');
 console.log(output); // --> 'Welcome! Is this your first time?'
 ```
 
-+ 📎 Case 2 - Customer who has visited only once ( `visits` value is `1` ):
+### 📎 Case 2 - Customer who has visited only once ( `visits` value is `1` ):
 
 ```Js
 let output = greetCustomer('Joe');
 console.log(output); // --> 'Welcome back, Joe! We're glad you liked us the first time!'
 ```
 
-+ 📎 Case 3 - Repeat customer: ( `visits` value is greater than `1`):
+### 📎 Case 3 - Repeat customer: ( `visits` value is greater than `1`):
 
 ```Js
 let output = greetCustomer('Carol');

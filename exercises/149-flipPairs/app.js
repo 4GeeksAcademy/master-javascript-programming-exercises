@@ -1,5 +1,6 @@
-function flipPairs(input){
+function flipPairs(input) {
     // your code here
+    
 }
 
 let input = 'check out how interesting this problem is, it\'s insanely interesting!';

@@ -26,7 +26,7 @@ Puedes buscar el valor `31` con búsqueda binaria, de la siguiente manera:
 
 1. Dados un array de números y un número, la función `search` debe implementar una búsqueda binaria del número dado en el array y retornar su posición.
 
-## Ejemplo: 
+## 📎 Ejemplo: 
 
 ```Js
 let arr = [1, 3, 16, 22, 31, 33, 34];

@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `findShortestOfThreeWords`. Given 3 strings, `findShortestOfThreeWords` returns the shortest of the given string.
+1. Write a function called `findShortestOfThreeWords`. Given 3 strings, `findShortestOfThreeWords` returns the shortest of the given strings.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = findShortestOfThreeWords('a', 'two', 'three');

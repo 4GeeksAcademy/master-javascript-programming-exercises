@@ -15,8 +15,8 @@ console.log(isIsogram("Camille")); // --> false
 
 + An **isogram** is a word that has no repeating letters, consecutive or non-consecutive. 
 
-+ Suppose your input has only letters.
++ Suppose your input string has only letters (no spaces).
 
-+ Suppose that a string is an isogram
++ Suppose that an empty string is an isogram.
 
 + Ignore letter case.

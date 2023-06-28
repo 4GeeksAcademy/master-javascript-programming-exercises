@@ -6,5 +6,5 @@ function isIsogram(text) {
   // check length of text and the size of the set 
 }
 
-console.log(isIsogram("Camile")) // => true
-console.log(isIsogram("Camille")) // => false
+console.log(isIsogram("Camile")) // --> true
+console.log(isIsogram("Camille")) // --> false

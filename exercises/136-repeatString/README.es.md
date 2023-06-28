@@ -10,3 +10,7 @@
 let output = repeatString('code', 3);
 console.log(output); // --> 'codecodecode'
 ```
+
+## 💡 Pista:
+
++ Hay una manera muy fácil de repetir un string con el método `repeat()`, busca en Internet como usarlo.

@@ -12,3 +12,6 @@ function reverseString(string) {
 function isPalindrome(word) {
   // hint: you can detect palindromes by comparing a string to its reverse
 }
+
+let output = findLongestPalindrome("My dad is a racecar athlete");
+console.log(output); // --> "a racecar a"

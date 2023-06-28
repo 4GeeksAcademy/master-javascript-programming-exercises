@@ -7,5 +7,5 @@ function getLongestOfThreeWords(word1, word2, word3) {
   return aux;
 }
 
-var output = getLongestOfThreeWords('these', 'three', 'words');
+let output = getLongestOfThreeWords('these', 'three', 'words');
 console.log(output); // --> 'these'

@@ -13,4 +13,4 @@ console.log(output); // --> 'codecodecode'
 
 ## 💡 Hint:
 
-+ There is a very easy way to repeat a string with the `repeat()` method, search how to use it!
++ There is a very easy way to repeat a string with the `repeat()` method, search on the Internet how to use it.

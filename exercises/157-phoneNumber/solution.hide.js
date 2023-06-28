@@ -33,4 +33,4 @@ function PhoneNumberFormatter(numbers) {
   };
   
   let number = new PhoneNumberFormatter([6,5,0,8,3,5,9,1,7,2]);
-  console.log(number.render());
+  console.log(number.render()); // --> "(650) 835-9172"

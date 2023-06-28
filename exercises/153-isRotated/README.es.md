@@ -1,15 +1,18 @@
 # `153` isRotated
 
-Una rotación en una cadena se define como quitar el primer elemento y concatenarlo al final. Dado N y una matriz de N cadenas. Tu trabajo es predecir el mínimo numero de rotaciones en las cadenas para que todas las cadenas sean iguales.
+Una rotación en un string se define como quitar el primer elemento y concatenarlo al final. Dado N y una matriz de N cadenas. Tu trabajo es predecir el mínimo número de rotaciones en los strings para que todos los strings sean iguales.
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
-1. La funcion `isRotated` recibe dos strings como parámetro, `isRotated` debe retornar `true` si el segundo string es una versión rotada del primer string.
+1. La función `isRotated` recibe dos strings como parámetro, `isRotated` debe retornar `true` si el segundo string es una versión rotada del primer string.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let output = isRotated("Hello World", "orldHello W")
 console.log(output) // true
 ```
-> Más informacion acerca de la rotación de cadenas: [click aquí](https://www.techiedelight.com/es/find-lexicographically-minimal-string-rotation/)
+
+## 💡 Pista:
+
++ Más información acerca de la rotación de strings: [clic aquí](https://www.techiedelight.com/es/find-lexicographically-minimal-string-rotation/)

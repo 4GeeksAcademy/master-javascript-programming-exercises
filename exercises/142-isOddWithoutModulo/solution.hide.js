@@ -12,5 +12,6 @@ function isOddWithoutModulo(num) {
   }
   return aux;
 }
+
 let output = isOddWithoutModulo(18);
 console.log(output); // --> false

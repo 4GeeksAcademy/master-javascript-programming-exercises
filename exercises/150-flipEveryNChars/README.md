@@ -4,9 +4,9 @@
 
 1. Declare a function named `flipEveryNChars`.
 
-2. Function accepts 2 parameters named string and n, whose values will be string & number.
+2. Function accepts 2 parameters, a string and a number.
 
-3. When call function, return string with every n of characters flipped including spaces.
+3. When calling the function, it returns a string with every *n* of characters flipped including spaces.
 
 ## 📎 Example:
 

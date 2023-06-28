@@ -18,14 +18,14 @@ test('If the name is not found in customerData you should welcome as the first t
   expect(output).toBe('Welcome! Is this your first time?');
 });
 
-test('If the Client who has visited only once must say "Welcome back ..."', () => {
+test('If a client has visited only once, it must say "Welcome back ..."', () => {
   let output = greetCustomer('Joe');
   expect(output).toBe(
     "Welcome back, Joe! We're glad you liked us the first time!"
   );
 });
 
-test('If the Client who has visited more than once must say "Welcome back ..."', () => {
+test('If a client has visited more than once, it must say "Welcome back ..."', () => {
   let output = greetCustomer('Carol');
   expect(output).toBe('Welcome back, Carol! So glad to see you again!');
 });

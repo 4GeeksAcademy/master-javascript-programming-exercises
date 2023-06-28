@@ -1,10 +1,11 @@
-function average(array_of_numbers) {
-  // process array of numbers
-  return sum(array_of_numbers) / array_of_numbers.length;
+function average(arr) {
+  // your code here
+  return sum(arr) / arr.length;
 }
 
-function sum(numbers) {
-  return numbers.reduce((a, b) => a + b, 0);
+function sum(arr) {
+  // your code here
+  return arr.reduce((a, b) => a + b, 0);
 }
 
-console.log(average([1, 2]));
+console.log(average([1, 2])); // --> 1.5

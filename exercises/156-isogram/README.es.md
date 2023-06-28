@@ -21,4 +21,4 @@ console.log(isIsogram("Camille")); // --> false
 
 + Ignora mayúsculas y minúsculas.
 
-+ Puedes empezar añadiendo cada caracter a un `new Set()` https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Set
++ Puedes empezar añadiendo cada caracter a un `new Set()`. [Clic aquí para saber más](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Set).

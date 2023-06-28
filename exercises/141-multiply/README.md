@@ -1,6 +1,6 @@
 # `141` multiply
 
-## 📝 Instructions
+## 📝 Instructions:
 
 1. Write a function called `multiply`. Given 2 integers, `multiply` returns its product.
 

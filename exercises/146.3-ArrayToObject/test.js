@@ -25,7 +25,7 @@ test('Function transformEmployeeData must return an object {}', () => {
   ).toBe('object');
 });
 
-test('The function must transform employee data from one format to { key: value }.', () => {
+test('The function must transform employee data from one format to { key: value }', () => {
   let output = transformEmployeeData([
     [
       ['firstName', 'Joe'],
@@ -46,7 +46,7 @@ test('The function must transform employee data from one format to { key: value 
   ]);
 });
 
-test('The function must transform employee data from one format to { key: value }.', () => {
+test('The function must transform employee data from one format to { key: value }', () => {
   let output = transformEmployeeData([
     [
       ['firstName', 'Johnny'],

@@ -13,6 +13,6 @@ console.log(output); // --> [ 'name', 'age', 'hasPets' ]
 
 ## 💡 Hints:
 
-+ Do not use `Object.keys` to solve this exercise.
++ Do not use `Object.keys()` to solve this exercise.
 
 + Note that your function should be able to handle any object passed in it.

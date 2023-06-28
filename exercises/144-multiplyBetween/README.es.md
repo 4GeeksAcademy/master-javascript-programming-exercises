@@ -13,6 +13,6 @@ console.log(output); // --> 24
 
 ## 💡 Pistas:
 
-+ El producto entre 1 y 4 es `1 * 2 * 3 = 6`.
++ El producto entre `1` y `4` es `1 * 2 * 3 = 6`.
 
 + Si el `num2` no es mayor que `num1`, debería retornar `0`.

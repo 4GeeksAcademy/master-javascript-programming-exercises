@@ -11,5 +11,5 @@ function computeCompoundInterest(
   return aux3 - principal;
 }
 
-var output = computeCompoundInterest(1500, 0.043, 4, 6);
+let output = computeCompoundInterest(1500, 0.043, 4, 6);
 console.log(output); // --> 438.83682213410543

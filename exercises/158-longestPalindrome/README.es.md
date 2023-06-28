@@ -1,4 +1,4 @@
-# `158` longestPalindrome
+# `158` findLongestPalindrome
 
 Un Palíndromo es un texto que es igual si se lee de izquierda a derecha que de derecha a izquierda. Por ejemplo, en el string `My dad is a racecar athlete`, el palíndromo más largo es `a racecar a` (los espacios cuentan como caracteres válidos). Otros palíndromos en dicho string pueden ser 'dad', 'ete', ' dad ' (incluyendo los espacios a cada lado de la palabra ' dad ').
 

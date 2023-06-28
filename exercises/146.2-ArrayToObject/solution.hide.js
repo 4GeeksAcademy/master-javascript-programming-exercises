@@ -1,10 +1,10 @@
 function fromListToObject(array) {
   // your code here
-  let arr = {};
+  let aux = {};
   for (let e of array) {
-    arr[e[0]] = e[1];
+    aux[e[0]] = e[1];
   }
-  return arr;
+  return aux;
 }
 
 let output = fromListToObject([
@@ -12,4 +12,4 @@ let output = fromListToObject([
   ['model', 'Mustang'],
   ['year', 1964],
 ]);
-console.log(output); // --> { make: 'Ford', model: 'Mustang', year: 1964 }
+console.log(output); // => { make: 'Ford', model: 'Mustang', year: 1964 }

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `computeFactorialOfN`. Dado un número natural (un número entero mayor que `0`), `computeFactorialOfN` retorna un factor del mismo.
+1. Escribe una función llamada `computeFactorialOfN`. Dado un número natural (un número entero mayor que `0`), `computeFactorialOfN` retorna el factorial del mismo.
 
 ## 📎 Ejemplo 1:
 

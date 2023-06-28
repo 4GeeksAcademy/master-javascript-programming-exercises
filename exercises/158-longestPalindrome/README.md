@@ -10,13 +10,15 @@ A palindrome is a text that reads the same backward as forward. For example, in 
 
 ```javascript
 let output = findLongestPalindrome("My dad is a racecar athlete");
-console.log(output); // "a racecar a"
+console.log(output); // --> "a racecar a"
 ```
 
 ## 💡 Hints:
 
 + Use every function.
 
-+ If there are multiple palindromes with the same length, return the last one. 
++ If there are multiple palindromes with the same length, return the last one.
+
++ The given string will only contain letters (no symbols, punctuation signs or numbers).
 
 + It should not be case sensitive.

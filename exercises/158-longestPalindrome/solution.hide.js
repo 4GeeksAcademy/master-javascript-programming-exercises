@@ -1,4 +1,5 @@
 function findLongestPalindrome(sentence) {
+  // your code here
   let longestPalindrome = '';
 
   for (let i = 0; i < sentence.length; i++) {
@@ -13,10 +14,12 @@ function findLongestPalindrome(sentence) {
 }
 
 function reverseString(string) {
+  // your code here
   return string.split('').reverse().join('');
 }
 
 function isPalindrome(word) {
+  // your code here
   return word.length > 1 && word.toLowerCase() === reverseString(word.toLowerCase());
 }
 

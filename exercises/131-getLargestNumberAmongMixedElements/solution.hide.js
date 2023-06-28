@@ -1,22 +1,19 @@
 function getLargestNumberAmongMixedElements(arr) {
   // your code here
-  let aux = 0;
-  if (arr.length > 0) {
-    let hasNumbers = arr.find((e) => typeof e == 'number');
-    if (hasNumbers) {
-      arr.map((e) => {
-        if (e > aux) {
-          aux = e;
-        }
-      });
-    } else {
-      aux = 0;
+  let largestNumber = -Infinity;
+
+  for (let element of arr) {
+    if (typeof element === 'number' && element > largestNumber) {
+      largestNumber = element;
     }
-  } else {
-    return 0;
   }
-  return aux;
+
+  if (largestNumber === -Infinity) {
+    return 0;
+  } else {
+    return largestNumber;
+  }
 }
 
-var output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up', 3, 1]);
+let output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up', 3, 1]);
 console.log(output); // --> 5

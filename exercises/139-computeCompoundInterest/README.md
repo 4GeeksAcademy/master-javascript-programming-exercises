@@ -4,7 +4,7 @@
 
 1. Write a function called `computeCompoundInterest`. Given a loan, an interest rate, a compounding frequency, and a time (in years), `computeCompoundInterest` returns the amount of compound interest generated.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = computeCompoundInterest(1500, .043, 4, 6);

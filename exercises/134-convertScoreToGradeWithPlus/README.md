@@ -2,14 +2,13 @@
 
 ## 📝 Instructions:
 
-1. Write a function callled `convertScoreToGradeWithPlusAndMinus`. Given a score, `convertScoreToGradeWithPlusAndMinus` returns a string representing the letter grade corresponding to the given score.
+1. Write a function called `convertScoreToGradeWithPlusAndMinus`. Given a score, `convertScoreToGradeWithPlusAndMinus` returns a string representing the letter grade corresponding to the given score.
 
-## Example:
+## 📎 Example:
 
 ```js
 let output = convertScoreToGradeWithPlusAndMinus(91);
 console.log(output); // --> 'A-'
-
 ```
 
 ## 💡 Hints:

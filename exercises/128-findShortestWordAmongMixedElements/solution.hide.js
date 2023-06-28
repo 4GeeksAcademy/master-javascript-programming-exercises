@@ -1,23 +1,17 @@
 function findShortestWordAmongMixedElements(arr) {
   // your code here
-  let aux = '9999999999999999999999';
+  let shortestWord = '';
+  let shortestLength = Infinity;
 
-  if (arr.length > 0) {
-    let hasString = arr.find((e) => typeof e == 'string');
-    if (hasString != undefined) {
-      arr.map((e) => {
-        if (e.length < aux.length) {
-          aux = e;
-        }
-      });
-    } else {
-      aux = '';
+  for (let element of arr) {
+    if (typeof element === 'string' && element.length < shortestLength) {
+      shortestWord = element;
+      shortestLength = element.length;
     }
-  } else {
-    aux = '';
   }
-  return aux;
+
+  return shortestWord;
 }
 
-var output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
+let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
 console.log(output); // --> 'two'

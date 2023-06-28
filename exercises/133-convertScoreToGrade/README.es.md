@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `convertScoreToGrade`. Dada una puntaje, `convertScoreToGrade` retorna un string que representa la calificación de letra correspondiente a la puntuación dada.
+1. Escribe una función llamada `convertScoreToGrade`. Dado un puntaje, `convertScoreToGrade` retorna un string que representa la calificación de letra correspondiente a la puntuación dada.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let output = convertScoreToGrade(91);

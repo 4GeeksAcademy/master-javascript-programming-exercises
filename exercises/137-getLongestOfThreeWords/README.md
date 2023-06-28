@@ -2,9 +2,9 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `getLongestOfThreeWords`. Given 3 words, `getLongestOfThreeWords` returns the longest of three words
+1. Write a function called `getLongestOfThreeWords`. Given 3 words, `getLongestOfThreeWords` returns the longest of three words.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = getLongestOfThreeWords('these', 'three', 'words');

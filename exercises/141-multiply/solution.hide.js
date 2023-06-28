@@ -10,4 +10,4 @@ function multiply(num1, num2) {
 }
 
 let output = multiply(2, -7);
-console.log(output); // --> - 14
+console.log(output); // --> -14

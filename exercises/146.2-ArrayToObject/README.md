@@ -4,16 +4,16 @@
 
 1. Write a function `fromListToObject` which takes in a matrix (an array of arrays), and returns an object with *each pair of elements in the array as a key-value pair*.
 
-## Example:
+## 📎 Example:
 
 ```js
 let output = fromListToObject([['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]]);
-console.log(output); // {make : 'Ford', model : 'Mustang', year : 1964}
+console.log(output); // --> { make : 'Ford', model : 'Mustang', year : 1964 }
 ```
 
 ## 💡 Hints:
 
-+ Do not change the input string. 
++ Do not change the input array. 
 
 + Assume that all elements in the array will be of type `string`.
 

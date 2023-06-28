@@ -1,20 +1,18 @@
 function sumDigits(num) {
   // your code here
-  let strNum = num.toString();
-  let aux = 0;
-  let result = 0;
-  while (strNum[aux] != undefined) {
-    if (strNum[aux] === '-') {
-      let aux2 = strNum[aux] + strNum[aux + 1];
-      aux2 = parseInt(aux2);
-      result += aux2;
-      aux += 2;
+  let numStr = num.toString();
+  let sum = 0;
+
+  for (let i = 0; i < numStr.length; i++) {
+    if (i === 0 && numStr[i] === "-") {
+      sum -= Number(numStr[i + 1]);
+      i++;
     } else {
-      result += parseInt(strNum[aux]);
-      aux++;
+      sum += Number(numStr[i]);
     }
   }
-  return result;
+
+  return sum;
 }
 
 let output = sumDigits(-316);

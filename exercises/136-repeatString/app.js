@@ -1,5 +1,6 @@
 function repeatString(string, num) {
     // your code here
+    
 }
 
 let output = repeatString('code', 3);

@@ -15,15 +15,15 @@ test('Function findShortestOfThreeWords must return a string', () => {
   expect(typeof findShortestOfThreeWords('test', 'tes', 'te')).toBe('string');
 });
 
-test('Given 3 words, return the shortest of the three words. Testing with example values.', () => {
+test('Given 3 words, return the shortest of the three words', () => {
   expect(findShortestOfThreeWords('a', 'two', 'three')).toBe('a');
 });
 
-test('Given 3 words, return the shortest of the three words.', () => {
+test('Given 3 words, return the shortest of the three words. Testing with different values', () => {
   expect(findShortestOfThreeWords('small', 'medium', 'large')).toBe('small');
 });
 
-test('If they are the same length, it should return the first word found.', () => {
+test('If they are the same length, it should return the first word found', () => {
   expect(findShortestOfThreeWords('three', 'tigers', 'three', 'tigers')).toBe(
     'three'
   );

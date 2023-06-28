@@ -2,9 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getLargestNumberAmongMixedElements`.  Dado cualquier array, `getLargestNumberAmongMixedElements` retorna el número más grande que este dentro del array.
+1. Escribe una función llamada `getLargestNumberAmongMixedElements`. Dado un array de elementos mixtos, `getLargestNumberAmongMixedElements` retorna el número más grande dentro del array.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```Js
 let output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up', 3, 1]);
@@ -13,8 +13,6 @@ console.log(output); // --> 5
 
 ## 💡 Pistas:
 
-+ El array puede contener valores de un tipo que no sean números.
++ Si el array está vacío, debería retornar `0`.
 
-+ Si el array está vacía, debería retornar 0.
-
-+ Si el array no contiene números, debería retornar 0.
++ Si el array no contiene números, debería retornar `0`.

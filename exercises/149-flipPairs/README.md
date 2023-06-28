@@ -8,7 +8,7 @@
 
 3. When call function, return string with every pair of characters flipped including spaces.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let input = 'check out how interesting this problem is, it\'s insanely interesting!';

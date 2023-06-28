@@ -8,7 +8,7 @@
 
 ```js
 let output = getAllKeys({name: "Sam", age: 25, hasPets: true});
-console.log(output); // ['name', 'age', 'hasPets']
+console.log(output); // --> [ 'name', 'age', 'hasPets' ]
 ```
 
 ## 💡 Hints:

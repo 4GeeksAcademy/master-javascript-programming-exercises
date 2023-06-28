@@ -21,7 +21,7 @@ console.log(output); // --> 1
 
 + `anyNumber % 0 = NaN`.
 
-+ Si cualquiera de los operandores es `NaN`, entonces el resultado es `NaN`.
++ Si cualquiera de los operadores es `NaN`, entonces el resultado es `NaN`.
 
 + `modulo` siempre devuelve el signo del primer número.
 

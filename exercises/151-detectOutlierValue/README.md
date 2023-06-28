@@ -6,7 +6,7 @@
 
 2. Function accepts a `string` parameter.
 
-3. When calling the function, is returns the position the outlier value is, and it should be 1-indexed, not 0-indexed.
+3. When calling the function, it returns the position the outlier value is, and it should be 1-indexed, not 0-indexed.
 
 ## 📎 Example 1:
 

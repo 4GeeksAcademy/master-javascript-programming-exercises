@@ -17,3 +17,7 @@ console.log(output); // --> 6
 let output = computeFactorialOfN(4);
 console.log(output); // --> 24
 ```
+
+## 💡 Hint:
+
++ If `n = 4`, it should calculate the product of `1 * 2 * 3 * 4`, and return `24`.

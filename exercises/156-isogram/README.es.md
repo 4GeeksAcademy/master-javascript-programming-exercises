@@ -15,7 +15,7 @@ console.log(isIsogram("Camille")); // --> false
 
 + Un **isograma** es una palabra que no tiene letras repetidas, consecutivas o no consecutivas.
 
-+ Supón que tu entrada es solo letras.
++ Supón que tu string de entrada solo tiene letras (sin espacios).
 
 + Supón que un string vacío es un isograma.
 

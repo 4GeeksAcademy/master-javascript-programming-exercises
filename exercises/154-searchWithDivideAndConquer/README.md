@@ -3,7 +3,7 @@
 Given a sorted array, such as this:
 
 ```js
-let sortedArray = [1, 3, 16, 22, 31, 33, 34];
+let arr = [1, 3, 16, 22, 31, 33, 34];
 ```
 
 You can use binary search for the value `31`, as follows:

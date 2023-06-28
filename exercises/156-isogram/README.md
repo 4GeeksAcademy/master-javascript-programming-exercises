@@ -1,4 +1,4 @@
-# `156` Isogram
+# `156` isogram
 
 ## 📝 Instructions:
 
@@ -6,10 +6,10 @@
 
 ## 💡 Hints:
 
-+ An **isogram**  is a word that has no repeating letters, consecutive or non-consecutive. 
++ An **isogram** is a word that has no repeating letters, consecutive or non-consecutive. 
 
 + Suppose your input has only letters.
 
 + Suppose that a string is an isogram
 
-* Ignore letter case.
++ Ignore letter case.

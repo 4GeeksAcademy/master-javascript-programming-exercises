@@ -20,3 +20,5 @@ console.log(isIsogram("Camille")); // --> false
 + Supón que un string vacío es un isograma.
 
 + Ignora mayúsculas y minúsculas.
+
++ Puedes empezar añadiendo cada caracter a un `new Set()` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set

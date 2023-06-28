@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Given a list of positive integers and a total objective, find the first pair of numbers that add up to the total objective.
+1. Write a function called `findPairForSum`. Given a list of positive integers and a total objective, find the first pair of numbers that add up to the total objective.
 
 ## 📎 Example:
  

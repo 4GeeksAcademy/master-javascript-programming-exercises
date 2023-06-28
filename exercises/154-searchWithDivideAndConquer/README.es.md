@@ -1,4 +1,4 @@
-# `154` searchWithDivideAndConquer
+# `154` search
 
 Dado un array ordenado, como este:
 

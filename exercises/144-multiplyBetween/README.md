@@ -4,7 +4,7 @@
 
 1. Write a function called `multiplyBetween`. Given 2 integers, `multiplyBetween` returns the product between the two given integers, beginning at `num1`, and excluding `num2`.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = multiplyBetween(2, 5);

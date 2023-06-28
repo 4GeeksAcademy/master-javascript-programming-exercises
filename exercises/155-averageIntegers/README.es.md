@@ -4,7 +4,7 @@
 
 1. Usa el esqueleto proporcionado para escribir una implementación funcional.
 
-2. Debes descubrir el promedio de una `lista` o array de números.
+2. Debes descubrir el promedio de una lista o array de números.
 
 3. Utiliza la función `sum` para ayudarte a sumar los números de la lista.
 

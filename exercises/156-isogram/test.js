@@ -13,14 +13,14 @@ test('Function isIsogram must return a boolean', () => {
   expect(typeof isIsogram('Test')).toBe('boolean');
 });
 
-test('Function must return true or false if no letters are repeated. Testing with Dermatoglyphics.', () => {
+test('Function must return true or false if no letters are repeated', () => {
   expect(isIsogram('Dermatoglyphics')).toBe(true);
 });
 
-test('Function must return true or false if no letters are repeated. Testing with Camile.', () => {
+test('Function must return true or false if no letters are repeated. Testing with different values', () => {
   expect(isIsogram('Camile')).toBe(true);
 });
 
-test('Function must return true or false if no letters are repeated. Testing with Camille.', () => {
+test('Function must return true or false if no letters are repeated. Testing with different values', () => {
   expect(isIsogram('Camille')).toBe(false);
 });

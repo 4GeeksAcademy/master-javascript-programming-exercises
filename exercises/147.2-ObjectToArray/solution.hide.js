@@ -8,4 +8,4 @@ function listAllValues(obj) {
 }
 
 let output = listAllValues({ name: 'Sam', age: 25, hasPets: true });
-console.log(output);
+console.log(output); // --> [ 'Sam', 25, true ]

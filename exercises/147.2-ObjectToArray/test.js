@@ -25,7 +25,7 @@ test('Function listAllValues must return an array', () => {
   ).toBe('object');
 });
 
-test('The function must returns an array of all the values of the object.', () => {
+test('The function must return an array of all the values of the object', () => {
   let output = listAllValues({
     name: 'Krysten',
     age: 33,
@@ -34,7 +34,7 @@ test('The function must returns an array of all the values of the object.', () =
   expect(output).toEqual(['Krysten', 33, false]);
 });
 
-test('The function must returns an array of all the values of the object.', () => {
+test('The function must return an array of all the values of the object. Testing with different values', () => {
   let output = listAllValues({
     name: 'Johnny',
     age: 57,

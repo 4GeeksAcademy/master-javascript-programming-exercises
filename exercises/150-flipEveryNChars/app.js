@@ -1,5 +1,6 @@
 function flipEveryNChars(input, n) {
     // your code here
+    
 }
 
 let input = 'a short example';

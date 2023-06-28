@@ -25,7 +25,7 @@ test('Function convertObjectToList must return an array', () => {
   ).toBe('object');
 });
 
-test('The function should convert a literal object to an array and return all in to an array', () => {
+test('The function should convert a literal object to an array of arrays', () => {
   let output = convertObjectToList({
     name: 'Holly',
     age: 35,
@@ -38,7 +38,7 @@ test('The function should convert a literal object to an array and return all in
   ]);
 });
 
-test('The function should convert a literal object to an array and return all in to an array', () => {
+test('The function should convert a literal object to an array of arrays. Testing with different values', () => {
   let output = convertObjectToList({
     name: 'Johnny',
     age: 57,

@@ -1,4 +1,4 @@
-// NOTE for further explantion of this solution visit: https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other/
+// NOTE for further explanation of this solution visit: https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other/
 function isRotated(str1, str2) {
   // your code here
   if (str1.length != str2.length) {
@@ -26,6 +26,6 @@ function isRotated(str1, str2) {
   return false
 }
 
-console.log(isRotated('hello world', 'orldhello w')); // => true
-console.log(isRotated('hello world', 'omrel wp')); // => false
+console.log(isRotated('hello world', 'orldhello w')); // --> true
+console.log(isRotated('hello world', 'omrel wp')); // --> false
 

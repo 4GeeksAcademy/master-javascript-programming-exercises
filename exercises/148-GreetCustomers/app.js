@@ -19,3 +19,5 @@ function greetCustomer(firstName) {
 	
   return greeting;
 }
+
+console.log(greetCustomer('Joe')); // --> 'Welcome back, Joe! We're glad you liked us the first time!'

@@ -1,4 +1,5 @@
 function isIsogram(text) {
+  // your code here
   const chars = {};
   for (const char of text) {
     chars[char] = (chars[char] || 0) + 1;
@@ -10,5 +11,5 @@ function isIsogram(text) {
   else return true;
 }
 
-console.log(isIsogram('Camile')); // => true
-console.log(isIsogram('Camille')); // => false
+console.log(isIsogram('Camile')); // --> true
+console.log(isIsogram('Camille')); // --> false

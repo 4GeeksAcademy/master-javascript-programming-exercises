@@ -18,7 +18,7 @@ test('Function must create "n" characters separated according to the length of t
   expect(output).toBe('ohs axe trelpma');
 });
 
-test('Function must create "n" characters separated according to the length of the string and mix them', () => {
+test('Function must create "n" characters separated according to the length of the string and mix them. Testing with different values', () => {
   let output = flipEveryNChars('watch my backflip', 3);
   expect(output).toBe('taw hc ymcablfkpi');
 });

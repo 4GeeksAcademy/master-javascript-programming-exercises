@@ -14,15 +14,15 @@ test('Function findPairForSum must return an array', function () {
   expect(Array.isArray(findPairForSum([3, 34, 4], 7))).toBeTruthy();
 });
 
-test('The function must return a pair of numbers that add up to the goal number.', function () {
+test('The function must return a pair of numbers that add up to the goal number', function () {
   expect(findPairForSum([3, 34, 4], 7)).toEqual([ 3, 4 ]);
 });
 
-test('The function must return a pair of numbers that add up to the goal number. Trying with different values (1/2)', () => {
+test('The function must return a pair of numbers that add up to the goal number. Testing with different values', () => {
   expect(findPairForSum([2, 4, 6, 10], 8)).toEqual([2, 6])
 });
 
-test('The function must return a pair of numbers that add up to the goal number. Trying with different values (2/2)', () => {
+test('The function must return a pair of numbers that add up to the goal number. Testing with different values', () => {
   expect(findPairForSum([3, 34, 4, 12, 5, 2, 6], 9)).toEqual([ 3, 6 ])
 });
 

@@ -8,5 +8,5 @@ function convertObjectToList(obj) {
 }
 
 let output = convertObjectToList({ name: 'Holly', age: 35, role: 'producer' });
-console.log(output);
+console.log(output); // --> [ ['name', 'Holly'], ['age', 35], ['role', 'producer'] ]
 

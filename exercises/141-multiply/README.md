@@ -4,7 +4,7 @@
 
 1. Write a function called `multiply`. Given 2 integers, `multiply` returns its product.
 
-## Example:
+## 📎 Example:
 
 ```Js
 let output = multiply(4, 7);
@@ -13,5 +13,5 @@ console.log(output); // --> 28
 
 ## 💡 Hint:
 
-+ DO NOT use the multiplication operator  (`*`)
++ DO NOT use the multiplication operator (`*`)
 

@@ -4,9 +4,9 @@
 
 1. Declare a function named `flipPairs`.
 
-2. Function accepts parameter named string, whose argument value will be string.
+2. Function accepts a string input.
 
-3. When call function, return string with every pair of characters flipped including spaces.
+3. When calling the function, it returns string with every ***pair*** of characters flipped including spaces.
 
 ## 📎 Example:
 

@@ -1,5 +1,3 @@
-let arr = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'];
-
 function transformFirstAndLast(array) {
   // your code here
   let aux = { [array[0]]: array[array.length - 1] };
@@ -7,4 +5,5 @@ function transformFirstAndLast(array) {
   return aux;
 }
 
+let arr = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'];
 console.log(transformFirstAndLast(arr));

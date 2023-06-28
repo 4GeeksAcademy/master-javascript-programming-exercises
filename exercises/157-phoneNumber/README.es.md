@@ -4,7 +4,7 @@
 
 1. Usa el esqueleto dado y modifica las funciones para que dado un array de números, genere un número de teléfono en el siguiente formato: `(000) 000-0000`
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let output = PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).render();
@@ -25,4 +25,4 @@ function renderPhoneNumber(numbers){
 }
 ```
 
-+ Lo que deberías hacer en su lugar es leer el esqueleto orientado a objetos y después de comprender el flujo de procesamiento  de la información, completar la implementación.
++ Lo que deberías hacer en su lugar es leer el esqueleto orientado a objetos y después de comprender el flujo de procesamiento de la información, completar la implementación.

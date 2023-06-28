@@ -57,25 +57,25 @@ test('Function PhoneNumberFormatter must return a string', () => {
   ).toBe('string');
 });
 
-test('The function must transform the array into a phone format string as expected. Testing getAreaCode.', () => {
+test('The function must transform the array into a phone format string as expected. Testing getAreaCode', () => {
   expect(
     new PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).getAreaCode()
   ).toEqual('650');
 });
 
-test('The function must transform the array into a phone format string as expected. Testing getExchangeCode.', () => {
+test('The function must transform the array into a phone format string as expected. Testing getExchangeCode', () => {
   expect(
     new PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).getExchangeCode()
   ).toEqual('835');
 });
 
-test('The function must transform the array into a phone format string as expected. Testing getLineNumber.', () => {
+test('The function must transform the array into a phone format string as expected. Testing getLineNumber', () => {
   expect(
     new PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).getLineNumber()
   ).toEqual('9172');
 });
 
-test('The function must transform the array into a phone format string as expected. Testing render.', () => {
+test('The function must transform the array into a phone format string as expected. Testing render', () => {
   expect(
     new PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).render()
   ).toEqual('(650) 835-9172');

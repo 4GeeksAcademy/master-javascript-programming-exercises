@@ -1,4 +1,5 @@
-function findPairForSum(array, number){
+function findPairForSum(array, number) {
+  // your code here
   
 }
 

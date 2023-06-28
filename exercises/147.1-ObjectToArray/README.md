@@ -4,7 +4,7 @@
 
 1. Write a function called `getAllKeys` which returns an array of all the input object's keys.
 
-## Example:
+## 📎 Example:
 
 ```js
 let output = getAllKeys({name: "Sam", age: 25, hasPets: true});

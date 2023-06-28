@@ -20,7 +20,7 @@ console.log(output); // { Kevin: "Spacey" }
 
 ## 💡 Pistas:
 
-+ No cambies el array de entrada. 
++ No modifiques el array dado. 
 
 + Asume que todos los elementos en el array de entrada serán del tipo `string`.
 

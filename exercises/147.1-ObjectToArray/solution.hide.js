@@ -8,4 +8,4 @@ function getAllKeys(obj) {
 }
 
 let output = getAllKeys({ name: 'Sam', age: 25, hasPets: true });
-console.log(output);
+console.log(output); // --> [ 'name', 'age', 'hasPets' ]

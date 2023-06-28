@@ -13,7 +13,7 @@ console.log(output); // --> 1
 
 ## 💡 Hints:
 
-+ It should behave as described in the [canonical documentation (MDN) for the JavaScript remainder operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
++ It should behave as described in the [canonical documentation (MDN) for the JavaScript remainder operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder).
 
 + Do NOT use the actual built-in modulo (aka "remainder") operator (`%`) in your implementation.
 

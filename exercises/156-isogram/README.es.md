@@ -1,8 +1,8 @@
-# `156` Isogram
+# `156` isogram
 
 ## 📝 Instrucciones:
 
-1. La función `isogram` recibe un string y retorna true si el string es un isograma, sino retorna false.
+1. La función `isogram` recibe un string y retorna `true` si el string es un isograma, si no retorna `false`.
 
 ## 💡 Pistas:
 

@@ -15,4 +15,4 @@ console.log(output); // --> 24
 
 + The product between 1 and 4 is `1 * 2 * 3 = 6`.
 
-* If `num2` is not greater than `num1`, it should return 0.
+* If `num2` is not greater than `num1`, it should return `0`.

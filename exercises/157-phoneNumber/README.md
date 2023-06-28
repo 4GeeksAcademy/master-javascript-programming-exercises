@@ -4,7 +4,7 @@
 
 1. Use the skeleton and modify the functions in order to format the numbers in the following format: `(000) 000-0000`
 
-## Example:
+## 📎 Example:
 
 ```js
 let output = PhoneNumberFormatter([6, 5, 0, 8, 3, 5, 9, 1, 7, 2]).render();

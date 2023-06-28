@@ -3,7 +3,7 @@
 Given a sorted array, such as this:
 
 ```js
-[1, 3, 16, 22, 31, 33, 34]
+let sortedArray = [1, 3, 16, 22, 31, 33, 34];
 ```
 
 You can use binary search for the value `31`, as follows:
@@ -15,7 +15,7 @@ You can use binary search for the value `31`, as follows:
 
 3. Pick the midpoint: `33`.
 
-4. The value is lower than 33, so now consider only the left half of the previous array:
+4. The value is lower than `33`, so now consider only the left half of the previous array:
 [...31...]
 
 5. Pick the midpoint: `31`.
@@ -28,18 +28,18 @@ You can use binary search for the value `31`, as follows:
 
 1. The function `search` receives an array of numbers and a number, it should return the position of the number given using binary search.
 
-## Example: 
+## 📎 Example: 
 
 ```Js
 let arr = [1, 3, 16, 22, 31, 33, 34]
-console.log(search(arr, 31)); 4
+console.log(search(arr, 31)); // --> 4
 ```
 
-## 💡 Hints:
+## 💡 Hints:
 
-+ **Binary search** is a searching technique which works on Divide and Conquer approach. It is used to search any element in a sorted array.  
++ **Binary search** is a searching technique which works on Divide and Conquer approach. It is used to search for any element in a sorted array.  
 
-+ If you don't find the value, you can return `null`.
++ If you don't find the value, you should return `null`.
 
-+ If at any point you calculate the index of the midpoint and get a fractional number, just round it down ("floor" it).
++ If at any point you calculate the index of the midpoint and get a fractional number, just round it down with the `Math.floor()` method.
 

@@ -13,7 +13,7 @@ console.log(output); // --> { make : 'Ford', model : 'Mustang', year : 1964 }
 
 ## 💡 Pistas:
 
-+ No cambies el string de entrada. 
++ No modifiques el array dado. 
 
 + Asume que todos los elementos del array serán de tipo `string`.
 

@@ -1,4 +1,4 @@
-let inventory = [
+let currentInventory = [
     {
       name: 'Brunello Cucinelli',
       shoes: [
@@ -18,6 +18,7 @@ let inventory = [
   ];
 
 function renderInventory(shoeList) {
+  // your code here  
   let newListOfBlack = []
   shoeList.map((item, index)=>{
       item.shoes.map((item2, index)=>{
@@ -27,4 +28,4 @@ function renderInventory(shoeList) {
   return newListOfBlack;
 }
 
-console.log(renderInventory(inventory))
+console.log(renderInventory(currentInventory))

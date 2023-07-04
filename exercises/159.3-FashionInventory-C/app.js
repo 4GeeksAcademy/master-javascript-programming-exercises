@@ -1,4 +1,4 @@
-let inventory = [
+let currentInventory = [
     {
       name: 'Brunello Cucinelli',
       shoes: [
@@ -18,5 +18,8 @@ let inventory = [
   ];
 
 function renderInventory(shoeList) {
-  
+    // your code here
+    
 }
+
+console.log(renderInventory(currentInventory));

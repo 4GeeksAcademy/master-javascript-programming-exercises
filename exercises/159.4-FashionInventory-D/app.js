@@ -1,4 +1,4 @@
-let inventory = [
+let currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -17,6 +17,9 @@ let inventory = [
   },
 ];
 
-function getLaceNameDataForShoes(inventory) {
+function getLaceNameDataForShoes(currentInventory) {
     // your code here
+    
 }
+
+console.log(getLaceNameDataForShoes(currentInventory));

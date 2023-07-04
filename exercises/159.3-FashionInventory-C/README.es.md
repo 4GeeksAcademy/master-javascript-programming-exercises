@@ -16,7 +16,7 @@ Es la misma estructura de datos del inventario `currentInventory` de antes, pero
 ]
 ```
 
-## 📎 Ejemplo de entrada:
+## 📎 Ejemplo de Entrada:
 
 ```js
 let currentInventory = [

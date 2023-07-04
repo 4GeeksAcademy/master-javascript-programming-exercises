@@ -60,7 +60,7 @@ let currentInventory = [
 
 ## 💡 Pistas:
 
-+ NO pegues el código de antes. Enfrenta cada problema por tu cuenta.
++ NO pegues el código de antes. Enfrenta cada problema por su cuenta.
 
 + Puedes usar variables auxiliares.
 

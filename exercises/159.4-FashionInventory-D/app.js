@@ -17,7 +17,7 @@ let currentInventory = [
   },
 ];
 
-function getLaceNameDataForShoes(currentInventory) {
+function getLaceNameDataForShoes(inventory) {
     // your code here
     
 }

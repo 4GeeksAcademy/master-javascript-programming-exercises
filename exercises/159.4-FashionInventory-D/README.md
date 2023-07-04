@@ -80,6 +80,6 @@ let currentInventory = [
 ]
 ```
 
-## 💡 Hint
+## 💡 Hint:
 
 + Help yourself with the [information on this page](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) to get words from a string separated by spaces `" "`, commas `,` , etc.

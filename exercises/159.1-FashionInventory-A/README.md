@@ -14,7 +14,7 @@ You have a fashion catalog, an inventory of items from various high-fashion desi
 ]
 ```
 
-## Example input:
+## 📎 Example input:
  
 ```js
 let currentInventory = [
@@ -37,7 +37,7 @@ let currentInventory = [
 ];
 ```
 
-## Example output:
+## 📎 Example output:
 
 ```Js
 [

@@ -9,7 +9,7 @@ Tienes un catálogo de moda llamado `currentInventory` que corresponde a un inve
 ```js
 [
   [designer name, shoe name, price],
-  [designer name, shoe name, price]
+  [designer name, shoe name, price],
   ...
 ]  
 ```

@@ -4,7 +4,7 @@ You have a fashion catalog, an inventory of items from various high-fashion desi
 
 Each designer has a lineup of shoes. Each shoe has a name and a price.
 
-The task now is to find the laced shoes, but we are going to render them in a somewhat complex format. Your function should return shoe names containing 'lace' in them, and indicate which word contains 'lace'.
+The task now is to find the laced shoes, but we are going to render them in a somewhat complex format. Your function should return shoe names containing "lace" in them, and indicate which word contains "lace".
 
 ## 📝 Instructions:
 

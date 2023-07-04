@@ -29,4 +29,5 @@ function renderInventory(inventory) {
   });
   return aux;
 }
+
 console.log(renderInventory(currentInventory));

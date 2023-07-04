@@ -50,8 +50,8 @@ let inventory = [
 
 ## 💡 Pistas:
 
-+ Esta es una variación del problema del "Fashion Inventory", sin embargo, NO pegues el código de antes. Afronta cada problema por separado.
-
-+ Es el mismo resultado que el Fashion Inventory A,  pero ahora solo se filtran los nombres de zapatos que contienen `black`.
++ Esta es una variación del problema del `Fashion Inventory A y B`, sin embargo, NO pegues el código de antes. Afronta cada problema por separado.
 
 + Si no hay ningún zapato que contenga `black` en su nombre, la función debería devolver un array vacío `[]`.
+
++ Es el mismo resultado que el `Fashion Inventory A`, pero ahora solo se filtran los nombres de zapatos que contienen `black`.

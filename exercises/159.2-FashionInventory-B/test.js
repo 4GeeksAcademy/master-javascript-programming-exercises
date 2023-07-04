@@ -28,7 +28,7 @@ test('Function renderAverageCostPerDesigner must return something', () => {
     ])
   ).not.toBe(undefined);
 });
-test('Function renderAverageCostPerDesigner must return an array of arrays', () => {
+test('Function renderAverageCostPerDesigner must return an array of objects [{}]', () => {
   let test = [
     {
       name: 'Brunello Cucinelli',

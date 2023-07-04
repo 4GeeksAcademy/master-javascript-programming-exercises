@@ -1,10 +1,10 @@
 # `159.2` FashionInventory-B
 
-It's the same inventory data structure as before, you have a fashion catalog, an inventory `currentInventory` with items from various high-fashion designers. Each designer has a lineup of shoes and each shoe has a name and price.
+It's the same inventory data structure as before, you have a fashion catalog, an inventory `currentInventory` with items from various high-fashion designers. Each designer has a lineup of shoes, and each shoe has a name and price.
 
 ## 📝 Instructions:
 
-1. Write a function called `renderAverageCostPerDesigner` that will take in as paramater an array like `CurrentInventory`. Your function should now return the average cost of all shoes by designer in this format:
+1. Write a function called `renderAverageCostPerDesigner` that will take in as parameter an array like `currentInventory`. Your function should now return the average cost of all shoes by designer in this format:
 
 ```Js
 [
@@ -20,7 +20,7 @@ It's the same inventory data structure as before, you have a fashion catalog, an
 ]
 ```
 
-## Example input:
+## 📎 Example input:
 
 ```Js
 let currentInventory = [
@@ -41,8 +41,10 @@ let currentInventory = [
     ]
   }
 ];
+
 ```
-## Example output:
+
+## 📎 Example output:
 
 ```Js
 [

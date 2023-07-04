@@ -19,4 +19,7 @@ let currentInventory = [
 
 function renderAverageCostPerDesigner(inventory) {
     // your code here
+  
 }
+
+console.log(renderAverageCostPerDesigner(currentInventory));

@@ -14,7 +14,7 @@ Tienes un catálogo de moda llamado `currentInventory` que corresponde a un inve
 ]  
 ```
 
-## 📎 Ejemplo de entrada:
+## 📎 Ejemplo de Entrada:
 
 ```Js
 let currentInventory = [
@@ -37,7 +37,7 @@ let currentInventory = [
 ];
 ```
 
-## 📎 Ejemplo de salida:
+## 📎 Ejemplo de Salida:
 
 ```Js
 [

@@ -51,7 +51,7 @@ test('Function renderInventory must return a object', () => {
   ).toBe('object');
 });
 
-test('The function must find all the shoes of all the designers and list them in an arrangement of arrangements.', () => {
+test('The function must find all the shoes of all the designers and list them in an arrangement of arrangements', () => {
   let output = renderInventory([
     {
       name: 'Brunello Cucinelli',
@@ -79,7 +79,7 @@ test('The function must find all the shoes of all the designers and list them in
     ['Gucci', 'black leather laced sneakers', 900],
   ]);
 });
-test('The function must find all the shoes of all the designers and list them in an arrangement of arrangements.', () => {
+test('The function must find all the shoes of all the designers and list them in an arrangement of arrangements', () => {
   let output = renderInventory([
     {
       name: 'Adidas',

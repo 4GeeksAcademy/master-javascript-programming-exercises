@@ -1,12 +1,12 @@
 # `159.3` FashionInventory-C
 
-Es la misma estructura de datos del inventario `currentInventory` de antes pero ahora debes encontrar todos los zapatos negros (con el string `black`). 
+Es la misma estructura de datos del inventario `currentInventory` de antes, pero ahora debes encontrar todos los zapatos negros (con el string `black`). 
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 1. Completa la función `renderInventory` para que retorne el resultado esperado.
 
-2. Retorna una matriz (Lista de listas) las listas contendrán los datos del zapato que incluya el nombre `black` en él, con su repectivo precio. En el siguiente orden:
+2. Retorna una matriz (Lista de listas) las listas contendrán los datos del zapato que incluya el nombre `black` en él, con su respectivo precio. En el siguiente orden:
 
 ```js
 [
@@ -16,7 +16,7 @@ Es la misma estructura de datos del inventario `currentInventory` de antes pero 
 ]
 ```
 
-## Ejemplo de entrada:
+## 📎 Ejemplo de entrada:
 
 ```js
 let inventory = [
@@ -39,7 +39,7 @@ let inventory = [
 ];
 ```
 
- ## Ejemplo de Salida:
+ ## 📎 Ejemplo de Salida:
 
 ```Js
 [

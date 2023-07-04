@@ -23,4 +23,5 @@ function renderInventory(inventory) {
     // it's a good idea to sketch out a skeleton like you've been seeing earlier in this module...
     
 }
+
 console.log(renderInventory(currentInventory))

@@ -13,4 +13,4 @@ function countNumberOfKeys(obj) {
 }
 
 let output = countNumberOfKeys(obj);
-console.log(output); // --> 3
+console.log(output); // --> 6

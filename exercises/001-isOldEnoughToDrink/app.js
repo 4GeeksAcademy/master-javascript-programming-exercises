@@ -1,3 +1,4 @@
-function isOldEnoughToDrink(age){
-    // your code here	
+function isOldEnoughToDrink(age) {
+    // your code here
+    
 }

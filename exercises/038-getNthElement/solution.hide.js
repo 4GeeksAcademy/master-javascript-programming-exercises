@@ -1,4 +1,4 @@
 function getNthElement(array, n) {
-  // your code here
+  // Add your code after this line
   return array[n]
 }

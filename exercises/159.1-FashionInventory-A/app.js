@@ -6,7 +6,7 @@ let currentInventory = [
       { name: 'tasselled green low-top lace-up', price: 1100 },
       { name: 'plain beige suede moccasin', price: 950 },
       { name: 'plain olive suede moccasin', price: 1050 }
-    ],
+    ]
   },
   {
     name: 'Gucci',

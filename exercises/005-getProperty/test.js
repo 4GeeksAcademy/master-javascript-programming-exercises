@@ -14,12 +14,12 @@ test ("Your function must return someting", () => {
     expect(getProperty(person,'name')).not.toEqual(undefined);  
 })
 
-test ('returns the value of the property at the given key.', () => {
+test ('returns the value of the property at the given key', () => {
     const getProperty = rewire ('./app.js').__get__("getProperty");
     expect(getProperty(person,'name')).toEqual('Alex');  
 })
 
-test ('If there is no property at the given key, it should return undefined.', () => {
+test ('If there is no property at the given key, it should return undefined', () => {
     const getProperty = rewire ('./app.js').__get__("getProperty");
     expect(getProperty(person,'lastname')).toBe(undefined);  
 })

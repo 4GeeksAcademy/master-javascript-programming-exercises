@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `removeFromFront`. Given an array, `removeFromFront` returns the **same** array with its first element removed.
+1. Write a function called `removeFromFront`. Given an array, `removeFromFront` returns the **SAME** array with its first element removed.
 
 ## 📎 Example:
 

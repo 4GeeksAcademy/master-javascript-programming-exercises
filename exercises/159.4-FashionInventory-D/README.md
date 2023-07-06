@@ -1,23 +1,23 @@
-# `159-4` FashionInventory-D
+# `159.4` FashionInventory-D
 
 You have a fashion catalog, an inventory of items from various high-fashion designers.
 
 Each designer has a lineup of shoes. Each shoe has a name and a price.
 
-The task now is to find the laced shoes but we are going to render them in a somewhat complex format. Your function should return shoe names containing 'lace' in them, and indicates which word contains 'lace'.
+The task now is to find the laced shoes, but we are going to render them in a somewhat complex format. Your function should return shoe names containing "lace" in them, and indicate which word contains "lace".
 
 ## 📝 Instructions:
 
 1. Complete the `getLaceNameDataForShoes` function to return the expected result.
 
-2. The function goes through the `inventory` objects focusing on its `shoes` property, checking if the `name` of the shoes contains `lace` laces, this also includes `laced`.
+2. The function goes through the `currentInventory` objects focusing on its `shoes` property, checking if the `name` of the shoes contains `lace`, this also includes `laced`.
 
-3. Then it returns a list of objects with the `nameWords` property whose value will be a list with the words of the shoe name that includes `lace` / `laced`. This object also has a property called `targetWordIndex` in which the index in which the word `lace` / `laced` is found is shown.
+3. Then it returns a list of objects with the `nameWords` property, whose value will be a list with the words of the shoe name that includes `lace` / `laced`. This object also has a property called `targetWordIndex` in which the index of the word `lace` / `laced` is found.
 
-## Example input:
+## 📎 Example input:
 
 ```js
-let inventory = [
+let currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -37,7 +37,7 @@ let inventory = [
 ];
 ```
 
-## Example output:
+## 📎 Example output:
 
 ```js
 [
@@ -80,6 +80,6 @@ let inventory = [
 ]
 ```
 
-## 💡 Hint
+## 💡 Hint:
 
-+ Help yourself with the information on this page to get words from a string according to spaces `" "`, commas `,` , etc. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split
++ Help yourself with the [information on this page](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) to get words from a string separated by spaces `" "`, commas `,` , etc.

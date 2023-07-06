@@ -49,7 +49,7 @@ test('Function renderInventory must return an array with arrays', () => {
     typeof expect(renderInventory(inventory)[0]).toBe('object');
 });
 
-test('The function should filter all the shoes that contain the word "black" in the array.', () => {
+test('The function should filter all the shoes that contain the word "black" in the array', () => {
   let output = renderInventory([
     {
       name: 'Brunello Cucinelli',
@@ -73,7 +73,8 @@ test('The function should filter all the shoes that contain the word "black" in 
     ['Gucci', 'black leather laced sneakers', 900],
   ]);
 });
-test('The function should filter all the shoes that contain the word "black" in the array.', () => {
+
+test('The function should filter all the shoes that contain the word "black" in the array. Testing with different values', () => {
   let output = renderInventory([
     {
       name: 'Santa Barbara',

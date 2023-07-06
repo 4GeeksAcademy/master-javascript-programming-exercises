@@ -1,14 +1,17 @@
 function findLongestPalindrome(sentence) {
-  // split sentence into words
-  // iterate words and collect the palindromes
-  // sort the list of palindromes by word length
-  // return the largest item in the sorted list
+  // your code here
+  
 }
 
 function reverseString(string) {
+  // your code here
   
 }
 
 function isPalindrome(word) {
-  // hint: you can detect palindromes by comparing a string to its reverse
+  // your code here
+  
 }
+
+let output = findLongestPalindrome("My dad is a racecar athlete");
+console.log(output); // --> "a racecar a"

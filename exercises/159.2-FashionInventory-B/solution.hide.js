@@ -16,7 +16,9 @@ let currentInventory = [
     ],
   },
 ];
+
 function renderAverageCostPerDesigner(inventory) {
+  // your code here
   let aux = [];
   inventory.map((e) => {
     let price = 0;

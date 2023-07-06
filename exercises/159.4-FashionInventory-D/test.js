@@ -49,7 +49,7 @@ test('The function getLaceNameDataForShoes must return an array of objects', fun
     expect(typeof getLaceNameDataForShoes(inventory)[0]).toBe('object');
 });
 
-test('Function getLaceNameDataForShoes should return correct data', function () {
+test('Function getLaceNameDataForShoes should return the correct data', function () {
   let inventory = [
     {
       name: 'Brunello Cucinelli',
@@ -91,7 +91,7 @@ test('Function getLaceNameDataForShoes should return correct data', function () 
   expect(getLaceNameDataForShoes(inventory)).toEqual(result);
 });
 
-test('The function getLaceNameDataForShoes must return the correct data for any input type', function () {
+test('Function getLaceNameDataForShoes should return the correct data. Testing with different values', function () {
   let inventory = [
     {
       name: 'Brunello Cucinelli',

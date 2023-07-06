@@ -1,10 +1,10 @@
 # `159.2` FashionInventory-B
  
-Es la misma estructura de datos de inventario que antes, tienes un catálogo de moda llamado  `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
+Es la misma estructura de datos de inventario que antes, tienes un catálogo de moda llamado `currentInventory` que corresponde a un inventario de artículos de varios diseñadores de alta costura. Cada diseñador tiene una línea de zapatos y cada zapato tiene un nombre y un precio.
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `renderAverageCostPerDesigner` que reciba como parámetro un arreglo como `currentInventory`. Y esta debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
+1. Escribe una función llamada `renderAverageCostPerDesigner` que reciba como parámetro un array como `currentInventory`. Y esta debe retornar el costo promedio de todos los zapatos por diseñador en este formato:
 
 ```Js
 [
@@ -20,7 +20,7 @@ Es la misma estructura de datos de inventario que antes, tienes un catálogo de 
 ]
 ```
 
-## Ejemplo de Entrada:
+## 📎 Ejemplo de Entrada:
 
 ```Js
 let currentInventory = [
@@ -43,7 +43,7 @@ let currentInventory = [
 ];
 ```
 
-## Ejemplo de Salida:
+## 📎 Ejemplo de Salida:
 
 ```Js
 [
@@ -57,10 +57,11 @@ let currentInventory = [
     }
 ]
 ```
+
 ## 💡 Pistas:
 
-+ NO pegues el código de antes. Enfrenta cada problema por su cuenta. 
++ NO pegues el código de antes. Enfrenta cada problema por su cuenta.
 
 + Puedes usar variables auxiliares.
 
-+ Podrìas usar loops anidados.
++ Podrías usar loops anidados.

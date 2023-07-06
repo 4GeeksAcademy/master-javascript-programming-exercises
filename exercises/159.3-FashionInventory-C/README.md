@@ -1,7 +1,6 @@
 # `159.3` FashionInventory-C
 
-
-You have a fashion catalog, an `currentInventory` of items from various high fashion designers. Each designer has a lineup of shoes and each shoe has a name and a price.
+You have a fashion catalog, a `currentInventory` of items from various high fashion designers. Each designer has a lineup of shoes, and each shoe has a name and a price.
 
 ## 📝 Instructions:
 
@@ -17,10 +16,10 @@ You have a fashion catalog, an `currentInventory` of items from various high fas
 ]
 ```
 
-## Example input: 
+## 📎 Example input: 
 
 ```JS
-let inventory = [
+let currentInventory = [
   {
     name: 'Brunello Cucinelli',
     shoes: [
@@ -40,12 +39,12 @@ let inventory = [
 ];
 ```
 
- ## Example output:
+ ## 📎 Example output:
  
 ```Js
 [
-   [Brunello Cucinelli,tasselled black low-top lace-up,1000],
-   [Gucci,black leather laced sneakers,900]
+   [Brunello Cucinelli, tasselled black low-top lace-up, 1000],
+   [Gucci, black leather laced sneakers, 900]
 ]
 ```
 

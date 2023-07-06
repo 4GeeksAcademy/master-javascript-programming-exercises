@@ -4,7 +4,7 @@ You have a fashion catalog, an inventory of items from various high-fashion desi
 
 ## 📝 Instructions:
 
-1. Write a function called `renderInventory` that will receive as a parameter an array like `currentInventory`. Your function should access all the shoes across each desiger and return a matrix (array of arrays) like this:
+1. Write a function called `renderInventory` that will receive as a parameter an array like `currentInventory`. Your function should access all the shoes across each designer and return a matrix (array of arrays) like this:
 
 ```js
 [
@@ -14,7 +14,7 @@ You have a fashion catalog, an inventory of items from various high-fashion desi
 ]
 ```
 
-## Example input:
+## 📎 Example input:
  
 ```js
 let currentInventory = [
@@ -37,7 +37,7 @@ let currentInventory = [
 ];
 ```
 
-## Example output:
+## 📎 Example output:
 
 ```Js
 [

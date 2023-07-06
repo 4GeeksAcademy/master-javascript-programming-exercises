@@ -4,7 +4,7 @@ function getSmallestElementAtProperty(obj, key) {
     return [];
   }
   
-  let arr = obj[key]
+  let arr = obj[key];
   let smallest = arr[0];
   
   for (let i = 1; i < arr.length; i++) {

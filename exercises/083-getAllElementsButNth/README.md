@@ -13,4 +13,4 @@ console.log(output); // --> ['a', 'c']
 
 ## 💡 Hint:
 
-+ One way to do this exercise is with the method `splice()`, you should investigate it.
++ One way to do this exercise is with the method `splice()`, you should search about it.

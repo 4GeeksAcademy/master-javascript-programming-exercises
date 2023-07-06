@@ -13,4 +13,4 @@ console.log(output); // --> 4
 
 ## 💡 Pistas:
 
-+ La última posición en un arreglo es: `length - 1`.
++ La última posición en un array es: `length - 1`.

@@ -9,9 +9,9 @@ test('The function getLengthOfTwoWords should return something',()=>{
     expect(getLengthOfTwoWords('some', 'words')).not.toBe(undefined);
 })
 
-test ("Function should return the sum of their lengths. Testing with 'some', 'words'", () => {
+test ("Function should return the sum of their lengths", () => {
     expect(getLengthOfTwoWords('some', 'words')).toBe(9);
 })
-test ("Function should return the sum of their lengths. Testing with 'juana', 'lacubana'", () => {
+test ("Function should return the sum of their lengths. Testing with different values", () => {
     expect(getLengthOfTwoWords('juana', 'lacubana')).toBe(13);
 })

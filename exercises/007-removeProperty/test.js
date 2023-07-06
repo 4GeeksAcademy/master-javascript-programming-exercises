@@ -5,7 +5,7 @@ test ('The function removeProperty must exist', () => {
     expect(removeProperty).not.toBe(undefined);
 })
 
-test ('Function removes the given key from the given object.', function () {
+test ('Function removes the given key from the given object', function () {
     const removeProperty = rewire ('./app.js').__get__("removeProperty");
 
     const obj = {

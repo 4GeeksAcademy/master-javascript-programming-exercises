@@ -9,4 +9,4 @@ let obj = {
 }
 
 removeStringValues(obj);
-console.log(obj); // { age: 20 }
+console.log(obj); // --> { age: 20 }

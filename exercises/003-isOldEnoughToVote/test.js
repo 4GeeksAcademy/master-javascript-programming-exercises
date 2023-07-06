@@ -14,7 +14,7 @@ test('Function isOldEnoughToVote must return true or false', () => {
     expect(isOldEnoughToVote(21)).not.toBe(undefined);
 });
 
-test ('Is old enough to legally vote in the United States.', () => {
+test ('Is old enough to legally vote in the United States', () => {
     const isOldEnoughToVote = rewire ('./app.js').__get__("isOldEnoughToVote");
 
     const result = isOldEnoughToVote(18);
@@ -22,7 +22,7 @@ test ('Is old enough to legally vote in the United States.', () => {
 
 })
 
-test ('Is not old enough to legally vote in the United States.', () => {
+test ('Is not old enough to legally vote in the United States', () => {
     const isOldEnoughToVote = rewire ('./app.js').__get__("isOldEnoughToVote");
 
     const result = isOldEnoughToVote(17);

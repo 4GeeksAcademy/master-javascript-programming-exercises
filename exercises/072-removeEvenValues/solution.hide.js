@@ -7,3 +7,11 @@ function removeEvenValues(obj) {
       }
       return obj;
 }
+
+let obj = {
+  a: 2,
+  b: 3,
+  c: 4
+};
+removeEvenValues(obj);
+console.log(obj); // --> { b: 3 }

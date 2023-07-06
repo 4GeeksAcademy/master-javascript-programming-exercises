@@ -15,4 +15,4 @@ console.log(output); // --> {b: 1, a: 3, n: 2}
 
 + The value of each key should be how many times each character appeared in the given string.
 
-+ If given an empty string, `countAllCharacters` should return an empty object.
++ If given an empty string, `countAllCharacters` should return an empty object `{}`.

@@ -13,6 +13,6 @@ console.log(output); // --> [1, 3, 1]
 
 ## 💡 Hints:
 
-+ If all the elements match, it should return an empty array.
++ If all the elements match, it should return an empty array `[]`.
 
-+ If an empty array is passed in, it should return an empty array.
++ If an empty array is passed in, it should return an empty array `[]`.

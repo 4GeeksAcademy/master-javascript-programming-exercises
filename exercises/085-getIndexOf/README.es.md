@@ -13,7 +13,7 @@ console.log(output); // --> 2
 
 ## 💡 Pistas:
 
-+ El índice de los strings parte desde el 0, esto significa que el primer carácter en un string está en la posición 0.
++ El índice de los strings parte desde el 0, esto significa que el primer caracter en un string está en la posición 0.
 
 + Cuando un string tiene un carácter que se repite, debería retornar el índice de su primera ocurrencia.
 

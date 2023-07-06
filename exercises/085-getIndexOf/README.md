@@ -17,6 +17,6 @@ console.log(output); // --> 2
 
 + When a string contains more than one occurrence of a character, it should return the index of its first occurrence.
 
-+ If the character does not exist in the string, it should return -1.
++ If the character does not exist in the string, it should return `-1`.
 
 + Do not use the native `indexOf()` function in your implementation.

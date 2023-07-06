@@ -13,4 +13,4 @@ console.log(output); // --> ['a', 'c']
 
 ## 💡 Pista:
 
-+ Una forma de hacer este ejercicio es con el método `splice()` deberías investigarlo.
++ Una forma de hacer este ejercicio es con el método `splice()`, deberías investigarlo.

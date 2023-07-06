@@ -13,6 +13,6 @@ console.log(output); // --> [1, 3, 1]
 
 ## 💡 Pistas:
 
-+ Si todos los elementos coinciden, debería retornar un array vacío.
++ Si todos los elementos coinciden, debería retornar un array vacío `[]`.
 
-+ Si le pasamos un array vacío, debería retornar un array vacío.
++ Si le pasamos un array vacío, debería retornar un array vacío `[]`.

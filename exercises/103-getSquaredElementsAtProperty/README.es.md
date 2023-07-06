@@ -16,6 +16,8 @@ console.log(output); // --> [4, 1, 25]
 
 ## 💡 Pistas:
 
++ Para transformar elementos en un array investiga el método `map()`.
+
 + Si el array está vacío, debe retornar un array vacío `[]`.
 
 + Si la propiedad en la key dada no es un array, debe retornar un array vacío `[]`.

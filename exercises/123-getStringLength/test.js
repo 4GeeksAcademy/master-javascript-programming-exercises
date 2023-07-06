@@ -28,7 +28,7 @@ test('Function must return the length of the string. Testing with different valu
   expect(getStringLength('python')).toBe(6);
 });
 
-test('You should not be using the .length methiod', () => {
+test('You should not be using the .length method', () => {
   const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
   const regex = /\s*\.\s*length/gm
   expect(regex.test(file.toString())).toBeFalsy();

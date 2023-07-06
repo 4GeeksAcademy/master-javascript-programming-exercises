@@ -13,4 +13,6 @@ console.log(output); // --> [2, 2]
 
 ## 💡 Hint:
 
-- If no elements match, the function `keep` should return an empty array `[]`.
++ You should be familiar with the method `filter()` [More info here...](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
++ If no elements match, the function `keep` should return an empty array `[]`.

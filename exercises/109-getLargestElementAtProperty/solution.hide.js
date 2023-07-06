@@ -1,11 +1,19 @@
 function getLargestElementAtProperty(obj, key) {
   // your code here
-  if (!obj[key] || !Array.isArray(obj[key]) || obj[key].length < 1) return []
-  else {
-    let aux = -999999999999999999
-    obj[key].map(item => item > aux ? aux = item : null)
-    return aux
+  if (!Array.isArray(obj[key]) || (obj[key].length === 0)) {
+    return [];
   }
+  
+  let arr = obj[key];  
+  let largest = arr[0];
+  
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      largest = arr[i];
+    }
+  }
+  
+  return largest;
 }
 
 let obj = {

@@ -15,4 +15,4 @@ console.log(output); // --> {b: 1, a: 3, n: 2}
 
 + El valor de cada key debería corresponder a la cantidad de veces que el caracter aparece en el string.
 
-+ Si el string está vacío, `countAllCharacters` debería retornar un `objeto` vacío.
++ Si el string está vacío, `countAllCharacters` debería retornar un objeto vacío `{}`.

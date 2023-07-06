@@ -10,3 +10,7 @@
 let output = getAllElementsButNth(['a', 'b', 'c'], 1);
 console.log(output); // --> ['a', 'c']
 ```
+
+## 💡 Pista:
+
++ Una forma de hacer este ejercicio es con el método `splice()`, deberías investigarlo.

@@ -10,3 +10,7 @@
 let output = getAllElementsButNth(['a', 'b', 'c'], 1);
 console.log(output); // --> ['a', 'c']
 ```
+
+## 💡 Hint:
+
++ One way to do this exercise is with the method `splice()`, you should search about it.

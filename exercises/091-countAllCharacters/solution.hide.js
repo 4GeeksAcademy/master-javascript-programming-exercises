@@ -4,7 +4,7 @@ function countAllCharacters(str) {
         return {}
     }
     
-    obj = {}
+    let obj = {}
 
     for(let i = 0; i < str.length; i++) {
         if(obj[str[i]]) {

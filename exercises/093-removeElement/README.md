@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `removeElement`. Given an array of elements and a `discarder` parameter, `removeElement` returns an array containing the items in the given array that do not match the `discarder` parameter.
+1. Write a function called `removeElement`. Given an array of elements and a `discarder` parameter, `removeElement` returns a **NEW** array containing the items in the given array that do not match the `discarder` parameter.
 
 ## 📎 Example:
 
@@ -13,6 +13,4 @@ console.log(output); // --> [1, 3, 1]
 
 ## 💡 Hints:
 
-+ If all the elements match, it should return an empty array.
-
-+ If an empty array is passed in, it should return an empty array.
++ You should be familiar with the method `filter()` [More info here...](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)

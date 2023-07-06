@@ -13,4 +13,6 @@ console.log(output); // --> [2, 2]
 
 ## 💡 Pista:
 
++ Deberías familiarizarte con el método `filter()` [Más información...](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
 + Si no coincide ningún elemento, la función `keep` debería retornar un array vacío `[]`.

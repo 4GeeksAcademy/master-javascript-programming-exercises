@@ -16,7 +16,7 @@ console.log(output); // --> [4, 1, 25]
 
 ## 💡 Hints:
 
-+ To transform elements in an array investigate the method `map()`.
++ To transform elements in an array search about the `map()` method.
 
 + If the array is empty, it should return an empty array `[]`.
 

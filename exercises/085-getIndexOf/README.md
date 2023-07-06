@@ -19,4 +19,4 @@ console.log(output); // --> 2
 
 + If the character does not exist in the string, it should return -1.
 
-+ Do not use the native indexOf function in your implementation.
++ Do not use the native `indexOf()` function in your implementation.

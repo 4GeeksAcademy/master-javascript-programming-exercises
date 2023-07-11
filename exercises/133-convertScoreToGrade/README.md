@@ -13,14 +13,12 @@ console.log(output); // --> 'A'
 
 ## 💡 Hints:
 
-+ (100 - 90) --> 'A'
-
-+ (89  - 80) --> 'B'
-
-+ (79  - 70) --> 'C'
-
-+ (69  - 60) --> 'D'
-
-+ (59  -  0) --> 'F'
+| Score    	| Grade 	|
+|----------	|-------	|
+| 100 - 90 	| 'A'   	|
+| 89 - 80  	| 'B'   	|
+| 79 - 70  	| 'C'   	|
+| 69 - 60  	| 'D'   	|
+| 59 - 0   	| 'F'   	|
 
 + If the given score is greater than 100 or less than 0, `convertScoreToGrade` should return `INVALID SCORE`.

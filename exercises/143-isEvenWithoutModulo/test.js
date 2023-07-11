@@ -5,7 +5,7 @@ test('Function isEvenWithoutModulo must exist', () => {
   expect(isEvenWithoutModulo).not.toBe(undefined);
 });
 
-test('Function isEvenWithoutModulo must exist', () => {
+test('Function isEvenWithoutModulo must return something', () => {
   expect(isEvenWithoutModulo(1)).not.toBe(undefined);
 });
 

@@ -13,7 +13,7 @@ console.log(output); // --> 'A'
 
 ## 💡 Pistas:
 
-| Puntaje  	| Grado 	|
+| Puntaje  	| Grado  	|
 |:---------:|:-------:|
 | 100 - 90 	| 'A'   	|
 | 89 - 80  	| 'B'   	|

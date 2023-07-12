@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `transformFirstAndLast` that takes in an array, and returns an object with *the first element of the array as the object's key*, and *the last element of the array as that key's value*.
+1. Write a function called `transformFirstAndLast` that takes in an array, and returns an object with **the first element of the array as the object's key**, and **the last element of the array as that key's value**.
 
 ## 📎 Example 1:
 

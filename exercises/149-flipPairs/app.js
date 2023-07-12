@@ -5,4 +5,4 @@ function flipPairs(input) {
 
 let input = "Can you see what this is about?";
 let output = flipPairs(input);
-console.log(output); // --> ?tuoba si siht tahw ees uoy naC
+console.log(output); // --> aC noy ues ehwtat ih ssia obtu?

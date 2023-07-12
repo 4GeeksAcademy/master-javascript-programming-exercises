@@ -44,40 +44,40 @@ let currentInventory = [
 ```js
 [
   {
-    "nameWords": [
+    nameWords: [
       "tasselled",
       "black",
       "low-top",
       "lace-up"
     ],
-    "targetWordIndex": 3
+    targetWordIndex: 3
   },
   {
-    "nameWords": [
+    nameWords: [
       "tasselled",
       "green",
       "low-top",
       "lace-up"
     ],
-    "targetWordIndex": 3
+    targetWordIndex: 3
   },
   {
-    "nameWords": [
+    nameWords: [
       "red",
       "leather",
       "laced",
       "sneakers"
     ],
-    "targetWordIndex": 2
+    targetWordIndex: 2
   },
   {
-    "nameWords": [
+    nameWords: [
       "black",
       "leather",
       "laced",
       "sneakers"
     ],
-    "targetWordIndex": 2
+    targetWordIndex: 2
   }
 ]
 ```

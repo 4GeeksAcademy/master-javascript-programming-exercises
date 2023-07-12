@@ -9,12 +9,12 @@ Es la misma estructura de datos de inventario que antes, tienes un catálogo de 
 ```Js
 [
     {
-      'name': 'Designer Name',
-      'averagePrice': 000
+      name: 'Designer Name',
+      averagePrice: 000
     },
     {
-      'name': 'Designer Name',
-      'averagePrice': 000
+      name: 'Designer Name',
+      averagePrice: 000
     },
     ...
 ]
@@ -48,12 +48,12 @@ let currentInventory = [
 ```Js
 [
     {
-      'name': 'Brunello Cucinelli',
-      'averagePrice': 1025
+      name: 'Brunello Cucinelli',
+      averagePrice: 1025
     },
     {
-      'name': 'Gucci',
-      'averagePrice': 850
+      name: 'Gucci',
+      averagePrice: 850
     }
 ]
 ```

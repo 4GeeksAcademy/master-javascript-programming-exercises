@@ -43,8 +43,8 @@ let currentInventory = [
 
 ```Js
 [
-   [Brunello Cucinelli, tasselled black low-top lace-up, 1000],
-   [Gucci, black leather laced sneakers, 900]
+   ['Brunello Cucinelli', 'tasselled black low-top lace-up', 1000],
+   ['Gucci', 'black leather laced sneakers', 900]
 ]
 ```
 

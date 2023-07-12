@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `computePerimeterOfACircle`. Given the radius of a circle, `computePerimeterOfACircle` returns its perimeter.
+1. Write a function called `computePerimeterOfACircle`. Given the radius of a circle, `computePerimeterOfACircle` returns it's perimeter.
 
 ## 📎 Example:
 

@@ -6,9 +6,9 @@
 
 ### 160 ejercicios de JavaScript
 
-Selección completa de ejercicios de JavaScript interactivos y con calificación automática, donde empezarás a practicar la escritura de código y aprenderás muchos de los métodos más populares de JavaScript.
+Selección completa de ejercicios de JavaScript interactivos y con calificación automática, donde pondrás tus habilidades de resolución de problemas al límite y aprenderás muchos de los métodos más populares de JavaScript.
 
-> Un punto clave para aprender en el mundo de la programación es que el mismo problema puede tener varias soluciones válidas, lo importante que debes entender es la lógica y los principios detras de cada solución.
+> Un punto clave para aprender en el mundo de la programación es que el mismo problema puede tener varias soluciones válidas, lo importante que debes entender es la lógica y los principios detrás de cada solución.
 
 <!-- hide -->
 

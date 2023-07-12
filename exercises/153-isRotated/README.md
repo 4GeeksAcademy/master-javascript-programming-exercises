@@ -10,7 +10,7 @@ A rotation on a string is defined as removing the first element and concatenatin
 
 ```js
 let output = isRotated("Hello World", "orldHello W")
-console.log(output) // true
+console.log(output) // --> true
 ```
 
 ## 💡 Hint:

@@ -1,7 +1,9 @@
 function isIsogram(text) {
   // your code here
+  let lowerCaseText = text.toLowerCase()
+
   const chars = {};
-  for (const char of text) {
+  for (const char of lowerCaseText) {
     chars[char] = (chars[char] || 0) + 1;
   }
   let result = Object.entries(chars)

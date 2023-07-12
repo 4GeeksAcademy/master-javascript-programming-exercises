@@ -4,9 +4,11 @@
 > Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.com/)
 <!-- endhide -->
 
-160 ejercicios de JavaScript.
+### 160 ejercicios de JavaScript
 
-¡Selección completa de ejercicios de JavaScript interactivos y con calificación automática para cualquier persona interesada en aprender JavaScript!
+Selección completa de ejercicios de JavaScript interactivos y con calificación automática, donde pondrás tus habilidades de resolución de problemas al límite y aprenderás muchos de los métodos más populares de JavaScript.
+
+> Un punto clave para aprender en el mundo de la programación es que el mismo problema puede tener varias soluciones válidas, lo importante que debes entender es la lógica y los principios detrás de cada solución.
 
 <!-- hide -->
 

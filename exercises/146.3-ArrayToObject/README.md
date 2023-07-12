@@ -1,4 +1,4 @@
-# `146.3` ArraytoObject
+# `146.3` ArrayToObject
 
 ## 📝 Instructions:
 

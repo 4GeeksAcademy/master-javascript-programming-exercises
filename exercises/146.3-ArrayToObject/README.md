@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Write a function called `transformEmployeeData` that transforms some employee data from one format to another.
+1. Write a function called `transformEmployeeData` that transforms a given employee data from one format to another.
 
 ## 📎 Example:
 

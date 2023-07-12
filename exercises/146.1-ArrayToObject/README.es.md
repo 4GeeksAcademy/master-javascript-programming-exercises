@@ -8,14 +8,14 @@
 
  ```js
 let output = transformFirstAndLast(['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'])
-console.log(output); // { Queen: "Beyonce" }
+console.log(output); // --> { Queen: "Beyonce" }
 ```
 
 ## 📎 Ejemplo 2:
 
  ```js
 let output = transformFirstAndLast(['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Spacey'])
-console.log(output); // { Kevin: "Spacey" }
+console.log(output); // --> { Kevin: "Spacey" }
 ```
 
 ## 💡 Pistas:

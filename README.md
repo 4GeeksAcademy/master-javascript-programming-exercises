@@ -8,7 +8,7 @@
 
 ### 160 exercises about JavaScript
 
-Complete selection of auto-graded and interactive JavaScript exercises, where you will start practicing the writing of code and learn many of the most popular JavaScript methods!
+Complete selection of auto-graded and interactive JavaScript exercises, where you will put your problem-solving skills to the test and learn many of the most popular JavaScript methods. 
 
 > One key thing to learn in the world of coding is that the same problem may have multiple valid solutions, the important thing is that you understand the logic and principles behind them.
 

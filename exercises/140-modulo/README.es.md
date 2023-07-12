@@ -13,7 +13,7 @@ console.log(output); // --> 1
 
 ## 💡 Pistas:
 
-+ La función debe comportarse como se describe en la [documentación canónica (MDN) para el operador resto de JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Remainder)
++ La función debe comportarse como se describe en la [documentación canónica (MDN) para el operador resto de JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Remainder).
 
 + NO uses el operador de módulo incorporado (también conocido como "resto") (`%`) en la implementación.
 

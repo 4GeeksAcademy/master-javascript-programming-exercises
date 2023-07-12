@@ -1,8 +1,8 @@
-# `146.3` ArraytoObject
+# `146.3` ArrayToObject
 
 ## 📝 Instructions:
 
-1. Write a function called `transformEmployeeData` that transforms some employee data from one format to another.
+1. Write a function called `transformEmployeeData` that transforms employee data from one format to another.
 
 ## 📎 Example:
 

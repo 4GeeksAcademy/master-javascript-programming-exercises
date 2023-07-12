@@ -13,4 +13,4 @@ console.log(output); // --> 438.83682213410543
 
 ## 💡 Pista:
 
-- Aquí puedes ver la fórmula utilizada para calcular el interés compuesto total generado: [Calculation_of_compound_interest](https://en.wikipedia.org/wiki/Compound_interest#Calculation_of_compound_interest)
+- Aquí puedes ver la fórmula utilizada para calcular el interés compuesto total generado: [Calculation_of_compound_interest](https://en.wikipedia.org/wiki/Compound_interest#Calculation)

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `getElementOfArrayProperty`. Dados un objeto, una key y un index númerico, `getElementOfArrayProperty` retorna el valor de un elemento en el index proporcionado del array ubicado dentro del objeto en la key dada.
+1. Escribe una función llamada `getElementOfArrayProperty`. Dados un objeto, una key y un index numérico, `getElementOfArrayProperty` retorna el valor de un elemento en el index proporcionado del array ubicado dentro del objeto en la key dada.
 
 ## 📎 Ejemplo:
 

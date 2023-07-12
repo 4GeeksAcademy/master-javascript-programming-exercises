@@ -3,7 +3,7 @@ function flipPairs(input) {
     let result = input.replace(/(.)(.)/g, '$2$1');
     return result;
   }
-  
+
 let input = "Can you see what this is about?";
 let output = flipPairs(input);
-console.log(output); // --> ?tuoba si siht tahw ees uoy naC
+console.log(output); // --> aC noy ues ehwtat ih ssia obtu?

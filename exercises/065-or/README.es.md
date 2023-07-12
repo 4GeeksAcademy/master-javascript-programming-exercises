@@ -1,8 +1,10 @@
 # `065` or
 
+En este ejercicio vamos a replicar el comportamiento del operador lógico OR `||` sin usar el propio operador. ¿Recuerdas cómo funciona?
+
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `or`. Dadas 2 expresiones booleanas, `or` retorna true o false, correspondiente al operador `||`.
+1. Escribe una función llamada `or`. Dadas 2 expresiones booleanas, `or` retorna true o false, siguiendo las reglas del operador `||`.
 
 ## 📎 Ejemplo:
 

@@ -13,5 +13,5 @@ function isEvenWithoutModulo(num) {
   return aux;
 }
 
-let output = isEvenWithoutModulo(18);
-console.log(output); // --> false
+let output = isEvenWithoutModulo(8);
+console.log(output); // --> true

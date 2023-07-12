@@ -41,8 +41,8 @@ let currentInventory = [
 
 ```Js
 [
-  [Brunello Cucinelli, tasselled black low-top lace-up, 1000],
-  [Brunello Cucinelli, tasselled green low-top lace-up, 1100],
+  ['Brunello Cucinelli', 'tasselled black low-top lace-up', 1000],
+  ['Brunello Cucinelli', 'tasselled green low-top lace-up', 1100],
   ...
 ]
 ```

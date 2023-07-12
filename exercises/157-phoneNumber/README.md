@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Use the skeleton and modify the functions in order to format the numbers in the following format: `(000) 000-0000`
+1. Use the skeleton and modify the functions in order to format the numbers in the following way: `(000) 000-0000`
 
 ## 📎 Example:
 

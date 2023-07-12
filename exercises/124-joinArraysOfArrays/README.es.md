@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `joinArrayOfArrays`. Dado una matriz (array de arrays), `joinArrayOfArrays` retorna un array único que contenga los elementos de los arrays anidados.
+1. Escribe una función llamada `joinArrayOfArrays`. Dada una matriz (array de arrays), `joinArrayOfArrays` retorna un array único que contenga los elementos de los arrays anidados.
 
 ## 📎 Ejemplo:
 

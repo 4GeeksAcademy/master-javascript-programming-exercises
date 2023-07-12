@@ -1,6 +1,6 @@
 # `065` or
 
-En este ejercicio vamos a replicar el comportamiento de operador lógico OR `||` sin usar el propio operador. ¿Recuerdas cómo funciona?
+En este ejercicio vamos a replicar el comportamiento del operador lógico OR `||` sin usar el propio operador. ¿Recuerdas cómo funciona?
 
 ## 📝 Instrucciones:
 

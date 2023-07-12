@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `transformEmployeeData` que transforma algunos datos de los empleados de un formato a otro.
+1. Escribe una función llamada `transformEmployeeData` que transforma datos de empleados de un formato a otro.
 
 ## 📎 Ejemplo:
 

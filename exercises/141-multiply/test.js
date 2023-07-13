@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const rewire = require('rewire');
 const multiply = rewire('./app.js').__get__('multiply');
 
@@ -30,6 +32,7 @@ test('Given 2 integer numbers, multiply and return the total. Testing with diffe
 });
 
 test('Must not use the * operator', () => {
-  let multiplyOperator = '*';
-  expect(multiplyOperator).not.toBe(multiply);
+  const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+  const regex = /\s*\*\s*/gm
+  expect(regex.test(file.toString())).toBeFalsy();
 });

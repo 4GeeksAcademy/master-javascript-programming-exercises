@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const rewire = require('rewire');
 const modulo = rewire('./app.js').__get__('modulo');
 
@@ -32,3 +34,11 @@ test('The module always returns the sign of the first number. Testing with (-25,
 test('If any of the operators is different from a number, then the result is NaN', () => {
   expect(modulo(25, 'hey')).toBe(NaN);
 });
+
+test('You should not use the modulo operator (%) at all', () => {
+  const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+  const regex = /\s*%\s*/gm
+  expect(regex.test(file.toString())).toBeFalsy();
+});
+
+

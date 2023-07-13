@@ -35,6 +35,22 @@ test('The function must return the largest element of the array located in the k
   expect(output).toBe(15);
 });
 
+test('The function must return the largest element of the array located in the key. Testing with some negative values.', () => {
+  let obj = {
+    key: [5, 4, 15, -3, -20, 80],
+  };
+  let output = getLargestElementAtProperty(obj, 'key');
+  expect(output).toBe(80);
+});
+
+test('The function must return the largest element of the array located in the key. Testing with all negative values.', () => {
+  let obj = {
+    key: [-5, -4, -15, -3, -20, -80],
+  };
+  let output = getLargestElementAtProperty(obj, 'key');
+  expect(output).toBe(-3);
+});
+
 test('If the array is empty, it should return an empty array', () => {
   let obj = {
     key: [],

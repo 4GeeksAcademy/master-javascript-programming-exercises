@@ -1,4 +1,4 @@
-# `60` removeFromFrontOfNew
+# `060` removeFromFrontOfNew
 
 ## 📝 Instructions:
 

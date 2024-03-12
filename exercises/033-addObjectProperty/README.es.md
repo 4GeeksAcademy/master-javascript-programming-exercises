@@ -2,8 +2,9 @@
 
 ## 📝 Instrucciones:
 
-1. Escribe una función llamada `addObjectProperty`. Dados dos objetos y una clave (key), `addObjectProperty` establece una nueva propiedad en el primer objeto con la clave (key) dada. El valor de esa nueva propiedad es el segundo objeto.
-2. La función `addObjectProperty` debe devolver el primer objeto con la nueva propiedad.
+1. Escribe una función llamada `addObjectProperty`. Esta función toma dos objetos y una clave (key) como argumentos.
+2. La función `addObjectProperty` debe establecer una nueva propiedad en el primer objeto utilizando la clave (key) proporcionada. El valor de esta nueva propiedad debe ser el segundo objeto.
+3. La función `addObjectProperty` debe devolver el primer objeto modificado con la nueva propiedad.
 
 
 ## 📎 Ejemplo:

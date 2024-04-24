@@ -1,22 +1,25 @@
 {
-    "slug": "master-javascript-programming-exercises",
-    "duration": 10,
-    "difficulty": "easy",
-    "title": {
-        "us": "Master Javascript Practicing",
-        "es": "Domina Javascript Practicando"
-    },
-    "preview": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/preview.jpeg?raw=true",
-    "repository": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises",
-    "description": {
-        "us": "165 Javascript exercises ideal for those who want to practice javascript object literals, functions and many more js features",
-        "es": "165 ejercicios de Javascript ideales para quienes practicar objetos, funciones y muchas cosas más de Javascript."
-    },
-    "videoSolutions": false,
-    "projectType": "tutorial",
-    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "graded": true,
-    "editor": {
-        "version": "3.1.23"
-    }
+"slug": "master-javascript-programming-exercises",
+"duration": 10,
+"difficulty": "easy",
+"title": {
+    "us": "Master Javascript Practicing",
+    "es": "Domina Javascript Practicando"
+},
+"preview": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/preview.jpeg?raw=true",
+"repository": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises",
+"description": {
+    "us": "165 Javascript exercises ideal for those who want to practice javascript object literals, functions and many more js features",
+    "es": "165 ejercicios de Javascript ideales para quienes practicar objetos, funciones y muchas cosas más de Javascript."
+},
+"videoSolutions": false,
+"projectType": "tutorial",
+"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+"graded": true,
+"editor": {
+    "version": "3.1.36"
+},
+"telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+}
 }

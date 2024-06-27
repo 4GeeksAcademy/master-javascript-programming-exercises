@@ -25,23 +25,12 @@ Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
 1. Instala LearnPack, el package manager para los tutoriales interactivos y el node compiler plugin para LearnPack, asegúrate también de tener node.js 14:
 
 ```bash
-$ npm i learnpack -g
-$ learnpack plugins:install learnpack-node
+$ npm i @learnpack/learnpack -g
 ```
 
-2. Descarga este ejercicio en particular usando LearnPack y `cd` dentro de la carpeta:
+2. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo learn.json: 
 
 ```bash
-$ learnpack download master-javascript-programming-exercises
-$ cd master-javascript-programming-exercises
-```
-
-> Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
-
-3. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo learn.json: 
-
-```bash
-$ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 

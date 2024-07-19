@@ -1,6 +1,10 @@
 function removeEvenValues(obj) {
     // your code here
-    
+    for (index in obj) {
+      if ((obj[index] % 2)==0) {
+          delete obj[index];
+      }
+  }
 }
 
 let obj = {

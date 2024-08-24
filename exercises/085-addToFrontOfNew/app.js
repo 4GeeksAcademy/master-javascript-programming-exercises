@@ -1,6 +1,7 @@
 function addToFrontOfNew(arr, element) {
     // your code here
-    
+    let arr2 = [element, ...arr]
+    return arr2
 }
 
 let input = [1, 2];

@@ -16,7 +16,7 @@ Complete selection of auto-graded and interactive JavaScript exercises, where yo
 
 ## One click installation (recommended):
 
-You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/master-javascript-programming-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises).
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/master-javascript-programming-exercises) (recommended), [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises) or or [Open in Codeanywhere](https://app.codeanywhere.com#https://github.com/4GeeksAcademy/master-javascript-programming-exercises).
 
 > Once you have VSCode open, if exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 

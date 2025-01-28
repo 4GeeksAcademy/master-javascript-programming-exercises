@@ -9,15 +9,16 @@
 "preview": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/preview.jpeg?raw=true",
 "repository": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises",
 "description": {
-    "us": "165 Javascript exercises ideal for those who want to practice javascript object literals, functions and many more js features",
-    "es": "165 ejercicios de Javascript ideales para quienes practicar objetos, funciones y muchas cosas más de Javascript."
+    "us": "165 JavaScript Exercises to Boost Your Skills: Perfect for practicing JavaScript object literals, functions, arrays, loops, and more! Strengthen your coding knowledge with hands-on exercises designed to improve your mastery of essential JS features.",
+    "es": "165 Ejercicios de JavaScript para Mejorar tus Habilidades: Perfectos para practicar literales de objetos, funciones, arreglos, bucles y más en JavaScript. Fortalece tus conocimientos de programación con ejercicios prácticos diseñados para mejorar tu dominio de las funciones esenciales de JS."
 },
 "videoSolutions": false,
 "projectType": "tutorial",
 "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 "graded": true,
 "editor": {
-    "version": "5.0"
+    "version": "5.0",
+    "agent": "vscode"
 },
 "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=154"

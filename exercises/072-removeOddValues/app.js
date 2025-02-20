@@ -1,6 +1,11 @@
 function removeOddValues(obj) {
     // your code here
-
+    for (let prop in obj) {
+      if (obj[prop] % 2 === 1) {
+          delete obj[prop]
+      }
+  }
+    return obj
 }
 
 let obj = {

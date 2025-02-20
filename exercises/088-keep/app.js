@@ -1,1 +1,4 @@
-// Write your function here
+function keep(array,element) {
+    const result = array.filter(num => num == element)
+    return result
+}

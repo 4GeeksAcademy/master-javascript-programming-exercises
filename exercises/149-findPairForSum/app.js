@@ -1,5 +1,12 @@
 function findPairForSum(array, number) {
   // your code here
+  for(num in array){
+    for(let i=0;i<array.length;i++){
+      if(array[num]+array[i] == number){
+        return [array[num],array[i]];
+      }
+    }
+  }
   
 }
 

@@ -1,5 +1,10 @@
 function getLargestElement(arr) {
   // your code here
+  if(arr.length>0){
+    return Math.max(...arr);
+  }else{
+    return 0;
+  }
   
 }
 

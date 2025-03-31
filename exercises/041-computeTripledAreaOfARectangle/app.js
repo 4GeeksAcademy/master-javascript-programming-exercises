@@ -1,5 +1,6 @@
 function computeTripledAreaOfARectangle(length, width) {
   // your code here
+  return (parseFloat(length) * parseFloat(width))*3
   
 }
 

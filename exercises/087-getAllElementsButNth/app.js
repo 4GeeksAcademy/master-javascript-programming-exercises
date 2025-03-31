@@ -1,5 +1,7 @@
 function getAllElementsButNth(array, n) {
     // your code here
+    array.splice(n,n);
+    return array;
 
 }
 

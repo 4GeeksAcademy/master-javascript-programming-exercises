@@ -1,5 +1,9 @@
 function getProductOfAllElementsAtProperty(obj, key) {
     // your code here
+    if((!obj[key] || obj[key].length == 0) || !Array.isArray(obj[key])){
+      return 0;
+    }
+    return obj[key].reduce((accumulator, currentValue) => accumulator * currentValue);
     
 }
 

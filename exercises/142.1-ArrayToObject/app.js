@@ -1,5 +1,9 @@
 function transformFirstAndLast(array) {
   // your code here
+  let obj={};
+  obj[array.shift()] = array.pop();
+  return obj
+  
   
 }
 

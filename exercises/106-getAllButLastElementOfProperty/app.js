@@ -1,5 +1,10 @@
 function getAllButLastElementOfProperty(obj, key) {
     // your code here
+    if((!obj[key] || obj[key].length == 0) || !Array.isArray(obj[key])){
+      return [];
+    }
+    return obj[key].slice(0,obj[key].length -1);
+
     
 }
 

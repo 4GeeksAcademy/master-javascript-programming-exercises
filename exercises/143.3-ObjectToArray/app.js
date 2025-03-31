@@ -1,5 +1,10 @@
 function convertObjectToList(obj) {
   // your code here
+  let list=[];
+  for(k in obj){
+    list.push([k,obj[k]]);
+  }
+  return list;
   
 }
 

@@ -1,4 +1,4 @@
-# `059` removeFromBack
+# `061` removeFromBack
 
 ## 📝 Instructions:
 

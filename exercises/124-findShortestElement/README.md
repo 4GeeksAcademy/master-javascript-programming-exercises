@@ -1,4 +1,4 @@
-# `120` findShortestElement
+# `124` findShortestElement
 
 ## 📝 Instructions:
 

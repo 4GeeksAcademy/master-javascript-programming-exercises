@@ -1,4 +1,4 @@
-# `097` getElementsGreaterThan10AtProperty
+# `101` getElementsGreaterThan10AtProperty
 
 ## 📝 Instrucciones:
 

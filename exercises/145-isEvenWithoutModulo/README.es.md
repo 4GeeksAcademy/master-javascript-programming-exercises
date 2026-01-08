@@ -1,4 +1,4 @@
-# `141` isEvenWithoutModulo
+# `145` isEvenWithoutModulo
 
 ## 📝 Instrucciones:
 

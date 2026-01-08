@@ -1,4 +1,4 @@
-# `117` getLengthOfShortestElement
+# `121` getLengthOfShortestElement
 
 ## 📝 Instructions:
 

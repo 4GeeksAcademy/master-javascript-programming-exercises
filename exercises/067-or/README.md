@@ -1,4 +1,4 @@
-# `065` or
+# `067` or
 
 In this exercise, we are going to replicate the behavior of the logical operator OR `||` without actually using the operator itself. Do you remember how it works?
 

@@ -1,4 +1,4 @@
-# `082` getLongestOfThreeWords
+# `085` getLongestOfThreeWords
 
 ## 📝 Instructions:
 

@@ -1,4 +1,4 @@
-# `080` findMaxLengthOfThreeWords
+# `082` findMaxLengthOfThreeWords
 
 ## 📝 Instructions:
 

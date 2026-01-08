@@ -1,4 +1,4 @@
-# `107` getElementOfArrayProperty
+# `111` getElementOfArrayProperty
 
 ## 📝 Instructions:
 

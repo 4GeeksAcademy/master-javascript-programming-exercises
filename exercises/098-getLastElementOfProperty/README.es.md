@@ -1,4 +1,4 @@
-# `094` getLastElementOfProperty
+# `098` getLastElementOfProperty
 
 ## 📝 Instrucciones: 
 

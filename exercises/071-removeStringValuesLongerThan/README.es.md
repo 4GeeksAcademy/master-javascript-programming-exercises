@@ -1,4 +1,4 @@
-# `069` removeStringValuesLongerThan
+# `071` removeStringValuesLongerThan
 
 ## 📝 Instrucciones:
 

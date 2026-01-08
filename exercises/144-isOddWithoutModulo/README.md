@@ -1,4 +1,4 @@
-# `140` isOddWithoutModulo
+# `144` isOddWithoutModulo
 
 ## 📝 Instructions:
 

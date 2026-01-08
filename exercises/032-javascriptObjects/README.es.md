@@ -1,4 +1,4 @@
-# `24` JavaScript Objects
+# `032` JavaScript Objects
 
 A menudo te encontrarás queriendo guardar más información en menos espacio, especialmente si está toda relacionada. 
 

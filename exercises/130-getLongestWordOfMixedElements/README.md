@@ -1,4 +1,4 @@
-# `126` getLongestWordOfMixedElements
+# `130` getLongestWordOfMixedElements
 
 ## 📝 Instructions: 
 

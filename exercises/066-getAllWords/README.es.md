@@ -1,4 +1,4 @@
-# `064` getAllWords
+# `066` getAllWords
 
 ## 📝 Instrucciones:
 

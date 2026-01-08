@@ -1,4 +1,4 @@
-# `104` getSmallestElementAtProperty
+# `108` getSmallestElementAtProperty
 
 ## 📝 Instrucciones:
 

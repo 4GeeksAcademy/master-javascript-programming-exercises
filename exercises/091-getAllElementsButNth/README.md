@@ -1,4 +1,4 @@
-# `087` getAllElementsButNth
+# `091` getAllElementsButNth
 
 ## 📝 Instructions:
 

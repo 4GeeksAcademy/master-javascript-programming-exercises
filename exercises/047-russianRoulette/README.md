@@ -1,4 +1,4 @@
-# `21` Russian Roulette 
+# `047` Russian Roulette 
 
 Have you ever played Russian Roulette? It's super fun! If you make it (wuuuahahahaha).
 

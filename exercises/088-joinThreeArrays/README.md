@@ -1,4 +1,4 @@
-# `084` joinThreeArrays
+# `088` joinThreeArrays
 
 ## 📝 Instructions:
 

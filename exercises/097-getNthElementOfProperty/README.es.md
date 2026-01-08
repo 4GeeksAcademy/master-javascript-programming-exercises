@@ -1,4 +1,4 @@
-# `093` getNthElementOfProperty 
+# `097` getNthElementOfProperty 
 
 ## 📝 Instrucciones:
 

@@ -1,4 +1,4 @@
-# `041` computeTripledAreaOfARectangle
+# `042` computeTripledAreaOfARectangle
 
 ## 📝 Instrucciones:
 

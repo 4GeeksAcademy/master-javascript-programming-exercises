@@ -1,4 +1,4 @@
-# `150` isRotated
+# `154` isRotated
 
 Una rotación en un string se define como quitar el primer elemento y concatenarlo al final. Dado N y una matriz de N cadenas. Tu trabajo es predecir el mínimo número de rotaciones en los strings para que todos los strings sean iguales.
 

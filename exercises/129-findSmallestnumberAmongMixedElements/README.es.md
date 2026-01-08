@@ -1,4 +1,4 @@
-# `125` findSmallestNumberAmongMixedElements
+# `129` findSmallestNumberAmongMixedElements
 
 ## 📝 Instrucciones:
 

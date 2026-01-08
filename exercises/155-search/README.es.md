@@ -1,4 +1,4 @@
-# `151` search
+# `155` search
 
 Dado un array ordenado, como este:
 

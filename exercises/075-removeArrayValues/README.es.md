@@ -1,4 +1,4 @@
-# `073` removeArrayValues
+# `075` removeArrayValues
 
 ## 📝 Instrucciones:
 

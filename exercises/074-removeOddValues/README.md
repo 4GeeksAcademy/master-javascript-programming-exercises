@@ -1,4 +1,4 @@
-# `072` removeOddValues
+# `074` removeOddValues
 
 ## 📝 Instructions:
 

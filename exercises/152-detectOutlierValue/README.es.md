@@ -1,4 +1,4 @@
-# `148` detectOutlierValue
+# `152` detectOutlierValue
 
 ## 📝 Instrucciones:
 

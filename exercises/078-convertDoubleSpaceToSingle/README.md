@@ -1,4 +1,4 @@
-# `076` convertDoubleSpaceToSingle
+# `078` convertDoubleSpaceToSingle
 
 ## 📝 Instructions:
 

@@ -1,4 +1,4 @@
-# `067` removeNumbersLargerThan
+# `069` removeNumbersLargerThan
 
 ## 📝 Instructions:
 

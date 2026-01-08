@@ -1,4 +1,4 @@
-# `078` getIndexOf
+# `080` getIndexOf
 
 ## 📝 Instructions: 
 

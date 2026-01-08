@@ -1,4 +1,4 @@
-# `155.2` FashionInventory-B
+# `159.2` FashionInventory-B
 
 It's the same inventory data structure as before, you have a fashion catalog, an inventory `currentInventory` with items from various high-fashion designers. Each designer has a lineup of shoes, and each shoe has a name and price.
 

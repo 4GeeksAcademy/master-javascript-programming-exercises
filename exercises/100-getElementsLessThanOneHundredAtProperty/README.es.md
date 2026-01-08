@@ -1,4 +1,4 @@
-# `096` getElementsLessThan100AtProperty
+# `100` getElementsLessThan100AtProperty
 
 ## 📝 Instrucciones:
 

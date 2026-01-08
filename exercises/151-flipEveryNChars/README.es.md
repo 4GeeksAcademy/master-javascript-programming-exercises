@@ -1,4 +1,4 @@
-# `147` flipEveryNChars
+# `151` flipEveryNChars
 
 ## 📝 Instrucciones:
 

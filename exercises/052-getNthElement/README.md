@@ -1,4 +1,4 @@
-# `050` getNthElement
+# `052` getNthElement
 
 ## 📝 Instructions:
 

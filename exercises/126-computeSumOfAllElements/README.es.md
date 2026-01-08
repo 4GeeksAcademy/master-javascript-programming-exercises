@@ -1,4 +1,4 @@
-# `122` computeSumOfAllElements
+# `126` computeSumOfAllElements
 
 ## 📝 Instrucciones:
 

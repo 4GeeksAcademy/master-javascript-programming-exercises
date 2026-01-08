@@ -1,4 +1,4 @@
-# `062` countCharacter
+# `064` countCharacter
 
 ## 📝 Instructions:
 

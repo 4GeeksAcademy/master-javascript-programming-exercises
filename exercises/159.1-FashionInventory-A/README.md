@@ -1,4 +1,4 @@
-# `155.1` FashionInventory-A
+# `159.1` FashionInventory-A
 
 You have a fashion catalog, an inventory of items from various high-fashion designers. Each designer has a lineup of shoes. Each shoe has a name and a price.
 

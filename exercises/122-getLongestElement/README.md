@@ -1,4 +1,4 @@
-# `118` getLongestElement
+# `122` getLongestElement
 
 ## 📝 Instructions:
 

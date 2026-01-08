@@ -1,4 +1,4 @@
-# `150` isRotated
+# `154` isRotated
 
 A rotation on a string is defined as removing the first element and concatenating it at the end. Given N and an array of N strings. Your job is to predict the minimum number of rotations on the strings so as to make all the strings equal.
 

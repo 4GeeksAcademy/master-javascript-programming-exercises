@@ -1,4 +1,4 @@
-# `049` computeAverageOfNumbers
+# `051` computeAverageOfNumbers
 
 ## 📝 Instrucciones: 
 

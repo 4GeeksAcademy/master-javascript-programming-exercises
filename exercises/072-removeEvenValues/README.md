@@ -1,4 +1,4 @@
-# `070` removeEvenValues
+# `072` removeEvenValues
 
 ## 📝 Instructions:
 

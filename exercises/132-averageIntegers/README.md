@@ -1,4 +1,4 @@
-# `128` averageIntegers
+# `132` averageIntegers
 
 ## 📝 Instructions:
 

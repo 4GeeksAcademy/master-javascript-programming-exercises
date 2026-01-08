@@ -1,4 +1,4 @@
-# `101` getOddElementsAtProperty
+# `105` getOddElementsAtProperty
 
 ## 📝 Instructions:
 

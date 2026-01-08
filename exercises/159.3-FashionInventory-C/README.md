@@ -1,4 +1,4 @@
-# `155.3` FashionInventory-C
+# `159.3` FashionInventory-C
 
 You have a fashion catalog, a `currentInventory` of items from various high fashion designers. Each designer has a lineup of shoes, and each shoe has a name and a price.
 

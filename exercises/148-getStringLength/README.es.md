@@ -1,4 +1,4 @@
-# `144` getStringLength
+# `148` getStringLength
 
 ## 📝 Instrucciones:
 

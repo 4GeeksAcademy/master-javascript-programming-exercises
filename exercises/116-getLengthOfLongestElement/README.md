@@ -1,4 +1,4 @@
-# `112` getLengthOfLongestElement
+# `116` getLengthOfLongestElement
 
 ## 📝 Instructions:
 

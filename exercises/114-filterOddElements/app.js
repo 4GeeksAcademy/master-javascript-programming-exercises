@@ -1,5 +1,14 @@
 function filterOddElements(arr) {
   // your code here
+  let filtrado = []
+
+  for(let i=0; i<arr.length;i++){
+    if(arr[i] % 2 !== 0){
+      filtrado.push(arr[i])
+    }
+  }
+
+  return filtrado
   
 }
 

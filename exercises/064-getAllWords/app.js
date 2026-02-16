@@ -1,5 +1,7 @@
 function getAllWords(str) {
     // your code here
+    let palabras = str.split(" ")
+    return palabras
     
 }
 

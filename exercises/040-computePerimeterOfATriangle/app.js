@@ -1,4 +1,8 @@
 function computePerimeterOfATriangle(side1, side2, side3) {
+
+  let perimetro = side1 + side2 + side3;
+
+  return perimetro
   // your code here
 }
 

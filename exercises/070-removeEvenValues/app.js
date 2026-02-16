@@ -1,6 +1,11 @@
 function removeEvenValues(obj) {
     // your code here
-    
+    for( let i in obj){
+      if( typeof(obj[i]) === "number" && obj[i] % 2 === 0 ){
+        delete obj[i]
+      }
+    }
+    return obj
 }
 
 let obj = {

@@ -16,6 +16,20 @@ let customerData = {
 function greetCustomer(firstName) {
   let greeting = '';
   // your code here
+  let found = false;
+
+  for (let i in customerData) {
+    if (firstName == i) {
+      if (customerData[i].visits == 1) {
+        greeting = "Welcome back, " + i + "! We're glad you liked us the first time!";
+      } else if (customerData[i].visits > 1) {
+        greeting = "Welcome back, " + i + "! So glad to see you again!";
+      }
+      found = true;
+    } else if (found == false) {
+      greeting = "Welcome! Is this your first time?";  
+    }
+  }
 	
   return greeting;
 }

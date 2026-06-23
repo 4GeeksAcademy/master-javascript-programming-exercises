@@ -1,6 +1,7 @@
 function getAllLetters(str) {
     // your code here
-    
+    let newArr = Array.from(str);
+    return newArr;
 }
 
 let output = getAllLetters('Radagast');

@@ -1,5 +1,8 @@
 function removeFromBackOfNew(arr) {
   // your code here
+  let newArr = arr.slice(arr);
+  newArr.pop();
+  return newArr;
   
 }
 

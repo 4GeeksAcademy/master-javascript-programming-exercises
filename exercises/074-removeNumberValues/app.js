@@ -1,6 +1,10 @@
 function removeNumberValues(obj) {
     // your code here
-    
+    for (index in obj) {
+        if (!isNaN((obj[index]))) {
+            delete obj[index];
+        }
+    }
 }
 
 let obj = {

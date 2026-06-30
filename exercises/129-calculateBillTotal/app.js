@@ -1,5 +1,9 @@
-function calculateBillTotal(preTaxAndTipAmount) {
+function calculateBillTotal(nominal) {
     // your code here
+    let tax = nominal*0.095;
+    let tip = nominal*0.15;
+    let total = nominal + tax + tip;
+return total;
     
 }
 

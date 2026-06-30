@@ -1,6 +1,10 @@
 function getAllLetters(str) {
     // your code here
-    
+    let anArray = [];
+    for (char of str) {
+    anArray.push(char)
+        }
+    return anArray;
 }
 
 let output = getAllLetters('Radagast');

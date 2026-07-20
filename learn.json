@@ -13,7 +13,8 @@
     "es": "165 Ejercicios de JavaScript para Mejorar tus Habilidades: Perfectos para practicar literales de objetos, funciones, arreglos, bucles y más en JavaScript. Fortalece tus conocimientos de programación con ejercicios prácticos diseñados para mejorar tu dominio de las funciones esenciales de JS."
 },
 "videoSolutions": false,
-"projectType": "tutorial",
+"projectType": "exercise",
+"grading": "isolated",
 "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 "graded": true,
 "editor": {

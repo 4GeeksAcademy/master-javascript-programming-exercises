@@ -15,6 +15,7 @@
 "videoSolutions": false,
 "projectType": "exercise",
 "grading": "isolated",
+"gitpod": true,
 "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 "graded": true,
 "editor": {

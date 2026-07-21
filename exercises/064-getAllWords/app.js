@@ -1,5 +1,7 @@
 function getAllWords(str) {
     // your code here
+    let newArr = str.split(" ");
+    return newArr;
     
 }
 

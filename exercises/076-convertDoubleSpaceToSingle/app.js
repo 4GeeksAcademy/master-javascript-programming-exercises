@@ -1,5 +1,5 @@
 function convertDoubleSpaceToSingle(str) {
-    // your code here
+    return str.replaceAll("  "," ");
     
 }
 

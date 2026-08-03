@@ -6,5 +6,10 @@ let obj = {
 
 function removeNumbersLargerThan(num, obj) {
     // your code here
-    
+    for (const prop in obj) {
+        if (obj[prop] > num) {
+            delete obj[prop]
+        }
+    }
+    return obj
 }

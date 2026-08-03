@@ -8,6 +8,11 @@ let obj2 = {
 };
 
 function extend(obj1, obj2) {
-    // your code here
-
+    for (const prop in obj2) {
+        if (prop == obj1[prop]) {
+            return obj2
+        } else {
+            return obj1 + obj2
+        }
+    }
 }

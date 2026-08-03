@@ -1,5 +1,7 @@
 function getAllKeys(obj) {
-  // your code here
+  // your code here 
+ let array = Object.getOwnPropertyNames(obj)
+  return array;
   
 }
 
